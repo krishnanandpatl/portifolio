@@ -1,0 +1,8 @@
+* {
+  font-family: "Inter";
+}
+#home-images {
+  background: linear-gradient(180deg, #29323e 0%, #1d242d 100%);
+  border: 1px solid #3d4c5e;
+  border-radius: 8px;
+}
