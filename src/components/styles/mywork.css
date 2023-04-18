@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    /* background-color: #1E1E1E; */
+}
+.workMainContainer{
+    width: 99.8%;
+    height: 500px;
+    margin-top: 15px;
+}
+.MainContainer{
+    border: 2px solid black;
+    width: 65%;
+    min-height: 500px;
+    margin-top: 15px;
+    margin: auto;
+}
+.featuredBoxMain{
+    /* border: 2px solid black; */
+    width: 100%;
+    min-height: 417px;
+    margin-top: 150px;
+}
+.otherBoxMain{
+    /* border: 2px solid black; */
+    width: 100%;
+    min-height: 417px;
+    margin-top: 82px;
+}
+.titleBox{
+    border: 2px solid black;
+    width: 90%;
+    height: 28px;
+    margin: 10px 0px 16px 16px;
+}
+.featureBox{
+    width: 100%;
+    min-height: 353px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.featureContent{
+    border: 2px solid black;
+    width: 294px;
+    min-height: 353px;
+    margin: 20px 12px 20px 16px;
+}
+.contentImage{
+    width: 246px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 24px 24px 32px 24px;
+}
+.contentTextBox{
+    width: 246px;
+    height: 110px;
+    /* border: 1px solid black; */
+    margin: 24px 24px 24px 24px;
+}
+.titleYear{
+    width: 90%;
+    height: 18px;
+    /* border: 1px solid black; */
+    font-size: 12px;
+}
+.titleName{
+    width: 100%;
+    height: 28px;
+    margin-top: 20px;
+    font-size: 24px;
+    /* border: 1px solid black; */
+}
+.companyName{
+    width: 90%;
+    height: 19px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    font-size: 16px;
+}
