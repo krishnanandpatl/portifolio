@@ -8,8 +8,19 @@ import icici from "../../assets/home/ICICI.svg";
 import pgos from "../../assets/home/PGOS.svg";
 import sbsa from "../../assets/home/SBSA.svg";
 import vz from "../../assets/home/VZ.svg";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const Nav = useNavigate();
+  const LinkFn = (URL) => {
+    Nav(URL);
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+    // if (nav) setNav(!nav);
+  };
   return (
     <div className="mt-[11rem]">
       <div>
@@ -33,13 +44,13 @@ function Home() {
       </div>
       <div
         id="home-images"
-        className=" mx-[5%] px-[73px] py-[76px] flex justify-center gap-[93px]"
+        className=" mx-[5%] px-[73px] py-[76px] flex justify-center gap-[93px] flex-wrap"
       >
-        <img src={vz} alt="" />
-        <img src={pgos} alt="" />
-        <img src={dell} alt="" />
-        <img src={sbsa} alt="" />
-        <img src={icici} alt="" />
+        <img src={vz} className="w-full sm:w-1/6 lg:w-1/6 flex-grow" alt="" />
+        <img src={pgos} className=" sm:w-1/6 lg:w-1/6 flex-grow" alt="" />
+        <img src={dell} className="w-full sm:w-1/6 lg:w-1/6 flex-grow" alt="" />
+        <img src={sbsa} className="w-full sm:w-1/6 lg:w-1/6 flex-grow" alt="" />
+        <img src={icici} className=" sm:w-1/6` flex-grow" alt="" />
       </div>
       {/* <div className="mt-[120px] w-[903px] mx-[270px]">
         <div className="dark:text-gray-400 mt-20 w-fit mx-auto text-2xl font-bold">
@@ -62,7 +73,10 @@ function Home() {
                 A comprehensive digital landscape that supports 22k business
                 across 338k sites.
               </div>
-              <a className="text-red-400 text-xs mt-2 flex" href="">
+              <a
+                className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                onClick={() => LinkFn("/restricted")}
+              >
                 View case study
                 <img className="h-4 w-4 ml-2" src={extlink} alt="" />
               </a>
@@ -90,7 +104,10 @@ function Home() {
                 and eficient platform for marketing teams to manage their
                 campaigns effectively.
               </div>
-              <a className="text-red-400 text-xs mt-2 flex" href="">
+              <a
+                className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                onClick={() => LinkFn("/restricted")}
+              >
                 View case study
                 <img className="h-4 w-4 ml-2" src={extlink} alt="" />
               </a>
