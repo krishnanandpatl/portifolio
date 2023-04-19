@@ -11,8 +11,8 @@ function Restricted() {
     // if (nav) setNav(!nav);
   };
   return (
-    <div>
-      <div className="access-card my-auto mx-auto h-[40vh] w-[50vw] border"></div>
+    <div className="max-w-[1440px] border h-[100vh-5rem] mx-auto">
+      <div className="access-card  mt-[20%] mx-auto bc:h-[549px] w-[43%] border"></div>
     </div>
   );
 }

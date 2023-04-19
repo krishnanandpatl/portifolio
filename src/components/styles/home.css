@@ -6,3 +6,8 @@
   border: 1px solid #3d4c5e;
   border-radius: 8px;
 }
+.red-underline {
+  width: 46px;
+  height: 6px;
+  background: linear-gradient(180deg, #ed787b 0%, #df5b5d 100%);
+}

@@ -22,143 +22,147 @@ function Home() {
     // if (nav) setNav(!nav);
   };
   return (
-    <div className="mt-[11rem]">
+    <div className="mt-[11rem] max-w-[1440px] mx-auto">
       <div>
-        <div className="mx-auto rounded-full w-20 h-20 bg-gradient-to-tr from-pink-200 to-red-500 mb-4">
+        <div className="mx-auto rounded-full lg:w-20 lg:h-20 w-14 h-14 mb-4">
           <img src={avatar} className="rounded-full" alt="avatar" />
         </div>
-        <div className="mx-auto w-fit dark:text-gray-200 my-8 font-semibold text-lg">
+        <div className="mx-auto w-fit dark:text-gray-200 my-8 font-semibold lg:text-lg text-[8px]">
           Hello I'm Kshitij Srivastava 👋
         </div>
-        <h1 className="dark:text-[#D6DFF0] w-fit mx-auto text-[45px] font-normal leading-[54px]">
+        <h1 className="dark:text-[#D6DFF0] w-fit mx-auto lg:text-[45px] sm:text-[30px] text-[20px] font-normal leading-[54px]">
           A Product Designer
         </h1>
-        <h1 className="dark:text-[#D6DFF0] w-fit mx-auto text-[45px] leading-[54px]">
+        <h1 className="dark:text-[#D6DFF0] w-fit mx-auto lg:text-[45px] sm:text-[30px] text-[20px] lg:leading-[54px]">
           driven by empathy and creativity
         </h1>
-        <div className="w-fit mx-auto mt-8 mb-[120px]">
-          <button className="bg-gradient-to-tr from-[#ED787B] to-[#DF5B5D] rounded-md py-[16px] px-[24px] text-[#FFFFFF] font-semibold">
+        <div className="w-fit mx-auto mt-8 md:mb-[120px] mb-[70px]">
+          <button className="bg-gradient-to-tr from-[#ED787B] to-[#DF5B5D] rounded-md md:py-[16px] md:px-[24px] py-[12px] px-[20px] text-[#FFFFFF] font-semibold">
             All Case Studies
           </button>
         </div>
       </div>
       <div
         id="home-images"
-        className=" mx-[5%] px-[73px] py-[76px] flex justify-center gap-[93px] flex-wrap"
+        className=" lg:mx-[5%] mx-[30%] lg:px-[73px] lg:py-[76px] px-[10%] py-[8%]"
       >
-        <img src={vz} className="w-full sm:w-1/6 lg:w-1/6 flex-grow" alt="" />
-        <img src={pgos} className=" sm:w-1/6 lg:w-1/6 flex-grow" alt="" />
-        <img src={dell} className="w-full sm:w-1/6 lg:w-1/6 flex-grow" alt="" />
-        <img src={sbsa} className="w-full sm:w-1/6 lg:w-1/6 flex-grow" alt="" />
-        <img src={icici} className=" sm:w-1/6` flex-grow" alt="" />
+        <div className="lg:flex lg:justify-around lg:flex-row lg:gap-5 flex flex-col gap-20">
+          <img src={vz} className="" alt="" />
+          <img src={pgos} className="" alt="" />
+          <img src={dell} className="" alt="" />
+          <img src={sbsa} className="" alt="" />
+          <img src={icici} className="" alt="" />
+        </div>
       </div>
-      <div className="mt-[120px] w-[903px] mx-[270px]">
-        <div className="dark:text-gray-400 mt-20 w-fit mx-auto text-2xl font-bold">
+      <div className="md:mt-[120px] mt-[80px] xl:w-[903px] xl:mx-[270px] mx-auto border w-fit">
+        <div className="dark:text-[#D6DFF0] mt-20 w-fit mx-auto text-2xl font-bold border">
           Featured Projects
         </div>
-        <div className="w-8 rounded-sm border-b-4 my-2 mx-auto border-red-400 mb-24"></div>
-        <div className="relative w-[42rem] mx-auto mb-20">
-          <div className="w-[32rem] border rounded-md bg-black h-60 my-auto">
-            <div className="py-12 px-10 pr-52">
-              <div className="text-red-400 text-xl font-bold">
-                Verizon Sales 360
+        <div className="w-8 rounded-[80px] border-b-4 my-2 mx-auto red-underline mb-24"></div>
+        <div className="border w-fit mx-auto">
+          <div className="relative lg:w-[42rem] mb-20 border">
+            <div className="lg:w-[32rem] w-[70%] md:mx-0 mx-auto border rounded-md bg-black h-60 my-auto">
+              <div className="md:py-12 md:px-10 md:pr-52 py-3">
+                <div className="text-[#EC7A7D] lg:text-[28px] md:text-xl md:mx-0 text-lg w-fit mx-auto font-semibold md:mt-0">
+                  Verizon Sales 360
+                </div>
+                <div className="flex items-baseline">
+                  <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
+                  <span className="text-gray-500 text-sm pl-2">
+                    Greenfield Project
+                  </span>
+                </div>
+                <div className="text-gray-600 text-xs mt-2">
+                  A comprehensive digital landscape that supports 22k business
+                  across 338k sites.
+                </div>
+                <a
+                  className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                  onClick={() => LinkFn("/restricted")}
+                >
+                  View case study
+                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                </a>
               </div>
-              <div className="flex items-baseline">
-                <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                <span className="text-gray-500 text-sm pl-2">
-                  Greenfield Project
-                </span>
+            </div>
+            <div className="bg-red-500 absolute rounded-md md:top-[2rem] md:right-0 md:h-[11rem] md:w-[20rem]"></div>
+          </div>
+          <div className="flex relative items-center lg:w-[42rem] mb-20">
+            <div className="rounded-md z-10 h-[11rem] w-[20rem]">
+              <img src={report} className="h-full w-full" alt="" />
+            </div>
+            <div className="w-[32rem] absolute rounded-md right-0 bg-black h-60">
+              <div className="ml-[13rem] py-12">
+                <div className="text-red-400 text-xl font-bold">
+                  Publicis Growth OS
+                </div>
+                <div className="flex items-baseline">
+                  <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
+                  <span className="text-gray-500 text-sm pl-2">
+                    Greenfield Project
+                  </span>
+                </div>
+                <div className="text-gray-600 text-xs mt-2">
+                  A campaign management application to provide a more intuitive
+                  and eficient platform for marketing teams to manage their
+                  campaigns effectively.
+                </div>
+                <a
+                  className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                  onClick={() => LinkFn("/restricted")}
+                >
+                  View case study
+                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                </a>
               </div>
-              <div className="text-gray-600 text-xs mt-2">
-                A comprehensive digital landscape that supports 22k business
-                across 338k sites.
-              </div>
-              <a
-                className="text-red-400 text-xs mt-2 flex cursor-pointer"
-                onClick={() => LinkFn("/restricted")}
-              >
-                View case study
-                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
-              </a>
             </div>
           </div>
-          <div className="bg-red-500 absolute rounded-md top-[2rem] right-0 h-[11rem] w-[20rem]"></div>
-        </div>
-        <div className="flex relative items-center w-[42rem] mx-auto mb-20">
-          <div className="rounded-md z-10 h-[11rem] w-[20rem]">
-            <img src={report} className="h-full w-full" alt="" />
-          </div>
-          <div className="w-[32rem] absolute rounded-md right-0 bg-black h-60">
-            <div className="ml-[13rem] py-12">
-              <div className="text-red-400 text-xl font-bold">
-                Publicis Growth OS
+          <div className="relative lg:w-[42rem] mx-auto mb-20">
+            <div className="w-[32rem] rounded-md bg-black h-60 my-auto">
+              <div className="py-12 px-10 pr-52">
+                <div className="text-red-400 text-xl font-bold">Subex</div>
+                <div className="flex items-baseline">
+                  <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
+                  <span className="text-gray-500 text-sm pl-2">
+                    Product Revamp
+                  </span>
+                </div>
+                <div className="text-gray-600 text-xs mt-2">
+                  Subex Limited provides digital trust products to communication
+                  service providers.
+                  <p>The company is listed on BSE and NSE in India.</p>
+                </div>
+                <a className="text-red-400 text-xs mt-2 flex" href="">
+                  View case study
+                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                </a>
               </div>
-              <div className="flex items-baseline">
-                <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                <span className="text-gray-500 text-sm pl-2">
-                  Greenfield Project
-                </span>
-              </div>
-              <div className="text-gray-600 text-xs mt-2">
-                A campaign management application to provide a more intuitive
-                and eficient platform for marketing teams to manage their
-                campaigns effectively.
-              </div>
-              <a
-                className="text-red-400 text-xs mt-2 flex cursor-pointer"
-                onClick={() => LinkFn("/restricted")}
-              >
-                View case study
-                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
-              </a>
             </div>
+            <div className="dark:bg-white absolute rounded-md top-[2rem] right-0 h-[11rem] w-[20rem]"></div>
           </div>
-        </div>
-        <div className="relative w-[42rem] mx-auto mb-20">
-          <div className="w-[32rem] rounded-md bg-black h-60 my-auto">
-            <div className="py-12 px-10 pr-52">
-              <div className="text-red-400 text-xl font-bold">Subex</div>
-              <div className="flex items-baseline">
-                <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                <span className="text-gray-500 text-sm pl-2">
-                  Product Revamp
-                </span>
+          <div className="flex relative items-center lg:w-[42rem] mb-20">
+            <div className="bg-white rounded-md z-10 h-[11rem] w-[20rem]"></div>
+            <div className="w-[32rem] absolute rounded-md right-0 bg-black h-60">
+              <div className="ml-[13rem] py-12">
+                <div className="text-red-400 text-xl font-bold">
+                  Standard Bank
+                </div>
+                <div className="flex items-baseline">
+                  <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
+                  <span className="text-gray-500 text-sm pl-2">
+                    Revisiting user experience and engagement
+                  </span>
+                </div>
+                <div className="text-gray-600 text-xs mt-2">
+                  The Standard Bank of South Africa Limited is a South African
+                  financial services group and is Africa's biggest lender by
+                  assets.
+                </div>
+                <a className="text-red-400 text-xs mt-2 flex" href="">
+                  View case study
+                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                </a>
               </div>
-              <div className="text-gray-600 text-xs mt-2">
-                Subex Limited provides digital trust products to communication
-                service providers.
-                <p>The company is listed on BSE and NSE in India.</p>
-              </div>
-              <a className="text-red-400 text-xs mt-2 flex" href="">
-                View case study
-                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
-              </a>
-            </div>
-          </div>
-          <div className="dark:bg-white absolute rounded-md top-[2rem] right-0 h-[11rem] w-[20rem]"></div>
-        </div>
-        <div className="flex relative items-center w-[42rem] mx-auto mb-20">
-          <div className="bg-white rounded-md z-10 h-[11rem] w-[20rem]"></div>
-          <div className="w-[32rem] absolute rounded-md right-0 bg-black h-60">
-            <div className="ml-[13rem] py-12">
-              <div className="text-red-400 text-xl font-bold">
-                Standard Bank
-              </div>
-              <div className="flex items-baseline">
-                <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                <span className="text-gray-500 text-sm pl-2">
-                  Revisiting user experience and engagement
-                </span>
-              </div>
-              <div className="text-gray-600 text-xs mt-2">
-                The Standard Bank of South Africa Limited is a South African
-                financial services group and is Africa's biggest lender by
-                assets.
-              </div>
-              <a className="text-red-400 text-xs mt-2 flex" href="">
-                View case study
-                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
-              </a>
             </div>
           </div>
         </div>
