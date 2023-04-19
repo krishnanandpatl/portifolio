@@ -167,6 +167,25 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="featuredprojects-home">
+        <div className="fps-title-home">
+          <h1 className="text-[#D6DFF0]">Featured Projects</h1>
+          <div></div>
+        </div>
+        <div className="verizon-sales-home">
+          <div className="cardinsideconatiner1-home"></div>
+          <div className="secondcard-home"></div>
+        </div>
+        <div className="verizon-sales-home">
+          <div className="rightcard-home"></div>
+          <div></div>
+        </div>
+        <div className="verizon-sales-home">
+          <div className="cardinsideconatiner1-home"></div>
+          <div className="secondcard-home"></div>
+        </div>
+        <div className="verizon-sales-home"></div>
+      </div>
       <div className="dark:text-gray-400 mt-20 w-fit mx-auto text-2xl font-bold">
         Other Projects
       </div>
