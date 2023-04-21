@@ -22,7 +22,7 @@ function Home() {
     // if (nav) setNav(!nav);
   };
   return (
-    <div className="mt-[11rem] max-w-[1440px] mx-auto">
+    <div className="md:mt-[11rem] mt-[7rem] max-w-[1440px] mx-auto">
       <div>
         <div className="mx-auto rounded-full lg:w-20 lg:h-20 w-14 h-14 mb-4">
           <img src={avatar} className="rounded-full" alt="avatar" />
@@ -167,7 +167,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="featuredprojects-home">
+      {/* <div className="featuredprojects-home">
         <div className="fps-title-home">
           <h1 className="text-[#D6DFF0]">Featured Projects</h1>
           <div></div>
@@ -185,7 +185,7 @@ function Home() {
           <div className="secondcard-home"></div>
         </div>
         <div className="verizon-sales-home"></div>
-      </div>
+      </div> */}
       <div className="dark:text-gray-400 mt-20 w-fit mx-auto text-2xl font-bold">
         Other Projects
       </div>

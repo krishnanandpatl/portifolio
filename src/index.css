@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "Inter";
+    box-sizing: border-box;
 }
 p{
     font-size: 12px;

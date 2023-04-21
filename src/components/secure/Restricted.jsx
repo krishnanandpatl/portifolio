@@ -15,9 +15,7 @@ function Restricted() {
     <div className="max-w-[1440px] border  mx-auto">
       <div className="flex flex-col justify-center items-center">
         <div className="access-card centre-card bc:my-[240px] bc:mx-[405px] bc:h[549px] bc:py-[64px] bc:px-[168px] border">
-          <div className="w-fit top-0 right-0 dark:text-white mr-1">
-            x
-          </div>
+          <div className="w-fit top-0 right-0 dark:text-white mr-1">x</div>
           <div className="border centre-card">
             <div>Lock icon</div>
             <div className="centre-card">
@@ -30,7 +28,9 @@ function Restricted() {
                 Please enter the password for case study
               </div>
               <input className="w-[100%]" type="text" name="" id="" />
-              <div className="submit-button text-center py-[13px] text-[18px]">Submit</div>
+              <div className="submit-button text-center py-[13px] text-[18px]">
+                Submit
+              </div>
             </div>
             <div className="mb-[64px] request-access">Request access </div>
           </div>

@@ -19,7 +19,7 @@ function App() {
           <Route path="/my-work" element={<MyWorkPage />}></Route>
           <Route path="/restricted" element={<Restricted />}></Route>
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   );

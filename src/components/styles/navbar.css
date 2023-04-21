@@ -1,0 +1,20 @@
+.footer-navs * {
+  color: #909dad;
+}
+.footer-navs {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-border {
+  border: 0.5px solid #3d4c5e;
+}
+.text-content-nav {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2bbc6;
+  text-align: center;
+}
+
+@media screen {
+}
