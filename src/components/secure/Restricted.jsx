@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/restricted.css";
 
 function Restricted() {
   const LinkFn = (URL) => {
@@ -11,8 +12,30 @@ function Restricted() {
     // if (nav) setNav(!nav);
   };
   return (
-    <div className="max-w-[1440px] border h-[100vh-5rem] mx-auto">
-      <div className="access-card  mt-[20%] mx-auto bc:h-[549px] w-[43%] border"></div>
+    <div className="max-w-[1440px] border  mx-auto">
+      <div className="flex flex-col justify-center items-center">
+        <div className="access-card centre-card bc:my-[240px] bc:mx-[405px] bc:h[549px] bc:py-[64px] bc:px-[168px] border">
+          <div className="w-fit top-0 right-0 dark:text-white mr-1">
+            x
+          </div>
+          <div className="border centre-card">
+            <div>Lock icon</div>
+            <div className="centre-card">
+              <div>Sorry Folks</div>
+              <div>This project is under lock and key!</div>
+              <div>This project is locked due to NDA</div>
+            </div>
+            <div>
+              <div className="text-[12px] mt-[45px]">
+                Please enter the password for case study
+              </div>
+              <input className="w-[100%]" type="text" name="" id="" />
+              <div className="submit-button text-center py-[13px] text-[18px]">Submit</div>
+            </div>
+            <div className="mb-[64px] request-access">Request access </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

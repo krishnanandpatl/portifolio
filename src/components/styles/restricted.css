@@ -1,0 +1,43 @@
+.access-card {
+  background: #1d242d;
+  border: 1px solid #3d4c5e;
+  box-shadow: 0px 308px 123px rgba(0, 0, 0, 0.01),
+    0px 173px 104px rgba(0, 0, 0, 0.05), 0px 77px 77px rgba(0, 0, 0, 0.09),
+    0px 19px 42px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  max-width: 630px;
+  max-height: 549px;
+  position: relative;
+}
+.centre-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.centre-card div {
+  color: white;
+}
+.centre-card input {
+  background: #151a20;
+  margin-top: 24px;
+  border: 1px solid #3d4c5e;
+  border-radius: 8px;
+  margin-bottom: 21px;
+}
+.submit-button {
+  height: 48px;
+  background: linear-gradient(180deg, #ed787b 0%, #df5b5d 100%);
+  box-shadow: -63px 78px 40px rgba(123, 30, 35, 0.02),
+    -35px 44px 34px rgba(123, 30, 35, 0.08),
+    -16px 20px 25px rgba(123, 30, 35, 0.14),
+    -4px 5px 14px rgba(123, 30, 35, 0.16), 0px 0px 0px rgba(123, 30, 35, 0.16);
+  border-radius: 8px;
+  margin-bottom: 45px;
+}
+.request-access {
+  font-size: 12px;
+  font-weight: 500;
+  color: #909dad;
+}
