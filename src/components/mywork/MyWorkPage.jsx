@@ -3,7 +3,7 @@ import '../styles/mywork.css';
 
 function MyWorkPage() {
   return (
-    <div className="workMainContainer dark:bg-[#1E1E1E]">
+    <div className="workMainContainer dark:bg-[#1E1E1E] w-[100%]">
     <div className='MainContainer dark:bg-[#1E1E1E]'>
         <div className="featuredBoxMain">
             <div className="titleBox">Featured Case-Studies</div>
