@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import call from "../../assets/call.svg";
 import callDark from "../../assets/callDark.svg";
-import kshitij from '../../assets/kshitij.svg'
-import darkmode from '../../assets/darkmode.svg'
+import kshitij from "../../assets/kshitij.svg";
+import darkmode from "../../assets/darkmode.svg";
 import { useNavigate } from "react-router-dom";
+import Pdf from "../../assets/resume/Resume.pdf";
 
 function Navbar() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -56,7 +57,11 @@ function Navbar() {
         >
           My Work
         </li>
-        <li className="p-4 hover:cursor-pointer">Resume</li>
+        <li className="p-4 hover:cursor-pointer">
+          <a href={Pdf} target="_blank">
+            Resume
+          </a>
+        </li>
       </ul>
       <div className="text-xs mr-5 hidden justify-between items-center md:flex">
         <img src={darkmode} height="25px" width="25px" alt="" />
@@ -71,7 +76,9 @@ function Navbar() {
             alt=""
           />
         )}
-        <div className="text-[#909DAD] text-base font-normal">(+91) 9619 386 916</div>
+        <div className="text-[#909DAD] text-base font-normal">
+          (+91) 9619 386 916
+        </div>
       </div>
       <div onClick={handleNav} className="block mr-6 md:hidden">
         {nav ? (
@@ -116,7 +123,9 @@ function Navbar() {
           My Work
         </li>
         <li className="p-3 border-b border-gray-600 hover:cursor-pointer">
-          Resume
+          <a href={Pdf} target="_blank">
+            Resume
+          </a>
         </li>
         {/* <li>(+91) 9619 386 916</li> */}
       </ul>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import Pdf from "../../assets/resume/Resume.pdf"
 
 function About() {
   return (
@@ -102,7 +103,9 @@ function About() {
             </div>
             <div className="expNavRight">
               <div className="expNavdownloadIcon"></div>
-              <div className="expNavdownloadText">Download Resume</div>
+              <div className="expNavdownloadText">
+                <a href={Pdf} target="_blank">Resume</a>
+              </div>
             </div>
           </div>
           <div className="expContentOne">

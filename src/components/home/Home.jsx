@@ -132,7 +132,11 @@ function Home() {
                   service providers.
                   <p>The company is listed on BSE and NSE in India.</p>
                 </div>
-                <a className="text-red-400 text-xs mt-2 flex" href="">
+                <a
+                  className="text-red-400 text-xs mt-2 flex"
+                  href=""
+                  onClick={() => LinkFn("/subex")}
+                >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
                 </a>
@@ -158,7 +162,11 @@ function Home() {
                   financial services group and is Africa's biggest lender by
                   assets.
                 </div>
-                <a className="text-red-400 text-xs mt-2 flex" href="">
+                <a
+                  className="text-red-400 text-xs mt-2 flex"
+                  href=""
+                  onClick={() => LinkFn("/standard-bank-of-south-africa")}
+                >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
                 </a>
@@ -241,6 +249,7 @@ function Home() {
                 <a
                   className="text-red-400 text-xs mt-2 flex w-fit mx-auto"
                   href=""
+                  onClick={()=>LinkFn('/dell')}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />

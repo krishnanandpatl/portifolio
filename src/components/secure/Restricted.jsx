@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/restricted.css";
 
 function Restricted() {
+  const [password, setPassword] = useState("");
+  const Nav = useNavigate();
+
   const LinkFn = (URL) => {
     Nav(URL);
     document.getElementById("topheader").scrollIntoView({
@@ -10,6 +14,14 @@ function Restricted() {
       inline: "nearest",
     });
     // if (nav) setNav(!nav);
+  };
+  const handleSubmit = () => {
+    Nav("/pgos", { state: { password: password } });
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
   };
   return (
     <div className="max-w-[1440px] border  mx-auto">
@@ -27,12 +39,21 @@ function Restricted() {
               <div className="text-[12px] mt-[45px]">
                 Please enter the password for case study
               </div>
-              <input className="w-[100%]" type="text" name="" id="" />
-              <div className="submit-button text-center py-[13px] text-[18px]">
+              <input
+                className="w-[100%]"
+                type="text"
+                name=""
+                id=""
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <div
+                className="submit-button text-center py-[13px] text-[18px]"
+                onClick={() => handleSubmit()}
+              >
                 Submit
               </div>
             </div>
-            <div className="mb-[64px] request-access">Request access </div>
+            <div className="mb-[64px] request-access">Request access</div>
           </div>
         </div>
       </div>
