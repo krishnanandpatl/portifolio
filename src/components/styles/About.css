@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+}
+.ResumeBox {
+  width: 100%;
+  min-height: 2000px;
+  margin: auto;
+}
+.mainBox {
+  width: 75%;
+  min-height: 718px;
+  margin: 5% 12% 0px 12%;
+}
+.ExpMainBox {
+  width: 56%;
+  min-height: 1079px;
+  margin: 0px 21% 5% 21%;
+}
+.EducMainBox {
+  width: 56%;
+  height: 370px;
+  margin: 0px 21% 5% 21%;
+}
+.EduLeftContent {
+  width: 30%;
+  height: 117px;
+  margin: 5% 10% 5% 6%;
+}
+.EduRightContent {
+  width: 50%;
+  height: 92px;
+  margin: 7% 7% 7% 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #b2bbc6;
+}
+.mainUpperBox {
+  display: flex;
+}
+.mainLeftBox {
+  width: 70%;
+  height: 277px;
+  color: white;
+  margin-top: 121px;
+  font-size: 45px;
+  line-height: 68px;
+  font-weight: 600;
+  z-index: 1;
+}
+.mainRightBox {
+  width: 36%;
+  height: 430px;
+  border: 1px solid black;
+  margin-left: -70px;
+}
+.mainLowerBox {
+  width: 100%;
+  min-height: 505px;
+  margin-top: 61px;
+}
+p{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400px;
+  color: #909dad;
+}
+.whiteFontColor {
+  color: white;
+}
+.hrTag {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 80px;
+  border: 1px solid gray;
+  margin-bottom: 80px;
+}
+.expNav {
+  width: 100%;
+  height: 62px;
+  display: flex;
+}
+.expNavLeft {
+  width: 36%;
+  height: 62px;
+}
+.expnavTitle {
+  width: 100%;
+  height: 38px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #b9b9b9;
+}
+.expnavTitlehr {
+  width: 41px;
+  height: 6px;
+  margin-top: 16px;
+  border-radius: 5px;
+  background-image: linear-gradient(#ed787b, #df585d);
+}
+.expNavRight {
+  width: 23%;
+  height: 22px;
+  margin: 2% 0px 2.5% 41%;
+  display: flex;
+}
+.expNavdownloadIcon {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  border: 1px solid black;
+}
+.expNavdownloadText {
+  width: 160px;
+  height: 22px;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 21.78px;
+  text-align: center;
+  color: #ec7a7d;
+}
+.expContentOne {
+  width: 100%;
+  height: 225px;
+  margin-top: 56px;
+  border: 1px solid rgb(166, 155, 155);
+  display: flex;
+  border-radius: 10px;
+}
+.expLeftContent {
+  width: 28%;
+  height: 89px;
+  margin: 8% 11% 8% 7%;
+}
+.expLeftText {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #909dad;
+}
+.expLeftTextName {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+.expRightContent {
+  width: 50%;
+  margin: 4% 4% 4% 0px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #909dad;
+}
+.expContentTwo {
+  width: 100%;
+  height: 254px;
+  margin-top: 32px;
+  border: 1px solid rgb(166, 155, 155);
+  display: flex;
+  border-radius: 10px;
+}
+.expContentThree {
+  width: 100%;
+  height: 172px;
+  margin-top: 32px;
+  border: 1px solid rgb(166, 155, 155);
+  display: flex;
+  border-radius: 10px;
+}
+.expLeftContentThree{
+    width: 28%;
+    height: 89px;
+    margin: 5% 11% 5% 7%;
+}
+.expContentFour {
+  width: 100%;
+  height: 244px;
+  margin-top: 32px;
+  border: 1px solid rgb(166, 155, 155);
+  display: flex;
+  border-radius: 10px;
+}
+.expContentFive {
+  width: 100%;
+  height: 213px;
+  margin-top: 32px;
+  border: 1px solid rgb(166, 155, 155);
+  display: flex;
+  border-radius: 10px;
+}
+.expContentSix {
+  width: 100%;
+  height: 208px;
+  margin-top: 32px;
+  border: 1px solid rgb(166, 155, 155);
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 72px;
+}
+@media screen and (max-width: 767px){
+  .mainLeftBox {
+    width: 70%;
+    height: 60px;
+    font-size: 12px;
+    line-height: 14px;
+    z-index: 1;
+  }
+  .mainRightBox {
+    width: 36%;
+    height: 181px;
+    margin-left: -14px;
+  }
+  .mainLowerBox {
+    margin-top: 30px;
+  }
+  p{
+    font-size: 7px;
+    line-height: 10px;
+  }
+  .hrTag {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .ExpMainBox {
+    width: 90%;
+    margin: 0px 5% 5% 5%;
+  }
+  .expnavTitle {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .expnavTitlehr {
+    width: 30px;
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+  .expNavRight {
+    width: 50%;
+    height: 23px;
+    margin: 2% 0px 2.5% 18%;
+  }
+  .expNavdownloadText {
+    font-size: 12px;
+    line-height: 20.78px;
+  }
+  .expNav {
+    height: 48px;
+  }
+  .expNavLeft {
+    height: 47px;
+  }
+  .expLeftTextName {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .expLeftText {
+    font-size: 7px;
+    line-height: 10px;
+  }
+  .expRightContent {
+    width: 50%;
+    margin: 6% 5% 6% 0px;
+    font-size: 7px;
+    line-height: 9px;
+    min-height: 100px;
+  }
+  .expContentOne {
+    height: 149px;
+    margin-top: 30px;
+  }
+  .expContentTwo {
+    height: 164px;
+    margin-top: 20px;
+  }
+  .expContentThree {
+    height: 140px;
+    margin-top: 20px;
+  }
+  .expContentFour {
+    height: 148px;
+    margin-top: 20px;
+  }
+  .expContentFive {
+    height: 139px;
+    margin-top: 20px;
+  }
+  .expContentSix {
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .EducMainBox {
+    width: 90%;
+    height: 230px;
+    margin: 0px 5% 5% 5%;
+  }
+  .EduRightContent {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .expLeftContentThree {
+    margin: 9% 11% 8% 7%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .mainLeftBox {
+        height: 210px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .mainRightBox {
+        width: 40%;
+        height: 332px;
+        margin-left: -38px;
+    }
+    .hrTag {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .ExpMainBox {
+        width: 75%;
+        margin: 0px 12% 5% 12%;
+    }
+    .expNavRight {
+        width: 33%;
+        height: 22px;
+        margin: 3% 0px 3% 28%;
+    }
+    .expContentOne {
+        height: 233px;
+        margin-top: 40px;
+    }
+    .expRightContent {
+        margin: 6% 4% 6% 0px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .expContentThree {
+        height: 184px;
+    }
+    .expContentSix {
+        height: 223px;
+    }
+    .EducMainBox {
+        width: 75%;
+        margin: 0px 12% 5% 12%;
+    }
+}
