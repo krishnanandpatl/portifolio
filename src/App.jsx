@@ -13,6 +13,7 @@ import Unauthorized from "./components/Unauthorized";
 import Subex from "./components/subex/Subex";
 import Sbsa from "./components/sbsa/Sbsa"
 import Dell from "./components/dell/Dell";
+import Verizon from "./components/verizon/Verizon";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
           <Route path="/restricted" element={<Restricted />}></Route>
           <Route element={<RequiredAuth/>}>
               <Route path="/pgos" element={<Pgos/>}></Route>
-              <Route path="/verizon-360"></Route>
+              <Route path="/verizon-360" element={<Verizon/>}></Route>
           </Route>
           <Route path="/standard-bank-of-south-africa" element={<Sbsa/>}></Route>
           <Route path="/dell" element={<Dell/>}></Route>
