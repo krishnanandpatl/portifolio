@@ -564,6 +564,7 @@ function Subex() {
               focused on three key areas:
             </p>
           </div>
+          <br />
           <div className="workflow-creation-subex">
             <div className="flex justify-around">
               <div className="w-2/3">
@@ -578,311 +579,377 @@ function Subex() {
                     lose context.
                   </p>
                   <br />
+                  <div>
+                    Impact
+                    <ul>
+                      <li>
+                        By providing a clear and consistent process for case
+                        creation, users can reduce the time spent on
+                        administrative tasks and focus on more complex
+                        investigative work.
+                      </li>
+                      <br />
+                      <li>
+                        Additionally, the configurable worksteps allow users to
+                        create a workflow that is tailored to their specific
+                        needs, further improving efficiency and productivity.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="workflow-numbering-1">1</div>
+            </div>
+            <div className="workflow-image-part">images</div>
+          </div>
+          <br />
+          <div className="workflow-creation-subex">
+            <div className="flex justify-around">
+              <div className="w-2/3">
+                <h1>Case Investigation</h1>
+                <br />
+                <div className="workflow-creation-para">
+                  <p>
+                    The case investigation feature is designed to provide users
+                    with a{" "}
+                    <u>
+                      comprehensive and centralised view of all case-related
+                      information
+                    </u>
+                    , including the case timeline.
+                  </p>
+                  <br />
+                  <ul>
+                    <li>
+                      <strong>Case timeline</strong> allows users to track the
+                      progress of a case from start to finish, making it easier
+                      to identify areas that require attention and action.
+                    </li>
+                    <li>
+                      The <strong>inline chat</strong> feature enables users to
+                      communicate with other team members in real-time,
+                      facilitating collaboration and information sharing.
+                    </li>
+                    <li>
+                      <strong>Shared workspaces</strong> allow team members to
+                      work on a case together, regardless of their location,
+                      while the shared repository provides quick access to
+                      important artefacts.
+                    </li>
+                    <li>
+                      <strong>Case Clipboard</strong> is a feature that allows
+                      users to temporarily store copied data and artifacts
+                      within the system, and then paste it during their case
+                      investigation.
+                    </li>
+                  </ul>
+                  <br />
                   <div>Impact</div>
                   <ul>
                     <li>
-                      By providing a clear and consistent process for case
-                      creation, users can reduce the time spent on
-                      administrative tasks and focus on more complex
-                      investigative work.
+                      Users can quickly access relevant information and
+                      collaborate effectively, leading to faster resolution of
+                      cases.
                     </li>
-                    <br />
                     <li>
-                      Additionally, the configurable worksteps allow users to
-                      create a workflow that is tailored to their specific
-                      needs, further improving efficiency and productivity.
+                      The shared workspaces and repository enable team members
+                      to work together seamlessly, even if they are in different
+                      locations. This increases productivity and reduces the
+                      time spent on administrative tasks, freeing up time for
+                      more complex investigative work.
                     </li>
                   </ul>
                 </div>
               </div>
-              <div>Image</div>
+              <div className="case-investigation-image">2</div>
             </div>
-            <div className="workflow-image-part"></div>
+            <div>images</div>
           </div>
-          <div className="case-investigation-subex">
-            <h1>Case Investigation</h1>
-            <div>
-              <p>
-                The case investigation feature is designed to provide users with
-                a comprehensive and centralised view of all case-related
-                information, including the case timeline.
-              </p>
-              <ul>
-                <li>
-                  Case timeline allows users to track the progress of a case
-                  from start to finish, making it easier to identify areas that
-                  require attention and action.
-                </li>
-                <li>
-                  The inline chat feature enables users to communicate with
-                  other team members in real-time, facilitating collaboration
-                  and information sharing.
-                </li>
-                <li>
-                  Shared workspaces allow team members to work on a case
-                  together, regardless of their location, while the shared
-                  repository provides quick access to important artefacts.
-                </li>
-                <li>
-                  Case Clipboard is a feature that allows users to temporarily
-                  store copied data and artifacts within the system, and then
-                  paste it during their case investigation.
-                </li>
-              </ul>
-              <div>Impact</div>
-              <ul>
-                <li>
-                  Users can quickly access relevant information and collaborate
-                  effectively, leading to faster resolution of cases.
-                </li>
-                <li>
-                  The shared workspaces and repository enable team members to
-                  work together seamlessly, even if they are in different
-                  locations. This increases productivity and reduces the time
-                  spent on administrative tasks, freeing up time for more
-                  complex investigative work.
-                </li>
-              </ul>
-              <div className="case-investigation-image"></div>
-            </div>
-          </div>
-          <div className="case-close-subex">
-            <h1>Case Closing and Reporting</h1>
-            <div>
-              <p>
-                Users can now close multiple cases at once, rather than
-                individually, saving them valuable time. The bulk closing and
-                automatic closing features would significantly increase the
-                efficiency of case resolution, reducing the time and effort
-                required to close cases.
-              </p>
-              <p>
-                The dashboard creation features would provide users with an
-                overview of their performance and identify areas for
-                improvement, allowing them to track progress and take necessary
-                actions.
-              </p>
-              <p>
-                We also added the capability to generate weekly summary reports
-                that highlight key metrics and KPIs related to case management.
-              </p>
-              <div>Impact</div>
-              <ul>
-                <li>
-                  This feature would enhance the user experience by providing
-                  them with a visual representation of their performance and
-                  enable them to make data-driven decisions.
-                </li>
-                <li>
-                  The automatic report generation feature saves time and effort
-                  for users by eliminating the need to manually compile and
-                  analyze data.
-                </li>
-              </ul>
+          <br />
+          <div className="workflow-creation-subex">
+            <div className="flex justify-around">
+              <div className="w-2/3">
+                <h1>Case Closing and Reporting</h1>
+                <br />
+                <div className="workflow-creation-para">
+                  <p>
+                    Users can now close multiple cases at once, rather than
+                    individually, saving them valuable time. The bulk closing
+                    and automatic closing features would significantly increase
+                    the efficiency of case resolution, reducing the time and
+                    effort required to close cases.
+                  </p>
+                  <p>
+                    The dashboard creation features would provide users with an
+                    overview of their performance and identify areas for
+                    improvement, allowing them to track progress and take
+                    necessary actions.
+                  </p>
+                  <p>
+                    We also added the capability to generate weekly summary
+                    reports that highlight key metrics and KPIs related to case
+                    management.
+                  </p>
+                  <div>Impact</div>
+                  <ul>
+                    <li>
+                      This feature would enhance the user experience by
+                      providing them with a visual representation of their
+                      performance and enable them to make data-driven decisions.
+                    </li>
+                    <li>
+                      The automatic report generation feature saves time and
+                      effort for users by eliminating the need to manually
+                      compile and analyze data.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>2</div>
             </div>
             <div>Image</div>
           </div>
-          <div className="deliver-wireframes-subex">
-            <h1>Deliver: Wireframes</h1>
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+        </div>
+        <div className="different-bg-subex">
+          <div className="inner-container-subex py-[80px]">
+            <div className="deliver-wireframes-subex">
+              <h1>Deliver: Wireframes</h1>
+              <br />
+              <div className="wireframes-subex">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+            <div className="partition-line-subex"></div>
+            <div className="deliver-virtual-design-subex">
+              <h1>Deliver: VirtualDesign</h1>
+              <br />
+              <div className="wireframes-subex">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
             </div>
           </div>
-          <div className="deliver-virtual-design-subex">
-            <h1>Deliver: VirtualDesign</h1>
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-          <div className="test-subex">
-            <h1>Test</h1>
-            <p>
-              The preliminary testing indicates that the case management
-              system's overall efficiency and user experience have improved
-              significantly. Users have noted a decrease in administrative
-              tasks, enhanced collaboration and communication, and more
-              effective investigations. The following are some of the areas
-              where the solution has had a substantial impact.
-            </p>
-            <div>
-              <div>
-                <div>
-                  <div>icon</div>
-                  <div>
-                    <h3>Improved Efficiency</h3>
+        </div>
+        <div>
+          <div className="inner-container-subex">
+            <div className="test-subex">
+              <h1>Test</h1>
+              <br />
+              <p>
+                The preliminary testing indicates that the case management
+                system's overall efficiency and user experience have improved
+                significantly. Users have noted a decrease in administrative
+                tasks, enhanced collaboration and communication, and more
+                effective investigations. The following are some of the areas
+                where the solution has had a substantial impact.
+              </p>
+              <br />
+              <div className="test-subex-inner flex gap-2">
+                <div className="w-2/3">
+                  <div className="flex">
+                    <div>icon</div>
                     <div>
-                      The streamlined workflows, automated features, and
-                      collaboration tools have improved the efficiency of the
-                      case management process. The system now allows users to
-                      spend more time on investigative work rather than
-                      administrative tasks.
+                      <h3>Improved Efficiency</h3>
+                      <br />
+                      <div>
+                        The streamlined workflows, automated features, and
+                        collaboration tools have improved the efficiency of the
+                        case management process. The system now allows users to
+                        spend more time on investigative work rather than
+                        administrative tasks.
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="flex">
+                    <div>icon</div>
+                    <div>
+                      <h3>Better decision-making</h3>
+                      <br />
+                      <div>
+                        With access to comprehensive and relevant data, users
+                        are now able to make better decisions and perform more
+                        effective investigations.
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="flex">
+                    <div>icon</div>
+                    <div>
+                      <h3>Enhanced collaboration</h3>
+                      <br />
+                      <div>
+                        The introduction of inline chat, shared workspaces, and
+                        a shared repository has improved collaboration between
+                        team members and departments, leading to more effective
+                        teamwork.
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="flex">
+                    <div>icon</div>
+                    <div>
+                      <h3>Improved reporting</h3>
+                      <br />
+                      <div>
+                        The inclusion of dashboard creation features and
+                        automated report generation has made it easier to track
+                        performance and identify areas for improvement.
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div>
-                  <div>icon</div>
-                  <div>
-                    <h3>Better decision-making</h3>
+                <div className="text-subex-inner2">
+                  <div className="kpi-box-subex">
                     <div>
-                      With access to comprehensive and relevant data, users are
-                      now able to make better decisions and perform more
-                      effective investigations.
+                      KPIs that we used to monitor the success of the project
                     </div>
-                  </div>
-                </div>
-                <div>
-                  <div>icon</div>
-                  <div>
-                    <h3>Enhanced collaboration</h3>
-                    <div>
-                      The introduction of inline chat, shared workspaces, and a
-                      shared repository has improved collaboration between team
-                      members and departments, leading to more effective
-                      teamwork.
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div>icon</div>
-                  <div>
-                    <h3>Improved reporting</h3>
-                    <div>
-                      The inclusion of dashboard creation features and automated
-                      report generation has made it easier to track performance
-                      and identify areas for improvement.
-                    </div>
+                    <ol>
+                      <li>Reduction in average case resolution time.</li>
+                      <li>Increase in user satisfaction ratings</li>
+                      <li>
+                        Decrease in the number of cases reopened due to
+                        incomplete resolution
+                      </li>
+                      <li>
+                        Increase in the number of cases resolved per
+                        day/week/month
+                      </li>
+                      <li>Improvement in first call resolution rate</li>
+                    </ol>
                   </div>
                 </div>
               </div>
-              <div>
+            </div>
+            <br />
+            <div className="my-learning-subex">
+              <h1>My Learning</h1>
+              <br />
+              <div className="flex">
+                <div>icon</div>
                 <div>
-                  KPIs that we used to monitor the success of the project
+                  To ensure success in a project of this size, it is crucial for
+                  the entire team to be involved throughout the process, sharing
+                  their research findings, discussing roadblocks, and working
+                  together towards achieving common goals that address both user
+                  needs and business objectives.
                 </div>
-                <ol>
-                  <li>Reduction in average case resolution time.</li>
-                  <li>Increase in user satisfaction ratings</li>
-                  <li>
-                    Decrease in the number of cases reopened due to incomplete
-                    resolution
-                  </li>
-                  <li>
-                    Increase in the number of cases resolved per day/week/month
-                  </li>
-                  <li>Improvement in first call resolution rate</li>
-                </ol>
+              </div>
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <div>
+                  Although we are still evaluating the results based on key
+                  performance indicators, it is clear that our solutions have
+                  had a positive impact on usability and user experience.
+                </div>
+              </div>
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <div>
+                  Above all, this project provided me with the opportunity to
+                  work with a diverse user base in an unfamiliar industry, which
+                  has expanded my skills and knowledge as a designer.
+                </div>
               </div>
             </div>
-          </div>
-          <div className="my-learning-subex">
-            <div>
-              <div>icon</div>
-              <div>
-                To ensure success in a project of this size, it is crucial for
-                the entire team to be involved throughout the process, sharing
-                their research findings, discussing roadblocks, and working
-                together towards achieving common goals that address both user
-                needs and business objectives.
+            <br />
+            <div className="my-learning-subex">
+              <h1>Future Direction</h1>
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <div>
+                  If I had more time, I would definitely explore the
+                  possibilities of the "Trigger mechanism" even further. This
+                  mechanism plays an important role in automatically generating
+                  a case based on certain triggers, and I believe there is more
+                  room for innovation and improvement in this area.
+                </div>
+              </div>
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <div>
+                  Additionally, I would like to add more flexibility to the
+                  system to accommodate cross-functional users whose goals may
+                  not be solely focused on case closure. By doing so, we can
+                  ensure that the system meets the needs of a wider range of
+                  users and can be used in various contexts.
+                </div>
               </div>
             </div>
-            <div>
-              <div>icon</div>
-              <div>
-                Although we are still evaluating the results based on key
-                performance indicators, it is clear that our solutions have had
-                a positive impact on usability and user experience.
+            <br />
+            <div className="process-tools-subex">
+              <h1>Process & tools</h1>
+              <br />
+              <div className="flex">
+                <div>
+                  <h4>Design and Prototyping</h4>
+                  <div>
+                    We used Sketch to create and invision to collaborate on the
+                    design.
+                  </div>
+                </div>
+                <div>
+                  <h4>Project Tracking</h4>
+                  <div>
+                    We used Jira to manage project tasks and track progress
+                    ensuring that all project requirements were being met.
+                  </div>
+                </div>
+                <div>
+                  <h4>Communication(BlueJeans)</h4>
+                  <div>
+                    We used Slack for internal communication and collaboration
+                    throughout the project.
+                  </div>
+                </div>
+                <div>
+                  <h4>Feedback sessions (Zoom)</h4>
+                  <div>
+                    We used Zoom for remote meetings and Feedback sessions,
+                    allowing us to connect with stakeholders and users from
+                    anywhere.
+                  </div>
+                </div>
+                <div>
+                  <h4>Ideation sessions</h4>
+                  <div>
+                    We utilised the Google Design Sprint methodology for our
+                    ideation session. We involved cross-functional teams to
+                    define the problem, ideate solutions, and rapidly prototype
+                    and test them.
+                  </div>
+                </div>
+
+                <div>
+                  <h4>Research</h4>
+                  <div>
+                    we conducted a series of interviews and surveys with both RA
+                    and FM.The interviews were conducted in-person and remotely,
+                    and we used a semi-structured approach to allow for
+                    flexibility.
+                  </div>
+                </div>
               </div>
             </div>
-            <div>
-              <div>icon</div>
-              <div>
-                Above all, this project provided me with the opportunity to work
-                with a diverse user base in an unfamiliar industry, which has
-                expanded my skills and knowledge as a designer.
-              </div>
+            <div className="navigation-subex">
+              <div>Previous Case Study</div>
+              <div>Next Case Study</div>
             </div>
-          </div>
-          <div className="future-direction-subex">
-            <div>
-              <div>icon</div>
-              <div>
-                If I had more time, I would definitely explore the possibilities
-                of the "Trigger mechanism" even further. This mechanism plays an
-                important role in automatically generating a case based on
-                certain triggers, and I believe there is more room for
-                innovation and improvement in this area.
-              </div>
-            </div>
-            <div>
-              <div>icon</div>
-              <div>
-                Additionally, I would like to add more flexibility to the system
-                to accommodate cross-functional users whose goals may not be
-                solely focused on case closure. By doing so, we can ensure that
-                the system meets the needs of a wider range of users and can be
-                used in various contexts.
-              </div>
-            </div>
-          </div>
-          <div className="process-tools-subex">
-            <div>
-              <h4>Design and Prototyping</h4>
-              <div>
-                We used Sketch to create and invision to collaborate on the
-                design.
-              </div>
-            </div>
-            <div>
-              <h4>Project Tracking</h4>
-              <div>
-                e used Jira to manage project tasks and track progress ensuring
-                that all project requirements were being met.
-              </div>
-            </div>
-            <div>
-              <h4>Communication(BlueJeans)</h4>
-              <div>
-                We used Slack for internal communication and collaboration
-                throughout the project.
-              </div>
-            </div>
-            <div>
-              <h4>Feedback sessions (Zoom)</h4>
-              <div>
-                We used Zoom for remote meetings and Feedback sessions, allowing
-                us to connect with stakeholders and users from anywhere.
-              </div>
-            </div>
-            <div>
-              <h4>Ideation sessions</h4>
-              <div>
-                We utilised the Google Design Sprint methodology for our
-                ideation session. We involved cross-functional teams to define
-                the problem, ideate solutions, and rapidly prototype and test
-                them.
-              </div>
-            </div>
-            <div>
-              <h4>Research</h4>
-              <div>
-                we conducted a series of interviews and surveys with both RA and
-                FM.The interviews were conducted in-person and remotely, and we
-                used a semi-structured approach to allow for flexibility.
-              </div>
-            </div>
-          </div>
-          <div>
-            <div>Previous Case Study</div>
-            <div>Next Case Study</div>
           </div>
         </div>
       </div>

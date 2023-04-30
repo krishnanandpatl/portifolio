@@ -17,7 +17,6 @@ function Restricted() {
     // if (nav) setNav(!nav);
   };
 
-  console.log(location);
   const handleSubmit = () => {
     Nav(location.state.to, { state: { password: password } });
     document.getElementById("topheader").scrollIntoView({
