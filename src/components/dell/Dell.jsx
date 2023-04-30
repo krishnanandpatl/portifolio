@@ -3,25 +3,25 @@ import React from 'react'
 function Dell() {
   return (
     <div>
-      <div class="subex-container">
-      <div class="subex-intro-card">
-        <div class="text-part-intro">
-          <h1 class="heading-intro-dell">
+      <div className="subex-container">
+      <div className="subex-intro-card">
+        <div className="text-part-intro">
+          <h1 className="heading-intro-dell">
             Revamping Dell's Find a Partner (FAP) Program to increase engagement
             and conversion rates.
           </h1>
-          <p class="para-intro-card">
+          <p className="para-intro-card">
             Our team focused on improving user engagement, experience, and
             conversion rates by implementing an intuitive and responsive design.
           </p>
-          <div class="timeline-intro-card">
-            <div class="flex-titles-intro">
-              <div class="headers-top-intro">TimeLine</div>
-              <div class="title-details-intro">Sep 2020 - Mar 2021</div>
+          <div className="timeline-intro-card">
+            <div className="flex-titles-intro">
+              <div className="headers-top-intro">TimeLine</div>
+              <div className="title-details-intro">Sep 2020 - Mar 2021</div>
             </div>
-            <div class="flex-titles-intro">
-              <div class="headers-top-intro">Platform</div>
-              <div class="title-details-intro">Web</div>
+            <div className="flex-titles-intro">
+              <div className="headers-top-intro">Platform</div>
+              <div className="title-details-intro">Web</div>
             </div>
           </div>
           <div>
@@ -41,16 +41,16 @@ function Dell() {
             </div>
           </div>
           <div>
-            <div class="headers-top-intro">My Contribution</div>
-            <div class="my-contri-intro">
+            <div className="headers-top-intro">My Contribution</div>
+            <div className="my-contri-intro">
               Research & Analysis | Experience Design | Interaction Design
             </div>
           </div>
         </div>
-        <div class="image-part-intro"></div>
+        <div className="image-part-intro"></div>
       </div>
-      <div class="inner-container-subex">
-        <div class="context-background-subex">
+      <div className="inner-container-subex">
+        <div className="context-background-subex">
           <h1>Context and Background</h1>
           <p>
             FAP (Find a Partner Program) is a program by Dell that enables End
@@ -101,7 +101,7 @@ function Dell() {
             </div>
           </div>
         </div>
-        <div class="problem-dell">
+        <div className="problem-dell">
           <h1>What was the problem</h1>
           <div>
             The business challenge for Dell is to increase customer engagement
@@ -117,7 +117,7 @@ function Dell() {
             user experience, high bounce rates, and low engagement.
           </div>
         </div>
-        <div class="problem-solved-dell">
+        <div className="problem-solved-dell">
           <div>
             <h3>Increase Customer Engagement</h3>
             <div>
@@ -153,8 +153,8 @@ function Dell() {
             </div>
           </div>
         </div>
-        <div class="partition-line-dell"></div>
-        <div class="approach-dell">
+        <div className="partition-line-dell"></div>
+        <div className="approach-dell">
           <h2>How did we approach the problem</h2>
           <p>
             When we were on-boarded to Dell FAP project, Dell had already
@@ -164,8 +164,8 @@ function Dell() {
             opportunities for improvement.
           </p>
         </div>
-        <div class="approach-user-dell">
-          <div class="step1-dell">
+        <div className="approach-user-dell">
+          <div className="step1-dell">
             <h1>Step #1: Understand the user</h1>
             <p>
               In the first phase, we identified end customers as the primary
@@ -175,7 +175,7 @@ function Dell() {
               and pain points.
             </p>
           </div>
-          <div class="user-persona-dell">
+          <div className="user-persona-dell">
             <h2>The User Persona</h2>
             <p>
               After analysing the research data, we developed a detailed persona
@@ -183,7 +183,7 @@ function Dell() {
               target end users.
             </p>
           </div>
-          <div class="persona-details-dell">
+          <div className="persona-details-dell">
             <div>
               <div>
                 <div>image</div>
@@ -277,8 +277,8 @@ function Dell() {
             </div>
           </div>
         </div>
-        <div class="partition-line-dell"></div>
-        <div class="voice-user-dell">
+        <div className="partition-line-dell"></div>
+        <div className="voice-user-dell">
           <div>
             <h4>Voice of the users</h4>
             <p>
@@ -348,7 +348,7 @@ function Dell() {
           determine which issues to address first and focus our efforts on
           solving the most critical problems.
         </p>
-        <div class="frequency-graph-dell">
+        <div className="frequency-graph-dell">
           <div>
             <div>Unable to use the search facility on a mobile device</div>
             <div>Only able to view limited amount of results on a page</div>
@@ -395,7 +395,7 @@ function Dell() {
           a clear problem statement that guided our ideation and
           solution-building process.
         </p>
-        <div class="problem-statement-dell">
+        <div className="problem-statement-dell">
           <h1>The problem statement</h1>
           <div>
             How might we improve the process of connecting customers with the
@@ -404,8 +404,8 @@ function Dell() {
             experience?
           </div>
         </div>
-        <div class="partition-line-dell"></div>
-        <div class="ideas-solve-problem">
+        <div className="partition-line-dell"></div>
+        <div className="ideas-solve-problem">
           <h1>Ideas to solve the problem</h1>
           <p>
             Once the problem statement was defined, we engaged in a
@@ -415,7 +415,7 @@ function Dell() {
             Solution matrix to identify their properties and selected the most
             promising ones for further development.
           </p>
-          <div class="communication-clearly-dell">
+          <div className="communication-clearly-dell">
             <p>Communicate Clearly &Guide User</p>
             <div>
               <div>
@@ -441,7 +441,7 @@ function Dell() {
               </div>
             </div>
           </div>
-          <div class="personalisation-dell">
+          <div className="personalisation-dell">
             <p>Personalisation</p>
             <div>
               <div>
@@ -457,7 +457,7 @@ function Dell() {
               </div>
             </div>
           </div>
-          <div class="smart-filter-dell">
+          <div className="smart-filter-dell">
             <p>Smart Filters</p>
             <div>
               <div>Left hand filters vs top as on other sites</div>
@@ -473,7 +473,7 @@ function Dell() {
               <div>I want see who's near me</div>
             </div>
           </div>
-          <div class="smart-search-dell">
+          <div className="smart-search-dell">
             <p>Smart Search</p>
             <div>
               <div>Keyword search option</div>
@@ -486,7 +486,7 @@ function Dell() {
               <div>Allow different character sets in search</div>
             </div>
           </div>
-          <div class="information-architecture-dell">
+          <div className="information-architecture-dell">
             <p>Information Architecture</p>
             <div>
               <div>Reduce amount of text on initial results page</div>
@@ -500,7 +500,7 @@ function Dell() {
               </div>
             </div>
           </div>
-          <div class="look-feel-dell">
+          <div className="look-feel-dell">
             <p>Look and Feel</p>
             <div>
               <div>
@@ -515,90 +515,90 @@ function Dell() {
           </div>
         </div>
 
-        <div class="importance-graph-dell">
+        <div className="importance-graph-dell">
           <div>
             <h3>Harder to deliver</h3>
             <div>
-              <div class="bg-red-500">
+              <div className="bg-red-500">
                 AI recommendation instead of search (eg based on type of service
                 needed)
               </div>
-              <div class="bg-red-500">
+              <div className="bg-red-500">
                 Recommended options (based on history of partner’s services)
               </div>
-              <div class="bg-sky-400">Predictive search</div>
-              <div class="bg-orange-400">
+              <div className="bg-sky-400">Predictive search</div>
+              <div className="bg-orange-400">
                 Preview number of results before entering search
               </div>
-              <div class="bg-sky-400">
+              <div className="bg-sky-400">
                 With 0 search results we can show recommendations partners
               </div>
-              <div class="bg-sky-400">
+              <div className="bg-sky-400">
                 Powerful Keyword search (To allow them search in their own
                 natural language)
               </div>
-              <div class="bg-green-300">
+              <div className="bg-green-300">
                 Disable filter options that would give 0 results
               </div>
-              <div class="bg-yellow-400">Rate and feedback</div>
+              <div className="bg-yellow-400">Rate and feedback</div>
             </div>
           </div>
           <div>
             <h3>Less Important</h3>
             <div>
-              <div class="bg-red-500">
+              <div className="bg-red-500">
                 Adding a Chatbots will helpful for the first time customer
                 (using keywords to refine recommendations and content, based on
                 queries)
               </div>
-              <div class="bg-sky-400">
+              <div className="bg-sky-400">
                 Show Search history for returning users (Last searched with date
                 and view same results with single click)
               </div>
-              <div class="bg-sky-400">Your recent searches</div>
+              <div className="bg-sky-400">Your recent searches</div>
             </div>
           </div>
           <div>
             <h3>High important/High value</h3>
             <div>
-              <div class="bg-sky-400">
+              <div className="bg-sky-400">
                 Consistent and modern look & feel (As per Dell Design System)
               </div>
-              <div class="bg-red-500">
+              <div className="bg-red-500">
                 Provide help text near to competencies, services competency etc
                 to understand what is it
               </div>
-              <div class="bg-sky-400">
+              <div className="bg-sky-400">
                 Design for responsive breakpoints (Prioritise primary content,
                 avoid long scrolls, reduce user interactions, using mobile
                 friendly elements)
               </div>
-              <div class="bg-red-500">
+              <div className="bg-red-500">
                 Highlighting how to contact partner or dell for more details
               </div>
-              <div class="bg-orange-500">
+              <div className="bg-orange-500">
                 Ability to sort lists in multiple ways (Name, Ranking, Type,
                 Location)
               </div>
-              <div class="bg-green-500">
+              <div className="bg-green-500">
                 Left hand filters vs top as on other sites
               </div>
-              <div class="bg-green-500">Fast page responsiveness</div>
-              <div class="bg-red-500">
+              <div className="bg-green-500">Fast page responsiveness</div>
+              <div className="bg-red-500">
                 Relabelling or provide tooltip explanations for hard to
                 understand filter nomenclature (E.g. Changing Competency to
                 Capability or Expertise)
               </div>
-              <div class="bg-orange-500">
+              <div className="bg-orange-500">
                 Reduce amount of text on initial results page
               </div>
-              <div class="bg-green-500">
+              <div className="bg-green-500">
                 Flexibility in Filter combinations (Multi-select filter options
                 and quick removal of one or more selected filters)
               </div>
-              <div class="bg-green-300">Keyword search option</div>
-              <div class="bg-green-300">Predictive search</div>
-              <div class="bg-green-500">
+              <div className="bg-green-300">Keyword search option</div>
+              <div className="bg-green-300">Predictive search</div>
+              <div className="bg-green-500">
                 Highlighting how to contact partner or dell for more details
               </div>
             </div>
@@ -606,29 +606,29 @@ function Dell() {
           <div>
             <h3>Easier to deliver</h3>
             <div>
-              <div class="bg-orange-500">
+              <div className="bg-orange-500">
                 Ability to view results in more than one way (List, Tile, Map)
               </div>
-              <div class="bg-sky-400">Navigation Part (breadcrumbs)</div>
-              <div class="bg-green-500">
+              <div className="bg-sky-400">Navigation Part (breadcrumbs)</div>
+              <div className="bg-green-500">
                 with searched results records we can display some other
                 competencies records by adding new section (relevant
                 competencies or most searched competencies) on search Page at
                 bottom
               </div>
-              <div class="bg-green-300">I want see who's near me</div>
-              <div class="bg-green-300">Location based recommendations</div>
-              <div class="bg-orange-500">
+              <div className="bg-green-300">I want see who's near me</div>
+              <div className="bg-green-300">Location based recommendations</div>
+              <div className="bg-orange-500">
                 would like to see case studies from the partner to help me make
                 my decision (eg let partner choose what to showcase,
                 testimonials etc)
               </div>
-              <div class="bg-sky-400">Add Industry list to profile</div>
+              <div className="bg-sky-400">Add Industry list to profile</div>
             </div>
           </div>
         </div>
 
-        <div class="outcome-activity-dell">
+        <div className="outcome-activity-dell">
           <h2>Outcome of the activitty</h2>
           <div>
             <div>
@@ -649,7 +649,7 @@ function Dell() {
           </div>
         </div>
 
-        <div class="enhanced-search-dell">
+        <div className="enhanced-search-dell">
           <div>Image</div>
           <div>
             <h2>Enhanced Search Function</h2>
@@ -677,7 +677,7 @@ function Dell() {
           </div>
         </div>
 
-        <div class="improved-profiles-dell">
+        <div className="improved-profiles-dell">
           <div>
             <h2>Improved Partner Profiles</h2>
             <ul>
@@ -706,7 +706,7 @@ function Dell() {
           <div>Image</div>
         </div>
 
-        <div class="improved-experince-dell">
+        <div className="improved-experince-dell">
           <div>Image</div>
           <div>
             <h2>Improved User Experience</h2>
@@ -731,7 +731,7 @@ function Dell() {
           </div>
         </div>
 
-        <div class="what-we-improved-dell">
+        <div className="what-we-improved-dell">
           <table>
             <th>
               <tr>
@@ -887,7 +887,7 @@ function Dell() {
           </table>
         </div>
 
-        <div class="deliver-wireframe-dell">
+        <div className="deliver-wireframe-dell">
           <div></div>
           <div></div>
           <div></div>
@@ -896,7 +896,7 @@ function Dell() {
           <div></div>
         </div>
 
-        <div class="deliver-visual-design-dell">
+        <div className="deliver-visual-design-dell">
           <div></div>
           <div></div>
           <div></div>
@@ -905,7 +905,7 @@ function Dell() {
           <div></div>
         </div>
 
-        <div class="my-learning-dell">
+        <div className="my-learning-dell">
           <h2>My Learning</h2>
           <div>
             <div>
@@ -927,7 +927,7 @@ function Dell() {
           </div>
         </div>
 
-        <div class="future-directions-dell">
+        <div className="future-directions-dell">
           <h2>Future Directions</h2>
           <div>
             As a design lead, I believe that the future of FAP lies in further

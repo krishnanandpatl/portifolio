@@ -1,0 +1,96 @@
+.team-styling-sbsa {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d6dff0;
+}
+.team-title-sbsa {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.f700-32-39 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.f400-12-18 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+}
+.buisness-owner-sbsa > div {
+  background: #151a20;
+  border-radius: 4px;
+  padding: 24px;
+  max-width: 262px;
+}
+.buisness-owner-sbsa h4 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+}
+.buisness-owner-sbsa div {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+}
+.project-scope-sbsa {
+  background: #1d242d;
+  border: 1px solid #3d4c5e;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 40px 56px;
+}
+.project-scope-sbsa h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.project-scope-sbsa p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+}
+.project-scope-sbsa div {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+}
+.buisness-objective-sbsa {
+  background: linear-gradient(255.4deg, #093da2 0%, #101c44 84.67%);
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 40px 56px;
+}
+.buisness-objective-sbsa h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.buisness-objective-sbsa p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #d6dff0;
+}
+.solution-sbsa strong{
+    font-weight: 700;
+}
+.partition-line-sbsa{
+    opacity: 0.5;
+    border: 1px solid #7D7D7D;
+}

@@ -4,26 +4,26 @@ import '../styles/subex.css'
 function Pgos() {
   return (
     <div>
-      <div class="subex-container">
-        <div class="subex-intro-card">
+      <div className="subex-container">
+        <div className="subex-intro-card">
           <h1>PGOS</h1>
-          <div class="text-part-intro">
-            <h1 class="heading-intro-subex">
+          <div className="text-part-intro">
+            <h1 className="heading-intro-subex">
               Revolutionising Campaign Planning with User-Centred Design
             </h1>
-            <p class="para-intro-card">
+            <p className="para-intro-card">
               Explore how a proactive UX process and collaboration with
               stakeholders led to a user-friendly and business-driven PGOS
               campaign planning application.
             </p>
-            <div class="timeline-intro-card">
-              <div class="flex-titles-intro">
-                <div class="headers-top-intro">TimeLine</div>
-                <div class="title-details-intro">July 2021 - Ongoing</div>
+            <div className="timeline-intro-card">
+              <div className="flex-titles-intro">
+                <div className="headers-top-intro">TimeLine</div>
+                <div className="title-details-intro">July 2021 - Ongoing</div>
               </div>
-              <div class="flex-titles-intro">
-                <div class="headers-top-intro">Platform</div>
-                <div class="title-details-intro">Web</div>
+              <div className="flex-titles-intro">
+                <div className="headers-top-intro">Platform</div>
+                <div className="title-details-intro">Web</div>
               </div>
             </div>
             <div>
@@ -52,20 +52,20 @@ function Pgos() {
             </div>
 
             <div>
-              <div class="headers-top-intro">My Contribution</div>
-              <div class="my-contri-intro">
+              <div className="headers-top-intro">My Contribution</div>
+              <div className="my-contri-intro">
                 User Experience | Interaction Design | Customer Experience |
                 Product Strategy | Visual Design
               </div>
             </div>
           </div>
-          <div class="image-part-intro"></div>
+          <div className="image-part-intro"></div>
         </div>
-        <div class="inner-container-subex">
-          <div class="key-container">
-            <div class="bulb-inner-container">image</div>
-            <div class="bulb-side-line"></div>
-            <div class="bulb-text-inner-container">
+        <div className="inner-container-subex">
+          <div className="key-container">
+            <div className="bulb-inner-container">image</div>
+            <div className="bulb-side-line"></div>
+            <div className="bulb-text-inner-container">
               Refining and Redefining PGOS's user experience with a focus on
               humanising data and technology and using storytelling techniques
               to helped showcase the product's potential to potential investors
@@ -109,7 +109,7 @@ function Pgos() {
             </div>
           </div>
 
-          <div class="buisness-challenge-subex">
+          <div className="buisness-challenge-subex">
             <h1>The Challenge</h1>
             <h4>
               How might we improve the user experience of PGOS to increase
@@ -124,7 +124,7 @@ function Pgos() {
             </p>
           </div>
 
-          <div class="way-working-pgos">
+          <div className="way-working-pgos">
             <h1>Way of Working</h1>
             <div>
               This is an example of how I approach this project as a UX designer
@@ -208,8 +208,8 @@ function Pgos() {
               </td>
             </table>
           </div>
-          <div class="partition-line-pgos"></div>
-          <div class="sprint2-pgos">
+          <div className="partition-line-pgos"></div>
+          <div className="sprint2-pgos">
             <h4>Sprint 1 - Week 2</h4>
             <table>
               <th>
@@ -293,7 +293,7 @@ function Pgos() {
             </table>
           </div>
 
-          <div class="design-process-pgos">
+          <div className="design-process-pgos">
             <h1>Design Process</h1>
             <div>
               <p>
@@ -385,7 +385,7 @@ function Pgos() {
             </div>
           </div>
 
-          <div class="product-showcase-pgos">
+          <div className="product-showcase-pgos">
             <div>lock</div>
             <h2>Product Showcase</h2>
             <h6>
@@ -404,7 +404,7 @@ function Pgos() {
             </p>
           </div>
 
-          <div class="project-challenges-pgos">
+          <div className="project-challenges-pgos">
             <div>
               <div>image</div>
               <div>
@@ -444,7 +444,7 @@ function Pgos() {
             </div>
           </div>
 
-          <div class="skills-contribution-pgos">
+          <div className="skills-contribution-pgos">
             <h2>My Skill and Contribution</h2>
             <p>
               As a UX designer at PGOS, I bring a strong set of design, team,
@@ -493,7 +493,7 @@ function Pgos() {
             </div>
           </div>
 
-          <div class="my-impact-pgos">
+          <div className="my-impact-pgos">
             <div>
               <div>
                 <div>Image</div>
@@ -570,7 +570,7 @@ function Pgos() {
             </div>
           </div>
 
-          <div class="my-learning-pgos">
+          <div className="my-learning-pgos">
             <h1>My Learning</h1>
             <div>
               <div>
