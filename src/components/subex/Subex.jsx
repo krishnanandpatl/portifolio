@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React from "react";
 import "../styles/subex.css";
 import LineGraph from "../../assets/subex/LineGraph.png";
 import PieGraph1 from "../../assets/subex/PieGraph1.png";
