@@ -563,3 +563,172 @@ i {
   line-height: 18px;
   color: #d6dff0;
 }
+.workflow-numbering-1 {
+  width: 98px;
+  height: 242px;
+  position: relative;
+  top: -25px;
+  right: 38px;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 242.05px;
+  opacity: 3%;
+  color: #ffffff;
+}
+.case-investigation-subex {
+  background: linear-gradient(255.4deg, #041f3f 0%, #01414f 100%);
+  border: 1px solid rgba(91, 91, 91, 0.2);
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 48px;
+}
+.different-bg-subex {
+  background: linear-gradient(255.4deg, #041f3f 0%, #01414f 100%);
+  opacity: 0.7;
+  border-radius: 4px;
+}
+.deliver-wireframes-subex h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.deliver-virtual-design-subex h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.wireframes-subex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.wireframes-subex div {
+  width: 305.02px;
+  height: 292.8px;
+  filter: drop-shadow(0px 312px 125px rgba(0, 0, 0, 0.01))
+    drop-shadow(0px 176px 105px rgba(0, 0, 0, 0.05))
+    drop-shadow(0px 78px 78px rgba(0, 0, 0, 0.09))
+    drop-shadow(0px 20px 43px rgba(0, 0, 0, 0.1))
+    drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+  border-radius: 4px;
+  border: 1px solid black;
+}
+.test-subex {
+  background: #1d242d;
+  border: 1px solid #3d4c5e;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 56px;
+}
+.test-subex h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.test-subex p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b9b9b9;
+  width: 85%;
+}
+.test-subex-inner {
+  display: flex;
+}
+.test-subex-inner h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.test-subex-inner div {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+}
+.text-subex-inner2 ol {
+  list-style: decimal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.text-subex-inner2 div {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.kpi-box-subex {
+  padding: 40px 32px;
+  height: 310px;
+  width: 310px;
+  background: #151a20;
+  border-radius: 4px;
+}
+.my-learning-subex {
+  border: 1px solid #3d4c5e;
+  border-radius: 4px;
+  padding: 46px 56px;
+}
+.my-learning-subex h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.my-learning-subex div {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+}
+.process-tools-subex {
+  border: 1px solid #3d4c5e;
+  border-radius: 4px;
+  padding: 64px 56px;
+}
+.process-tools-subex h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.process-tools-subex h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+  color: #b2bbc6;
+}
+.process-tools-subex div {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2bbc6;
+}
+.navigation-subex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 76px;
+  margin-top: 48px;
+}
+.navigation-subex div {
+  border: 1px solid #d6dff0;
+  border-radius: 4px;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #d6dff0;
+}
