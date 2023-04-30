@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import Pdf from "../../assets/resume/Resume.pdf";
 
 function Navbar() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
   const [nav, setNav] = useState(false);
   const Nav = useNavigate();
 
