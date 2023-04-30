@@ -5,22 +5,21 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Footer from "./components/navbar/Footer";
-// import MyWork from "./components/mywork/MyWork";
 import MyWorkPage from "./components/mywork/MyWorkPage";
 import Restricted from "./components/secure/Restricted";
-// import Pgos from "./components/pgos/Pgos";
+import Pgos from "./components/pgos/Pgos";
 import RequiredAuth from "./hooks/RequiredAuth";
 import Unauthorized from "./components/Unauthorized";
-// import Subex from "./components/subex/Subex";
-// import Sbsa from "./components/sbsa/Sbsa";
-// import Dell from "./components/dell/Dell";
+import Subex from "./components/subex/Subex";
+import Sbsa from "./components/sbsa/Sbsa";
+import Dell from "./components/dell/Dell";
 import Verizon from "./components/verizon/Verizon";
 
-const Subex = lazy(() => import("./components/subex/Subex"));
-const Dell = lazy(() => import("./components/dell/Dell"));
-const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));
+// const Subex = lazy(() => import("./components/subex/Subex"));
+// const Dell = lazy(() => import("./components/dell/Dell"));
+// const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));
 // const MyWorkPage = lazy(() => import("./components/mywork/MyWorkPage"));
-const Pgos = lazy(() => import("./components/pgos/Pgos"));
+// const Pgos = lazy(() => import("./components/pgos/Pgos"));
 
 function App() {
   return (
