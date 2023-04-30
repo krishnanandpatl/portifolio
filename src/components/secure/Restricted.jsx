@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/restricted.css";
 
 function Restricted() {
   const [password, setPassword] = useState("");
   const Nav = useNavigate();
+  const location = useLocation();
 
   const LinkFn = (URL) => {
     Nav(URL);
@@ -15,8 +16,10 @@ function Restricted() {
     });
     // if (nav) setNav(!nav);
   };
+
+  console.log(location);
   const handleSubmit = () => {
-    Nav("/pgos", { state: { password: password } });
+    Nav(location.state.to, { state: { password: password } });
     document.getElementById("topheader").scrollIntoView({
       behavior: "smooth",
       block: "start",
@@ -47,7 +50,7 @@ function Restricted() {
                 onChange={(e) => setPassword(e.target.value)}
               />
               <div
-                className="submit-button text-center py-[13px] text-[18px]"
+                className="submit-button text-center py-[13px] text-[18px] cursor-pointer"
                 onClick={() => handleSubmit()}
               >
                 Submit

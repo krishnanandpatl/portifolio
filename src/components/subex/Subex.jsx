@@ -1,34 +1,44 @@
-import React from "react";
-import '../styles/subex.css'
+import React, { lazy } from "react";
+import "../styles/subex.css";
+import LineGraph from "../../assets/subex/LineGraph.png";
+import PieGraph1 from "../../assets/subex/PieGraph1.png";
+import PieGraph2 from "../../assets/subex/PieGraph2.png";
+import workflow from "../../assets/subex/workflow.png";
+import Kanbanboard from "../../assets/subex/Kanbanboard.png";
+import Timelines from "../../assets/subex/Timelines.png";
+import TaskOriented from "../../assets/subex/TaskOriented.png";
 
 function Subex() {
   return (
     <div>
-      <div class="subex-container">
-        <div class="subex-intro-card">
-          <div class="text-part-intro">
-            <h1 class="heading-intro-subex">
+      <div className="subex-container">
+        <div className="subex-intro-card">
+          <div className="text-part-intro">
+            <h1 className="heading-intro-subex">
               Revamping Subex’s Case Management through Research and Efficiency
               with a User-Centric Design Approach
             </h1>
-            <p class="para-intro-card">
+            <br />
+            <p className="para-intro-card">
               Discover our process of research and validation to revamp a case
               management system for revenue assurance (RA) and fraud management
               (FM) users.
             </p>
-            <div class="timeline-intro-card">
-              <div class="flex-titles-intro">
-                <div class="headers-top-intro">TimeLine</div>
-                <div class="title-details-intro">Sep 2019 - Oct 2020</div>
+            <br />
+            <div className="timeline-intro-card">
+              <div className="flex-titles-intro">
+                <div className="headers-top-intro">TimeLine</div>
+                <div className="title-details-intro">Sep 2019 - Oct 2020</div>
               </div>
-              <div class="flex-titles-intro">
-                <div class="headers-top-intro">Platform</div>
-                <div class="title-details-intro">Web</div>
+              <div className="flex-titles-intro">
+                <div className="headers-top-intro">Platform</div>
+                <div className="title-details-intro">Web</div>
               </div>
             </div>
+            <br />
             <div>
-              <div class="headers-top-intro">Team</div>
-              <div class="list-intro-card">
+              <div className="headers-top-intro">Team</div>
+              <div className="list-intro-card">
                 <div>1 CD</div>
                 <div>1 Design Lead[Me]</div>
                 <div>2 UX Designers</div>
@@ -36,71 +46,85 @@ function Subex() {
                 <div>1 Program Manager</div>
               </div>
             </div>
+            <br />
             <div>
-              <div class="headers-top-intro">My Contribution</div>
-              <div class="my-contri-intro">
+              <div className="headers-top-intro">My Contribution</div>
+              <div className="my-contri-intro">
                 Research & Analysis | Experience Design | Interaction Design
               </div>
             </div>
           </div>
-          <div class="image-part-intro"></div>
+          <div className="image-part-intro"></div>
         </div>
-        <div class="inner-container-subex">
-          <div class="key-container">
-            <div class="bulb-inner-container">image</div>
-            <div class="bulb-side-line"></div>
-            <div class="bulb-text-inner-container">
+        <div className="inner-container-subex">
+          <div className="key-container">
+            <div className="bulb-inner-container">image</div>
+            <div className="bulb-side-line"></div>
+            <div className="bulb-text-inner-container">
               Redesigned the company's case management system through research,
               stakeholder conversations, and user interviews to create a
               user-centric system that streamlined RA and FM processes.
             </div>
           </div>
-          <div class="context-background-subex">
+          <div className="context-background-subex">
             <h1>Context and Background</h1>
+            <br />
             <p>
               Subex is a leading provider of telecom software solutions that has
               been serving the industry for almost three decades. Their
               solutions are designed to help clients maximise revenues, increase
               profitability, and build trusted digital ecosystems.
             </p>
-            <p>Subex specialises in three main area</p>
-            <div>
-              <div>
-                <div>Revenue Assurance</div>
-                <div>
+            <br />
+            <i>Subex specialises in three main area</i>
+            <br />
+            <br />
+            <div className="specialisation-subex">
+              <div className="cont-subex">
+                <div className="speci-title-subex">
+                  <div>i</div>
+                  <div>Revenue Assurance</div>
+                </div>
+                <p>
                   involves ensuring that all revenue streams are being captured
                   and accounted for.
-                </div>
+                </p>
               </div>
-              <div>
-                <div>Fraud Management</div>
-                <div>
-                  involves detecting and preventing fraudulent activities.
+              <div className="cont-subex">
+                <div className="speci-title-subex">
+                  <div>i</div>
+                  <div>Fraud Management</div>
                 </div>
+                <p>involves detecting and preventing fraudulent activities.</p>
               </div>
-              <div>
-                <div>Analytics solutions</div>
-                <div>
+              <div className="cont-subex">
+                <div className="speci-title-subex">
+                  <div>i</div>
+                  <div>Analytics solutions</div>
+                </div>
+                <p>
                   offer insights on customer behaviour, network performance, and
                   other metrics to help making informed decisions.
-                </div>
+                </p>
               </div>
             </div>
-            <p>
+            <p className="mid-spec-subex">
               Subex wanted to revamp or reconstruct its case management (CM)
               system for several reasons, including outdated technology, limited
               functionality, poor user experience, and increased competition in
               the telecom industry.
             </p>
-            <div>
-              <div>
+            <div className="bottom-context-subex">
+              <div className="what-case-subex">
                 <h3>What is a Case</h3>
-                <p>
+                <br />
+                <p className="p1inbottom">
                   A "Case" in Subex is a specific instance of fraudulent
                   activity or revenue leakage that needs to be investigated and
                   resolved.
                 </p>
-                <p>
+                <br />
+                <p className="p2inbottom">
                   For example, if a customer is being charged for unused
                   services, this could be identified as a case. Cases are
                   managed through a case management module that includes
@@ -108,57 +132,72 @@ function Subex() {
                   closure.
                 </p>
               </div>
-              <div>
+              <div className="type-case-btm-subex">
                 <h3>Few Types of Cases</h3>
-                <p>
-                  Revenue Leakage: This case type identifies instances where
-                  revenue is lost due to issues such as billing errors, system
-                  inefficiencies, or fraudulent activity.
-                </p>
-                <p>
-                  Fraud Detection: This case type involves subscription fraud or
-                  SIM box fraud, which can lead to significant revenue losses
-                  for telecom companies.
-                </p>
+                <br />
+                <div>
+                  <strong>Revenue Leakage:</strong> This case type identifies
+                  instances where revenue is lost due to issues such as billing
+                  errors, system inefficiencies, or fraudulent activity.
+                </div>
+                <br />
+                <div>
+                  <strong>Fraud Detection:</strong> This case type involves
+                  subscription fraud or SIM box fraud, which can lead to
+                  significant revenue losses for telecom companies.
+                </div>
               </div>
             </div>
           </div>
-          <div class="buisness-challenge-subex">
-            <h1>Buisness Challenge</h1>
-            <p>
-              The outdated and limited functionality of the existing case
-              management system has resulted in errors, missed revenue
-              opportunities, and decreased competitiveness in the telecom
-              industry, driving Subex to improve its case management
-              capabilities to meet changing client needs.
-            </p>
+          <div className="buisness-challenge-subex">
+            <div>icon</div>
+            <div className="buisness-challenge-subex-content">
+              <h1>Buisness Challenge</h1>
+              <br />
+              <p>
+                The outdated and limited functionality of the existing case
+                management system has resulted in errors, missed revenue
+                opportunities, and decreased competitiveness in the telecom
+                industry, driving Subex to improve its case management
+                capabilities to meet changing client needs.
+              </p>
+            </div>
           </div>
-          <div class="design-challenge-subex">
-            <h1>Design Challenge</h1>
-            <p>
-              How might we provide users with more flexible and customisable
-              case management workflows to proactively identify potential
-              revenue leakage and fraudulent activities to increase user
-              adoption and satisfaction?
-            </p>
+          <div className="buisness-challenge-subex">
+            <div>icon</div>
+            <div className="buisness-challenge-subex-content">
+              <h1>Design Challenge</h1>
+              <br />
+              <p>
+                How might we provide users with more flexible and customisable
+                case management workflows to proactively identify potential
+                revenue leakage and fraudulent activities to increase user
+                adoption and satisfaction?
+              </p>
+            </div>
           </div>
-          <div class="solution-subex">
-            <h1>The Solution</h1>
-            <p>
-              We implemented a case timeline to enhance case visibility and
-              streamline investigation. Additionally, we incorporated features
-              such as bulk and automatic case closing, dashboard creation, and
-              reporting tools.
-            </p>
-            <p>
-              Our initial testing demonstrated a considerable enhancement in
-              both user experience and system efficiency.
-            </p>
+          <div className="buisness-challenge-subex">
+            <div>icon</div>
+            <div className="buisness-challenge-subex-content">
+              <h1>The Solution</h1>
+              <p>
+                We implemented a case timeline to enhance case visibility and
+                streamline investigation. Additionally, we incorporated features
+                such as bulk and automatic case closing, dashboard creation, and
+                reporting tools.
+              </p>
+              <br />
+              <i>
+                Our initial testing demonstrated a considerable enhancement in
+                both user experience and system efficiency.
+              </i>
+            </div>
           </div>
-          <div class="partition-line-subex"></div>
-          <div class="understand-subex">
-            <div class="understand-title-subex">Understand</div>
-            <p class="understand-para-subex">
+          <div className="partition-line-subex"></div>
+          <div className="understand-subex">
+            <div className="understand-title-subex">Understand</div>
+            <br />
+            <p className="understand-para-subex">
               My aimed was to deliver the best possible solutions by gaining a
               better understanding of the process and the users involved. I
               started by identifying the different users engaged in revenue
@@ -168,22 +207,88 @@ function Subex() {
               understanding of their emotions and requirements.
             </p>
           </div>
-          <div class="primary-research-subex">
-            <div class="research-title-subex"></div>
-            <div class="research-table-subex"></div>
-            <p class="">
+          <br />
+          <div className="primary-research-subex">
+            <div className="research-title-subex">
+              Primary Research: The User
+            </div>
+            <br />
+            <div className="research-table-subex">
+              <table>
+                <tr className="research-table-header-subex">
+                  <th>
+                    Age Range <br /> (years)
+                  </th>
+                  <th>Occupation</th>
+                  <th>Years of Experience</th>
+                  <th>Number of Cases/Day</th>
+                  <th>Responsibilities</th>
+                </tr>
+                <tr className="research-table-diff-subex">
+                  <td>45-60</td>
+                  <td>Case Management Director</td>
+                  <td>10+ years</td>
+                  <td>0</td>
+                  <td>
+                    Responsible for directing and improving case management
+                    policies, procedures, and team performance. Collaborates
+                    across departments to align with business objectives and
+                    customer needs. Manages a team of case managers and
+                    investigators, providing leadership and mentorship. Does not
+                    investigate individual cases.
+                  </td>
+                </tr>
+                <tr>
+                  <td>35-50</td>
+                  <td>Case Managers</td>
+                  <td>5-10 years</td>
+                  <td>0 - 1</td>
+                  <td>
+                    Oversees case management from intake to resolution,
+                    assigning cases and monitoring progress to meet SLAs.
+                    Identifies process improvements and provides updates to
+                    stakeholders.
+                  </td>
+                </tr>
+                <tr>
+                  <td>30-40</td>
+                  <td>Senior Case Investigators</td>
+                  <td>3-7 years</td>
+                  <td>1-2</td>
+                  <td>
+                    Lead investigations of high-impact, complex cases; analyze
+                    large datasets; manage junior investigators; collaborate
+                    with cross-functional teams
+                  </td>
+                </tr>
+                <tr>
+                  <td>20-30</td>
+                  <td>Junior Investigator</td>
+                  <td>0-2 years</td>
+                  <td>3 - 5</td>
+                  <td>
+                    Investigates simple cases, conducts research and analysis,
+                    documents findings,
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <br />
+            <p className="primary-research-p1">
               During the primary research phase, I conducted 8 in-depth
               interviews with stakeholders, RA and FM users to gain insights
               into their pain points and needs.
             </p>
-            <p class="">
+            <br />
+            <p className="primary-research-p2">
               The stakeholders considered for the development of the solutions
               were the case managers, senior case investigators, and junior
               investigators.Through discussions with these stakeholders, we
               identified several pain points and frustrations, as outlined
               below.
             </p>
-            <p class="">
+            <br />
+            <p className="primary-research-p2">
               The users reported challenges with the current case management
               system, such as difficulty in tracking cases, lack of
               user-friendly interfaces, and inefficient case management
@@ -191,38 +296,83 @@ function Subex() {
               visualization of data, and easy-to-use interfaces.
             </p>
           </div>
-          <div class="current-cms-subex">
-            <div>Reason for not using current case management system</div>
-            <div class="curr-cms-graph-subex">Graph</div>
+          <br />
+          <div className="current-cms-subex">
+            <div className="current-cms-subex-title">
+              Reason for not using current case management system
+            </div>
+            <div className="curr-cms-graph-subex">
+              <img src={LineGraph} alt="" />
+            </div>
           </div>
-          <div class="piechart-subex">
-            <div class="piegraph1"></div>
-            <div class="piegraph2"></div>
+          <br />
+          <div className="piechart-subex">
+            <div className="piegraph1">
+              <br />
+              <img src={PieGraph1} alt="" />
+            </div>
+
+            <div className="piegraph1">
+              <br />
+              <img src={PieGraph2} alt="" />
+            </div>
           </div>
-          <div class="user-experience-subex">
+          <div className="user-experience-subex">
             <h1>User Experience Map</h1>
             <div>Table</div>
           </div>
-          <div class="pros-cons-subex">
+          <div className="pros-cons-subex">
             <div>
               <p>
                 The user research and experience mapping proved invaluable in
                 identifying key areas of opportunity for improving the case
                 management process.
               </p>
+              <br />
               <p>
                 By focusing on these areas, I was confident that I can create an
                 efficient and effective case management system that delivers
                 real value to our clients.
               </p>
-              <div class="pros-cons-comapare">
-                <div class="pros-subex"></div>
-                <div class="cons-subex"></div>
+              <div className="pros-cons-comapare">
+                <div className="pros-subex">
+                  <h2>Frustation</h2>
+                  <div>
+                    <div>Inefficient workflow creation </div>
+                    <div>
+                      Difficulty in prioritising and assigning cases to
+                      investigators
+                    </div>
+                    <div>
+                      Inconsistent case management processes and procedures
+                    </div>
+                    <div>
+                      Limited visibility and collaboration oncase status and
+                      progress
+                    </div>
+                    <div>
+                      No centralised system for creating and managing case
+                      information and documents
+                    </div>
+                  </div>
+                </div>
+                <div className="cons-subex">
+                  <h2>Oppurtunities</h2>
+                  <div>
+                    <div>Efficient case creation and management processes</div>
+                    <div>Automation of routine tasks</div>
+                    <div>Access to comprehensive data</div>
+                    <div>Collaborative tools and platforms</div>
+                    <div>Robust reporting and analytics capabilities</div>
+                    <div>Adequate resources and support</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="secondary-research-subex">
+          <div className="secondary-research-subex">
             <h2>Secondary Research</h2>
+            <br />
             <p>
               Insights collect thought data available on Internet also suggested
               that there is a significant need for Subex to revamp their case
@@ -231,15 +381,35 @@ function Subex() {
               increasing importance of automation, all indicate the need for
               more efficient and effective case management solutions.
             </p>
-            <div class="secondary-research-cards">
-              <div></div>
-              <div></div>
-              <div></div>
+            <br />
+            <div className="secondary-research-cards">
+              <div>
+                <h3>2-5%</h3>
+                <br />
+                <p>Revenue loss due to inefficient case management in telcos</p>
+              </div>
+              <div>
+                <h3>50%</h3>
+                <br />
+                <p>
+                  Reduction in resolution time by Automating case management
+                  processes
+                </p>
+              </div>
+              <div>
+                <h3>4-5D</h3>
+                <br />
+                <p>
+                  Average time taken to resolve a case. For some cases it can be
+                  up to 10 days.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="partition-line-subex"></div>
-          <div class="ideate-subex">
+          <div className="partition-line-subex"></div>
+          <div className="ideate-subex">
             <h1>Ideate</h1>
+            <br />
             <p>
               During the ideation sessions, we conducted brainstorming
               exercises, created user personas, and performed role-playing
@@ -248,17 +418,64 @@ function Subex() {
               concepts with users to get feedback and refine our ideas. Some key
               takeaways from these sessions included
             </p>
+            <br />
             <div>
-              <div class="ideate-text">
-                <div>Workflow Creation</div>
-                <div>Case Investigation</div>
-                <div>Case Closing and Reporting</div>
+              <div className="ideate-text">
+                <div>
+                  <p>
+                    <strong>Workflow Creation:</strong> Identified the key
+                    priority for users was to streamlined workflow creation
+                    process through automation and configurable work steps.
+                    <u>
+                      As a result, we focused on creating a pipeline creation
+                      flow for case creation that is intuitive and minimises
+                      context switching.
+                    </u>
+                  </p>
+                </div>
+                <br />
+                <div>
+                  <p>
+                    <strong>Case Investigation: </strong>
+                    Users highlighted the need for better case investigation and
+                    reporting tools to track cases more effectively.
+                    <u>
+                      We added a case timeline feature to help users track cases
+                      from start to finish.{" "}
+                    </u>
+                  </p>
+
+                  <br />
+                  <p>
+                    Users expressed a strong desire for better communication and
+                    collaboration tools to improve information sharing and
+                    teamwork.{" "}
+                    <u>
+                      We also introduced inline chat features, shared
+                      workspaces, and a shared repository for quick access to
+                      artefacts to address this need.
+                    </u>
+                  </p>
+                </div>
+                <br />
+                <div>
+                  <p>
+                    <strong>Case Closing and Reporting: </strong>
+                    Included bulk closing and automatic closing features to
+                    streamline case resolution. Additionally, we{" "}
+                    <u>
+                      included dashboard creation features to help users track
+                      performance and identify areas for improvement.
+                    </u>
+                  </p>
+                </div>
               </div>
               <div>Image</div>
             </div>
           </div>
-          <div class="user-workflow-subex">
+          <div className="user-workflow-subex">
             <h2>User Workflow</h2>
+            <br />
             <p>
               During our ideation session, we adopted a user-centric approach to
               define a new workflow for case management. Our aim was to create a
@@ -266,32 +483,79 @@ function Subex() {
               would increase the adoption of case management among both RA and
               FM users.
             </p>
-            <div class="user-workflow-image"></div>
-          </div>
-          <div class="partition-line-subex"></div>
-          <div class="concept-creation-subex">
-            <h2>Concepts Creation</h2>
-            <p>
-              We explored various design tracks, focusing on enhancing the user
-              experience and usability. The primary objective was to create a
-              solution that meets the needs of the users and addresses their
-              pain points. And arrived to three possible design tracks,
-              including Task-oriented, Kanban board, and timelines.
-            </p>
-            <div>
-              <div class="concept-cards-subex"></div>
-              <div class="concept-cards-subex"></div>
-              <div class="concept-cards-subex"></div>
+            <br />
+            <div className="user-workflow-image">
+              <img src={workflow} alt="" />
             </div>
-            <p>
-              After several rounds of iteration, we landed on timelines as our
-              way forward to a solution, which proved to be the most effective
-              and intuitive for our users.
-            </p>
           </div>
-          <div class="partition-line-subex"></div>
-          <div class="build-subex">
+          <div className="partition-line-subex"></div>
+          <div className="concept-creation-subex">
+            <h2>Concepts Creation</h2>
+            <br />
+            <div className="concept-creation-subex-italics">
+              <i>
+                We explored various design tracks, focusing on enhancing the
+                user experience and usability. The primary objective was to
+                create a solution that meets the needs of the users and
+                addresses their pain points.
+                <strong>
+                  {" "}
+                  And arrived to three possible design tracks, including
+                  Task-oriented, Kanban board, and timelines.
+                </strong>
+              </i>
+            </div>
+            <br />
+            <div className="concept-cards-subex">
+              <div className="concept-card-subex">
+                <img src={TaskOriented} alt="" />
+                <br />
+                <h4>Task-Oriented</h4>
+                <br />
+                <p>
+                  This design route focused on organizing tasks in a hierarchy
+                  and displaying them in a task list. Users could view tasks
+                  based on priority, status, and due date.
+                </p>
+              </div>
+              <div className="concept-card-subex">
+                <img src={Kanbanboard} alt="" />
+                <br />
+                <h4>Kanban board</h4>
+                <br />
+                <p>
+                  This option would focus on flexibility, allowing users to
+                  display cases and their current status, and easily move them
+                  through different stages of investigation.{" "}
+                </p>
+              </div>
+              <div className="concept-card-subex">
+                <img src={Timelines} alt="" />
+                <br />
+                <h4>Timelines</h4>
+                <br />
+                <p>
+                  This design route focused on displaying a case in a
+                  chronological order with milestones and key events. Users
+                  could track a case from start to finish with a visual
+                  timeline.
+                </p>
+              </div>
+            </div>
+            <br />
+            <div className="concept-italics">
+              <i>
+                After several rounds of iteration, we landed on{" "}
+                <strong>timelines</strong> as our way forward to a solution,
+                which proved to be the most effective and intuitive for our
+                users.
+              </i>
+            </div>
+          </div>
+          <div className="partition-line-subex"></div>
+          <div className="build-subex">
             <h2>Build</h2>
+            <br />
             <p>
               We refined and finalized our concept, and then moved on to
               building wireframes and user flows. Our goal was to design an
@@ -300,30 +564,42 @@ function Subex() {
               focused on three key areas:
             </p>
           </div>
-          <div class="workflow-creation-subex">
-            <h1>Workflow Creation</h1>
-            <div class="workflow-creation-para">
-              <p>
-                This feature allows the user to create and customise a case in
-                form of a flexible pipeline with connection to connect
-                work-steps. This means that each work-step is configurable in an
-                overlay, which allows the user to stay focused and not lose
-                context.
-              </p>
-              <div>Impact</div>
-              <div>
-                By providing a clear and consistent process for case creation,
-                users can reduce the time spent on administrative tasks and
-                focus on more complex investigative work.
+          <div className="workflow-creation-subex">
+            <div className="flex justify-around">
+              <div className="w-2/3">
+                <h1>Workflow Creation</h1>
+                <br />
+                <div className="workflow-creation-para">
+                  <p>
+                    This feature allows the user to create and customise a case
+                    in form of a flexible pipeline with connection to connect
+                    work-steps. This means that each work-step is configurable
+                    in an overlay, which allows the user to stay focused and not
+                    lose context.
+                  </p>
+                  <br />
+                  <div>Impact</div>
+                  <ul>
+                    <li>
+                      By providing a clear and consistent process for case
+                      creation, users can reduce the time spent on
+                      administrative tasks and focus on more complex
+                      investigative work.
+                    </li>
+                    <br />
+                    <li>
+                      Additionally, the configurable worksteps allow users to
+                      create a workflow that is tailored to their specific
+                      needs, further improving efficiency and productivity.
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div>
-                Additionally, the configurable worksteps allow users to create a
-                workflow that is tailored to their specific needs, further
-                improving efficiency and productivity.
-              </div>
+              <div>Image</div>
             </div>
+            <div className="workflow-image-part"></div>
           </div>
-          <div class="case-investigation-subex">
+          <div className="case-investigation-subex">
             <h1>Case Investigation</h1>
             <div>
               <p>
@@ -367,10 +643,10 @@ function Subex() {
                   complex investigative work.
                 </li>
               </ul>
-              <div class="case-investigation-image"></div>
+              <div className="case-investigation-image"></div>
             </div>
           </div>
-          <div class="case-close-subex">
+          <div className="case-close-subex">
             <h1>Case Closing and Reporting</h1>
             <div>
               <p>
@@ -406,7 +682,7 @@ function Subex() {
             </div>
             <div>Image</div>
           </div>
-          <div class="deliver-wireframes-subex">
+          <div className="deliver-wireframes-subex">
             <h1>Deliver: Wireframes</h1>
             <div>
               <div></div>
@@ -417,7 +693,7 @@ function Subex() {
               <div></div>
             </div>
           </div>
-          <div class="deliver-virtual-design-subex">
+          <div className="deliver-virtual-design-subex">
             <h1>Deliver: VirtualDesign</h1>
             <div>
               <div></div>
@@ -428,7 +704,7 @@ function Subex() {
               <div></div>
             </div>
           </div>
-          <div class="test-subex">
+          <div className="test-subex">
             <h1>Test</h1>
             <p>
               The preliminary testing indicates that the case management
@@ -507,7 +783,7 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div class="my-learning-subex">
+          <div className="my-learning-subex">
             <div>
               <div>icon</div>
               <div>
@@ -535,7 +811,7 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div class="future-direction-subex">
+          <div className="future-direction-subex">
             <div>
               <div>icon</div>
               <div>
@@ -557,7 +833,7 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div class="process-tools-subex">
+          <div className="process-tools-subex">
             <div>
               <h4>Design and Prototyping</h4>
               <div>

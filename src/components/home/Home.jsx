@@ -12,8 +12,8 @@ import { useNavigate } from "react-router-dom";
 
 function Home() {
   const Nav = useNavigate();
-  const LinkFn = (URL) => {
-    Nav(URL);
+  const LinkFn = (URL, redirectTo) => {
+    Nav(URL, { state: { to: redirectTo } });
     document.getElementById("topheader").scrollIntoView({
       behavior: "smooth",
       block: "start",
@@ -78,7 +78,7 @@ function Home() {
                 </div>
                 <a
                   className="text-red-400 text-xs mt-2 flex cursor-pointer"
-                  onClick={() => LinkFn("/restricted")}
+                  onClick={() => LinkFn("/restricted", "/verizon-360")}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
@@ -109,7 +109,7 @@ function Home() {
                 </div>
                 <a
                   className="text-red-400 text-xs mt-2 flex cursor-pointer"
-                  onClick={() => LinkFn("/restricted")}
+                  onClick={() => LinkFn("/restricted", "/pgos")}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
@@ -249,7 +249,7 @@ function Home() {
                 <a
                   className="text-red-400 text-xs mt-2 flex w-fit mx-auto"
                   href=""
-                  onClick={()=>LinkFn('/dell')}
+                  onClick={() => LinkFn("/dell")}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />

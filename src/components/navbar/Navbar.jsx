@@ -40,7 +40,12 @@ function Navbar() {
       id="topheader"
       className="flex dark:text-gray-400 justify-between items-center h-20  mx-auto dark:dark:bg-[#1E1E1E] border-b border-b-gray-500 w-[90%] max-w-[1440px]"
     >
-      <img className="ml-12 h-1/2 w-32" src={kshitij} alt=""></img>
+      <img
+        className="ml-12 h-1/2 w-32 cursor-pointer"
+        src={kshitij}
+        alt=""
+        onClick={() => LinkFn("/")}
+      ></img>
       <ul className="hidden md:flex md:text-sm">
         <li className="p-4 hover:cursor-pointer" onClick={() => LinkFn("/")}>
           Home
