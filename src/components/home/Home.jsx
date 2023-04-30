@@ -17,7 +17,7 @@ function Home() {
     document.getElementById("topheader").scrollIntoView({
       behavior: "smooth",
       block: "start",
-      inline: "nearest",
+      // inline: "nearest",
     });
     // if (nav) setNav(!nav);
   };
@@ -133,9 +133,8 @@ function Home() {
                   <p>The company is listed on BSE and NSE in India.</p>
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex"
-                  href=""
-                  onClick={() => LinkFn("/subex")}
+                  className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                  onClick={() => LinkFn("/subex","")}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
@@ -163,8 +162,7 @@ function Home() {
                   assets.
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex"
-                  href=""
+                  className="text-red-400 text-xs mt-2 flex cursor-pointer"
                   onClick={() => LinkFn("/standard-bank-of-south-africa")}
                 >
                   View case study
@@ -217,8 +215,7 @@ function Home() {
                   line,offered in partnership with banks and NBFCs.
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto"
-                  href=""
+                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
@@ -247,8 +244,7 @@ function Home() {
                   assets.
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto"
-                  href=""
+                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
                   onClick={() => LinkFn("/dell")}
                 >
                   View case study
@@ -278,8 +274,7 @@ function Home() {
                   assets.
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto"
-                  href=""
+                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />

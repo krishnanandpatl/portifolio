@@ -37,7 +37,7 @@ function Navbar() {
 
   return (
     <div
-      id="topheader"
+      // id="topheader"
       className="flex dark:text-gray-400 justify-between items-center h-20  mx-auto dark:dark:bg-[#1E1E1E] border-b border-b-gray-500 w-[90%] max-w-[1440px]"
     >
       <img
