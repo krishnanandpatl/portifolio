@@ -372,7 +372,9 @@ function Sbsa() {
                       </tr>
                     </td>
                     <td>
-                      <tr><img src={male} alt="" /></tr>
+                      <tr>
+                        <img src={male} alt="" />
+                      </tr>
                       <tr>José, 40</tr>
                       <tr>
                         <img src={no} alt="" />
@@ -394,6 +396,7 @@ function Sbsa() {
                 </div>
               </div>
               <h3 className="mt-[40px]">User Insights</h3>
+              <br />
               <div className="discover-results-sbsa">
                 <div>
                   <div>icon</div>
@@ -459,6 +462,7 @@ function Sbsa() {
                   </ol>
                 </div>
               </div>
+              <br />
               <div className="feedback-summary-sbsa">
                 <h1>Feedback Summary</h1>
                 <ul>
@@ -478,7 +482,8 @@ function Sbsa() {
                   </li>
                 </ul>
               </div>
-              <div className="takeways-sbsa">
+              <br />
+              <div className="feedback-summary-sbsa">
                 <h1>Our Takeways</h1>
                 <ul>
                   <li>
@@ -496,6 +501,7 @@ function Sbsa() {
                     search feature did not provide helpful results.
                   </li>
                 </ul>
+                <br />
                 <p>
                   Actions: Based on the feedback received, it is recommended
                   that the design and organisation of the feature be simplified
@@ -508,198 +514,220 @@ function Sbsa() {
             </div>
           </div>
           <div className="partition-line-subex"></div>
-          <div>
+          <div className="sbsa-below-understanding">
             To gain a deeper understanding of the current legacy system, we
-            conducted both competitive analysis and heuristic evaluation.
+            conducted both <strong>competitive analysis</strong> and{" "}
+            <strong>heuristic evaluation</strong>.
           </div>
-          <div>
-            The competitive analysis involved reviewing the digital banking
-            platforms of Standard Bank's competitors to understand how they
-            presented their financial information and supported account
-            consolidation.
+          <br />
+          <div className="sbsa-below-understanding">
+            The <strong>competitive analysis</strong> involved reviewing the
+            digital banking platforms of Standard Bank's competitors to
+            understand how they presented their financial information and
+            supported account consolidation.
           </div>
-          <table>
-            <tr>
-              <th>Competitor</th>
-              <th>Features</th>
-              <th>Pros</th>
-              <th>Cons</th>
+          <br />
+          <table className="table-sbsa">
+            <tr className="table-sbsa-header">
+              <th className="text-left">Competitor</th>
+              <th className="w-1/4 text-left">Features</th>
+              <th className="text-left">Pros</th>
+              <th className="text-left">Cons</th>
             </tr>
             <tr>
               <td>Nedbank</td>
               <td>
-                Consolidated balance feature Alerts and notifications
-                Transaction history Mobile app
+                Consolidated balance feature <br /> Alerts and notifications
+                <br />
+                Transaction history <br /> Mobile app
               </td>
               <td>
                 Mobile app allows for easy access to consolidated balances
-                on-the-go Alerts and notifications help clients stay on top of
+                on-the-go
+                <br /> Alerts and notifications help clients stay on top of
                 their accounts
               </td>
               <td>
-                Limited account grouping options Some clients report issues with
-                transaction history accuracy
+                Limited account grouping options
+                <br /> Some clients report issues with transaction history
+                accuracy
               </td>
             </tr>
             <tr>
               <td>FNB</td>
               <td>
-                Consolidated balance feature Account grouping and filtering
-                Mobile app Budgeting tools
+                Consolidated balance feature <br /> Account grouping and
+                filtering <br />
+                Mobile app <br /> Budgeting tools
               </td>
               <td>
                 Budgeting tools help clients manage their finances more
-                effectively Account grouping options are more extensive than
-                SBSA's
+                effectively
+                <br /> Account grouping options are more extensive than SBSA's
               </td>
               <td>
                 Some clients report issues with the accuracy of consolidated
-                balances Limited ability to customise account groupings
+                balances
+                <br /> Limited ability to customise account groupings
               </td>
             </tr>
             <tr>
               <td>Absa</td>
               <td>
-                Consolidated balance feature Detailed transaction history Mobile
-                app
+                Consolidated balance feature <br /> Detailed transaction history
+                <br /> Mobile app
               </td>
               <td>
                 Detailed transaction history allows clients to drill down into
-                their account activity Mobile app is user-friendly and easy to
-                navigate
+                their account activity
+                <br /> Mobile app is user-friendly and easy to navigate
               </td>
               <td>
-                Limited account grouping options Some clients report issues with
-                the accuracy of consolidated balances
+                Limited account grouping options
+                <br /> Some clients report issues with the accuracy of
+                consolidated balances
               </td>
             </tr>
           </table>
-          <div>
-            We conducted a heuristic evaluation of the current legacy system
-            using Nielsen's 10 usability heuristics. We analyzed the system's
-            navigation, information architecture, and visual design to identify
-            potential areas for improvement. Through this evaluation, we were
-            able to identify several critical issues that needed to be addressed
-            to improve the overall user experience.
+          <br />
+          <div className="sbsa-below-understanding w-full">
+            We conducted a <strong>heuristic evaluation</strong> of the current
+            legacy system using Nielsen's 10 usability heuristics.
+            <br /> We analyzed the system's navigation, information
+            architecture, and visual design to identify potential areas for
+            improvement.
+            <br />
+            Through this evaluation, we were able to identify several critical
+            issues that needed to be addressed to improve the overall user
+            experience.
           </div>
-          <table>
-            <tr>
+          <br />
+          <table className="table-sbsa">
+            <tr className="table-sbsa-header">
               <th>Heuristic</th>
-              <th>Observation</th>
+              <th className="w-1/2">Observation</th>
               <th>Severity</th>
-              <th>Easy to Fix</th>
+              <th className="w-1/6">Easy to Fix</th>
             </tr>
             <tr>
-              <th>Visibility of system status</th>
-              <th>
+              <td>Visibility of system status</td>
+              <td>
                 After clicking on a button to execute a transaction, there is no
                 visible feedback to indicate whether the transaction is
                 processing or has been completed.
-              </th>
-              <th>High</th>
-              <th>Moderate</th>
+              </td>
+              <td>High</td>
+              <td>Moderate</td>
             </tr>
             <tr>
-              <th>Match between system and the real world</th>
-              <th>
+              <td>Match between system and the real world</td>
+              <td>
                 The terms used for account categories and types are not easily
                 understandable for the average user.
-              </th>
-              <th>High</th>
-              <th>Easy</th>
+              </td>
+              <td>High</td>
+              <td>Easy</td>
             </tr>
             <tr>
-              <th>User control and freedom</th>
-              <th>
+              <td>User control and freedom</td>
+              <td>
                 If a user accidentally deletes a transaction or changes an
                 account balance incorrectly, there is no clear way to revert
                 back to the original state.
-              </th>
-              <th>Medium</th>
-              <th>Moderate</th>
+              </td>
+              <td>Medium</td>
+              <td>Moderate</td>
             </tr>
             <tr>
-              <th>Consistency and standards</th>
-              <th>
+              <td>Consistency and standards</td>
+              <td>
                 Some buttons are located in different places on different
                 screens, and the font sizes and styles used for headings and
                 labels are inconsistent.
-              </th>
-              <th>High</th>
-              <th>Easy</th>
+              </td>
+              <td>High</td>
+              <td>Easy</td>
             </tr>
             <tr>
-              <th>Error prevention</th>
-              <th>
+              <td>Error prevention</td>
+              <td>
                 Users may accidentally input incorrect account numbers or
                 transaction amounts, and the interface does not prompt them to
                 review their inputs before submitting.
-              </th>
-              <th>Medium</th>
-              <th>Easy</th>
+              </td>
+              <td>Medium</td>
+              <td>Easy</td>
             </tr>
             <tr>
-              <th>Recognition ratherthan recall</th>
-              <th>
+              <td>Recognition ratherthan recall</td>
+              <td>
                 Users may need to remember account numbers when navigating
                 between screens, rather than having the system display the
                 account name or type
-              </th>
-              <th>Low</th>
-              <th>Easy</th>
+              </td>
+              <td>Low</td>
+              <td>Easy</td>
             </tr>
             <tr>
-              <th>Flexibility and efficiency of use</th>
-              <th>
+              <td>Flexibility and efficiency of use</td>
+              <td>
                 Users may need to navigate through multiple screens to access
                 commonly used functions or data, rather than having the option
                 to create shortcuts or personalised dashboards
-              </th>
-              <th>Medium</th>
-              <th>Difficult</th>
+              </td>
+              <td>Medium</td>
+              <td>Difficult</td>
             </tr>
             <tr>
-              <th>Aesthetic and minimalist design</th>
-              <th>
+              <td>Aesthetic and minimalist design</td>
+              <td>
                 The dashboard and account summary screens include too many
                 icons, graphs, and tables, making it difficult for users to
                 quickly find the information they need.
-              </th>
-              <th>Low</th>
-              <th>Easy</th>
+              </td>
+              <td>Low</td>
+              <td>Easy</td>
             </tr>
             <tr>
-              <th>Help users recognize, diagnose, and recover from errors</th>
-              <th>
+              <td>Help users recognize, diagnose, and recover from errors</td>
+              <td>
                 If a user encounters an error or technical issue, they may not
                 know how to troubleshoot or seek assistance.
-              </th>
-              <th>High</th>
-              <th>Moderate</th>
+              </td>
+              <td>High</td>
+              <td>Moderate</td>
             </tr>
             <tr>
-              <th>Help and documentation</th>
-              <th>
+              <td>Help and documentation</td>
+              <td>
                 The online help centre doesn't have clear instructions or
                 relevant FAQs, and the system doesn't provide tooltips or
                 tutorials to guide users.
-              </th>
-              <th>Low</th>
-              <th>Moderate</th>
+              </td>
+              <td>Low</td>
+              <td>Moderate</td>
             </tr>
           </table>
+          <br />
+        </div>
+      </div>
+      <div className="dark:bg-[#1D242D]">
+        <div className="inner-container-subex py-[64px]">
           <div className="ideate-sbsa">
             <h1>Ideate</h1>
+            <br />
             <p>
-              We started by conducting user interviews and testing of the legacy
+              We started by conducting <strong>user interviews</strong> and <strong>testing</strong> of the legacy
               interface to gather insights from Standard Bank users about their
               experiences with the existing system.
             </p>
           </div>
+          <br />
           <div className="brainstorm-sbsa">
             <h3>Step #1: Brainstorming</h3>
+            <br />
             <p>
-              We used SCAMPER a Creative Thinking Technique to generate ideas
+              We used <strong>SCAMPER</strong> a Creative Thinking Technique to generate ideas
               for improving the Consolidated Balances feature of BOL. The
               Scamper report below outlines the different areas that we examined
               and the ideas that we generated.
@@ -774,7 +802,12 @@ function Sbsa() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div>
+        <div className="inner-container-subex">
           <div className="solution-building-sbsa">
+            <br />
             <h1>Solution Building</h1>
             <p>
               After the ideation sessions, we conducted a thorough analysis of

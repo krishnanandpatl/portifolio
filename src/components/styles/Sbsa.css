@@ -94,7 +94,7 @@
   opacity: 0.5;
   border: 1px solid #7d7d7d;
 }
-.discover-sbsa h1 {
+.discover-sbsa > h1 {
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
@@ -183,5 +183,117 @@
   font-size: 12px;
   line-height: 18px;
   text-align: center;
+  color: #d6dff0;
+}
+.discover-results-sbsa {
+  display: flex;
+  justify-content: space-around;
+}
+.discover-results-sbsa ol {
+  list-style: decimal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d6dff0;
+  margin-left: 10px;
+}
+.discover-results-sbsa li {
+  margin-top: 10px;
+}
+.discover-results-sbsa > div {
+  width: 32%;
+  background: #151a20;
+  border-radius: 4px;
+  padding: 25px 35px;
+}
+.discover-results-sbsa h5 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #d6dff0;
+  margin: 10px 0px;
+}
+.feedback-summary-sbsa {
+  background: #151a20;
+  border-radius: 4px;
+  padding: 32px;
+}
+.feedback-summary-sbsa ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+.feedback-summary-sbsa h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #d6dff0;
+}
+.feedback-summary-sbsa li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d6dff0;
+  margin-top: 10px;
+}
+.feedback-summary-sbsa p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d6dff0;
+}
+.sbsa-below-understanding {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+  width: 70%;
+}
+.table-sbsa {
+  border: 1px solid rgba(91, 91, 91, 0.5);
+  border-radius: 4px 4px 0px 0px;
+}
+.table-sbsa-header {
+  background: linear-gradient(255.4deg, #093da2 0%, #101c44 84.67%);
+  border-radius: 4px 4px 0px 0px;
+}
+.table-sbsa td {
+  border: 1px solid rgba(91, 91, 91, 0.5);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+  padding: 10px;
+}
+.table-sbsa th {
+  border: 1px solid rgba(91, 91, 91, 0.5);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 12px;
+}
+.ideate-sbsa > h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.ideate-sbsa > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+  width: 90%;
+}
+.brainstorm-sbsa h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #d6dff0;
+}
+.brainstorm-sbsa > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
   color: #d6dff0;
 }
