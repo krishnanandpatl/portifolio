@@ -1,5 +1,9 @@
 import React from "react";
 import "../styles/Sbsa.css";
+import yes from "../../assets/sbsa/yes.svg";
+import no from "../../assets/sbsa/no.svg";
+import male from "../../assets/sbsa/male.svg";
+import female from "../../assets/sbsa/female.svg";
 
 function Sbsa() {
   return (
@@ -168,8 +172,8 @@ function Sbsa() {
               <br />
               <p>
                 We simplified the navigation by placing consolidated balances on
-                the <strong>level 1 navigation</strong> and introduced <strong>search and refresh options
-                prominently</strong> .
+                the <strong>level 1 navigation</strong> and introduced{" "}
+                <strong>search and refresh options prominently</strong> .
               </p>
               <br />
               <p>
@@ -183,64 +187,213 @@ function Sbsa() {
           <div className="partition-line-sbsa my-[80px]"></div>
           <div className="discover-sbsa">
             <h1>Discover</h1>
+            <br />
             <p>
               We started by conducting user interviews and testing of the legacy
               interface to gather insights from Standard Bank users about their
               experiences with the existing system.
             </p>
+            <br />
             <h3>Testing the Legacy Interface</h3>
+            <br />
             <div className="discover-box1">
-              <p>
-                The aim of this usability report is to assess the effectiveness
-                and ease of use of the consolidated statement feature in the
-                Standard Bank South Africa's Business Online (BOL) portal.
-              </p>
-              <p>
-                Participants: The usability testing was conducted with a diverse
-                group of 6 participants who had previous experience using the
-                portal.
-              </p>
-              <p>
-                Methodology: Participants were assigned a set of 5 tasks to
-                perform using the consolidated statement feature, such as adding
-                and deleting accounts, adding subgroups, editing subgroup
-                selections, and choosing balance types. During the process,
-                participants were observed and asked to articulate their thought
-                process out loud. Upon completion, participants were asked to
-                provide feedback on their experience using the feature.
-              </p>
+              <div className="w-4/5">
+                <p className="flex">
+                  <div>icon</div>
+                  <strong>
+                    The aim of this usability report is to assess the
+                    effectiveness and ease of use of the consolidated statement
+                    feature in the Standard Bank South Africa's Business Online
+                    (BOL) portal.
+                  </strong>
+                </p>
+                <br />
+                <p className="flex">
+                  <div>icon</div>
+                  Participants: The usability testing was conducted with a
+                  diverse group of 6 participants who had previous experience
+                  using the portal.
+                </p>
+                <br />
+                <p className="flex">
+                  <div>icon</div>
+                  <div>
+                    <strong>Methodology:</strong> Participants were assigned a
+                    set of 5 tasks to perform using the consolidated statement
+                    feature, such as adding and deleting accounts, adding
+                    subgroups, editing subgroup selections, and choosing balance
+                    types. During the process, participants were observed and
+                    asked to articulate their thought process out loud. Upon
+                    completion, participants were asked to provide feedback on
+                    their experience using the feature.
+                  </div>
+                </p>
+              </div>
             </div>
+            <br />
             <div className="discover-box2">
               <h2>
                 Standard bank-Consolidated Balances | Users Testing report
               </h2>
               <div className="discover-line-sbsa"></div>
-              <div className="experience-card-sbsa">
-                <div>
-                  <div>
+              <div className="experience-card-sbsa flex gap-10">
+                <div className="w-1/3">
+                  <div className="upper-title-experience">
                     Sessions were conducted with 6 participants who had previous
                     experience using the portal.
                   </div>
-                  <div>
+                  <div className="experience-list">
                     <h4>5 tasks assigned</h4>
+                    <br />
                     <ol>
                       <li>Adding 3 accounts to the consolidation form</li>
+                      <br />
                       <li>Removing 1 account from the selected accounts</li>
+                      <br />
                       <li>
                         Adding subgroup "Company B" from account group
                         "Logistics" to the consolidated form
                       </li>
+                      <br />
                       <li>
                         Editing subgroup selection to "Temporary Staff" from
                         account group "Logistics"
                       </li>
+                      <br />
                       <li>Choosing Balance type</li>
                     </ol>
                   </div>
                 </div>
-                <div></div>
+                <div className="table-experience">
+                  <table>
+                    <td>
+                      <tr>
+                        <img src={female} alt="" />
+                      </tr>
+                      <tr>Luisa, 28</tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                    </td>
+                    <td>
+                      <tr>
+                        <img src={female} alt="" />
+                      </tr>
+                      <tr>Tombo, 45 </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                    </td>
+                    <td>
+                      <tr>
+                        <img src={male} alt="" />
+                      </tr>
+                      <tr>Andre, 40</tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                    </td>
+                    <td>
+                      <tr>
+                        <img src={male} alt="" />
+                      </tr>
+                      <tr>Farai, 37</tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                    </td>
+                    <td>
+                      <tr>
+                        <img src={male} alt="" />
+                      </tr>
+                      <tr>Alonso, 38</tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                    </td>
+                    <td>
+                      <tr><img src={male} alt="" /></tr>
+                      <tr>José, 40</tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={yes} alt="" />
+                      </tr>
+                      <tr>
+                        <img src={no} alt="" />
+                      </tr>
+                    </td>
+                  </table>
+                </div>
               </div>
-              <h3>User Insights</h3>
+              <h3 className="mt-[40px]">User Insights</h3>
               <div className="discover-results-sbsa">
                 <div>
                   <div>icon</div>
