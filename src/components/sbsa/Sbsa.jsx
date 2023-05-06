@@ -4,6 +4,13 @@ import yes from "../../assets/sbsa/yes.svg";
 import no from "../../assets/sbsa/no.svg";
 import male from "../../assets/sbsa/male.svg";
 import female from "../../assets/sbsa/female.svg";
+import workflow from "../../assets/sbsa/userworkflow.png";
+import approach1 from "../../assets/sbsa/approach1.svg";
+import approach2 from "../../assets/sbsa/approach2.png";
+import task4 from "../../assets/sbsa/task4.png";
+import task3 from "../../assets/sbsa/task3.png";
+import task2 from "../../assets/sbsa/task2.png";
+import task1 from "../../assets/sbsa/task1.png";
 
 function Sbsa() {
   return (
@@ -717,9 +724,10 @@ function Sbsa() {
             <h1>Ideate</h1>
             <br />
             <p>
-              We started by conducting <strong>user interviews</strong> and <strong>testing</strong> of the legacy
-              interface to gather insights from Standard Bank users about their
-              experiences with the existing system.
+              We started by conducting <strong>user interviews</strong> and{" "}
+              <strong>testing</strong> of the legacy interface to gather
+              insights from Standard Bank users about their experiences with the
+              existing system.
             </p>
           </div>
           <br />
@@ -727,56 +735,80 @@ function Sbsa() {
             <h3>Step #1: Brainstorming</h3>
             <br />
             <p>
-              We used <strong>SCAMPER</strong> a Creative Thinking Technique to generate ideas
-              for improving the Consolidated Balances feature of BOL. The
-              Scamper report below outlines the different areas that we examined
-              and the ideas that we generated.
+              We used <strong>SCAMPER</strong> a{" "}
+              <strong>Creative Thinking Technique</strong> to generate ideas for
+              improving the Consolidated Balances feature of BOL. The Scamper
+              report below outlines the different areas that we examined and the
+              ideas that we generated.
             </p>
-
-            <div>
-              The results of the SCAMPER technique led to the generation of
-              numerous innovative ideas for improving the consolidated balances
-              feature of BOL.We applied the Substitute and Combine techniques to
-              the Consolidated Balances feature of BOL.
+            <br />
+            <div className="flex">
+              <div>icon</div>
+              <p>
+                The results of the SCAMPER technique led to the generation of
+                numerous innovative ideas for improving the consolidated
+                balances feature of BOL.We applied the <span>Substitute</span>{" "}
+                and <span>Combine </span>
+                techniques to the Consolidated Balances feature of BOL.
+              </p>
             </div>
-            <div>
-              We substituted the current static interface with a dynamic one
-              that updates in real-time, combining it with a feature that allows
-              users to set alerts for certain account activity.
+            <br />
+            <div className="flex">
+              <div>icon</div>
+              <p>
+                We substituted the current static interface with a dynamic one
+                that updates in real-time, combining it with a feature that
+                allows users to set alerts for certain account activity.
+              </p>
             </div>
-            <p>View SCAMPER report</p>
+            <br />
+            <p className="link-report-sbsa">
+              View SCAMPER report<div>icon</div>
+            </p>
           </div>
+          <br />
           <div className="categorized-idea-sbsa">
             <h3>Step #2: Categorized Ideas</h3>
+            <br />
             <p>
               We found that many of the ideas generated fell under the theme of
               improving the interface's functionality and customization options.
               Some examples of ideas that emerged from the brainstorming
               sessions include:
             </p>
+            <br />
             <div>
-              <h5>Simplification of Navigation and Information Architecture</h5>
+              <h5 className="flex">
+                <div>icon</div> Simplification of Navigation and Information
+                Architecture
+              </h5>
               <p>
                 Simplifying the navigation of the feature to make it more
                 intuitive and user-friendly.
               </p>
             </div>
             <div>
-              <h5>Visualisation and Presentation</h5>
+              <h5 className="flex">
+                <div>icon</div> Visualisation and Presentation
+              </h5>
               <p>
                 Introducing interactive graphs to visualise account activity
                 over time.
               </p>
             </div>
             <div>
-              <h5>Recommendation and Suggestion</h5>
+              <h5 className="flex">
+                <div>icon</div> Recommendation and Suggestion
+              </h5>
               <p>
                 Adding a feature that recommends actions to take based on
                 account balances and spending patterns.
               </p>
             </div>
             <div>
-              <h5>Customisation and Alerting</h5>
+              <h5 className="flex">
+                <div>icon</div> Customisation and Alerting
+              </h5>
               <p>
                 Allowing users to set and customise alerts for specific account
                 activity, such as when a transaction exceeds a certain amount or
@@ -784,22 +816,30 @@ function Sbsa() {
               </p>
             </div>
           </div>
+          <br />
           <div className="prioritization-sbsa">
             <h3>Step #3: Prioritization</h3>
+            <br />
             <p>
               We then used SCAMPER brainstorming exercises to generate ideas and
-              categorised them based on common themes. From these, we
-              prioritised the top ideas, including:
+              categorised them based on common themes.
+              <br /> From these, we prioritised the top ideas, including:
             </p>
-            <div>
-              <h5>Simplification of Navigation and Information Architecture</h5>
-              <p>
-                This idea was prioritised because it addresses a fundamental
-                issue with the feature's usability, which was a significant pain
-                point for users during testing. By making it easier for users to
-                find and understand the information they need, we can improve
-                the overall user experience.
-              </p>
+            <br />
+            <div className="flex">
+              <div>icon</div>
+              <div className="w-3/4">
+                <h5>
+                  Simplification of Navigation and Information Architecture
+                </h5>
+                <p>
+                  This idea was prioritised because it addresses a fundamental
+                  issue with the feature's usability, which was a significant
+                  pain point for users during testing. By making it easier for
+                  users to find and understand the information they need, we can
+                  improve the overall user experience.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -809,17 +849,21 @@ function Sbsa() {
           <div className="solution-building-sbsa">
             <br />
             <h1>Solution Building</h1>
+            <br />
             <p>
               After the ideation sessions, we conducted a thorough analysis of
               the existing IA and information flow of the platform.
             </p>
+            <br />
             <h4>User Workflow</h4>
+            <br />
             <ul>
               <li>
                 As a result of ideation sessions and input from users and
                 business, we simplified the IA and improved the information flow
                 and user flow.
               </li>
+              <br />
               <li>
                 The user flow has been optimised, with intuitive paths that make
                 it easier for users to complete tasks efficiently. With the
@@ -828,9 +872,11 @@ function Sbsa() {
                 platform.
               </li>
             </ul>
-            <div>Graph</div>
+            <div>
+              <img src={workflow} alt="" />
+            </div>
           </div>
-          <div className="partition-line-sbsa"></div>
+          <div className="partition-line-sbsa my-[64px]"></div>
           <div className="approach1-sbsa">
             <p>
               After conducting multiple brainstorming sessions, we shifted our
@@ -839,15 +885,18 @@ function Sbsa() {
               few iterations, we finalised on two approaches to tackle these
               issues, which are:
             </p>
-            <div>
-              <div>
+            <br />
+            <div className="flex">
+              <div className="w-1/2">
                 <h4>Approach #1</h4>
+                <br />
                 <ol>
                   <li>
                     We suggested putting the consolidated balances feature in
                     the level 1 of the navigation, along with Accounts,
                     Balances, Find a Transaction and Download Report.
                   </li>
+                  <br />
                   <li>
                     Additionally, we recommended including All Account and
                     Accounts Subgroups under the Accounts tab at level 2, along
@@ -855,7 +904,9 @@ function Sbsa() {
                     displayed on the page.
                   </li>
                 </ol>
+                <br />
                 <h5>Impact:</h5>
+                <br />
                 <ul>
                   <li>
                     Approach 1 reduces cognitive load and improve
@@ -864,6 +915,7 @@ function Sbsa() {
                     quickly find the information they need and make informed
                     decisions about their finances.
                   </li>
+                  <br />
                   <li>
                     The search and refresh options also provide users with easy
                     ways to filter and update the data, further enhancing the
@@ -871,13 +923,16 @@ function Sbsa() {
                   </li>
                 </ul>
               </div>
-              <div>Image</div>
+              <div className="ml-20 mt-[30px]">
+                <img src={approach1} alt="" />
+              </div>
             </div>
           </div>
-          <div className="partition-line-sbsa"></div>
-          <div className="approach2-sbsa">
-            <div>
-              <h3>Approach #2</h3>
+          <div className="partition-line-sbsa my-[18px]"></div>
+          <div className="approach1-sbsa flex">
+            <div className="w-1/2">
+              <h4>Approach #2</h4>
+              <br />
               <ol>
                 <li>
                   we have added prominent print, export, and consolidate CTAs
@@ -885,7 +940,9 @@ function Sbsa() {
                   without requiring them to search for these options.
                 </li>
               </ol>
+              <br />
               <h5>Impact:</h5>
+              <br />
               <ul>
                 <li>
                   Approach 2 aims to reduce the cognitive load and
@@ -893,6 +950,7 @@ function Sbsa() {
                   with easy access to the most important and commonly used
                   features.
                 </li>
+                <br />
                 <li>
                   We reduced the number of steps required for users to perform
                   these actions frequently, which not only saved them time but
@@ -901,129 +959,153 @@ function Sbsa() {
                 </li>
               </ul>
             </div>
-            <div>image</div>
-          </div>
-          <div className="deliver-wireframes-sbsa">
-            <h1>Deliver: Wireframes</h1>
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-            <div className="partition-line-sbsa"></div>
-            <h1>Deliver: Visual Design</h1>
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+            <div className="w-1/2 ml-20 mt-[30px]">
+              <img src={approach2} alt="" />
             </div>
           </div>
         </div>
-        <div className="testing-report-sbsa">
-          <h1>User Testing Report</h1>
-          <div>
-            <div>
-              <div>
-                <h5>Objective</h5>
-                <p>
-                  The purpose of this user testing was to evaluate the
-                  effectiveness of the new design changes to the consolidated
-                  balances feature in BOL. The testing was conducted with 30
-                  participants who are current BOL users with varying levels of
-                  experience using the platform.
-                </p>
-                <p>37 video sessions, 14 questionnaire responses</p>
+        <div className="wireframe-sbsa-bg">
+          <div className="inner-container-subex py-[72px]">
+            <div className="deliver-wireframes-sbsa">
+              <h1>Deliver: Wireframes</h1>
+              <br />
+              <div className="wireframe-sbsa">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
               </div>
-              <div>
-                <h3>Tasks</h3>
-                <p>Participants were asked to complete the following tasks:</p>
-                <ol>
-                  <li>
-                    Find their consolidated balances for the month of January.
-                  </li>
-                  <li>
-                    Export a report of their consolidated balances for the past
-                    6 months.
-                  </li>
-                  <li>
-                    Set up an alert for when their account balance falls below a
-                    certain amount.
-                  </li>
-                  <li>
-                    Find transactions related to a specific account subgroup.
-                  </li>
-                </ol>
+              <div className="partition-line-sbsa my-[72px]"></div>
+              <h1>Deliver: Visual Design</h1>
+              <br />
+              <div className="wireframe-sbsa">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
               </div>
-            </div>
-            <div>
-              <div>Image1</div>
-              <div>Image2</div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="inner-container-subex">
+        <div className="testing-report-sbsa">
+          <h1>User Testing Report</h1>
+          <br />
+          <div className="flex gap-10">
+            <div className="w-3/5 objective-sbsa">
+              <h5 className="flex">
+                <div>icon</div>Objective
+              </h5>
+              <br />
+              <p className="ml-9">
+                The purpose of this user testing was to evaluate the
+                effectiveness of the new design changes to the consolidated
+                balances feature in BOL. The testing was conducted with{" "}
+                <strong>30 participants</strong> who are current BOL users with
+                varying levels of experience using the platform.
+              </p>
+              <br />
+              <strong className="ml-9">
+                37 video sessions, 14 questionnaire responses
+              </strong>
+            </div>
+            <div>Image</div>
+          </div>
+          <br />
+          <div className="flex">
+            <div className="gap-10 objective-sbsa">
+              <h5 className="flex">
+                <div>icon</div>Tasks
+              </h5>
+              <br />
+              <p className="ml-9">
+                Participants were asked to complete the following tasks:
+              </p>
+              <br />
+              <ol className="ml-12">
+                <li>
+                  Find their consolidated balances for the month of January.
+                </li>
+                <li>
+                  Export a report of their consolidated balances for the past 6
+                  months.
+                </li>
+                <li>
+                  Set up an alert for when their account balance falls below a
+                  certain amount.
+                </li>
+                <li>
+                  Find transactions related to a specific account subgroup.
+                </li>
+              </ol>
+            </div>
+            <div>Image</div>
+          </div>
+          <br />
           <div className="summary-results-sbsa">
             <h3>Summary Results</h3>
-            <p>
+            <br />
+            <p className="w-3/4">
               Overall, the new design changes were well received by
-              participants. All participants were able to complete the tasks
-              successfully, with an average completion time of 6 minutes and 30
-              seconds.
+              participants.
+              <br /> All participants were able to complete the tasks
+              successfully, with an average completion time of{" "}
+              <strong>6 minutes and 30 seconds.</strong>
             </p>
+            <br />
             <p>
               6 users bounced before starting the test, the remaining 24 did the
               following:
             </p>
-            <div>
+            <div className="task-results-sbsa">
               <div>
-                <div className="task1-result-sbsa">
+                <div className="task-result-sbsa">
                   Task 1: Find consolidated balances for the month of January
                 </div>
-                <div>
-                  <div></div>
-                  <div></div>
+                <div className="mt-4">
+                  <img src={task1} alt="" />
                 </div>
               </div>
               <div>
-                <div className="task2-result-sbsa">
+                <div className="task-result-sbsa">
                   Task 2: Export a report of consolidated balances for the past
                   6 months
                 </div>
-                <div>
-                  <div></div>
-                  <div></div>
+                <div className="mt-4">
+                  <img src={task2} alt="" />
                 </div>
               </div>
               <div>
-                <div className="task3-result-sbsa">
+                <div className="task-result-sbsa">
                   Task 3: Set up an alert for when account balance falls below a
                   certain amount
                 </div>
-                <div>
-                  <div></div>
-                  <div></div>
+                <div className="mt-4">
+                  <img src={task3} alt="" />
                 </div>
               </div>
               <div>
-                <div className="task4-result-sbsa">
+                <div className="task-result-sbsa">
                   Task 4: Find transactions related to a specific account
                   subgroup
                 </div>
-                <div>
-                  <div></div>
-                  <div></div>
+                <div className="mt-4">
+                  <img src={task4} alt="" />
                 </div>
               </div>
-              <div>
-                <div>Average active time : 6 min</div>
-                <div>Average session time : 30 min</div>
-                <div>Definition of “Success” : User completes user journey</div>
-              </div>
             </div>
+            <br />
+            <div className="active-time-sbsa">
+              <div>Average active time : 6 min</div>
+              <div>Average session time : 30 min</div>
+              <div>Definition of “Success” : User completes user journey</div>
+            </div>
+            <br />
             <div className="common-observation-sbsa">
               <h3>Common Observation</h3>
               <ul>
@@ -1058,106 +1140,153 @@ function Sbsa() {
                 </li>
               </ul>
             </div>
+            <br />
+            <div className="common-observation-sbsa">
+              <h3>Outcomes and changes to interface</h3>
+              <ul>
+                <li>
+                  Continue to prioritise and refine search and navigation
+                  features to make them even more user-friendly and intuitive.
+                </li>
+                <li>
+                  Consider providing more prominent and clear labelling for the
+                  export and alert settings buttons to further streamline these
+                  actions.
+                </li>
+                <li>
+                  Consider providing more visual cues or explanatory text to
+                  help users understand the function and benefits of account
+                  subgroups.
+                </li>
+                <li>
+                  Continue to prioritise simplifying the information
+                  architecture and reducing the number of clicks required to
+                  complete actions.
+                </li>
+                <li>
+                  Continue to gather user feedback and iterate on the design to
+                  further improve the interface and meet user needs.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div className="before-ater-sbsa">
-          <table>
-            <th>
-              <tr>Feature</tr>
-              <tr>Legacy Interface</tr>
-              <tr>BOL Interface</tr>
-            </th>
-            <td>
-              <tr>Navigation</tr>
-              <tr>Confusing and cluttered with no clear hierarchy</tr>
-              <tr>
-                Clear and intuitive with consolidated balances and account
-                subgroups prominently displayed
-              </tr>
-            </td>
-            <td>
-              <tr>Search Function</tr>
-              <tr>Basic search function with limited filters</tr>
-              <tr>
-                Robust search function with advanced filters and suggestions
-              </tr>
-            </td>
-            <td>
-              <tr>Information Architecture</tr>
-              <tr>Poor organization of information</tr>
-              <tr>
-                Improved information architecture with clear categorization and
-                labeling
-              </tr>
-            </td>
-            <td>
-              <tr>Cognitive Load</tr>
-              <tr>
-                High cognitive load due to overwhelming amount of information
+      </div>
+      <div className="beforeafter-sbsa-bg">
+        <div className="inner-container-subex">
+          <div className="before-ater-sbsa py-[80px]">
+            <h1>Before and after</h1>
+            <br />
+            <table>
+              <tr className="table-sbsa-before">
+                <th>Feature</th>
+                <th>Legacy Interface</th>
+                <th>BOL Interface</th>
               </tr>
               <tr>
-                Reduced cognitive load with streamlined interface and relevant
-                information displayed prominently
-              </tr>
-            </td>
-            <td>
-              <tr>Decision Making</tr>
-              <tr>
-                Making Difficult to make informed decisions due to lack of
-                relevant information
+                <td>Navigation</td>
+                <td>Confusing and cluttered with no clear hierarchy</td>
+                <td>
+                  Clear and intuitive with consolidated balances and account
+                  subgroups prominently displayed
+                </td>
               </tr>
               <tr>
-                Improved decision making with clear recommendations based on
-                account balances and spending patterns
+                <td>Search Function</td>
+                <td>Basic search function with limited filters</td>
+                <td>
+                  Robust search function with advanced filters and suggestions
+                </td>
               </tr>
-            </td>
-            <td>
-              <tr>Customisation</tr>
-              <tr>Limited customization options</tr>
               <tr>
-                More customization options, including the ability to set alerts
-                and personalize the interface
+                <td>Information Architecture</td>
+                <td>Poor organization of information</td>
+                <td>
+                  Improved information architecture with clear categorization
+                  and labeling
+                </td>
               </tr>
-            </td>
-            <td>
-              <tr>User Feedback</tr>
-              <tr>Limited opportunities for user feedback</tr>
               <tr>
-                Active solicitation of user feedback with frequent updates and
-                improvements based on user input
+                <td>Cognitive Load</td>
+                <td>
+                  High cognitive load due to overwhelming amount of information
+                </td>
+                <td>
+                  {" "}
+                  Reduced cognitive load with streamlined interface and relevant
+                  information displayed prominently
+                </td>
               </tr>
-            </td>
-          </table>
+              <tr>
+                <td>Decision Making</td>
+                <td>
+                  Making Difficult to make informed decisions due to lack of
+                  relevant information
+                </td>
+                <td>
+                  Improved decision making with clear recommendations based on
+                  account balances and spending patterns
+                </td>
+              </tr>
+              <tr>
+                <td>Customisation</td>
+                <td>Limited customization options</td>
+                <td>
+                  More customization options, including the ability to set
+                  alerts and personalize the interface
+                </td>
+              </tr>
+              <tr>
+                <td>User Feedback</td>
+                <td>Limited opportunities for user feedback</td>
+                <td>
+                  Active solicitation of user feedback with frequent updates and
+                  improvements based on user input
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
+      </div>
+      <div className="inner-container-subex">
         <div className="mylearning-sbsa">
           <h1>My Learning</h1>
-          <div>
+          <div className="flex">
+            <div>icon</div>
             To ensure success in a project of this size, it is crucial for the
             entire team to be involved throughout the process, sharing their
             research findings, discussing roadblocks, and working together
             towards achieving common goals that address both user needs and
             business objectives.
           </div>
-          <div>
+          <br />
+          <div className="flex">
+            <div>icon</div>
             Although we are still evaluating the results based on key
             performance indicators, it is clear that our solutions have had a
             positive impact on usability and user experience.
           </div>
-          <div>
+          <br />
+          <div className="flex">
+            <div>icon</div>
             Above all, this project provided me with the opportunity to work
             with a diverse user base in an unfamiliar industry, which has
             expanded my skills and knowledge as a designer.
           </div>
         </div>
-        <div className="future-directions-sbsa">
-          <div>
+        <div className="mylearning-sbsa mt-[48px]">
+          <h1>Future Directions</h1>
+          <div className="flex">
+            <div>icon</div>
             If I had more time, I would definitely explore the possibilities of
             the "Trigger mechanism" even further. This mechanism plays an
             important role in automatically generating a case based on certain
             triggers, and I believe there is more room for innovation and
             improvement in this area.
           </div>
-          <div>
+          <br />
+          <div className="flex">
+            <div>icon</div>
             Additionally, I would like to add more flexibility to the system to
             accommodate cross-functional users whose goals may not be solely
             focused on case closure. By doing so, we can ensure that the system
@@ -1165,9 +1294,9 @@ function Sbsa() {
             contexts.
           </div>
         </div>
-        <div className="process-tools-sbsa">
+        <div className="mylearning-sbsa mt-[48px]">
           <h1>Process & tools</h1>
-          <div>
+          <div className="flex p-2">
             <div>
               <h5>Design & Prototyping</h5>
               <p>
@@ -1175,6 +1304,7 @@ function Sbsa() {
                 design.
               </p>
             </div>
+            <div className="mylearning-border-sbsa mx-[30px]"></div>
             <div>
               <h5>Project Tracking</h5>
               <p>
@@ -1182,6 +1312,7 @@ function Sbsa() {
                 that all project requirements were being met.
               </p>
             </div>
+            <div className="mylearning-border-sbsa mx-[30px]"></div>
             <div>
               <h5>User Testing Sessions</h5>
               <p>
@@ -1191,9 +1322,13 @@ function Sbsa() {
             </div>
           </div>
         </div>
-        <div>
-          <div>Previous Case Study</div>
-          <div>Next Case Study</div>
+        <div className="flex justify-between bot-nav-sbsa my-[48px]">
+          <div className="flex">
+            <div>icon</div> Previous Case Study
+          </div>
+          <div className="flex">
+            Next Case Study<div>icon</div>
+          </div>
         </div>
       </div>
     </div>
