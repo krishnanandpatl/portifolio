@@ -109,7 +109,7 @@ function Home() {
                 </div>
                 <a
                   className="text-red-400 text-xs mt-2 flex cursor-pointer"
-                  onClick={() => LinkFn("/restricted", "/pgos")}
+                  onClick={() => LinkFn("/restricted", "/publicis-growth-os")}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />

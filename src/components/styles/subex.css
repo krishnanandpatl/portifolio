@@ -89,7 +89,7 @@
 }
 .context-background-subex {
   margin-top: 71px;
-  height: 821px;
+  /* height: 821px; */
   background: #1d242d;
   border: 1px solid #3d4c5e;
   border-radius: 4px;

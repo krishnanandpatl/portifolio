@@ -5,6 +5,8 @@ import { Validator } from "./Validator";
 function RequiredAuth() {
   const location = useLocation();
 
+  console.log(location)
+
   return Validator(location.state?.password) ? (
     <Outlet />
   ) : (
