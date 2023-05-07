@@ -20,8 +20,8 @@ import { useNavigate } from 'react-router-dom';
 
 function Home_Page() {
     const Nav = useNavigate();
-  const LinkFn = (URL) => {
-    Nav(URL);
+  const LinkFn = (URL,redirectTo) => {
+    Nav(URL, { state: { to: redirectTo } });
     document.getElementById("topheader").scrollIntoView({
       behavior: "smooth",
       block: "start",
@@ -56,7 +56,7 @@ function Home_Page() {
                     <div className="homeProjectBox-Project1-left-TextLine">Greenfield Project</div>
                 </div>
                 <div className="homeProjectBox-Project1-left-Details">A comprehensive digital landscape that supports 22k business customers across 338k sites.</div>
-                <div className="homeProjectBox-Project1-left-Link" onClick={() => LinkFn("/restricted")}>
+                <div className="homeProjectBox-Project1-left-Link" onClick={() => LinkFn("/restricted","/verizon-360")}>
                     <div className="homeProjectBox-Project1-left-Link-Text">View case study</div>
                     <div className="homeProjectBox-Project1-left-Link-Icon"><img src={openInNew} alt="OpenInNew" /></div>
                 </div>
@@ -72,7 +72,7 @@ function Home_Page() {
                     <div className="homeProjectBox-Project1-left-TextLine">Greenfield Project</div>
                 </div>
                 <div className="homeProjectBox-Project1-left-Details">A campaign management application to provide a more intuitive and efficient platform for marketing teams to manage their campaigns effectively.</div>
-                <div className="homeProjectBox-Project1-left-Link" onClick={() => LinkFn("/restricted")}>
+                <div className="homeProjectBox-Project1-left-Link" onClick={() => LinkFn("/restricted","/publicis-growth-os" )}>
                     <div className="homeProjectBox-Project1-left-Link-Text">View case study</div>
                     <div className="homeProjectBox-Project1-left-Link-Icon"><img src={openInNew} alt="OpenInNew" /></div>
                 </div>
