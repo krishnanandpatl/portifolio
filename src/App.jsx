@@ -35,14 +35,14 @@ function App() {
           <Route path="/subex" element={<Subex />}></Route>
           <Route path="/restricted" element={<Restricted />}></Route>
           <Route element={<RequiredAuth />}>
-            <Route path="/pgos" element={<Pgos />}></Route>
+            <Route path="/publicis-growth-os" element={<Pgos />}></Route>
             <Route path="/verizon-360" element={<Verizon />}></Route>
           </Route>
           <Route
             path="/standard-bank-of-south-africa"
             element={<Sbsa />}
           ></Route>
-          
+
           <Route path="/unauthorized" element={<Unauthorized />}></Route>
         </Routes>
         <Footer />

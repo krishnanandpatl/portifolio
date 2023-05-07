@@ -636,7 +636,6 @@
   background: #18191c;
   border: 1px solid rgba(91, 91, 91, 0.5);
   border-radius: 4px;
-  /* transform: matrix(-0.01, 1, -1, 0, 0, 0); */
 }
 .bot-nav-sbsa > div {
   border: 1px solid #d6dff0;
@@ -647,5 +646,5 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: #D6DFF0;
+  color: #d6dff0;
 }

@@ -1,17 +1,20 @@
 import React from "react";
-import '../styles/subex.css'
+import "../styles/pgos.css";
+import pgos from "../../assets/pgos/pgos.svg";
+import lock from "../../assets/pgos/lock.svg";
 
 function Pgos() {
   return (
     <div>
       <div className="subex-container">
         <div className="subex-intro-card">
-          <h1>PGOS</h1>
-          <div className="text-part-intro">
+          <img src={pgos} alt="" />
+          <div className="text-part-intro mt-[24px]">
             <h1 className="heading-intro-subex">
               Revolutionising Campaign Planning with User-Centred Design
             </h1>
-            <p className="para-intro-card">
+            <br />
+            <p className="para-intro-card my-[40px]">
               Explore how a proactive UX process and collaboration with
               stakeholders led to a user-friendly and business-driven PGOS
               campaign planning application.
@@ -26,9 +29,11 @@ function Pgos() {
                 <div className="title-details-intro">Web</div>
               </div>
             </div>
-            <div>
+            <div className="flex team-pgos mt-[40px] justify-between w-3/4">
               <div>
-                <div>Onshore (Germany, UK, US)</div>
+                <div className="teams-title-pgos">
+                  Onshore (Germany, UK, US)
+                </div>
                 <div>7 Product Strategy Team</div>
                 <div>2 Product Owner</div>
                 <div>1 Data Lead</div>
@@ -41,7 +46,7 @@ function Pgos() {
                 <div>8 Deployment Team</div>
               </div>
               <div>
-                <div>India POD</div>
+                <div className="teams-title-pgos">India POD</div>
                 <div>1 ACD UX</div>
                 <div>1 Sr. UX Designer [Me]</div>
                 <div>1 UX Designer</div>
@@ -51,7 +56,7 @@ function Pgos() {
               </div>
             </div>
 
-            <div>
+            <div className=" mt-[40px]">
               <div className="headers-top-intro">My Contribution</div>
               <div className="my-contri-intro">
                 User Experience | Interaction Design | Customer Experience |
@@ -61,6 +66,7 @@ function Pgos() {
           </div>
           <div className="image-part-intro"></div>
         </div>
+
         <div className="inner-container-subex">
           <div className="key-container">
             <div className="bulb-inner-container">image</div>
@@ -71,36 +77,61 @@ function Pgos() {
               to helped showcase the product's potential to potential investors
               and clients.
             </div>
-            <div>
+          </div>
+          <div className="context-pgos mt-[80px]">
+            <h1>Context and Background</h1>
+            <br />
+            <p>
+              Publicis Growth OS (PGOS) is a web-based application designed to
+              provide an end-to-end solution for media and marketing activities
+              for clients and agencies. PGOS has several modules that are
+              integrated with each other, providing a seamless and efficient
+              flow of work. The platform is flexible and can be configured to
+              meet the specific needs of each client separately, allowing for a
+              customisable solution for each unique use case.
+            </p>
+            <br />
+            <div className="flex key-offering-sbsa justify-between">
               <div>
                 <h3>Key Offering</h3>
                 <div>
-                  A comprehensive marketing services technology that connects
-                  data and decision-making throughout the marketing value chain.
+                  <div>icon</div>A comprehensive marketing services technology
+                  that connects data and decision-making throughout the
+                  marketing value chain.
                 </div>
+                <br />
                 <div>
+                  <div>icon</div>
                   An intuitive and flexible campaign planning application that
                   simplifies complex data and processes into a seamless and
                   efficient workflow.
                 </div>
+                <br />
                 <div>
+                  <div>icon</div>
                   The ability to develop and integrate new functionalities and
                   requirements quickly in response to client requests.
                 </div>
               </div>
+              <br />
               <div>
                 <h3>Stats</h3>
                 <div>
+                  <div>icon</div>
                   PGOS has already gained significant interest from potential
                   clients, with several major brands expressing their desire to
                   use the platform.
                 </div>
+                <br />
                 <div>
+                  <div>icon</div>
                   PGOS's flexible and configurable nature has resulted in
                   significant cost savings by simplifying their marketing and
                   media planning processes.
                 </div>
+                <br />
                 <div>
+                  <div>icon</div>
                   Early user testing and feedback has been overwhelmingly
                   positive, with users highlighting the intuitive and
                   user-friendly design of the platform.
@@ -109,45 +140,56 @@ function Pgos() {
             </div>
           </div>
 
-          <div className="buisness-challenge-subex">
-            <h1>The Challenge</h1>
-            <h4>
-              How might we improve the user experience of PGOS to increase
-              adoption rates and ensure its effectiveness for clients and
-              agencies?
-            </h4>
-            <p>
-              This problem involved balancing the trade-offs between UX design
-              and technical limitations, managing multiple stakeholder
-              interests, and ensuring that the platform is scalable and flexible
-              enough to accommodate the needs of different clients.
-            </p>
+          <div className="the-challenge-pgos">
+            <h1 className="flex">
+              <div>icon</div> The Challenge
+            </h1>
+            <div className="mx-[58px] mt-[32px]">
+              <h4>
+                How might we improve the user experience of PGOS to increase
+                adoption rates and ensure its effectiveness for clients and
+                agencies?
+              </h4>
+              <br />
+              <p>
+                This problem involved balancing the trade-offs between UX design
+                and technical limitations, managing multiple stakeholder
+                interests, and ensuring that the platform is scalable and
+                flexible enough to accommodate the needs of different clients.
+              </p>
+            </div>
           </div>
-
+        </div>
+      </div>
+      <div className="diffrerent-bg-pgos">
+        <div className="inner-container-subex py-[80px]">
           <div className="way-working-pgos">
             <h1>Way of Working</h1>
+            <br />
             <div>
               This is an example of how I approach this project as a UX designer
               using a 2 week sprint format:
             </div>
+            <br />
             <h4>Sprint 1 - Week 1</h4>
-            <table>
-              <th>
-                <tr>Day 1</tr>
-                <tr>Day 2</tr>
-                <tr>Day 3</tr>
-                <tr>Day 4</tr>
-                <tr>Day 5</tr>
-              </th>
-              <td>
-                <tr>Requirements Gathering</tr>
-                <tr>Analysis and Synthesis</tr>
-                <tr>Ideation</tr>
-                <tr>Wire-framing</tr>
-                <tr>Team Review</tr>
-              </td>
-              <td>
-                <tr>
+            <br />
+            <table className="first-table-pgos">
+              <tr>
+                <th>Day 1</th>
+                <th>Day 2</th>
+                <th>Day 3</th>
+                <th>Day 4</th>
+                <th>Day 5</th>
+              </tr>
+              <tr className="second-row-pgos">
+                <td>Requirements Gathering</td>
+                <td>Analysis and Synthesis</td>
+                <td>Ideation</td>
+                <td>Wire-framing</td>
+                <td className="last-table-pgos">Team Review</td>
+              </tr>
+              <tr>
+                <td>
                   <ul>
                     <li>
                       Check JIRA for new tickets related to usability
@@ -158,8 +200,8 @@ function Pgos() {
                       discuss requirements in details.
                     </li>
                   </ul>
-                </tr>
-                <tr>
+                </td>
+                <td>
                   <ul>
                     <li>
                       I first dive into the feedback provided by stakeholders to
@@ -170,8 +212,8 @@ function Pgos() {
                       that will help me generate meaningful solutions
                     </li>
                   </ul>
-                </tr>
-                <tr>
+                </td>
+                <td>
                   <ul>
                     <li>
                       I synthesise my thoughts and ideas to develop solutions
@@ -184,8 +226,8 @@ function Pgos() {
                       user needs and business goals.
                     </li>
                   </ul>
-                </tr>
-                <tr>
+                </td>
+                <td>
                   <ul>
                     <li>
                       Use the selected ideas to create initial medium -fidelity
@@ -196,38 +238,39 @@ function Pgos() {
                       wireframe designs.
                     </li>
                   </ul>
-                </tr>
-                <tr>
+                </td>
+                <td className="last-table-pgos">
                   <ul>
                     <li>
                       Review and refine wireframes based on stakeholder
                       feedback.
                     </li>
                   </ul>
-                </tr>
-              </td>
+                </td>
+              </tr>
             </table>
           </div>
-          <div className="partition-line-pgos"></div>
-          <div className="sprint2-pgos">
+          <div className="partition-line-pgos my-[48px]"></div>
+          <div className="way-working-pgos">
             <h4>Sprint 1 - Week 2</h4>
-            <table>
-              <th>
-                <tr>Day 6</tr>
-                <tr>Day 7</tr>
-                <tr>Day 8</tr>
-                <tr>Day 9</tr>
-                <tr>Day 10</tr>
-              </th>
-              <td>
-                <tr>Analysis and Synthesis</tr>
-                <tr>Iterations</tr>
-                <tr>Finalising UX Design</tr>
-                <tr>Handover to VD Team</tr>
-                <tr>Review and Wrap-up</tr>
-              </td>
-              <td>
-                <tr>
+            <br />
+            <table className="first-table-pgos">
+              <tr>
+                <th>Day 6</th>
+                <th className="w-1/6">Day 7</th>
+                <th>Day 8</th>
+                <th>Day 9</th>
+                <th>Day 10</th>
+              </tr>
+              <tr className="second-row-pgos">
+                <td>Analysis and Synthesis</td>
+                <td>Iterations</td>
+                <td>Finalising UX Design</td>
+                <td>Handover to VD Team</td>
+                <td className="last-table-pgos">Review and Wrap-up</td>
+              </tr>
+              <tr>
+                <td>
                   <ul>
                     <li>
                       Analyse and synthesise the feedback and make necessary
@@ -235,8 +278,8 @@ function Pgos() {
                     </li>
                     <li>Use JIRA to document changes and track progress.</li>
                   </ul>
-                </tr>
-                <tr>
+                </td>
+                <td>
                   <ul>
                     <li>
                       Create iterations of wire frames and prototyping based on
@@ -247,8 +290,8 @@ function Pgos() {
                       designs are aligned with their expectations and goals.
                     </li>
                   </ul>
-                </tr>
-                <tr>
+                </td>
+                <td>
                   <ul>
                     <li>
                       Work on finalising the UX design based on the feedback
@@ -263,8 +306,8 @@ function Pgos() {
                       design team.
                     </li>
                   </ul>
-                </tr>
-                <tr>
+                </td>
+                <td>
                   <ul>
                     <li>
                       Handover the finalised UX design files to the visual
@@ -275,8 +318,8 @@ function Pgos() {
                       team.
                     </li>
                   </ul>
-                </tr>
-                <tr>
+                </td>
+                <td className="last-table-pgos">
                   <ul>
                     <li>
                       Review the UX design project with stakeholders and team
@@ -288,39 +331,46 @@ function Pgos() {
                     </li>
                     <li>Prepare for the next sprint.</li>
                   </ul>
-                </tr>
-              </td>
+                </td>
+              </tr>
             </table>
           </div>
-
+        </div>
+      </div>
+      <div>
+        <div className="inner-container-subex">
           <div className="design-process-pgos">
             <h1>Design Process</h1>
-            <div>
+            <br />
+            <p className="ml-3 w-2/3">
+              My top priority was to understand the needs of users and develop
+              solutions that meet those needs. The following example will
+              illustrate how I approached a Jira ticket request with empathy and
+              a focus on user-centred design.
+            </p>
+            <br />
+            <div className="jira-pgos">
+              <h5>
+                JIRA Ticket: Adding multiple scenarios to a Marketing Campaign
+                in current Scenario Planner module
+              </h5>
+              <br />
               <p>
-                My top priority was to understand the needs of users and develop
-                solutions that meet those needs. The following example will
-                illustrate how I approached a Jira ticket request with empathy
-                and a focus on user-centred design.
+                <i>What is a Scenario:</i> A scenario is a specific set of
+                events or conditions that may occur in the future, such as a
+                change in customer behaviour or a new competitor entering the
+                market. In marketing, scenarios are often used to explore
+                different possibilities and plan for the future.
               </p>
-              <div>
-                <h5>
-                  JIRA Ticket: Adding multiple scenarios to a Marketing Campaign
-                  in current Scenario Planner module
-                </h5>
-                <p>
-                  What is a Scenario: A scenario is a specific set of events or
-                  conditions that may occur in the future, such as a change in
-                  customer behaviour or a new competitor entering the market. In
-                  marketing, scenarios are often used to explore different
-                  possibilities and plan for the future.
-                </p>
-              </div>
-              <p>
-                To add multiple scenarios to a marketing campaign in Scenario
-                Planner, I follow a detailed process that includes the following
-                steps:
-              </p>
-              <div>
+            </div>
+            <br />
+            <p className="mb-[36px] ml-3">
+              To add multiple scenarios to a marketing campaign in Scenario
+              Planner, I follow a detailed process that includes the following
+              steps:
+            </p>
+            <div className="design2-pgos">
+              <div className="flex">
                 <div>Image</div>
                 <div>
                   <h5>Gathering Requirements</h5>
@@ -331,7 +381,7 @@ function Pgos() {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="flex">
                 <div>Image</div>
                 <div>
                   <h5>Research and Analysis</h5>
@@ -342,7 +392,7 @@ function Pgos() {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="flex">
                 <div>Image</div>
                 <div>
                   <h5>Ideation</h5>
@@ -353,7 +403,7 @@ function Pgos() {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="flex">
                 <div>Image</div>
                 <div>
                   <h5>Wire-framing</h5>
@@ -366,7 +416,7 @@ function Pgos() {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="flex">
                 <div>Image</div>
                 <div>
                   <h5>Validation</h5>
@@ -378,23 +428,34 @@ function Pgos() {
                 </div>
               </div>
             </div>
-            <div>
+            <p className="w-2/3">
               Throughout this process, I ensure that all deadlines are met and
               that the scenarios are thoroughly tested and validated to ensure
               accuracy and reliability.
-            </div>
+            </p>
           </div>
-
-          <div className="product-showcase-pgos">
-            <div>lock</div>
+        </div>
+      </div>
+      <div className="bg-lock-pgos">
+        <div className="inner-container-subex">
+          <div className="product-showcase-pgos py-[160px]">
+            <div>
+              <img src={lock} alt="" />
+            </div>
+            <br />
             <h2>Product Showcase</h2>
+            <br />
             <h6>
               I appreciate your interest in seeing my work and I hope you can
               understand that my commitment to maintaining client trust and
-              confidentiality is of the utmost importance to me. If there are
-              any other ways in which I can demonstrate my skills and
-              experience, I would be more than happy to discuss them with you.
+              confidentiality is of the utmost importance to me.
+              <br />
+              If there are any other ways in which I can demonstrate my skills
+              and experience, I would be more than happy to discuss them with
+              you.
             </h6>
+            <br />
+            <br />
             <p>
               Due to the Non-Disclosure Agreement (NDA) I have signed with PGOS,
               I am not able to showcase any design work publicly. However, I can
@@ -403,9 +464,14 @@ function Pgos() {
               experience.
             </p>
           </div>
-
+        </div>
+      </div>
+      <div>
+        <div className="inner-container-subex">
           <div className="project-challenges-pgos">
-            <div>
+            <h1>Project Challenges</h1>
+            <br />
+            <div className="flex">
               <div>image</div>
               <div>
                 <h5>Resistance to Change</h5>
@@ -417,7 +483,8 @@ function Pgos() {
                 </p>
               </div>
             </div>
-            <div>
+            <br />
+            <div className="flex">
               <div>image</div>
               <div>
                 <h5>Differing Design Opinion</h5>
@@ -430,7 +497,8 @@ function Pgos() {
                 </p>
               </div>
             </div>
-            <div>
+            <br />
+            <div className="flex">
               <div>Image</div>
               <div>
                 <h5>Technical Constraints</h5>
@@ -443,48 +511,56 @@ function Pgos() {
               </div>
             </div>
           </div>
-
-          <div className="skills-contribution-pgos">
+          <div className="skills-contribution-pgos mt-[64px]">
             <h2>My Skill and Contribution</h2>
+            <br />
             <p>
               As a UX designer at PGOS, I bring a strong set of design, team,
               and project management skills to the table.
             </p>
+            <br />
             <div>
-              <div>
+              <div className="p-6 border-right-pgos">
                 <div>icon</div>
                 <h5>Design</h5>
+                <br />
                 <div>
                   Led experience design and usability improvements on 8 modules
                   of PGOS, resulting in an increase in user satisfaction and a
                   decrease in user errors.
                 </div>
+                <br />
                 <div>
                   Created and iterated on 150+ wireframes and prototypes,
                   resulting in a increase in efficiency and ease of use for
                   users.
                 </div>
+                <br />
                 <div>
                   Conducted user testing sessions, resulting in improved ease of
                   use and satisfaction with the platform.
                 </div>
               </div>
-              <div>
+              <div className="p-6">
                 <div>icon</div>
                 <h5>Team & Project Management</h5>
+                <br />
                 <div>
                   Facilitated design workshops, resulting in the identification
                   and implementation of several successful UX solutions.
                 </div>
+                <br />
                 <div>
                   Conducted regular meetings with stakeholders and provided
                   weekly progress reports, resulting in an improvement in
                   communication and alignment among the team.
                 </div>
+                <br />
                 <div>
                   Managed and prioritized 30+ Jira tickets and ensured all
                   deliverables were completed within the 2-week sprint timeline.
                 </div>
+                <br />
                 <div>
                   Mentored and trained 3 junior UX designers, resulting in an
                   improvement in their skills and confidence.
@@ -492,12 +568,19 @@ function Pgos() {
               </div>
             </div>
           </div>
-
-          <div className="my-impact-pgos">
-            <div>
-              <div>
+        </div>
+      </div>
+      <div className="impact-bg-pgos">
+        <div className="inner-container-subex">
+          <div className="my-impact-pgos py-[56px]">
+            <h1>My Impact</h1>
+            <br />
+            <div className="flex my-impact-in-pgos">
+              <div className="w-3/5 impact-border-pgos">
                 <div>Image</div>
+                <br />
                 <h5>Design</h5>
+                <br />
                 <h6>Improved user experience</h6>
                 <p>
                   Through your redesign of the platform's user interface, you
@@ -505,6 +588,7 @@ function Pgos() {
                   errors by 20%, resulting in a more user-friendly and intuitive
                   experience.
                 </p>
+                <br />
                 <h6>Faster time-to-market</h6>
                 <p>
                   By streamlining the design process and implementing Agile
@@ -512,6 +596,7 @@ function Pgos() {
                   takes to deliver new features by 30%, allowing PGOS to stay
                   competitive in the market.
                 </p>
+                <br />
                 <h6>Implemented a new design review process</h6>
                 <p>
                   By involving more stakeholders earlier in the design process,
@@ -519,9 +604,11 @@ function Pgos() {
                   major roadblocks.
                 </p>
               </div>
-              <div>
+              <div className="w-2/5">
                 <div>Image</div>
-                <div>Team Management</div>
+                <br />
+                <h5>Team Management</h5>
+                <br />
                 <h6>Enhanced collaboration</h6>
                 <p>
                   Through your redesign of the platform's user interface, you
@@ -529,6 +616,7 @@ function Pgos() {
                   errors by 20%, resulting in a more user-friendly and intuitive
                   experience.
                 </p>
+                <br />
                 <h6>Coordinated and led a design sprint</h6>
                 <p>
                   By streamlining the design process and implementing Agile
@@ -536,6 +624,7 @@ function Pgos() {
                   takes to deliver new features by 30%, allowing PGOS to stay
                   competitive in the market.
                 </p>
+                <br />
                 <h6>Mentored and coached junior designers</h6>
                 <p>
                   I mentored junior designers resulting in increase of their
@@ -543,37 +632,41 @@ function Pgos() {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="flex">
+            <div>Image</div>
             <div>
-              <div>Image</div>
-              <div>
-                <h4>Business Impact</h4>
+              <h5>Business Impact</h5>
+              <div className="flex">
                 <div>
-                  <div>
-                    <strong>Increased satisfaction</strong>
-                    <p>
-                      By optimising the platform's user interface and improving
-                      the overall user experience, I was able to increase
-                      customer satisfaction and retention.
-                    </p>
-                  </div>
-                  <div>
-                    <strong>Improved brand perception</strong>
-                    <p>
-                      We developed a consistent visual identity and design
-                      language for PGOS, improving brand perception among
-                      customers and stakeholders, resulting in increased brand
-                      loyalty and customer retention.
-                    </p>
-                  </div>
+                  <strong>Increased satisfaction</strong>
+                  <p>
+                    By optimising the platform's user interface and improving
+                    the overall user experience, I was able to increase customer
+                    satisfaction and retention.
+                  </p>
+                </div>
+                <div>
+                  <strong>Improved brand perception</strong>
+                  <p>
+                    We developed a consistent visual identity and design
+                    language for PGOS, improving brand perception among
+                    customers and stakeholders, resulting in increased brand
+                    loyalty and customer retention.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-
+        </div>
+      </div>
+      <div>
+        <div className="inner-container-subex">
           <div className="my-learning-pgos">
             <h1>My Learning</h1>
+            <br />
             <div>
-              <div>
+              <div className="flex">
                 <div>icon</div>
                 <div>
                   Through my work with PGOS, I have learned to balance design
@@ -583,7 +676,8 @@ function Pgos() {
                   both user and business needs.
                 </div>
               </div>
-              <div>
+              <br />
+              <div className="flex">
                 <div>icon</div>
                 <div>
                   In managing UX tracks for projects, I have developed skills in
@@ -592,7 +686,8 @@ function Pgos() {
                   stakeholders.
                 </div>
               </div>
-              <div>
+              <br />
+              <div className="flex">
                 <div>icon</div>
                 <div>
                   Working with a variety of stakeholders, including program
@@ -603,47 +698,73 @@ function Pgos() {
               </div>
             </div>
           </div>
-
-          <div>
+          <div className="flex mt-[64px] reflecion-pgos gap-6">
             <div>
               <h2>Reflection</h2>
-              <div>
-                Reflecting on my work has helped me identify areas for
-                improvement and growth as a designer and team member.
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <p>
+                  Reflecting on my work has helped me identify areas for
+                  improvement and growth as a designer and team member.
+                </p>
               </div>
-              <div>
-                By taking the time to reflect on my successes and challenges, I
-                am able to learn from my experiences and make changes to my
-                approach in the future.
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <p>
+                  By taking the time to reflect on my successes and challenges,
+                  I am able to learn from my experiences and make changes to my
+                  approach in the future.
+                </p>
               </div>
-              <div>
-                Reflection has also helped me appreciate the impact of my work
-                on the team and the business, and has motivated me to continue
-                striving for excellence.
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <p>
+                  Reflection has also helped me appreciate the impact of my work
+                  on the team and the business, and has motivated me to continue
+                  striving for excellence.
+                </p>
               </div>
             </div>
             <div>
               <h2>Future Directions</h2>
-              <div>
-                Reflecting on my work has helped me identify areas for
-                improvement and growth as a designer and team member.
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <p>
+                  Reflecting on my work has helped me identify areas for
+                  improvement and growth as a designer and team member.
+                </p>
               </div>
-              <div>
-                By taking the time to reflect on my successes and challenges, I
-                am able to learn from my experiences and make changes to my
-                approach in the future.
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <p>
+                  By taking the time to reflect on my successes and challenges,
+                  I am able to learn from my experiences and make changes to my
+                  approach in the future.
+                </p>
               </div>
-              <div>
-                Reflection has also helped me appreciate the impact of my work
-                on the team and the business, and has motivated me to continue
-                striving for excellence.
+              <br />
+              <div className="flex">
+                <div>icon</div>
+                <p>
+                  Reflection has also helped me appreciate the impact of my work
+                  on the team and the business, and has motivated me to continue
+                  striving for excellence.
+                </p>
               </div>
             </div>
           </div>
-
-          <div>
-            <div>Previous Case Study</div>
-            <div>Next Case Study</div>
+          <div className="flex justify-between bot-nav-sbsa my-[48px]">
+            <div className="flex">
+              <div>icon</div>Previous Case Study
+            </div>
+            <div className="flex">
+              Next Case Study<div>icon</div>
+            </div>
           </div>
         </div>
       </div>
