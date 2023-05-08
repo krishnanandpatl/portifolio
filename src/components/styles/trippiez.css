@@ -1,0 +1,78 @@
+.tripp-intro-card {
+  width: 95%;
+  min-height: 500px;
+  margin: auto;
+  margin-top: 76px;
+}
+.context-background-tripp p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #b2bbc6;
+  width: 100%;
+}
+.solution-tripp {
+  background: linear-gradient(227.16deg, #292240 -2.62%, #701c49 74.06%);
+  border-radius: 8px;
+  padding: 48px 56px;
+}
+.solution-tripp h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+}
+.solution-tripp div {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #b2bbc6;
+}
+.solution-tripp > div {
+  margin-left: 4%;
+  display: flex;
+}
+.research-tripp > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+  width: 100%;
+}
+.user-target-tripp {
+  background: #151a20;
+  border-radius: 4px;
+  padding: 40px 48px;
+}
+.user-target-tripp h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #b9b9b9;
+}
+.users-tripp div {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+}
+.user-type-tripp {
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+}
+.demographies-tripp div {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+}
+.demographies-tripp ul {
+  list-style: disc;
+}
+.demographies-tripp li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #909dad;
+}

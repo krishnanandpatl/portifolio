@@ -124,7 +124,7 @@ function Home_Page() {
                     </div>
                     <div className="homeProjectBox-Lower-ProjectBox-Top-Details">MoneyTap is India’s first app-based personal credit line, offered in partnership with banks and NBFCs. </div>
                     <div className="homeProjectBox-Project1-left-Link margin28">
-                    <div className="homeProjectBox-Project1-left-Link-Text">View case study</div>
+                    <div className="homeProjectBox-Project1-left-Link-Text" onClick={()=>LinkFn("/moneytap-bankers-portal")}>View case study</div>
                     <div className="homeProjectBox-Project1-left-Link-Icon"><img src={openInNew} alt="OpenInNew" /></div>
                 </div>
                 </div>
@@ -153,7 +153,7 @@ function Home_Page() {
                     </div>
                     <div className="homeProjectBox-Lower-ProjectBox-Top-Details">The Standard Bank of South Africa Limited is a South African financial services g</div>
                     <div className="homeProjectBox-Project1-left-Link margin28">
-                    <div className="homeProjectBox-Project1-left-Link-Text">View case study</div>
+                    <div className="homeProjectBox-Project1-left-Link-Text" onClick={()=>LinkFn('/trippiez')}>View case study</div>
                     <div className="homeProjectBox-Project1-left-Link-Icon"><img src={openInNew} alt="OpenInNew" /></div>
                 </div>
                 </div>

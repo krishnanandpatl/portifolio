@@ -17,6 +17,7 @@ import Dell from "./components/dell/Dell";
 import Verizon from "./components/verizon/Verizon";
 import Home_Page from "./components/home/Home_Page";
 import Mtbp from "./components/mtbp/Mtbp";
+import Trippiez from "./components/trippiez/Trippiez";
 
 // const Subex = lazy(() => import("./components/subex/Subex"));
 // const Dell = lazy(() => import("./components/dell/Dell"));
@@ -40,11 +41,15 @@ function App() {
             <Route path="/publicis-growth-os" element={<Pgos />}></Route>
             <Route path="/verizon-360" element={<Verizon />}></Route>
           </Route>
-          <Route path="/standard-bank-of-south-africa" element={<Sbsa/>}></Route>
-          <Route path="/mtbp" element={<Mtbp/>}></Route>
-          <Route path="/dell" element={<Dell/>}></Route>
-          <Route path="/subex" element={<Subex/>}></Route>
-          <Route path="/unauthorized" element={<Unauthorized/>}></Route>
+          <Route
+            path="/standard-bank-of-south-africa"
+            element={<Sbsa />}
+          ></Route>
+          <Route path="/moneytap-bankers-portal" element={<Mtbp />}></Route>
+          <Route path="/dell" element={<Dell />}></Route>
+          <Route path="/subex" element={<Subex />}></Route>
+          <Route path="/trippiez" element={<Trippiez />}></Route>
+          <Route path="/unauthorized" element={<Unauthorized />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
