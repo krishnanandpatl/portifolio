@@ -35,7 +35,6 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/my-work" element={<MyWorkPage />}></Route>
           <Route path="/dell" element={<Dell />}></Route>
-          <Route path="/subex" element={<Subex />}></Route>
           <Route path="/restricted" element={<Restricted />}></Route>
           <Route element={<RequiredAuth />}>
             <Route path="/publicis-growth-os" element={<Pgos />}></Route>

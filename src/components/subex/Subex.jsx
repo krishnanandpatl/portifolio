@@ -7,12 +7,33 @@ import workflow from "../../assets/subex/workflow.png";
 import Kanbanboard from "../../assets/subex/Kanbanboard.png";
 import Timelines from "../../assets/subex/Timelines.png";
 import TaskOriented from "../../assets/subex/TaskOriented.png";
+import subex from "../../assets/subex/subex.png";
+import bulb from "../../assets/pgos/bulb.svg";
+import revenue from "../../assets/subex/revenue.svg";
+import fraud from "../../assets/subex/fraud.svg";
+import solution from "../../assets/subex/solution.svg";
+import analsoln from "../../assets/subex/analsoln.svg";
+import leak from "../../assets/subex/leak.svg";
+import flag from "../../assets/subex/flag.svg";
+import workflowcreation from "../../assets/subex/account_tree.svg";
+import caseInvestigation from "../../assets/subex/policy.svg";
+import caseclosing from "../../assets/subex/rule_folder.svg";
+import ss1 from "../../assets/subex/ss1.png";
+import ss2 from "../../assets/subex/ss2.png";
+import ss3 from "../../assets/subex/ss3.png";
+import workflow1 from "../../assets/subex/workflow1.png";
+import casebig from "../../assets/subex/case.png";
+import closing from "../../assets/subex/closing.png";
+import efficiency from "../../assets/subex/efficiency.svg";
+import decision from "../../assets/subex/decision.svg";
+import collab from "../../assets/subex/collab.svg";
+import report from "../../assets/subex/reporting.svg";
 
 function Subex() {
   return (
     <div>
       <div className="subex-container">
-        <div className="subex-intro-card">
+        <div className="subex-intro-card flex">
           <div className="text-part-intro">
             <h1 className="heading-intro-subex">
               Revamping Subex’s Case Management through Research and Efficiency
@@ -54,11 +75,15 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div className="image-part-intro"></div>
+          <div className="image-part-intro">
+            <img src={subex} loading="lazy" alt="" />
+          </div>
         </div>
         <div className="inner-container-subex">
           <div className="key-container">
-            <div className="bulb-inner-container">image</div>
+            <div className="bulb-inner-container">
+              <img src={bulb} alt="" />
+            </div>
             <div className="bulb-side-line"></div>
             <div className="bulb-text-inner-container">
               Redesigned the company's case management system through research,
@@ -82,7 +107,9 @@ function Subex() {
             <div className="specialisation-subex">
               <div className="cont-subex">
                 <div className="speci-title-subex">
-                  <div>i</div>
+                  <div>
+                    <img src={revenue} alt="" />
+                  </div>
                   <div>Revenue Assurance</div>
                 </div>
                 <p>
@@ -92,14 +119,18 @@ function Subex() {
               </div>
               <div className="cont-subex">
                 <div className="speci-title-subex">
-                  <div>i</div>
+                  <div>
+                    <img src={fraud} alt="" />
+                  </div>
                   <div>Fraud Management</div>
                 </div>
                 <p>involves detecting and preventing fraudulent activities.</p>
               </div>
               <div className="cont-subex">
                 <div className="speci-title-subex">
-                  <div>i</div>
+                  <div>
+                    <img src={analsoln} alt="" />
+                  </div>
                   <div>Analytics solutions</div>
                 </div>
                 <p>
@@ -136,12 +167,18 @@ function Subex() {
                 <h3>Few Types of Cases</h3>
                 <br />
                 <div>
+                  <div>
+                    <img src={leak} alt="" />
+                  </div>
                   <strong>Revenue Leakage:</strong> This case type identifies
                   instances where revenue is lost due to issues such as billing
                   errors, system inefficiencies, or fraudulent activity.
                 </div>
                 <br />
                 <div>
+                  <div>
+                    <img src={leak} alt="" />
+                  </div>
                   <strong>Fraud Detection:</strong> This case type involves
                   subscription fraud or SIM box fraud, which can lead to
                   significant revenue losses for telecom companies.
@@ -150,7 +187,9 @@ function Subex() {
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div>icon</div>
+            <div>
+              <img src={flag} alt="" />
+            </div>
             <div className="buisness-challenge-subex-content">
               <h1>Buisness Challenge</h1>
               <br />
@@ -164,7 +203,9 @@ function Subex() {
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div>icon</div>
+            <div>
+              <img src={flag} alt="" />
+            </div>
             <div className="buisness-challenge-subex-content">
               <h1>Design Challenge</h1>
               <br />
@@ -177,7 +218,9 @@ function Subex() {
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div>icon</div>
+            <div>
+              <img src={solution} alt="" />
+            </div>
             <div className="buisness-challenge-subex-content">
               <h1>The Solution</h1>
               <p>
@@ -338,19 +381,26 @@ function Subex() {
                 <div className="pros-subex">
                   <h2>Frustation</h2>
                   <div>
-                    <div>Inefficient workflow creation </div>
                     <div>
+                      <img src={leak} alt="" />
+                      Inefficient workflow creation{" "}
+                    </div>
+                    <div>
+                      <img src={leak} alt="" />
                       Difficulty in prioritising and assigning cases to
                       investigators
                     </div>
                     <div>
+                      <img src={leak} alt="" />
                       Inconsistent case management processes and procedures
                     </div>
                     <div>
+                      <img src={leak} alt="" />
                       Limited visibility and collaboration oncase status and
                       progress
                     </div>
                     <div>
+                      <img src={leak} alt="" />
                       No centralised system for creating and managing case
                       information and documents
                     </div>
@@ -421,8 +471,9 @@ function Subex() {
             <br />
             <div>
               <div className="ideate-text">
-                <div>
+                <div className="">
                   <p>
+                    <img src={workflowcreation} alt="" />
                     <strong>Workflow Creation:</strong> Identified the key
                     priority for users was to streamlined workflow creation
                     process through automation and configurable work steps.
@@ -436,6 +487,7 @@ function Subex() {
                 <br />
                 <div>
                   <p>
+                    <img src={caseInvestigation} alt="" />
                     <strong>Case Investigation: </strong>
                     Users highlighted the need for better case investigation and
                     reporting tools to track cases more effectively.
@@ -447,6 +499,7 @@ function Subex() {
 
                   <br />
                   <p>
+                    <img src={caseclosing} alt="" />
                     Users expressed a strong desire for better communication and
                     collaboration tools to improve information sharing and
                     teamwork.{" "}
@@ -470,7 +523,19 @@ function Subex() {
                   </p>
                 </div>
               </div>
-              <div>Image</div>
+              <div>
+                <div>
+                  <img src={ss1} alt="" />
+                </div>
+                <div className="flex">
+                  <div>
+                    <img src={ss2} alt="" />
+                  </div>
+                  <div>
+                    <img src={ss3} alt="" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="user-workflow-subex">
@@ -600,7 +665,9 @@ function Subex() {
               </div>
               <div className="workflow-numbering-1">1</div>
             </div>
-            <div className="workflow-image-part">images</div>
+            <div className="workflow-image-part">
+              <img src={workflow1} alt="" />
+            </div>
           </div>
           <br />
           <div className="workflow-creation-subex">
@@ -663,7 +730,9 @@ function Subex() {
               </div>
               <div className="case-investigation-image">2</div>
             </div>
-            <div>images</div>
+            <div>
+              <img src={casebig} alt="" />
+            </div>
           </div>
           <br />
           <div className="workflow-creation-subex">
@@ -707,7 +776,9 @@ function Subex() {
               </div>
               <div>2</div>
             </div>
-            <div>Image</div>
+            <div>
+              <img src={closing} alt="" />
+            </div>
           </div>
         </div>
         <div className="different-bg-subex">
@@ -716,12 +787,12 @@ function Subex() {
               <h1>Deliver: Wireframes</h1>
               <br />
               <div className="wireframes-subex">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>img</div>
+                <div>img</div>
+                <div>img</div>
+                <div>img</div>
+                <div>img</div>
+                <div>img</div>
               </div>
             </div>
             <div className="partition-line-subex"></div>
@@ -729,12 +800,12 @@ function Subex() {
               <h1>Deliver: VirtualDesign</h1>
               <br />
               <div className="wireframes-subex">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>img</div>
+                <div>img</div>
+                <div>img</div>
+                <div>img</div>
+                <div>img</div>
+                <div>img</div>
               </div>
             </div>
           </div>
@@ -756,7 +827,9 @@ function Subex() {
               <div className="test-subex-inner flex gap-2">
                 <div className="w-2/3">
                   <div className="flex">
-                    <div>icon</div>
+                    <div>
+                      <img src={efficiency} alt="" />
+                    </div>
                     <div>
                       <h3>Improved Efficiency</h3>
                       <br />
@@ -771,7 +844,9 @@ function Subex() {
                   </div>
                   <br />
                   <div className="flex">
-                    <div>icon</div>
+                    <div>
+                      <img src={decision} alt="" />
+                    </div>
                     <div>
                       <h3>Better decision-making</h3>
                       <br />
@@ -784,7 +859,9 @@ function Subex() {
                   </div>
                   <br />
                   <div className="flex">
-                    <div>icon</div>
+                    <div>
+                      <img src={collab} alt="" />
+                    </div>
                     <div>
                       <h3>Enhanced collaboration</h3>
                       <br />
@@ -798,7 +875,9 @@ function Subex() {
                   </div>
                   <br />
                   <div className="flex">
-                    <div>icon</div>
+                    <div>
+                      <img src={report} alt="" />
+                    </div>
                     <div>
                       <h3>Improved reporting</h3>
                       <br />

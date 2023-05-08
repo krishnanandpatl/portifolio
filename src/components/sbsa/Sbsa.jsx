@@ -11,12 +11,24 @@ import task4 from "../../assets/sbsa/task4.png";
 import task3 from "../../assets/sbsa/task3.png";
 import task2 from "../../assets/sbsa/task2.png";
 import task1 from "../../assets/sbsa/task1.png";
+import sbsa from "../../assets/sbsa/sbsa.png"
+import fraud from "../../assets/subex/fraud.svg";
+import revenue from "../../assets/subex/revenue.svg";
+import analsoln from "../../assets/subex/analsoln.svg";
+import flag from "../../assets/sbsa/flag.svg";
+import greenflag from "../../assets/sbsa/greenflag.svg";
+import methodology from "../../assets/sbsa/methodlogy.svg";
+import Obstacles from "../../assets/sbsa/Group.png";
+import positive from "../../assets/sbsa/heart.svg";
+import improve from "../../assets/sbsa/improve.svg";
+import ss1 from "../../assets/sbsa/ss1.png"
+import ss2 from "../../assets/sbsa/ss2.png"
 
 function Sbsa() {
   return (
     <div>
       <div className="subex-container">
-        <div className="subex-intro-card">
+        <div className="subex-intro-card flex">
           <div className="text-part-intro">
             <h1 className="heading-intro-subex">
               Redesigning Standard Bank South Africa's BOL Portal for an
@@ -68,7 +80,7 @@ function Sbsa() {
               </div>
             </div>
           </div>
-          <div className="image-part-intro"></div>
+          <div className="image-part-intro"><img src={sbsa} alt="" /></div>
         </div>
         <div className="inner-container-subex">
           <div className="context-background-subex">
@@ -89,7 +101,7 @@ function Sbsa() {
             <br />
             <div className="flex buisness-owner-sbsa gap-8">
               <div>
-                <h4>Small Business Owners</h4>
+                <h4><img src={revenue} alt="" />Small Business Owners</h4>
                 <br />
                 <div className="ml-4">
                   who use the platform to manage their business finances,
@@ -97,7 +109,7 @@ function Sbsa() {
                 </div>
               </div>
               <div>
-                <h4>Corporate Finance Managers</h4>
+                <h4><img src={fraud} alt="" />Corporate Finance Managers</h4>
                 <br />
                 <div className="ml-4">
                   who use the platform to manage multiple accounts, payments,
@@ -105,7 +117,7 @@ function Sbsa() {
                 </div>
               </div>
               <div>
-                <h4>Treasury Managers</h4>
+                <h4><img src={analsoln} alt="" />Treasury Managers</h4>
                 <br />
                 <div className="ml-4">
                   who use the platform for managing foreign exchange, interest
@@ -138,7 +150,7 @@ function Sbsa() {
           </div>
           <br />
           <div className="buisness-objective-sbsa flex">
-            <div>icon</div>
+            <div><img src={flag} alt="" /></div>
             <div>
               <h1>Buisness Objective</h1>
               <br />
@@ -159,7 +171,7 @@ function Sbsa() {
           </div>
           <br />
           <div className="buisness-objective-sbsa flex">
-            <div>icon</div>
+            <div><img src={flag} alt="" /></div>
             <div>
               <h1>Design Challenge</h1>
               <p>
@@ -173,7 +185,7 @@ function Sbsa() {
           </div>
           <br />
           <div className="solution-sbsa buisness-objective-sbsa flex">
-            <div>icon</div>
+            <div><img src={flag} alt="" /></div>
             <div>
               <h1>The Solution</h1>
               <br />

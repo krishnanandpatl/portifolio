@@ -1,131 +1,19 @@
-* {
-  margin: 0;
+.footer-navs * {
+  color: #909dad;
 }
-.footer{
-  opacity: 0.5;
-  background: #090b0e;
+.footer-navs {
+  display: flex;
+  justify-content: space-between;
 }
-.footer-MainBox {
-  width: 1440px;
-  height: 248px;
-  background: #090b0e;
-  padding-top: 1px;
-  margin: auto;
+.bottom-border {
+  border: 0.5px solid #3d4c5e;
 }
-.footer-TopBox {
-  width: 367px;
-  height: 95px;
-  margin: 48px 565px 0px 508px;
-}
-.footer-TopBox-Heading {
-  width: 230px;
-  height: 39px;
-  margin-left: 68.5px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
-  text-align: center;
-  color: #b2bbc6;
-}
-.footer-TopBox-Text {
-  width: 367px;
-  height: 32px;
-  margin-top: 24px;
-  font-family: "Inter";
-  font-style: normal;
+.text-content-nav {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  text-align: center;
   color: #b2bbc6;
-}
-.Footer-Hr {
-  width: 1280px;
-  border: 0.5px solid #3d4c5e;
-  margin-top: 32.5px;
-  margin-left: 80px;
-}
-.footer-BottomBox {
-  width: 1282px;
-  height: 25px;
-  margin: 24px 78px 24px 80px;
-  display: flex;
-}
-.footer-BottomBox-Box1 {
-  width: 184px;
-  height: 24px;
-  display: flex;
-  margin-right: 113px;
-}
-.footer-BottomBox-Box1-Icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 12px;
-}
-.footer-BottomBox-Box1-Text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #909dad;
-  margin-top: 3px;
-}
-.footer-BottomBox-Box2 {
-  width: 559px;
-  height: 24px;
-  display: flex;
-  margin-right: 151px;
-}
-.footer-BottomBox-Box2-B1 {
-  height: 19px;
-  margin-right: 40px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #909dad;
-  margin-top: 3px;
-}
-.footer-BottomBox-Box2-B2 {
-  height: 19px;
-  margin-right: 40px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #909dad;
-  margin-top: 3px;
-}
-.footer-BottomBox-Box2-B3 {
-  height: 19px;
-  margin-right: 40px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #909dad;
-  margin-top: 3px;
-}
-.footer-BottomBox-Box2-B4 {
-  height: 19px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #909dad;
-  margin-top: 3px;
-}
-.footer-BottomBox-Box3 {
-  width: 285px;
-  height: 24px;
-  display: flex;
+  text-align: center;
 }
 
 @media screen {

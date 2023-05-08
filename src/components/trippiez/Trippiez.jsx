@@ -1,13 +1,16 @@
 import React from "react";
 import "../styles/trippiez.css";
 import tripp from "../../assets/trippez/tripp.png"
+import flag from '../../assets/trippez/flag.svg'
+import check from '../../assets/trippez/check_circle.svg'
+// import check from '../../assets/trippez/check_circle.svg'
 
 function Trippiez() {
   return (
     <div>
       <div className="subex-container">
         <div className="subex-intro-card flex">
-          <div className="text-part-intro">
+          <div className="text-part-intro w-3/5">
             <h1 className="heading-intro-subex">
               Designing Trippiez's booking platform to enhance bookings and
               travel experience.
@@ -47,7 +50,7 @@ function Trippiez() {
             </div>
           </div>
           <div className="image-part-intro">
-            <img src={tripp} alt="" />
+            <img src={tripp} loading="lazy" alt="" />
           </div>
         </div>
         <div className="inner-container-subex">
@@ -77,12 +80,12 @@ function Trippiez() {
           </div>
           <br />
           <div className="solution-tripp">
-            <h1 className="flex">
-              <div>icon</div>The Solutions
+            <h1 className="flex gap-4">
+              <div className=""><img src={flag} alt="" /></div>The Solutions
             </h1>
             <br />
             <div>
-              <div>icon</div>
+              <div><img src={check} alt="" /></div>
               <div>
                 The budget-based search feature simplifies travel planning by
                 allowing users to filter results based on their budget
@@ -92,7 +95,7 @@ function Trippiez() {
             </div>
             <br />
             <div>
-              <div>icon</div>
+              <div><img src={check} alt="" /></div>
               <div>
                 The interactive map feature visually displays destinations and
                 accommodations for informed decision-making based on location
@@ -102,7 +105,7 @@ function Trippiez() {
             </div>
             <br />
             <div>
-              <div>icon</div>
+              <div><img src={check} alt="" /></div>
               <div>
                 The 1-stop booking feature for hotels and flights streamlines
                 the process, enabling users to book their accommodations and
