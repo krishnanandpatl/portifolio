@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/trippiez.css";
-import tripp from "../../assets/trippez/tripp.png"
-import flag from '../../assets/trippez/flag.svg'
-import check from '../../assets/trippez/check_circle.svg'
+import tripp from "../../assets/trippez/tripp.png";
+import flag from "../../assets/trippez/flag.svg";
+import check from "../../assets/trippez/check_circle.svg";
 // import check from '../../assets/trippez/check_circle.svg'
 
 function Trippiez() {
@@ -81,11 +81,16 @@ function Trippiez() {
           <br />
           <div className="solution-tripp">
             <h1 className="flex gap-4">
-              <div className=""><img src={flag} alt="" /></div>The Solutions
+              <div className="">
+                <img src={flag} alt="" />
+              </div>
+              The Solutions
             </h1>
             <br />
             <div>
-              <div><img src={check} alt="" /></div>
+              <div>
+                <img src={check} alt="" />
+              </div>
               <div>
                 The budget-based search feature simplifies travel planning by
                 allowing users to filter results based on their budget
@@ -95,7 +100,9 @@ function Trippiez() {
             </div>
             <br />
             <div>
-              <div><img src={check} alt="" /></div>
+              <div>
+                <img src={check} alt="" />
+              </div>
               <div>
                 The interactive map feature visually displays destinations and
                 accommodations for informed decision-making based on location
@@ -105,7 +112,9 @@ function Trippiez() {
             </div>
             <br />
             <div>
-              <div><img src={check} alt="" /></div>
+              <div>
+                <img src={check} alt="" />
+              </div>
               <div>
                 The 1-stop booking feature for hotels and flights streamlines
                 the process, enabling users to book their accommodations and
@@ -159,8 +168,8 @@ function Trippiez() {
               </div>
             </div>
             <br />
-            <h2>Demographics</h2>
-            <div className="flex demographies-tripp">
+            <h4 className="demography-title mb-[12px]">Demographics</h4>
+            <div className="flex demographies-tripp justify-between">
               <div>
                 <div>Students</div>
                 <ul>
@@ -216,7 +225,7 @@ function Trippiez() {
                 </ul>
               </div>
             </div>
-            <div className="flex personality-tripp">
+            <div className="flex personality-tripp justify-between mt-[24px] mb-[40px]">
               <div>
                 <div>Personality</div>
                 <ul>
@@ -241,7 +250,7 @@ function Trippiez() {
                 </ul>
               </div>
               <div>
-                <div>Interests</div>
+                <div className="user-type-tripp">Interests</div>
                 <ul>
                   <li>
                     Students: Typically on a tight budget and may be interested
@@ -262,14 +271,14 @@ function Trippiez() {
                 </ul>
               </div>
             </div>
-            <div>
+            <div className="flex justify-between down-buttons-tripp">
               <div>Adventure seekers</div>
               <div>Cultural enthusiasts</div>
               <div>Beach lovers</div>
               <div>Wildlife and nature enthusiasts</div>
               <div>City explorers and urbanites</div>
             </div>
-            <div>
+            <div className="flex justify-between down-buttons-tripp mt-[12px]">
               <div>Music and festival goers</div>
               <div>Art and design aficionados</div>
               <div>Solo travelers</div>
@@ -277,19 +286,19 @@ function Trippiez() {
               <div>Family vacationers</div>
             </div>
           </div>
-          <div className="user-testimonial-tripp">
+          <div className="user-testimonial-tripp mt-[56px]">
             <div>
-              <div>
+              <div className="user-verbatism-tripp">
                 <div>image</div>
                 <div>
                   <div>
                     I find it hard to know where to start with so many different
                     travel options available.
                   </div>
-                  <div>Gazali Oztepe</div>
+                  <p>Gazali Oztepe</p>
                 </div>
               </div>
-              <div>
+              <div className="user-verbatism-tripp">
                 <div>image</div>
                 <div>
                   <div>
@@ -297,47 +306,47 @@ function Trippiez() {
                     information on travel websites, such as pricing and
                     availability.
                   </div>
-                  <div>Arlene McCoy</div>
+                  <p>Arlene McCoy</p>
                 </div>
               </div>
             </div>
-            <div>
+            <div className="user-verbatism-tripp mx-auto">
               <div>image</div>
               <div>
                 <div>
                   Sustainable travel is really important to me, I always try to
                   stay in eco-friendly accommodations.
                 </div>
-                <div>Idris Konak</div>
+                <p>Idris Konak</p>
               </div>
             </div>
             <div>
-              <div>
+              <div className="user-verbatism-tripp">
                 <div>image</div>
                 <div>
                   <div>
                     It's important for me to have flexibility in my travel
                     plans, as unexpected events can arise.
                   </div>
-                  <div>Kerem Topcu</div>
+                  <p>Kerem Topcu</p>
                 </div>
               </div>
-              <div>
+              <div className="user-verbatism-tripp">
                 <div>image</div>
                 <div>
                   <div>
                     I like to be able to personalize my travel experiences based
                     on my interests and preferences.
                   </div>
-                  <div>Necla Eyici</div>
+                  <p>Necla Eyici</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="parttion-line-tripp"></div>
-        <div className="inner-container-subex">
-          <p>
+        <div className="inner-container-subex pb-[80px]">
+          <p className="graphs-para-tripp">
             I wanted to make sure that our platform truly meets the needs of our
             users. To gain insights into what potential users wanted and what
             their concerns were, I conducted a survey. Through this survey, we
@@ -386,7 +395,7 @@ function Trippiez() {
               <div></div>
             </div>
           </div>
-          <p>
+          <p className="graphs-para-tripp mt-[44px]">
             With this information in hand, we can tailor our platform to better
             meet the needs of our users and provide a more seamless and
             enjoyable travel booking experience.
@@ -398,7 +407,6 @@ function Trippiez() {
           <div className="secondary-research-tripp">
             <br />
             <h3>Secondary Research </h3>
-            <br />
             <p>
               I conducted a competitive analysis to gain insights into the
               strengths and weaknesses of our competitors in the travel
@@ -407,67 +415,72 @@ function Trippiez() {
               where we can improve and areas where we are already ahead of the
               competition.
             </p>
-            <br />
             <table>
-              <tr>
-                <th>Comparison Points</th>
-                <th>Expedia</th>
-                <th>Kayak</th>
-                <th>Lonelyplanet</th>
+              <tr className="table1-tripp">
+                <th className="table-header-tripp w-2/5">Comparison Points</th>
+                <th className="w-1/5">Expedia</th>
+                <th className="w-1/5">Kayak</th>
+                <th className="w-1/5">Lonelyplanet</th>
               </tr>
               <tr>
-                <td>Search by budget</td>
+                <td className="table-details-tripp">Search by budget</td>
                 <td>y</td>
                 <td>y</td>
                 <td>n</td>
               </tr>
               <tr>
-                <td>Book air tickets and hotels</td>
+                <td className="table-details-tripp">
+                  Book air tickets and hotels
+                </td>
                 <td>y</td>
                 <td>y</td>
                 <td>n</td>
               </tr>
               <tr>
-                <td>Personalized recommendations</td>
+                <td className="table-details-tripp">
+                  Personalized recommendations
+                </td>
                 <td>Y</td>
                 <td>y</td>
                 <td>y</td>
               </tr>
               <tr>
-                <td>User reviews and ratings</td>
+                <td className="table-details-tripp">
+                  User reviews and ratings
+                </td>
                 <td>y</td>
                 <td>y</td>
                 <td>Y</td>
               </tr>
               <tr>
-                <td>Trip planning tools</td>
+                <td className="table-details-tripp">Trip planning tools</td>
                 <td>y</td>
                 <td>y</td>
                 <td>y</td>
               </tr>
               <tr>
-                <td>Vacation packages</td>
+                <td className="table-details-tripp">Vacation packages</td>
                 <td>y</td>
                 <td>y</td>
                 <td>y</td>
               </tr>
               <tr>
-                <td>Loyalty program</td>
+                <td className="table-details-tripp">Loyalty program</td>
                 <td>y</td>
                 <td>y</td>
                 <td>n</td>
               </tr>
               <tr>
-                <td>Mobile app</td>
+                <td className="table-details-tripp">Mobile app</td>
                 <td>y</td>
                 <td>y</td>
                 <td>y</td>
               </tr>
             </table>
           </div>
-          <div className="goal-pain-tripp">
+          <div className="goal-pain-tripp mt-[120px]">
             <h1>User Goals & Pain Points</h1>
-            <div>
+            <div className="goal-pain-div-tripp">
               <div>
                 <h4>User Goals</h4>
                 <div>Finding the best travel deals for their budget</div>
@@ -500,18 +513,19 @@ function Trippiez() {
               </div>
             </div>
           </div>
-          <p>
+          <p className="goal-pain-p-tripp">
             After conducting user research and identifying the needs and pain
             points of Trippiez users, we have prioritized a list of product
             features that address these issues and improve the overall user
             experience. Our priorities are based on a combination of user
-            feedback, industry standards, and business goals.{" "}
+            feedback, industry standards, and business goals.
           </p>
+          <br />
           <strong>
             By implementing these features, Trippiez can enhance its platform
             and establish itself as a leader in the travel industry.
           </strong>
-          <div className="feature-trppiz flex">
+          <div className="feature-trppiz flex flex-wrap justify-between mt-[40px]">
             <div>
               <div>icon</div>
               <div className="feature-title">Budget filter</div>
@@ -621,7 +635,7 @@ function Trippiez() {
               Trippiez. This approach ensured that the product catered to the
               needs of both users and the business.
             </p>
-            <div className="budget-search-tripp">
+            <div className="budget-search-tripp mt-[48px]">
               <div>image</div>
               <div>
                 <h3>Budget-Based Search</h3>
@@ -687,7 +701,7 @@ function Trippiez() {
             </div>
           </div>
         </div>
-        <div className="wireframe-sbsa-bg">
+        <div className="wireframe-tripp-bg">
           <div className="inner-container-subex py-[72px]">
             <div className="deliver-wireframes-sbsa">
               <h1>Deliver: Wireframes</h1>

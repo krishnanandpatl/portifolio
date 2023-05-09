@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import call from "../../assets/call.svg";
 import callDark from "../../assets/callDark.svg";
 import kshitij from "../../assets/kshitij.svg";
-import darkmode from "../../assets/darkmode.svg";
+import darkmode from "../../assets/DM.png";
 import { useNavigate } from "react-router-dom";
 import Pdf from "../../assets/resume/Resume.pdf";
 
