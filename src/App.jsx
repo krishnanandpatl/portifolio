@@ -12,14 +12,12 @@ import Unauthorized from "./components/Unauthorized";
 // import Subex from "./components/subex/Subex";
 import Home_Page from "./components/home/Home_Page";
 
-const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));
-const Mtbp = lazy(() => import("./components/mtbp/Mtbp"));
-const MyWorkPage = lazy(() => import("./components/mywork/MyWorkPage"));
-const Pgos = lazy(() => import("./components/pgos/Pgos"));
-const Trippiez = lazy(() => import("./components/trippiez/Trippiez"));
-const Subex = lazy(() => import("./components/subex/Subex"));
-const Dell = lazy(() => import("./components/dell/Dell"));
-const Verizon = lazy(() => import("./components/verizon/Verizon"));
+// const Subex = lazy(() => import("./components/subex/Subex"));
+// const Dell = lazy(() => import("./components/dell/Dell"));
+// const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));
+// const MyWorkPage = lazy(() => import("./components/mywork/MyWorkPage"));
+// const Pgos = lazy(() => import("./components/pgos/Pgos"));
+//add lazy when all css is in one file
 
 function App() {
   return (
