@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/trippiez.css";
-import tripp from "../../assets/trippez/tripp.png"
-import flag from '../../assets/trippez/flag.svg'
-import check from '../../assets/trippez/check_circle.svg'
+import tripp from "../../assets/trippez/tripp.png";
+import flag from "../../assets/trippez/flag.svg";
+import check from "../../assets/trippez/check_circle.svg";
 // import check from '../../assets/trippez/check_circle.svg'
 
 function Trippiez() {
@@ -81,11 +81,16 @@ function Trippiez() {
           <br />
           <div className="solution-tripp">
             <h1 className="flex gap-4">
-              <div className=""><img src={flag} alt="" /></div>The Solutions
+              <div className="">
+                <img src={flag} alt="" />
+              </div>
+              The Solutions
             </h1>
             <br />
             <div>
-              <div><img src={check} alt="" /></div>
+              <div>
+                <img src={check} alt="" />
+              </div>
               <div>
                 The budget-based search feature simplifies travel planning by
                 allowing users to filter results based on their budget
@@ -95,7 +100,9 @@ function Trippiez() {
             </div>
             <br />
             <div>
-              <div><img src={check} alt="" /></div>
+              <div>
+                <img src={check} alt="" />
+              </div>
               <div>
                 The interactive map feature visually displays destinations and
                 accommodations for informed decision-making based on location
@@ -105,7 +112,9 @@ function Trippiez() {
             </div>
             <br />
             <div>
-              <div><img src={check} alt="" /></div>
+              <div>
+                <img src={check} alt="" />
+              </div>
               <div>
                 The 1-stop booking feature for hotels and flights streamlines
                 the process, enabling users to book their accommodations and
@@ -159,8 +168,8 @@ function Trippiez() {
               </div>
             </div>
             <br />
-            <h2>Demographics</h2>
-            <div className="flex demographies-tripp">
+            <h4 className="demography-title mb-[12px]">Demographics</h4>
+            <div className="flex demographies-tripp justify-between">
               <div>
                 <div>Students</div>
                 <ul>
@@ -216,7 +225,7 @@ function Trippiez() {
                 </ul>
               </div>
             </div>
-            <div className="flex personality-tripp">
+            <div className="flex personality-tripp justify-between mt-[24px] mb-[40px]">
               <div>
                 <div>Personality</div>
                 <ul>
@@ -241,7 +250,7 @@ function Trippiez() {
                 </ul>
               </div>
               <div>
-                <div>Interests</div>
+                <div className="user-type-tripp">Interests</div>
                 <ul>
                   <li>
                     Students: Typically on a tight budget and may be interested
@@ -262,14 +271,14 @@ function Trippiez() {
                 </ul>
               </div>
             </div>
-            <div>
+            <div className="flex justify-between down-buttons-tripp">
               <div>Adventure seekers</div>
               <div>Cultural enthusiasts</div>
               <div>Beach lovers</div>
               <div>Wildlife and nature enthusiasts</div>
               <div>City explorers and urbanites</div>
             </div>
-            <div>
+            <div className="flex justify-between down-buttons-tripp mt-[12px]">
               <div>Music and festival goers</div>
               <div>Art and design aficionados</div>
               <div>Solo travelers</div>
@@ -279,7 +288,7 @@ function Trippiez() {
           </div>
           <div className="user-testimonial-tripp">
             <div>
-              <div>
+              <div className="user-verbatism-tripp">
                 <div>image</div>
                 <div>
                   <div>
@@ -289,7 +298,7 @@ function Trippiez() {
                   <div>Gazali Oztepe</div>
                 </div>
               </div>
-              <div>
+              <div className="user-verbatism-tripp">
                 <div>image</div>
                 <div>
                   <div>
@@ -301,7 +310,7 @@ function Trippiez() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="user-verbatism-tripp">
               <div>image</div>
               <div>
                 <div>
@@ -312,7 +321,7 @@ function Trippiez() {
               </div>
             </div>
             <div>
-              <div>
+              <div className="user-verbatism-tripp">
                 <div>image</div>
                 <div>
                   <div>
@@ -322,7 +331,7 @@ function Trippiez() {
                   <div>Kerem Topcu</div>
                 </div>
               </div>
-              <div>
+              <div className="user-verbatism-tripp">
                 <div>image</div>
                 <div>
                   <div>

@@ -34,7 +34,7 @@
   align-items: center;
   gap: 2%;
 }
-.solution-tripp>div img{
+.solution-tripp > div img {
   width: 500%;
 }
 .research-tripp > p {
@@ -74,10 +74,78 @@
 }
 .demographies-tripp ul {
   list-style: disc;
+  margin-left: 20px;
 }
 .demographies-tripp li {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #909dad;
+  margin-top: 5px;
+}
+.demography-title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #b2bbc6;
+  margin-top: 32px;
+}
+.demographies-tripp > div {
+  border: 1px solid #3d4c5e;
+  border-radius: 4px;
+  padding: 26px 20px;
+  width: 31%;
+}
+.personality-tripp > div {
+  border: 1px solid #3d4c5e;
+  border-radius: 4px;
+  width: 49%;
+  padding: 26px 20px;
+}
+.personality-tripp div {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+}
+.personality-tripp li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #909dad;
+}
+.personality-tripp ul {
+  list-style: disc;
+  margin-left: 15px;
+}
+.personality-tripp li {
+  margin-top: 5px;
+}
+.down-buttons-tripp div {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b2bbc6;
+  background: #1d242d;
+  border-radius: 80px;
+  padding: 6px 12px;
+}
+.user-testimonial-tripp > div {
+  display: flex;
+}
+.user-verbatism-tripp {
+  background: #151a20;
+  border: 1px solid #3d4c5e;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 500px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #d6dff0;
+  display: flex;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
 }
