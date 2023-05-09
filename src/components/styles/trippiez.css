@@ -132,6 +132,8 @@
 }
 .user-testimonial-tripp > div {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 23px;
 }
 .user-verbatism-tripp {
   background: #151a20;
@@ -148,4 +150,240 @@
   padding: 20px 32px;
   justify-content: center;
   align-items: center;
+  width: 46%;
+}
+.user-verbatism-tripp p {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #909dad;
+}
+.parttion-line-tripp {
+  opacity: 0.5;
+  border: 1px solid #7d7d7d;
+  width: 90%;
+  margin: auto;
+}
+.graphs-para-tripp {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+  margin-bottom: 32px;
+}
+.graph-tripp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.graph-tripp > div {
+  background: #151a20;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 48%;
+  padding: 20px 32px;
+  margin-bottom: 44px;
+}
+.graph-tripp h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b2bbc6;
+}
+.graph-tripp p {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 12px;
+  color: #909dad;
+}
+.pie-graph-tripp {
+  display: flex;
+  justify-content: space-between;
+}
+.pie-graph-tripp > div {
+  background: #151a20;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px 22px;
+  width: 30%;
+}
+.secondary-research-tripp h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #b9b9b9;
+  margin-bottom: 24px;
+}
+.secondary-research-tripp p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+  width: 92%;
+}
+.secondary-research-tripp table {
+  width: 100%;
+  margin-top: 40px;
+}
+.table1-tripp {
+  background: linear-gradient(227.16deg, #292240 -2.62%, #701c49 74.06%);
+  border: 1px solid rgba(91, 91, 91, 0.5);
+  border-radius: 4px 4px 0px 0px;
+  width: 100%;
+}
+.table1-tripp th {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 14px 24px;
+  text-align: center;
+  border-right: 1px solid rgba(91, 91, 91, 0.5);
+}
+.secondary-research-tripp > table td {
+  padding: 24px;
+  opacity: 0.5;
+  border: 1px solid rgba(91, 91, 91, 0.5);
+  text-align: center;
+}
+.table-details-tripp {
+  background: #1d242d;
+  opacity: 0.5;
+  border: 1px solid rgba(91, 91, 91, 0.5);
+  text-align: start !important;
+}
+.table-header-tripp {
+  text-align: start !important;
+}
+.goal-pain-tripp h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+  margin-bottom: 40px;
+}
+.goal-pain-div-tripp {
+  display: flex;
+  justify-content: space-between;
+}
+.goal-pain-div-tripp > div {
+  width: 48%;
+  background: #1d242d;
+  border: 1px solid #3d4c5e;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 34px 48px;
+}
+.goal-pain-div-tripp h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #d6dff0;
+  margin-bottom: 8%;
+}
+.goal-pain-div-tripp div {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+}
+.goal-pain-p-tripp {
+  margin-top: 72px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+}
+.inner-container-subex strong {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+}
+.feature-trppiz > div {
+  background: #1d242d;
+  border: 1px solid #3d4c5e;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 23%;
+  margin-bottom: 26px;
+  padding: 24px;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #d6dff0;
+  margin-bottom: 16px;
+}
+.feature-trppiz p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2bbc6;
+}
+.value-principle-tripp h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
+  margin-bottom: 35px;
+}
+.value-principle-tripp > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+}
+.budget-search-tripp,
+.interactive-tripp,
+.stop-booking-tripp {
+  background: linear-gradient(227.16deg, #292240 -2.62%, #701c49 74.06%);
+  border: 1px solid rgba(91, 91, 91, 0.2);
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 50px 48px;
+  margin-bottom: 52px;
+  display: flex;
+}
+.budget-search-tripp h3,
+.interactive-tripp h3,
+.stop-booking-tripp h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+}
+.budget-search-tripp ul,
+.interactive-tripp ul,
+.stop-booking-tripp ul {
+  list-style: disc;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #d6dff0;
+  margin-top: 24px;
+}
+.budget-search-tripp li,
+.interactive-tripp li,
+.stop-booking-tripp li {
+  margin-bottom: 5px;
+}
+.wireframe-tripp-bg {
+  background: linear-gradient(227.16deg, #292240 -2.62%, #701c49 74.06%);
+  opacity: 0.7;
+  border-radius: 4px;
 }
