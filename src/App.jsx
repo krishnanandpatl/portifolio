@@ -9,8 +9,15 @@ import Footer from "./components/navbar/Footer";
 import Restricted from "./components/secure/Restricted";
 import RequiredAuth from "./hooks/RequiredAuth";
 import Unauthorized from "./components/Unauthorized";
-// import Subex from "./components/subex/Subex";
 import Home_Page from "./components/home/Home_Page";
+import MyWorkPage from "./components/mywork/MyWorkPage";
+import Dell from "./components/dell/Dell";
+import Pgos from "./components/pgos/Pgos";
+import Sbsa from "./components/sbsa/Sbsa";
+import Mtbp from "./components/mtbp/Mtbp";
+import Verizon from "./components/verizon/Verizon";
+import Trippiez from "./components/trippiez/Trippiez";
+import Subex from "./components/subex/Subex";
 
 // const Subex = lazy(() => import("./components/subex/Subex"));
 // const Dell = lazy(() => import("./components/dell/Dell"));

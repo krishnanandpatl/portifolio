@@ -25,37 +25,39 @@ function Restricted() {
       inline: "nearest",
     });
   };
+
+
   return (
-    <div className="max-w-[1440px] border  mx-auto">
-      <div className="flex flex-col justify-center items-center">
-        <div className="access-card centre-card bc:my-[240px] bc:mx-[405px] bc:h[549px] bc:py-[64px] bc:px-[168px] border">
-          <div className="w-fit top-0 right-0 dark:text-white mr-1">x</div>
-          <div className="border centre-card">
+    <div className="max-w-[1440px] mx-auto">
+      <div className="main-container-re">
+        <div className="access-card">
+          <div className="">x</div>
+          <div className="centre-card">
             <div>Lock icon</div>
-            <div className="centre-card">
-              <div>Sorry Folks</div>
+            <div className="centre-card centre-card-re">
+              <div>Sorry Folks!😶</div>
               <div>This project is under lock and key!</div>
-              <div>This project is locked due to NDA</div>
+              <p>This project is locked due to NDA</p>
             </div>
             <div>
-              <div className="text-[12px] mt-[45px]">
+              <div className="password-p-re">
                 Please enter the password for case study
               </div>
               <input
-                className="w-[100%]"
+                className="password-input"
                 type="text"
                 name=""
                 id=""
                 onChange={(e) => setPassword(e.target.value)}
               />
               <div
-                className="submit-button text-center py-[13px] text-[18px] cursor-pointer"
+                className="submit-button cursor-pointer"
                 onClick={() => handleSubmit()}
               >
                 Submit
               </div>
             </div>
-            <div className="mb-[64px] request-access">Request access</div>
+            <div className="request-access">Request access</div>
           </div>
         </div>
       </div>

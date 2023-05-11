@@ -1,6 +1,3 @@
-* {
-  margin: 0;
-}
 .ResumeBox {
   width: 100%;
   min-height: 2000px;
@@ -51,7 +48,6 @@
 .mainRightBox {
   width: 36%;
   height: 430px;
-  border: 1px solid black;
   margin-left: -70px;
 }
 .mainLowerBox {
@@ -59,10 +55,10 @@
   min-height: 505px;
   margin-top: 61px;
 }
-p{
+.AboutBox p{
   font-size: 18px;
   line-height: 26px;
-  font-weight: 400px;
+  font-weight: 400;
   color: #909dad;
 }
 .whiteFontColor {
@@ -100,7 +96,7 @@ p{
   background-image: linear-gradient(#ed787b, #df585d);
 }
 .expNavRight {
-  width: 23%;
+  width: 25%;
   height: 22px;
   margin: 2% 0px 2.5% 41%;
   display: flex;
@@ -109,10 +105,9 @@ p{
   width: 18px;
   height: 18px;
   margin-top: 2px;
-  border: 1px solid black;
 }
 .expNavdownloadText {
-  width: 160px;
+  width: fit-content;
   height: 22px;
   margin-left: 10px;
   font-size: 18px;
@@ -217,7 +212,7 @@ p{
   .mainLowerBox {
     margin-top: 30px;
   }
-  p{
+  .AboutBox p{
     font-size: 7px;
     line-height: 10px;
   }
