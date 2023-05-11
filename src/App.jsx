@@ -18,6 +18,8 @@ import Mtbp from "./components/mtbp/Mtbp";
 import Verizon from "./components/verizon/Verizon";
 import Trippiez from "./components/trippiez/Trippiez";
 import Subex from "./components/subex/Subex";
+import Request from "./components/secure/Request";
+import ScrollButton from "./components/navbar/ScrollButoon";
 
 // const Subex = lazy(() => import("./components/subex/Subex"));
 // const Dell = lazy(() => import("./components/dell/Dell"));
@@ -51,6 +53,7 @@ function App() {
             }
           ></Route>
           <Route path="/restricted" element={<Restricted />}></Route>
+          <Route path="/request-access" element={<Request />}></Route>
           <Route element={<RequiredAuth />}>
             <Route
               path="/publicis-growth-os"
@@ -105,6 +108,7 @@ function App() {
           <Route path="/unauthorized" element={<Unauthorized />}></Route>
           <Route path="*" element={<h1>No Route Defined</h1>}></Route>
         </Routes>
+        <ScrollButton />
         <Footer />
       </BrowserRouter>
     </div>

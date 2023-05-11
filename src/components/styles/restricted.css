@@ -17,15 +17,26 @@
   align-items: center;
   justify-content: center;
 }
-.centre-card div {
-  color: white;
-}
 .centre-card input {
   background: #151a20;
   margin-top: 24px;
   border: 1px solid #3d4c5e;
   border-radius: 8px;
   margin-bottom: 21px;
+}
+.lock-container-re {
+  width: 40px;
+  height: 40px;
+  background: #151a20;
+  border: 1px solid #3d4c5e;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+.lock-container-re > img {
+  margin: auto;
+  width: fit-content;
 }
 .submit-button {
   height: 48px;
@@ -37,10 +48,13 @@
   border-radius: 8px;
   margin-bottom: 45px;
   width: 294px;
+  text-align: center;
+  color: white;
 }
 .request-access {
-  font-size: 12px;
   font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
   color: #909dad;
 }
 .centre-card-re > div {
@@ -71,4 +85,48 @@
   border-radius: 8px;
   height: 48px;
   width: 100%;
+}
+.request-card {
+  padding: 64px 168px;
+  display: flex;
+  justify-content: center;
+}
+.centre-card-req {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.centre-card-req input {
+  background: #151a20;
+  border: 1px solid #3d4c5e;
+  border-radius: 8px;
+  height: 48px;
+  width: 294px;
+}
+.centre-card-req h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #b9b9b9;
+  margin-bottom: 24px;
+}
+.centre-card-req p {
+  width: 100%;
+  text-align: start !important;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #b2bbc6;
+}
+.centre-card-req input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: start;
+  padding: 15px 16px;
+  color: #ffffff;
+  opacity: 0.3;
 }

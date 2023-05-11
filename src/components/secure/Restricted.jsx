@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/restricted.css";
+import close from "../../assets/close.svg";
+import lock from "../../assets/lock.svg";
 
 function Restricted() {
   const [password, setPassword] = useState("");
@@ -26,14 +28,17 @@ function Restricted() {
     });
   };
 
-
   return (
     <div className="max-w-[1440px] mx-auto">
-      <div className="main-container-re">
+      <div className="main-container-re my-[10%]">
         <div className="access-card">
-          <div className="">x</div>
+          <div className="w-fit cursor-pointer" onClick={()=>LinkFn("/")}>
+            <img src={close} alt="" />
+          </div>
           <div className="centre-card">
-            <div>Lock icon</div>
+            <div className="lock-container-re">
+              <img src={lock} alt="" />
+            </div>
             <div className="centre-card centre-card-re">
               <div>Sorry Folks!😶</div>
               <div>This project is under lock and key!</div>
@@ -44,20 +49,25 @@ function Restricted() {
                 Please enter the password for case study
               </div>
               <input
-                className="password-input"
-                type="text"
+                className="password-input text-white"
+                type="password"
                 name=""
                 id=""
                 onChange={(e) => setPassword(e.target.value)}
               />
               <div
-                className="submit-button cursor-pointer"
+                className="submit-button py-[12px] cursor-pointer"
                 onClick={() => handleSubmit()}
               >
                 Submit
               </div>
             </div>
-            <div className="request-access">Request access</div>
+            <div
+              className="request-access cursor-pointer"
+              onClick={() => LinkFn("/request-access")}
+            >
+              Request access
+            </div>
           </div>
         </div>
       </div>
