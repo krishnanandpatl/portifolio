@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import call from "../../assets/call.svg";
+import call from "../../assets/callnav.svg";
 import callDark from "../../assets/callDark.svg";
 import kshitij from "../../assets/kshitij.svg";
-import darkmode from "../../assets/DM.png";
+import darkmode from "../../assets/DM.svg";
 import { useNavigate } from "react-router-dom";
 import Pdf from "../../assets/resume/Resume.pdf";
 
@@ -37,7 +37,6 @@ function Navbar() {
 
   return (
     <div
-      // id="topheader"
       className="flex dark:text-gray-400 justify-between items-center h-20  mx-auto dark:dark:bg-[#1E1E1E] border-b border-b-gray-500 w-[90%] max-w-[1440px]"
     >
       <img
@@ -68,21 +67,27 @@ function Navbar() {
           </a>
         </li>
       </ul>
-      <div className="text-xs mr-5 hidden justify-between items-center md:flex">
-        <img src={darkmode} height="25px" width="25px" alt="" />
-        {theme === "dark" ? (
-          <img height="10px" width="16px" className="mr-2" src={call} alt="" />
-        ) : (
-          <img
-            height="10px"
-            width="16px"
-            className="mr-2"
-            src={callDark}
-            alt=""
-          />
-        )}
-        <div className="text-[#909DAD] text-base font-normal">
-          (+91) 9619 386 916
+      <div className="text-xs mr-5 hidden justify-between items-center gap-5 md:flex">
+        <div className="image-container-nav dark-mode-ln">
+          <img src={darkmode} alt="" />
+        </div>
+        <div className="flex gap-2 items-center">
+          <div className="image-container-nav">
+            {theme === "dark" ? (
+              <img className="mr-2" src={call} alt="" />
+            ) : (
+              <img
+                height="10px"
+                width="16px"
+                className="mr-2"
+                src={callDark}
+                alt=""
+              />
+            )}
+          </div>
+          <div className="text-[#909DAD] text-base font-normal">
+            (+91) 9619 386 916
+          </div>
         </div>
       </div>
       <div onClick={handleNav} className="block mr-6 md:hidden">

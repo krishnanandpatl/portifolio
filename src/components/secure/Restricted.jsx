@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/restricted.css";
+import close from "../../assets/close.svg";
+import lock from "../../assets/lock.svg";
 
 function Restricted() {
   const [password, setPassword] = useState("");
@@ -25,37 +27,47 @@ function Restricted() {
       inline: "nearest",
     });
   };
+
   return (
-    <div className="max-w-[1440px] border  mx-auto">
-      <div className="flex flex-col justify-center items-center">
-        <div className="access-card centre-card bc:my-[240px] bc:mx-[405px] bc:h[549px] bc:py-[64px] bc:px-[168px] border">
-          <div className="w-fit top-0 right-0 dark:text-white mr-1">x</div>
-          <div className="border centre-card">
-            <div>Lock icon</div>
-            <div className="centre-card">
-              <div>Sorry Folks</div>
+    <div className="max-w-[1440px] mx-auto">
+      <div className="main-container-re my-[10%]">
+        <div className="access-card">
+          <div className="w-fit cursor-pointer" onClick={()=>LinkFn("/")}>
+            <img src={close} alt="" />
+          </div>
+          <div className="centre-card">
+            <div className="lock-container-re">
+              <img src={lock} alt="" />
+            </div>
+            <div className="centre-card centre-card-re">
+              <div>Sorry Folks!😶</div>
               <div>This project is under lock and key!</div>
-              <div>This project is locked due to NDA</div>
+              <p>This project is locked due to NDA</p>
             </div>
             <div>
-              <div className="text-[12px] mt-[45px]">
+              <div className="password-p-re">
                 Please enter the password for case study
               </div>
               <input
-                className="w-[100%]"
-                type="text"
+                className="password-input text-white"
+                type="password"
                 name=""
                 id=""
                 onChange={(e) => setPassword(e.target.value)}
               />
               <div
-                className="submit-button text-center py-[13px] text-[18px] cursor-pointer"
+                className="submit-button py-[12px] cursor-pointer"
                 onClick={() => handleSubmit()}
               >
                 Submit
               </div>
             </div>
-            <div className="mb-[64px] request-access">Request access</div>
+            <div
+              className="request-access cursor-pointer"
+              onClick={() => LinkFn("/request-access")}
+            >
+              Request access
+            </div>
           </div>
         </div>
       </div>

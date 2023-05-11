@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/About.css";
-import Pdf from "../../assets/resume/Resume.pdf"
+import Pdf from "../../assets/resume/Resume.pdf";
+import myworkimg from "../../assets/mywork.png";
+import download from "../../assets/download.svg";
 
 function About() {
   return (
@@ -12,7 +14,9 @@ function About() {
               I'm a Product & Interaction Designer based out of Bengaluru and
               currently working at Publicis Sapient.
             </div>
-            <div className="mainRightBox"></div>
+            <div className="mainRightBox">
+              <img src={myworkimg} alt="" />
+            </div>
           </div>
           <div className="mainLowerBox">
             <p>
@@ -102,9 +106,13 @@ function About() {
               <hr className="expnavTitlehr" />
             </div>
             <div className="expNavRight">
-              <div className="expNavdownloadIcon"></div>
+              <div className="expNavdownloadIcon">
+                <img src={download} loading="lazy" alt="" />
+              </div>
               <div className="expNavdownloadText">
-                <a href={Pdf} target="_blank">Resume</a>
+                <a href={Pdf} target="_blank">
+                  Download Resume
+                </a>
               </div>
             </div>
           </div>
