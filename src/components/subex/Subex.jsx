@@ -170,22 +170,27 @@ function Subex() {
               <div className="type-case-btm-subex">
                 <h3>Few Types of Cases</h3>
                 <br />
-                <div>
+                <div className="flex gap-[10px] items-baseline">
                   <div>
                     <img src={leak} alt="" />
                   </div>
-                  <strong>Revenue Leakage:</strong> This case type identifies
-                  instances where revenue is lost due to issues such as billing
-                  errors, system inefficiencies, or fraudulent activity.
+                  <div>
+                    <strong>Revenue Leakage:</strong> This case type identifies
+                    instances where revenue is lost due to issues such as
+                    billing errors, system inefficiencies, or fraudulent
+                    activity.
+                  </div>
                 </div>
                 <br />
-                <div>
-                  <div>
+                <div className="flex gap-[10px] items-baseline">
+                  <div className="w-6">
                     <img src={leak} alt="" />
                   </div>
-                  <strong>Fraud Detection:</strong> This case type involves
-                  subscription fraud or SIM box fraud, which can lead to
-                  significant revenue losses for telecom companies.
+                  <div>
+                    <strong>Fraud Detection:</strong> This case type involves
+                    subscription fraud or SIM box fraud, which can lead to
+                    significant revenue losses for telecom companies.
+                  </div>
                 </div>
               </div>
             </div>
@@ -210,7 +215,7 @@ function Subex() {
             <div>
               <img src={flag} alt="" />
             </div>
-            <div className="buisness-challenge-subex-content">
+            <div>
               <h1>Design Challenge</h1>
               <br />
               <p>
