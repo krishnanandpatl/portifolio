@@ -32,7 +32,7 @@ function Restricted() {
     <div className="max-w-[1440px] mx-auto">
       <div className="main-container-re my-[10%]">
         <div className="access-card">
-          <div className="w-fit cursor-pointer" onClick={()=>LinkFn("/")}>
+          <div className="w-fit close-button cursor-pointer" onClick={()=>LinkFn("/")}>
             <img src={close} alt="" />
           </div>
           <div className="centre-card">

@@ -1,5 +1,4 @@
-import { password } from "../../data";
 export const Validator = (inPass) => {
-  if (inPass === password) return true;
+  if (inPass === import.meta.env.VITE_PASSWORD) return true;
   return false;
 };

@@ -2,14 +2,36 @@ import React from "react";
 import "../styles/pgos.css";
 import pgos from "../../assets/pgos/pgos.svg";
 import lock from "../../assets/pgos/lock.svg";
+import pgosbig from "../../assets/pgos/pgosBig.png";
+import bulb from "../../assets/pgos/bulb.svg";
+import dataexp from "../../assets/pgos/data_exploration.svg";
+import database from "../../assets/pgos/database.svg";
+import folder from "../../assets/pgos/folder_managed.svg";
+import redflag from "../../assets/pgos/red-flag.svg";
+import requirements from "../../assets/pgos/requirement.svg";
+import research from "../../assets/pgos/research.svg";
+import ideation from "../../assets/pgos/ideation.svg";
+import wireframe from "../../assets/pgos/wireframe.svg";
+import validation from "../../assets/pgos/validation.svg";
+import resistance from "../../assets/pgos/resistance.svg";
+import differing from "../../assets/pgos/differing.svg";
+import technical from "../../assets/pgos/constraints.svg";
+import team from "../../assets/pgos/team.svg";
+import check from "../../assets/pgos/check_circle.svg";
+import design from "../../assets/pgos/design.svg";
+import impactdes from "../../assets/pgos/impactdes.svg";
+import impactteam from "../../assets/pgos/impactteam.svg";
+import buissimpact from "../../assets/pgos/buissnessimpa.svg";
+import arrowBack from "../../assets/arrowBack.svg";
+import arrowFor from "../../assets/arrowFor.svg";
 
 function Pgos() {
   return (
     <div>
       <div className="subex-container">
-        <div className="subex-intro-card">
-          <img src={pgos} alt="" />
+        <div className="subex-intro-card flex">
           <div className="text-part-intro mt-[24px]">
+            <img src={pgos} alt="" />
             <h1 className="heading-intro-subex">
               Revolutionising Campaign Planning with User-Centred Design
             </h1>
@@ -64,12 +86,16 @@ function Pgos() {
               </div>
             </div>
           </div>
-          <div className="image-part-intro"></div>
+          <div className="image-part-intro">
+            <img src={pgosbig} alt="" />
+          </div>
         </div>
 
         <div className="inner-container-subex">
-          <div className="key-container">
-            <div className="bulb-inner-container">image</div>
+          <div className="key-container ">
+            <div className="bulb-inner-container">
+              <img src={bulb} alt="" />
+            </div>
             <div className="bulb-side-line"></div>
             <div className="bulb-text-inner-container">
               Refining and Redefining PGOS's user experience with a focus on
@@ -95,20 +121,26 @@ function Pgos() {
               <div>
                 <h3>Key Offering</h3>
                 <div>
-                  <div>icon</div>A comprehensive marketing services technology
-                  that connects data and decision-making throughout the
-                  marketing value chain.
+                  <div>
+                    <img src={dataexp} alt="" />
+                  </div>
+                  A comprehensive marketing services technology that connects
+                  data and decision-making throughout the marketing value chain.
                 </div>
                 <br />
                 <div>
-                  <div>icon</div>
+                  <div>
+                    <img src={database} alt="" />
+                  </div>
                   An intuitive and flexible campaign planning application that
                   simplifies complex data and processes into a seamless and
                   efficient workflow.
                 </div>
                 <br />
                 <div>
-                  <div>icon</div>
+                  <div>
+                    <img src={folder} alt="" />
+                  </div>
                   The ability to develop and integrate new functionalities and
                   requirements quickly in response to client requests.
                 </div>
@@ -117,21 +149,21 @@ function Pgos() {
               <div>
                 <h3>Stats</h3>
                 <div>
-                  <div>icon</div>
+                  <div><img src={check} alt="" /></div>
                   PGOS has already gained significant interest from potential
                   clients, with several major brands expressing their desire to
                   use the platform.
                 </div>
                 <br />
                 <div>
-                  <div>icon</div>
+                  <div><img src={check} alt="" /></div>
                   PGOS's flexible and configurable nature has resulted in
                   significant cost savings by simplifying their marketing and
                   media planning processes.
                 </div>
                 <br />
                 <div>
-                  <div>icon</div>
+                  <div><img src={check} alt="" /></div>
                   Early user testing and feedback has been overwhelmingly
                   positive, with users highlighting the intuitive and
                   user-friendly design of the platform.
@@ -142,7 +174,7 @@ function Pgos() {
 
           <div className="the-challenge-pgos">
             <h1 className="flex">
-              <div>icon</div> The Challenge
+              <div><img src={redflag} alt="" /></div> The Challenge
             </h1>
             <div className="mx-[58px] mt-[32px]">
               <h4>
@@ -371,7 +403,7 @@ function Pgos() {
             </p>
             <div className="design2-pgos">
               <div className="flex">
-                <div>Image</div>
+                <div className="circle-bg"><img src={requirements} alt="" /></div>
                 <div>
                   <h5>Gathering Requirements</h5>
                   <p>
@@ -382,7 +414,9 @@ function Pgos() {
                 </div>
               </div>
               <div className="flex">
-                <div>Image</div>
+                <div className="circle-bg">
+                  <img src={research} alt="" />
+                </div>
                 <div>
                   <h5>Research and Analysis</h5>
                   <p>
@@ -393,7 +427,9 @@ function Pgos() {
                 </div>
               </div>
               <div className="flex">
-                <div>Image</div>
+                <div className="circle-bg">
+                  <img src={ideation} alt="" />
+                </div>
                 <div>
                   <h5>Ideation</h5>
                   <p>
@@ -404,7 +440,9 @@ function Pgos() {
                 </div>
               </div>
               <div className="flex">
-                <div>Image</div>
+                <div className="circle-bg">
+                  <img src={wireframe} alt="" />
+                </div>
                 <div>
                   <h5>Wire-framing</h5>
                   <p>
@@ -417,7 +455,9 @@ function Pgos() {
                 </div>
               </div>
               <div className="flex">
-                <div>Image</div>
+                <div>
+                  <img src={validation} alt="" />
+                </div>
                 <div>
                   <h5>Validation</h5>
                   <p>
@@ -437,7 +477,7 @@ function Pgos() {
         </div>
       </div>
       <div className="bg-lock-pgos">
-        <div className="inner-container-subex">
+        <div className="inner-container-subex bg-image-pgos">
           <div className="product-showcase-pgos py-[160px]">
             <div>
               <img src={lock} alt="" />
@@ -472,7 +512,7 @@ function Pgos() {
             <h1>Project Challenges</h1>
             <br />
             <div className="flex">
-              <div>image</div>
+              <div><img src={resistance} alt="" /></div>
               <div>
                 <h5>Resistance to Change</h5>
                 <p>
@@ -485,7 +525,7 @@ function Pgos() {
             </div>
             <br />
             <div className="flex">
-              <div>image</div>
+              <div><img src={differing} alt="" /></div>
               <div>
                 <h5>Differing Design Opinion</h5>
                 <p>
@@ -499,7 +539,7 @@ function Pgos() {
             </div>
             <br />
             <div className="flex">
-              <div>Image</div>
+              <div><img src={technical} alt="" /></div>
               <div>
                 <h5>Technical Constraints</h5>
                 <p>
@@ -521,7 +561,7 @@ function Pgos() {
             <br />
             <div>
               <div className="p-6 border-right-pgos">
-                <div>icon</div>
+                <div><img src={design} alt="" /></div>
                 <h5>Design</h5>
                 <br />
                 <div>
@@ -542,7 +582,7 @@ function Pgos() {
                 </div>
               </div>
               <div className="p-6">
-                <div>icon</div>
+                <div><img src={team} alt="" /></div>
                 <h5>Team & Project Management</h5>
                 <br />
                 <div>
@@ -577,7 +617,7 @@ function Pgos() {
             <br />
             <div className="flex my-impact-in-pgos">
               <div className="w-3/5 impact-border-pgos">
-                <div>Image</div>
+                <div><img src={impactdes} alt="" /></div>
                 <br />
                 <h5>Design</h5>
                 <br />
@@ -605,7 +645,7 @@ function Pgos() {
                 </p>
               </div>
               <div className="w-2/5">
-                <div>Image</div>
+                <div><img src={impactteam} alt="" /></div>
                 <br />
                 <h5>Team Management</h5>
                 <br />
@@ -634,7 +674,7 @@ function Pgos() {
             </div>
           </div>
           <div className="flex">
-            <div>Image</div>
+            <div><img src={buissimpact} alt="" /></div>
             <div>
               <h5>Business Impact</h5>
               <div className="flex">
@@ -758,12 +798,12 @@ function Pgos() {
               </div>
             </div>
           </div>
-          <div className="flex justify-between bot-nav-sbsa my-[48px]">
+          <div className="navigation-subex">
             <div className="flex">
-              <div>icon</div>Previous Case Study
+              <div><img src={arrowBack} alt="" /></div>Previous Case Study
             </div>
             <div className="flex">
-              Next Case Study<div>icon</div>
+              Next Case Study<div><img src={arrowFor} alt="" /></div>
             </div>
           </div>
         </div>
