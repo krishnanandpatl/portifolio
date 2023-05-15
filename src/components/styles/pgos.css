@@ -39,8 +39,10 @@
 }
 .key-offering-sbsa > div {
   background: #151a20;
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 4px;
-  width: 48%;
+  width: 400px;
   padding: 41px;
 }
 .my-contri-intro {
@@ -48,10 +50,16 @@
 }
 .key-offering-sbsa > div > div {
   display: flex;
+
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
+}
+.key-offering-sbsa > div > div > div {
+  width: 48px;
+  height: 24px;
+  margin-right: 12px;
 }
 .key-offering-sbsa > div > h3 {
   font-weight: 700;
@@ -76,6 +84,11 @@
   font-size: 32px;
   line-height: 39px;
   color: #b9b9b9;
+}
+.the-challenge-pgos h1 >div{
+  width: 41px;
+  background: #151A20;
+  border-radius: 50%;
 }
 .the-challenge-pgos h4 {
   font-weight: 600;
@@ -205,6 +218,12 @@
   line-height: 20px;
   color: #d6dff0;
 }
+.circle-bg{
+  width: 72px;
+  /* height: 72px; */
+  background: #161616;
+  border-radius: 50%;
+}
 .design2-pgos > div {
   gap: 25px;
   margin-bottom: 48px;
@@ -215,6 +234,9 @@
   mix-blend-mode: normal;
   backdrop-filter: blur(3.5px);
   border-radius: 4px;
+}
+.bg-image-pgos{
+  background-image: url(../../assets/pgos/);
 }
 .product-showcase-pgos {
   margin: auto;
@@ -362,8 +384,8 @@
   line-height: 18px;
   color: #ffffff;
 }
-.my-impact-pgos div{
-    border-bottom: 1px solid rgba(91, 91, 91, 0.5);;
+.my-impact-pgos div {
+  border-bottom: 1px solid rgba(91, 91, 91, 0.5);
 }
 .my-impact-pgos h6 {
   font-weight: 700;

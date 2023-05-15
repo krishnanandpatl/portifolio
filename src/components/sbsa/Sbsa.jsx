@@ -15,6 +15,8 @@ import sbsa from "../../assets/sbsa/sbsa.png"
 import fraud from "../../assets/subex/fraud.svg";
 import revenue from "../../assets/subex/revenue.svg";
 import analsoln from "../../assets/subex/analsoln.svg";
+import participant from "../../assets/sbsa/participant.svg";
+import solution from "../../assets/subex/solution.svg";
 import flag from "../../assets/sbsa/flag.svg";
 import greenflag from "../../assets/sbsa/greenflag.svg";
 import methodology from "../../assets/sbsa/methodlogy.svg";
@@ -23,6 +25,8 @@ import positive from "../../assets/sbsa/heart.svg";
 import improve from "../../assets/sbsa/improve.svg";
 import ss1 from "../../assets/sbsa/ss1.png"
 import ss2 from "../../assets/sbsa/ss2.png"
+import arrowBack from "../../assets/arrowBack.svg";
+import arrowFor from "../../assets/arrowFor.svg";
 
 function Sbsa() {
   return (
@@ -185,7 +189,7 @@ function Sbsa() {
           </div>
           <br />
           <div className="solution-sbsa buisness-objective-sbsa flex">
-            <div><img src={flag} alt="" /></div>
+            <div><img src={solution} alt="" /></div>
             <div>
               <h1>The Solution</h1>
               <br />
@@ -218,7 +222,7 @@ function Sbsa() {
             <div className="discover-box1">
               <div className="w-4/5">
                 <p className="flex">
-                  <div>icon</div>
+                  <div><img src={greenflag} alt="" /></div>
                   <strong>
                     The aim of this usability report is to assess the
                     effectiveness and ease of use of the consolidated statement
@@ -228,14 +232,14 @@ function Sbsa() {
                 </p>
                 <br />
                 <p className="flex">
-                  <div>icon</div>
+                  <div><img src={participant} alt="" /></div>
                   Participants: The usability testing was conducted with a
                   diverse group of 6 participants who had previous experience
                   using the portal.
                 </p>
                 <br />
                 <p className="flex">
-                  <div>icon</div>
+                  <div><img src={methodology} alt="" /></div>
                   <div>
                     <strong>Methodology:</strong> Participants were assigned a
                     set of 5 tasks to perform using the consolidated statement
@@ -418,7 +422,7 @@ function Sbsa() {
               <br />
               <div className="discover-results-sbsa">
                 <div>
-                  <div>icon</div>
+                  <div><img src={Obstacles} alt="" /></div>
                   <h5>Obstacles</h5>
                   <ol>
                     <li>
@@ -442,7 +446,7 @@ function Sbsa() {
                   </ol>
                 </div>
                 <div>
-                  <div>icon</div>
+                  <div><img src={positive} alt="" /></div>
                   <h5>Positive aspects</h5>
                   <ol>
                     <li>
@@ -457,7 +461,7 @@ function Sbsa() {
                   </ol>
                 </div>
                 <div>
-                  <div>icon</div>
+                  <div><img src={improve} alt="" /></div>
                   <h5>Things to improve</h5>
                   <ol>
                     <li>
@@ -755,7 +759,7 @@ function Sbsa() {
             </p>
             <br />
             <div className="flex">
-              <div>icon</div>
+              <div><img src="" alt="" /></div>
               <p>
                 The results of the SCAMPER technique led to the generation of
                 numerous innovative ideas for improving the consolidated
@@ -766,7 +770,7 @@ function Sbsa() {
             </div>
             <br />
             <div className="flex">
-              <div>icon</div>
+              <div><img src="" alt="" /></div>
               <p>
                 We substituted the current static interface with a dynamic one
                 that updates in real-time, combining it with a feature that
@@ -791,7 +795,7 @@ function Sbsa() {
             <br />
             <div>
               <h5 className="flex">
-                <div>icon</div> Simplification of Navigation and Information
+                <div><img src="" alt="" /></div> Simplification of Navigation and Information
                 Architecture
               </h5>
               <p>
@@ -1011,7 +1015,7 @@ function Sbsa() {
           <div className="flex gap-10">
             <div className="w-3/5 objective-sbsa">
               <h5 className="flex">
-                <div>icon</div>Objective
+                <div><img src="" alt="" /></div>Objective
               </h5>
               <br />
               <p className="ml-9">
@@ -1026,7 +1030,7 @@ function Sbsa() {
                 37 video sessions, 14 questionnaire responses
               </strong>
             </div>
-            <div>Image</div>
+            <div><img src={ss1} alt="" /></div>
           </div>
           <br />
           <div className="flex">
@@ -1056,7 +1060,7 @@ function Sbsa() {
                 </li>
               </ol>
             </div>
-            <div>Image</div>
+            <div><img src={ss2} alt="" /></div>
           </div>
           <br />
           <div className="summary-results-sbsa">
@@ -1334,14 +1338,20 @@ function Sbsa() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between bot-nav-sbsa my-[48px]">
-          <div className="flex">
-            <div>icon</div> Previous Case Study
+        <div className="navigation-subex">
+            <div className="flex items-center cursor-pointer">
+              <div>
+                <img src={arrowBack} alt="" />
+              </div>
+              Previous Case Study
+            </div>
+            <div className="flex items-center cursor-pointer">
+              Next Case Study
+              <div>
+                <img src={arrowFor} alt="" />
+              </div>
+            </div>
           </div>
-          <div className="flex">
-            Next Case Study<div>icon</div>
-          </div>
-        </div>
       </div>
     </div>
   );

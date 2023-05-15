@@ -19,10 +19,13 @@ function Request() {
   return (
     <div className="max-w-[1440px] mx-auto">
       <div className="main-container-re my-[10%]">
-        <div className="w-fit cursor-pointer" onClick={() => LinkFn("/restricted")}>
-          <img src={close} alt="" />
-        </div>
         <div className="access-card centre-card-req">
+          <div
+            className="w-fit cursor-pointer close-button"
+            onClick={() => LinkFn("/restricted")}
+          >
+            <img src={close} alt="" />
+          </div>
           <div className="lock-container-re mb-[14px]">
             <img src={mailP} alt="" />
           </div>

@@ -3,7 +3,29 @@ import "../styles/trippiez.css";
 import tripp from "../../assets/trippez/tripp.png";
 import flag from "../../assets/trippez/flag.svg";
 import check from "../../assets/trippez/check_circle.svg";
-// import check from '../../assets/trippez/check_circle.svg'
+import hiking from "../../assets/trippez/hiking.svg";
+import family from "../../assets/trippez/family.svg";
+import g1 from "../../assets/trippez/g1.png";
+import g2 from "../../assets/trippez/g2.png";
+import g3 from "../../assets/trippez/g3.png";
+import g4 from "../../assets/trippez/g4.png";
+import cc1 from "../../assets/trippez/cc1.svg";
+import cc2 from "../../assets/trippez/cc2.svg";
+import cc3 from "../../assets/trippez/cc3.svg";
+import check_circle from "../../assets/trippez/check_circle.svg";
+import cancel from "../../assets/trippez/cancel.svg";
+import auto_stories from "../../assets/trippez/auto_stories.svg";
+import currency from "../../assets/trippez/curren.svg";
+import map from "../../assets/trippez/map.svg";
+import travel_explore from "../../assets/trippez/travel_explore.svg";
+import airline_stops from "../../assets/trippez/airline_stops.svg";
+import recommend from "../../assets/trippez/recommend.svg";
+import reviews from "../../assets/trippez/reviews.svg";
+import language_chinese_quick from "../../assets/trippez/language_chinese_quick.svg";
+import loyalty from "../../assets/trippez/loyalty.svg";
+import eco from "../../assets/trippez/eco.svg";
+import support_agent from "../../assets/trippez/support_agent.svg";
+import directive_4 from "../../assets/trippez/diversity_4.svg";
 
 function Trippiez() {
   return (
@@ -126,7 +148,7 @@ function Trippiez() {
           </div>
         </div>
       </div>
-      <div className="dark:bg-[#1D242D]">
+      <div className="">
         <div className="inner-container-subex py-[64px]">
           <div className="ideate-sbsa research-tripp">
             <h1>Research</h1>
@@ -153,7 +175,9 @@ function Trippiez() {
               <div>
                 <div className="user-type-tripp mb-2">Primary Users</div>
                 <div className="flex">
-                  <div>icon</div>
+                  <div>
+                    <img src={hiking} alt="" />
+                  </div>
                   Typically individuals who love to travel but are looking for
                   new and unfamiliar travel destinations based on their budget
                 </div>
@@ -161,7 +185,9 @@ function Trippiez() {
               <div>
                 <div className="user-type-tripp mb-2">Secondary Users</div>
                 <div className="flex">
-                  <div>icon</div>
+                  <div>
+                    <img src={family} alt="" />
+                  </div>
                   Solo travelers, Couples, Families, or groups of friends. May
                   come from different parts of the world
                 </div>
@@ -358,40 +384,46 @@ function Trippiez() {
             <div>
               <h4>What is your preferred budget range for travel?</h4>
               <p>20 Responses </p>
-              <img src="" alt="" />
+              <img src={g1} alt="" />
             </div>
             <div>
               <h4>What is your preferred method of travel?</h4>
               <p>18 Responses </p>
-              <img src="" alt="" />
+              <img src={g2} alt="" />
             </div>
             <div>
               <h4>
                 What types of destinations are you most interested in visiting?
               </h4>
               <p>25 Responses </p>
-              <img src="" alt="" />
+              <img src={g3} alt="" />
             </div>
             <div>
               <h4>What is your preferred accommodation type?</h4>
               <p>22 Responses </p>
-              <img src="" alt="" />
+              <img src={g4} alt="" />
             </div>
           </div>
           <div className="pie-graph-tripp">
             <div>
               <div>Must-haves when booking an accommodation?</div>
-              <div></div>
+              <div>
+                <img src={cc1} alt="" />
+              </div>
               <div></div>
             </div>
             <div>
               <div>How often do you travel?</div>
-              <div></div>
+              <div>
+                <img src={cc2} alt="" />
+              </div>
               <div></div>
             </div>
             <div>
               <div>How concerned are you about security when traveling?</div>
-              <div></div>
+              <div>
+                <img src={cc3} alt="" />
+              </div>
               <div></div>
             </div>
           </div>
@@ -424,57 +456,105 @@ function Trippiez() {
               </tr>
               <tr>
                 <td className="table-details-tripp">Search by budget</td>
-                <td>y</td>
-                <td>y</td>
-                <td>n</td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={cancel} alt="" />
+                </td>
               </tr>
               <tr>
                 <td className="table-details-tripp">
                   Book air tickets and hotels
                 </td>
-                <td>y</td>
-                <td>y</td>
-                <td>n</td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={cancel} alt="" />
+                </td>
               </tr>
               <tr>
                 <td className="table-details-tripp">
                   Personalized recommendations
                 </td>
-                <td>Y</td>
-                <td>y</td>
-                <td>y</td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
               </tr>
               <tr>
                 <td className="table-details-tripp">
                   User reviews and ratings
                 </td>
-                <td>y</td>
-                <td>y</td>
-                <td>Y</td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
               </tr>
               <tr>
                 <td className="table-details-tripp">Trip planning tools</td>
-                <td>y</td>
-                <td>y</td>
-                <td>y</td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
               </tr>
               <tr>
                 <td className="table-details-tripp">Vacation packages</td>
-                <td>y</td>
-                <td>y</td>
-                <td>y</td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
               </tr>
               <tr>
                 <td className="table-details-tripp">Loyalty program</td>
-                <td>y</td>
-                <td>y</td>
-                <td>n</td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={cancel} alt="" />
+                </td>
               </tr>
               <tr>
                 <td className="table-details-tripp">Mobile app</td>
-                <td>y</td>
-                <td>y</td>
-                <td>y</td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
+                <td>
+                  <img src={check_circle} alt="" />
+                </td>
               </tr>
             </table>
           </div>
@@ -527,7 +607,9 @@ function Trippiez() {
           </strong>
           <div className="feature-trppiz flex flex-wrap justify-between mt-[40px]">
             <div>
-              <div>icon</div>
+              <div>
+                <img src={currency} alt="" />
+              </div>
               <div className="feature-title">Budget filter</div>
               <p>
                 Allow users to search for travel destinations based on their
@@ -535,7 +617,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={auto_stories} alt="" />
+              </div>
               <div className="feature-title">One-stop booking</div>
               <p>
                 Allow users to book flights, hotels, and activities on the same
@@ -543,7 +627,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={map} alt="" />
+              </div>
               <div className="feature-title">Interactive maps</div>
               <p>
                 Offer interactive maps to help users explore the destination and
@@ -551,7 +637,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={airline_stops} alt="" />
+              </div>
               <div className="feature-title">Multi-destination booking</div>
               <p>
                 Allow users to book flights and accommodations for multiple
@@ -559,7 +647,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={travel_explore} alt="" />
+              </div>
               <div className="feature-title">Trip planning tools</div>
               <p>
                 Provide users with tools to plan their trip, including packing
@@ -567,7 +657,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={recommend} alt="" />
+              </div>
               <div className="feature-title">Personalised recommendations</div>
               <p>
                 Provide customised travel recommendations based on user
@@ -575,7 +667,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={reviews} alt="" />
+              </div>
               <div className="feature-title">Reviews and ratings</div>
               <p>
                 Provide user-generated reviews and ratings for destinations,
@@ -583,7 +677,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={language_chinese_quick} alt="" />
+              </div>
               <div className="feature-title">Multi-language support</div>
               <p>
                 Offer support in multiple languages to cater to a diverse user
@@ -591,7 +687,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={loyalty} alt="" />
+              </div>
               <div className="feature-title">Loyalty rewards program</div>
               <p>
                 Offer a loyalty program to reward users for their frequent
@@ -599,7 +697,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={eco} alt="" />
+              </div>
               <div className="feature-title">Sustainable travel options</div>
               <p>
                 eco-friendly stay and carbon offsets to attract environmentally
@@ -607,7 +707,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={directive_4} alt="" />
+              </div>
               <div className="feature-title">Social sharing</div>
               <p>
                 Enable users to share their travel experiences on social media,
@@ -616,7 +718,9 @@ function Trippiez() {
               </p>
             </div>
             <div>
-              <div>icon</div>
+              <div>
+                <img src={support_agent} alt="" />
+              </div>
               <div className="feature-title">24/7 customer service</div>
               <p>
                 Provide round-the-clock customer service to address any issues

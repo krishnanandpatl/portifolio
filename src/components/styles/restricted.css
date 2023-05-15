@@ -10,6 +10,13 @@
     0px 19px 42px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 64px 168px;
+  position: relative;
+}
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
 }
 .centre-card {
   display: flex;

@@ -1,1 +1,0 @@
-export const password="12345678!@Abc"
