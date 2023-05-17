@@ -226,7 +226,7 @@
   padding-top: 30px;
   display: flex;
   gap: 12px;
-  align-items:baseline;
+  align-items: baseline;
 }
 .buisness-challenge-subex-content h1 {
   font-weight: 700;
@@ -268,8 +268,14 @@ i {
   letter-spacing: -0.02em;
   color: #b9b9b9;
 }
+.research-table-subex th {
+  border: 1px solid #3d4c5e;
+}
 .research-table-subex tr {
   background: #1d242d;
+  border: 1px solid #3d4c5e;
+}
+.research-table-subex td {
   border: 1px solid #3d4c5e;
 }
 .research-table-header-subex {
@@ -285,13 +291,16 @@ i {
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
-  padding: 5px;
+  padding: 10px 16px;
+  text-align: center;
 }
 .research-table-subex th {
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
+  text-align: start;
+  padding: 8px 24px;
 }
 .primary-research-p1 {
   font-weight: 700;
@@ -356,8 +365,18 @@ i {
 .pros-subex {
   width: 40%;
 }
+.pros-subex > div > div {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
 .cons-subex {
   width: 40%;
+}
+.cons-subex > div > div {
+  gap: 12px;
+  display: flex;
+  align-items: baseline;
 }
 .pros-cons-comapare h2 {
   font-family: "Work Sans";
@@ -575,6 +594,13 @@ i {
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
+  margin-left: 15px;
+}
+.workflow-creation-para strong {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
 }
 .workflow-creation-para > div {
   font-weight: 700;
@@ -679,6 +705,7 @@ i {
   font-size: 12px;
   line-height: 24px;
   color: #ffffff;
+  margin-left: 18px;
 }
 .text-subex-inner2 div {
   font-weight: 700;
@@ -760,4 +787,11 @@ i {
 .navigation-subex > div > div {
   margin-left: 8px;
   margin-right: 8px;
+}
+.complete-diagram-subex {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* text-align: right; */
+  color: #d6dff0;
 }

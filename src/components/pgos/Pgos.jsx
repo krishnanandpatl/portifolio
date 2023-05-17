@@ -24,6 +24,7 @@ import impactteam from "../../assets/pgos/impactteam.svg";
 import buissimpact from "../../assets/pgos/buissnessimpa.svg";
 import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
+import arrow from "../../assets/pgos/Arrow.svg"
 
 function Pgos() {
   return (
@@ -561,7 +562,7 @@ function Pgos() {
             <br />
             <div>
               <div className="p-6 border-right-pgos">
-                <div><img src={design} alt="" /></div>
+                <div className="mb-4"><img src={design} alt="" /></div>
                 <h5>Design</h5>
                 <br />
                 <div>
@@ -582,7 +583,7 @@ function Pgos() {
                 </div>
               </div>
               <div className="p-6">
-                <div><img src={team} alt="" /></div>
+                <div className="mb-4"><img src={team} alt="" /></div>
                 <h5>Team & Project Management</h5>
                 <br />
                 <div>
@@ -616,8 +617,8 @@ function Pgos() {
             <h1>My Impact</h1>
             <br />
             <div className="flex my-impact-in-pgos">
-              <div className="w-3/5 impact-border-pgos">
-                <div><img src={impactdes} alt="" /></div>
+              <div className="w-3/5 impact-border-pgos pr-[60px]">
+                <div className=""><img src={impactdes} alt="" /></div>
                 <br />
                 <h5>Design</h5>
                 <br />
@@ -644,7 +645,7 @@ function Pgos() {
                   major roadblocks.
                 </p>
               </div>
-              <div className="w-2/5">
+              <div className="w-2/5 pl-[60px] pb-[40px]">
                 <div><img src={impactteam} alt="" /></div>
                 <br />
                 <h5>Team Management</h5>
@@ -673,11 +674,12 @@ function Pgos() {
               </div>
             </div>
           </div>
-          <div className="flex">
-            <div><img src={buissimpact} alt="" /></div>
-            <div>
+          <div className="flex gap-[42px] pb-[56px]">
+            <div className="w-1/5"><img src={buissimpact} alt="" /></div>
+            <div className="buisness-impact-pgos">
               <h5>Business Impact</h5>
-              <div className="flex">
+              <br />
+              <div className="flex gap-[120px]">
                 <div>
                   <strong>Increased satisfaction</strong>
                   <p>
@@ -707,7 +709,7 @@ function Pgos() {
             <br />
             <div>
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <div>
                   Through my work with PGOS, I have learned to balance design
                   quality with technical constraints and business requirements.
@@ -718,7 +720,7 @@ function Pgos() {
               </div>
               <br />
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <div>
                   In managing UX tracks for projects, I have developed skills in
                   project management, including task prioritization, timeline
@@ -728,7 +730,7 @@ function Pgos() {
               </div>
               <br />
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <div>
                   Working with a variety of stakeholders, including program
                   managers, tech leads, business teams, and design teams, I have
@@ -743,7 +745,7 @@ function Pgos() {
               <h2>Reflection</h2>
               <br />
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <p>
                   Reflecting on my work has helped me identify areas for
                   improvement and growth as a designer and team member.
@@ -751,7 +753,7 @@ function Pgos() {
               </div>
               <br />
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <p>
                   By taking the time to reflect on my successes and challenges,
                   I am able to learn from my experiences and make changes to my
@@ -760,7 +762,7 @@ function Pgos() {
               </div>
               <br />
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <p>
                   Reflection has also helped me appreciate the impact of my work
                   on the team and the business, and has motivated me to continue
@@ -772,7 +774,7 @@ function Pgos() {
               <h2>Future Directions</h2>
               <br />
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <p>
                   Reflecting on my work has helped me identify areas for
                   improvement and growth as a designer and team member.
@@ -780,7 +782,7 @@ function Pgos() {
               </div>
               <br />
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <p>
                   By taking the time to reflect on my successes and challenges,
                   I am able to learn from my experiences and make changes to my
@@ -789,7 +791,7 @@ function Pgos() {
               </div>
               <br />
               <div className="flex">
-                <div>icon</div>
+                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <p>
                   Reflection has also helped me appreciate the impact of my work
                   on the team and the business, and has motivated me to continue
