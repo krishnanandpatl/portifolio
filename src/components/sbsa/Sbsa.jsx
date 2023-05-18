@@ -5,13 +5,14 @@ import no from "../../assets/sbsa/no.svg";
 import male from "../../assets/sbsa/male.svg";
 import female from "../../assets/sbsa/female.svg";
 import workflow from "../../assets/sbsa/userworkflow.png";
+import openInNew from "../../assets/home/openInNew.png";
 import approach1 from "../../assets/sbsa/approach1.svg";
 import approach2 from "../../assets/sbsa/approach2.png";
 import task4 from "../../assets/sbsa/task4.png";
 import task3 from "../../assets/sbsa/task3.png";
 import task2 from "../../assets/sbsa/task2.png";
 import task1 from "../../assets/sbsa/task1.png";
-import sbsa from "../../assets/sbsa/sbsa.png"
+import sbsa from "../../assets/sbsa/sbsa.png";
 import fraud from "../../assets/subex/fraud.svg";
 import revenue from "../../assets/subex/revenue.svg";
 import analsoln from "../../assets/subex/analsoln.svg";
@@ -20,13 +21,17 @@ import solution from "../../assets/subex/solution.svg";
 import flag from "../../assets/sbsa/flag.svg";
 import greenflag from "../../assets/sbsa/greenflag.svg";
 import methodology from "../../assets/sbsa/methodlogy.svg";
-import Obstacles from "../../assets/sbsa/Group.png";
+import Obstacles from "../../assets/sbsa/Vector.svg";
 import positive from "../../assets/sbsa/heart.svg";
 import improve from "../../assets/sbsa/improve.svg";
-import ss1 from "../../assets/sbsa/ss1.png"
-import ss2 from "../../assets/sbsa/ss2.png"
+import ss1 from "../../assets/sbsa/ss1.png";
+import ss2 from "../../assets/sbsa/ss2.png";
 import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
+import arrow from "../../assets/pgos/Arrow.svg";
+import check from "../../assets/pgos/check_circle.svg";
+import greyarrow from "../../assets/sbsa/GreyArrow.svg";
+import areachart from "../../assets/sbsa/area_chart.svg";
 
 function Sbsa() {
   return (
@@ -84,7 +89,9 @@ function Sbsa() {
               </div>
             </div>
           </div>
-          <div className="image-part-intro"><img src={sbsa} alt="" /></div>
+          <div className="image-part-intro">
+            <img src={sbsa} alt="" />
+          </div>
         </div>
         <div className="inner-container-subex">
           <div className="context-background-subex">
@@ -105,25 +112,34 @@ function Sbsa() {
             <br />
             <div className="flex buisness-owner-sbsa gap-8">
               <div>
-                <h4><img src={revenue} alt="" />Small Business Owners</h4>
+                <div className="flex gap-2 items-center">
+                  <img src={revenue} alt="" />
+                  <h4>Small Business Owners</h4>
+                </div>
                 <br />
-                <div className="ml-4">
+                <div className="ml-8">
                   who use the platform to manage their business finances,
                   transactions, and payments
                 </div>
               </div>
               <div>
-                <h4><img src={fraud} alt="" />Corporate Finance Managers</h4>
+                <div className="flex gap-2 items-center">
+                  <img src={fraud} alt="" />
+                  <h4>Corporate Finance Managers</h4>
+                </div>
                 <br />
-                <div className="ml-4">
+                <div className="ml-8">
                   who use the platform to manage multiple accounts, payments,
                   and transactions on behalf of their company
                 </div>
               </div>
               <div>
-                <h4><img src={analsoln} alt="" />Treasury Managers</h4>
+                <div className="flex gap-2 items-center">
+                  <img src={analsoln} alt="" />
+                  <h4> Treasury Managers</h4>
+                </div>
                 <br />
-                <div className="ml-4">
+                <div className="ml-8">
                   who use the platform for managing foreign exchange, interest
                   rate risks, and investment portfolios.
                 </div>
@@ -154,7 +170,9 @@ function Sbsa() {
           </div>
           <br />
           <div className="buisness-objective-sbsa flex">
-            <div><img src={flag} alt="" /></div>
+            <div className="w-1/5">
+              <img src={flag} alt="" />
+            </div>
             <div>
               <h1>Buisness Objective</h1>
               <br />
@@ -175,9 +193,12 @@ function Sbsa() {
           </div>
           <br />
           <div className="buisness-objective-sbsa flex">
-            <div><img src={flag} alt="" /></div>
+            <div className="w-1/5">
+              <img src={flag} alt="" />
+            </div>
             <div>
               <h1>Design Challenge</h1>
+              <br />
               <p>
                 How might we improve the Consolidated Balances module in the BOL
                 portal making it easy for users to add and remove accounts, edit
@@ -189,7 +210,9 @@ function Sbsa() {
           </div>
           <br />
           <div className="solution-sbsa buisness-objective-sbsa flex">
-            <div><img src={solution} alt="" /></div>
+            <div className="w-1/5">
+              <img src={solution} alt="" />
+            </div>
             <div>
               <h1>The Solution</h1>
               <br />
@@ -207,7 +230,9 @@ function Sbsa() {
               </p>
             </div>
           </div>
-          <div className="partition-line-sbsa my-[80px]"></div>
+        </div>
+        <div className="partition-line-sbsa my-[80px]"></div>
+        <div className="inner-container-subex">
           <div className="discover-sbsa">
             <h1>Discover</h1>
             <br />
@@ -222,7 +247,9 @@ function Sbsa() {
             <div className="discover-box1">
               <div className="w-4/5">
                 <p className="flex">
-                  <div><img src={greenflag} alt="" /></div>
+                  <div className="w-1/5">
+                    <img src={greenflag} alt="" />
+                  </div>
                   <strong>
                     The aim of this usability report is to assess the
                     effectiveness and ease of use of the consolidated statement
@@ -232,14 +259,18 @@ function Sbsa() {
                 </p>
                 <br />
                 <p className="flex">
-                  <div><img src={participant} alt="" /></div>
+                  <div className="w-1/5">
+                    <img src={participant} alt="" />
+                  </div>
                   Participants: The usability testing was conducted with a
                   diverse group of 6 participants who had previous experience
                   using the portal.
                 </p>
                 <br />
                 <p className="flex">
-                  <div><img src={methodology} alt="" /></div>
+                  <div className="w-1/5">
+                    <img src={methodology} alt="" />
+                  </div>
                   <div>
                     <strong>Methodology:</strong> Participants were assigned a
                     set of 5 tasks to perform using the consolidated statement
@@ -287,134 +318,136 @@ function Sbsa() {
                     </ol>
                   </div>
                 </div>
-                <div className="table-experience">
-                  <table>
-                    <td>
-                      <tr>
+                <div className="table-experience w-3/5 h-full">
+                  <table className="w-full h-full">
+                    <tr className="">
+                      <th>
                         <img src={female} alt="" />
-                      </tr>
-                      <tr>Luisa, 28</tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                    </td>
-                    <td>
-                      <tr>
+                      </th>
+                      <th>
                         <img src={female} alt="" />
-                      </tr>
-                      <tr>Tombo, 45 </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                    </td>
-                    <td>
-                      <tr>
+                      </th>
+                      <th>
                         <img src={male} alt="" />
-                      </tr>
-                      <tr>Andre, 40</tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                    </td>
-                    <td>
-                      <tr>
+                      </th>
+                      <th>
                         <img src={male} alt="" />
-                      </tr>
-                      <tr>Farai, 37</tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                    </td>
-                    <td>
-                      <tr>
+                      </th>
+                      <th>
                         <img src={male} alt="" />
-                      </tr>
-                      <tr>Alonso, 38</tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={no} alt="" />
-                      </tr>
-                      <tr>
-                        <img src={yes} alt="" />
-                      </tr>
-                    </td>
-                    <td>
-                      <tr>
+                      </th>
+                      <th>
                         <img src={male} alt="" />
-                      </tr>
-                      <tr>José, 40</tr>
-                      <tr>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Luisa, 28</td>
+                      <td>Tombo, 45 </td>
+                      <td>Andre, 40</td>
+                      <td>Farai, 37</td>
+                      <td>Alonso, 38</td>
+                      <td>José, 40</td>
+                    </tr>
+                    <tr>
+                      <td>
                         <img src={no} alt="" />
-                      </tr>
-                      <tr>
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
                         <img src={yes} alt="" />
-                      </tr>
-                      <tr>
+                      </td>
+                      <td>
                         <img src={no} alt="" />
-                      </tr>
-                      <tr>
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
                         <img src={yes} alt="" />
-                      </tr>
-                      <tr>
+                      </td>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                      <td>
                         <img src={no} alt="" />
-                      </tr>
-                    </td>
+                      </td>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                      <td>
+                        <img src={yes} alt="" />
+                      </td>
+                      <td>
+                        <img src={no} alt="" />
+                      </td>
+                    </tr>
                   </table>
                 </div>
               </div>
@@ -422,7 +455,9 @@ function Sbsa() {
               <br />
               <div className="discover-results-sbsa">
                 <div>
-                  <div><img src={Obstacles} alt="" /></div>
+                  <div>
+                    <img src={Obstacles} alt="" />
+                  </div>
                   <h5>Obstacles</h5>
                   <ol>
                     <li>
@@ -446,7 +481,9 @@ function Sbsa() {
                   </ol>
                 </div>
                 <div>
-                  <div><img src={positive} alt="" /></div>
+                  <div>
+                    <img src={positive} alt="" />
+                  </div>
                   <h5>Positive aspects</h5>
                   <ol>
                     <li>
@@ -461,7 +498,9 @@ function Sbsa() {
                   </ol>
                 </div>
                 <div>
-                  <div><img src={improve} alt="" /></div>
+                  <div>
+                    <img src={improve} alt="" />
+                  </div>
                   <h5>Things to improve</h5>
                   <ol>
                     <li>
@@ -536,7 +575,9 @@ function Sbsa() {
               </div>
             </div>
           </div>
-          <div className="partition-line-subex"></div>
+        </div>
+        <div className="partition-line-subex"></div>
+        <div className="inner-container-subex">
           <div className="sbsa-below-understanding">
             To gain a deeper understanding of the current legacy system, we
             conducted both <strong>competitive analysis</strong> and{" "}
@@ -759,18 +800,22 @@ function Sbsa() {
             </p>
             <br />
             <div className="flex">
-              <div><img src="" alt="" /></div>
+              <div>
+                <img src={check} alt="" />
+              </div>
               <p>
                 The results of the SCAMPER technique led to the generation of
                 numerous innovative ideas for improving the consolidated
-                balances feature of BOL.We applied the <span>Substitute</span>{" "}
+                balances feature of BOL.We applied the <span>Substitute</span>
                 and <span>Combine </span>
                 techniques to the Consolidated Balances feature of BOL.
               </p>
             </div>
             <br />
             <div className="flex">
-              <div><img src="" alt="" /></div>
+              <div>
+                <img src={check} alt="" />
+              </div>
               <p>
                 We substituted the current static interface with a dynamic one
                 that updates in real-time, combining it with a feature that
@@ -778,8 +823,11 @@ function Sbsa() {
               </p>
             </div>
             <br />
-            <p className="link-report-sbsa">
-              View SCAMPER report<div>icon</div>
+            <p className="link-report-sbsa flex items-center">
+              View SCAMPER report
+              <div>
+                <img src={openInNew} alt="" />
+              </div>
             </p>
           </div>
           <br />
@@ -794,9 +842,11 @@ function Sbsa() {
             </p>
             <br />
             <div>
-              <h5 className="flex">
-                <div><img src="" alt="" /></div> Simplification of Navigation and Information
-                Architecture
+              <h5 className="flex gap-3">
+                <div>
+                  <img src={greyarrow} alt="" />
+                </div>
+                Simplification of Navigation and Information Architecture
               </h5>
               <p>
                 Simplifying the navigation of the feature to make it more
@@ -804,8 +854,11 @@ function Sbsa() {
               </p>
             </div>
             <div>
-              <h5 className="flex">
-                <div>icon</div> Visualisation and Presentation
+              <h5 className="flex gap-3">
+                <div>
+                  <img src={greyarrow} alt="" />
+                </div>{" "}
+                Visualisation and Presentation
               </h5>
               <p>
                 Introducing interactive graphs to visualise account activity
@@ -813,8 +866,11 @@ function Sbsa() {
               </p>
             </div>
             <div>
-              <h5 className="flex">
-                <div>icon</div> Recommendation and Suggestion
+              <h5 className="flex  gap-3">
+                <div>
+                  <img src={greyarrow} alt="" />
+                </div>{" "}
+                Recommendation and Suggestion
               </h5>
               <p>
                 Adding a feature that recommends actions to take based on
@@ -822,8 +878,11 @@ function Sbsa() {
               </p>
             </div>
             <div>
-              <h5 className="flex">
-                <div>icon</div> Customisation and Alerting
+              <h5 className="flex gap-3">
+                <div>
+                  <img src={greyarrow} alt="" />
+                </div>{" "}
+                Customisation and Alerting
               </h5>
               <p>
                 Allowing users to set and customise alerts for specific account
@@ -842,8 +901,10 @@ function Sbsa() {
               <br /> From these, we prioritised the top ideas, including:
             </p>
             <br />
-            <div className="flex">
-              <div>icon</div>
+            <div className="flex gap-4">
+              <div>
+                <img src={check} alt="" />
+              </div>
               <div className="w-3/4">
                 <h5>
                   Simplification of Navigation and Information Architecture
@@ -892,7 +953,9 @@ function Sbsa() {
               <img src={workflow} alt="" />
             </div>
           </div>
-          <div className="partition-line-sbsa my-[64px]"></div>
+        </div>
+        <div className="partition-line-sbsa my-[64px]"></div>
+        <div className="inner-container-subex">
           <div className="approach1-sbsa">
             <p>
               After conducting multiple brainstorming sessions, we shifted our
@@ -939,12 +1002,14 @@ function Sbsa() {
                   </li>
                 </ul>
               </div>
-              <div className="ml-20 mt-[30px]">
+              <div className="ml-20 mt-[30px] w-2/5">
                 <img src={approach1} alt="" />
               </div>
             </div>
           </div>
-          <div className="partition-line-sbsa my-[18px]"></div>
+        </div>
+        <div className="partition-line-sbsa my-[18px]"></div>
+        <div className="inner-container-subex">
           <div className="approach1-sbsa flex">
             <div className="w-1/2">
               <h4>Approach #2</h4>
@@ -975,7 +1040,7 @@ function Sbsa() {
                 </li>
               </ul>
             </div>
-            <div className="w-1/2 ml-20 mt-[30px]">
+            <div className="w-2/5 ml-20 mt-[30px]">
               <img src={approach2} alt="" />
             </div>
           </div>
@@ -993,7 +1058,10 @@ function Sbsa() {
                 <div></div>
                 <div></div>
               </div>
-              <div className="partition-line-sbsa my-[72px]"></div>
+            </div></div>
+            <div className="partition-line-sbsa my-[72px]"></div>
+            <div className="inner-container-subex">
+            <div>
               <h1>Deliver: Visual Design</h1>
               <br />
               <div className="wireframe-sbsa">
@@ -1014,8 +1082,11 @@ function Sbsa() {
           <br />
           <div className="flex gap-10">
             <div className="w-3/5 objective-sbsa">
-              <h5 className="flex">
-                <div><img src="" alt="" /></div>Objective
+              <h5 className="flex gap-2">
+                <div>
+                  <img src={areachart} alt="" />
+                </div>
+                Objective
               </h5>
               <br />
               <p className="ml-9">
@@ -1030,13 +1101,15 @@ function Sbsa() {
                 37 video sessions, 14 questionnaire responses
               </strong>
             </div>
-            <div><img src={ss1} alt="" /></div>
+            <div className="w-2/5">
+              <img src={ss1} alt="" />
+            </div>
           </div>
           <br />
           <div className="flex">
             <div className="gap-10 objective-sbsa">
-              <h5 className="flex">
-                <div>icon</div>Tasks
+              <h5 className="flex gap-2">
+                <div><img src={areachart} alt="" /></div>Tasks
               </h5>
               <br />
               <p className="ml-9">
@@ -1060,7 +1133,9 @@ function Sbsa() {
                 </li>
               </ol>
             </div>
-            <div><img src={ss2} alt="" /></div>
+            <div className="w-2/5">
+              <img src={ss2} alt="" />
+            </div>
           </div>
           <br />
           <div className="summary-results-sbsa">
@@ -1202,7 +1277,7 @@ function Sbsa() {
               <tr>
                 <td>Navigation</td>
                 <td>Confusing and cluttered with no clear hierarchy</td>
-                <td>
+                <td><img src={check} alt=""/>
                   Clear and intuitive with consolidated balances and account
                   subgroups prominently displayed
                 </td>
@@ -1210,14 +1285,14 @@ function Sbsa() {
               <tr>
                 <td>Search Function</td>
                 <td>Basic search function with limited filters</td>
-                <td>
+                <td><img src={check} alt=""/>
                   Robust search function with advanced filters and suggestions
                 </td>
               </tr>
               <tr>
                 <td>Information Architecture</td>
                 <td>Poor organization of information</td>
-                <td>
+                <td><img src={check} alt=""/>
                   Improved information architecture with clear categorization
                   and labeling
                 </td>
@@ -1227,7 +1302,7 @@ function Sbsa() {
                 <td>
                   High cognitive load due to overwhelming amount of information
                 </td>
-                <td>
+                <td><img src={check} alt=""/>
                   {" "}
                   Reduced cognitive load with streamlined interface and relevant
                   information displayed prominently
@@ -1239,7 +1314,7 @@ function Sbsa() {
                   Making Difficult to make informed decisions due to lack of
                   relevant information
                 </td>
-                <td>
+                <td><img src={check} alt=""/>
                   Improved decision making with clear recommendations based on
                   account balances and spending patterns
                 </td>
@@ -1247,7 +1322,7 @@ function Sbsa() {
               <tr>
                 <td>Customisation</td>
                 <td>Limited customization options</td>
-                <td>
+                <td><img src={check} alt=""/>
                   More customization options, including the ability to set
                   alerts and personalize the interface
                 </td>
@@ -1255,7 +1330,7 @@ function Sbsa() {
               <tr>
                 <td>User Feedback</td>
                 <td>Limited opportunities for user feedback</td>
-                <td>
+                <td><img src={check} alt=""/>
                   Active solicitation of user feedback with frequent updates and
                   improvements based on user input
                 </td>
@@ -1339,19 +1414,19 @@ function Sbsa() {
           </div>
         </div>
         <div className="navigation-subex">
-            <div className="flex items-center cursor-pointer">
-              <div>
-                <img src={arrowBack} alt="" />
-              </div>
-              Previous Case Study
+          <div className="flex items-center cursor-pointer">
+            <div>
+              <img src={arrowBack} alt="" />
             </div>
-            <div className="flex items-center cursor-pointer">
-              Next Case Study
-              <div>
-                <img src={arrowFor} alt="" />
-              </div>
+            Previous Case Study
+          </div>
+          <div className="flex items-center cursor-pointer">
+            Next Case Study
+            <div>
+              <img src={arrowFor} alt="" />
             </div>
           </div>
+        </div>
       </div>
     </div>
   );

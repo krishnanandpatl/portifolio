@@ -34,6 +34,8 @@ import Wireframe from "../sliders/Wireframe";
 import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
 import new2 from "../../assets/subex/new.svg";
+import arrow from "../../assets/pgos/Arrow.svg"
+
 
 function Subex() {
   return (
@@ -941,8 +943,8 @@ function Subex() {
                   </div>
                 </div>
               </div>
-              <div className="text-subex-inner2 border">
-                <div className="kpi-box-subex border">
+              <div className="text-subex-inner2">
+                <div className="kpi-box-subex mt-[10%]">
                   <div>
                     KPIs that we used to monitor the success of the project
                   </div>
@@ -969,7 +971,7 @@ function Subex() {
             <h1>My Learning</h1>
             <br />
             <div className="flex">
-              <div>icon</div>
+              <div className="w-1/5"><img src={arrow} alt="" /></div>
               <div>
                 To ensure success in a project of this size, it is crucial for
                 the entire team to be involved throughout the process, sharing
@@ -980,7 +982,7 @@ function Subex() {
             </div>
             <br />
             <div className="flex">
-              <div>icon</div>
+              <div className="w-1/5"><img src={arrow} alt="" /></div>
               <div>
                 Although we are still evaluating the results based on key
                 performance indicators, it is clear that our solutions have had
@@ -989,7 +991,7 @@ function Subex() {
             </div>
             <br />
             <div className="flex">
-              <div>icon</div>
+              <div className="w-1/5"><img src={arrow} alt="" /></div>
               <div>
                 Above all, this project provided me with the opportunity to work
                 with a diverse user base in an unfamiliar industry, which has
@@ -1002,7 +1004,7 @@ function Subex() {
             <h1>Future Direction</h1>
             <br />
             <div className="flex">
-              <div>icon</div>
+              <div className="w-1/5"><img src={arrow} alt="" /></div>
               <div>
                 If I had more time, I would definitely explore the possibilities
                 of the "Trigger mechanism" even further. This mechanism plays an
@@ -1013,7 +1015,7 @@ function Subex() {
             </div>
             <br />
             <div className="flex">
-              <div>icon</div>
+              <div className="w-1/5"><img src={arrow} alt="" /></div>
               <div>
                 Additionally, I would like to add more flexibility to the system
                 to accommodate cross-functional users whose goals may not be
