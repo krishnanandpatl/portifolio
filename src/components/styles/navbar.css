@@ -6,16 +6,16 @@
   background: #090b0e;
 }
 .footer-MainBox {
-  width: 1440px;
+  width: 95%;
   height: 248px;
   background: #090b0e;
   padding-top: 1px;
   margin: auto;
 }
 .footer-TopBox {
-  width: 367px;
+  width: 26%;
   height: 95px;
-  margin: 48px 565px 0px 508px;
+  margin: 48px 37% 0px 37%;;
 }
 .footer-TopBox-Heading {
   width: 230px;
@@ -42,22 +42,23 @@
   color: #b2bbc6;
 }
 .Footer-Hr {
-  width: 1280px;
-  border: 0.5px solid #3d4c5e;
-  margin-top: 32.5px;
-  margin-left: 80px;
+  width: 88%;
+    border: 0.5px solid #3d4c5e;
+    margin-top: 32.5px;
+    margin-left: 6%;
 }
 .footer-BottomBox {
-  width: 1282px;
-  height: 25px;
-  margin: 24px 78px 24px 80px;
-  display: flex;
+  width: 90%;
+    height: 25px;
+    margin: 24px 5% 24px 5%;
+    display: flex;
+    justify-content: space-between;
 }
 .footer-BottomBox-Box1 {
-  width: 184px;
+  width: 13%;
   height: 24px;
   display: flex;
-  margin-right: 113px;
+  justify-content: space-between;
 }
 .footer-BottomBox-Box1-Icon {
   width: 24px;
@@ -74,7 +75,7 @@
   margin-top: 3px;
 }
 .footer-BottomBox-Box2 {
-  width: 559px;
+  width: 43%;
   height: 24px;
   display: flex;
   margin-right: 151px;
@@ -123,7 +124,7 @@
   margin-top: 3px;
 }
 .footer-BottomBox-Box3 {
-  width: 285px;
+  width: 24%;
   height: 24px;
   display: flex;
 }
