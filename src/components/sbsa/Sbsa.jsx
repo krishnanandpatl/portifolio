@@ -15,9 +15,10 @@ import task1 from "../../assets/sbsa/task1.png";
 import sbsa from "../../assets/sbsa/sbsa.png";
 import fraud from "../../assets/subex/fraud.svg";
 import revenue from "../../assets/subex/revenue.svg";
+import cancel from "../../assets/trippez/cancel.svg";
 import analsoln from "../../assets/subex/analsoln.svg";
 import participant from "../../assets/sbsa/participant.svg";
-import solution from "../../assets/subex/solution.svg";
+import solution from "../../assets/sbsa/solution.svg";
 import flag from "../../assets/sbsa/flag.svg";
 import greenflag from "../../assets/sbsa/greenflag.svg";
 import methodology from "../../assets/sbsa/methodlogy.svg";
@@ -169,66 +170,66 @@ function Sbsa() {
             </div>
           </div>
           <br />
-          <div className="buisness-objective-sbsa flex">
-            <div className="w-1/5">
-              <img src={flag} alt="" />
-            </div>
-            <div>
-              <h1>Buisness Objective</h1>
-              <br />
-              <p>
-                To provide Standard Bank's business customers with a streamlined
-                and user-friendly way to view and manage their balances. By
-                reducing the time it takes for customers to complete
-                balance-related tasks, increasing customer satisfaction and
-                improving the accuracy of balance reporting.
-              </p>
-              <br />
-              <p>
-                The BOL Consolidated Balances module aims to drive increase in
-                customer retention rates and increase in revenue from business
-                banking services.
-              </p>
-            </div>
+          <div className="buisness-objective-sbsa">
+            <h1>
+              <div className="">
+                <img src={flag} alt="" />
+              </div>
+              Buisness Objective
+            </h1>
+            <br />
+            <p>
+              To provide Standard Bank's business customers with a streamlined
+              and user-friendly way to view and manage their balances. By
+              reducing the time it takes for customers to complete
+              balance-related tasks, increasing customer satisfaction and
+              improving the accuracy of balance reporting.
+            </p>
+            <br />
+            <p>
+              The BOL Consolidated Balances module aims to drive increase in
+              customer retention rates and increase in revenue from business
+              banking services.
+            </p>
           </div>
           <br />
-          <div className="buisness-objective-sbsa flex">
-            <div className="w-1/5">
-              <img src={flag} alt="" />
-            </div>
-            <div>
-              <h1>Design Challenge</h1>
-              <br />
-              <p>
-                How might we improve the Consolidated Balances module in the BOL
-                portal making it easy for users to add and remove accounts, edit
-                subgroups, and select balance types, while ensuring that the
-                process is intuitive and clear, regardless of the user's level
-                of financial expertise?
-              </p>
-            </div>
+          <div className="buisness-objective-sbsa">
+            <h1 className="">
+              <div>
+                <img src={flag} alt="" />
+              </div>
+              Design Challenge
+            </h1>
+            <br />
+            <p>
+              How might we improve the Consolidated Balances module in the BOL
+              portal making it easy for users to add and remove accounts, edit
+              subgroups, and select balance types, while ensuring that the
+              process is intuitive and clear, regardless of the user's level of
+              financial expertise?
+            </p>
           </div>
           <br />
-          <div className="solution-sbsa buisness-objective-sbsa flex">
-            <div className="w-1/5">
-              <img src={solution} alt="" />
-            </div>
-            <div>
-              <h1>The Solution</h1>
-              <br />
-              <p>
-                We simplified the navigation by placing consolidated balances on
-                the <strong>level 1 navigation</strong> and introduced{" "}
-                <strong>search and refresh options prominently</strong> .
-              </p>
-              <br />
-              <p>
-                We also included all account subgroups at level 2 to reduce
-                cognitive load. As a result, user testing showed that 18
-                participants found the new navigation and search features
-                helpful in locating consolidated balances within a minute.
-              </p>
-            </div>
+          <div className="solution-sbsa buisness-objective-sbsa">
+            <h1>
+              <div className="">
+                <img src={solution} alt="" />
+              </div>
+              The Solution
+            </h1>
+            <br />
+            <p>
+              We simplified the navigation by placing consolidated balances on
+              the <strong>level 1 navigation</strong> and introduced
+              <strong> search and refresh options prominently</strong> .
+            </p>
+            <br />
+            <p>
+              We also included all account subgroups at level 2 to reduce
+              cognitive load. As a result, user testing showed that 18
+              participants found the new navigation and search features helpful
+              in locating consolidated balances within a minute.
+            </p>
           </div>
         </div>
         <div className="partition-line-sbsa my-[80px]"></div>
@@ -246,10 +247,8 @@ function Sbsa() {
             <br />
             <div className="discover-box1">
               <div className="w-4/5">
-                <p className="flex">
-                  <div className="w-1/5">
-                    <img src={greenflag} alt="" />
-                  </div>
+                <p className="flex gap-[16px] items-start">
+                  <img src={greenflag} alt="" />
                   <strong>
                     The aim of this usability report is to assess the
                     effectiveness and ease of use of the consolidated statement
@@ -258,19 +257,15 @@ function Sbsa() {
                   </strong>
                 </p>
                 <br />
-                <p className="flex">
-                  <div className="w-1/5">
-                    <img src={participant} alt="" />
-                  </div>
+                <p className="flex gap-[16px] items-start">
+                  <img src={participant} alt="" />
                   Participants: The usability testing was conducted with a
                   diverse group of 6 participants who had previous experience
                   using the portal.
                 </p>
                 <br />
-                <p className="flex">
-                  <div className="w-1/5">
-                    <img src={methodology} alt="" />
-                  </div>
+                <p className="flex gap-[16px] items-start">
+                  <img src={methodology} alt="" />
                   <div>
                     <strong>Methodology:</strong> Participants were assigned a
                     set of 5 tasks to perform using the consolidated statement
@@ -799,10 +794,8 @@ function Sbsa() {
               ideas that we generated.
             </p>
             <br />
-            <div className="flex">
-              <div>
-                <img src={check} alt="" />
-              </div>
+            <div className="flex gap-[16px] items-start">
+              <img src={check} alt="" />
               <p>
                 The results of the SCAMPER technique led to the generation of
                 numerous innovative ideas for improving the consolidated
@@ -812,10 +805,8 @@ function Sbsa() {
               </p>
             </div>
             <br />
-            <div className="flex">
-              <div>
-                <img src={check} alt="" />
-              </div>
+            <div className="flex gap-[16px] items-start">
+              <img src={check} alt="" />
               <p>
                 We substituted the current static interface with a dynamic one
                 that updates in real-time, combining it with a feature that
@@ -825,9 +816,7 @@ function Sbsa() {
             <br />
             <p className="link-report-sbsa flex items-center">
               View SCAMPER report
-              <div>
-                <img src={openInNew} alt="" />
-              </div>
+              <img src={openInNew} alt="" />
             </p>
           </div>
           <br />
@@ -843,9 +832,7 @@ function Sbsa() {
             <br />
             <div>
               <h5 className="flex gap-3">
-                <div>
-                  <img src={greyarrow} alt="" />
-                </div>
+                <img src={greyarrow} alt="" />
                 Simplification of Navigation and Information Architecture
               </h5>
               <p>
@@ -855,9 +842,7 @@ function Sbsa() {
             </div>
             <div>
               <h5 className="flex gap-3">
-                <div>
-                  <img src={greyarrow} alt="" />
-                </div>{" "}
+                <img src={greyarrow} alt="" />
                 Visualisation and Presentation
               </h5>
               <p>
@@ -867,9 +852,7 @@ function Sbsa() {
             </div>
             <div>
               <h5 className="flex  gap-3">
-                <div>
-                  <img src={greyarrow} alt="" />
-                </div>{" "}
+                <img src={greyarrow} alt="" />
                 Recommendation and Suggestion
               </h5>
               <p>
@@ -879,9 +862,7 @@ function Sbsa() {
             </div>
             <div>
               <h5 className="flex gap-3">
-                <div>
-                  <img src={greyarrow} alt="" />
-                </div>{" "}
+                <img src={greyarrow} alt="" />
                 Customisation and Alerting
               </h5>
               <p>
@@ -1058,9 +1039,10 @@ function Sbsa() {
                 <div></div>
                 <div></div>
               </div>
-            </div></div>
-            <div className="partition-line-sbsa my-[72px]"></div>
-            <div className="inner-container-subex">
+            </div>
+          </div>
+          <div className="partition-line-sbsa my-[72px]"></div>
+          <div className="inner-container-subex">
             <div>
               <h1>Deliver: Visual Design</h1>
               <br />
@@ -1106,10 +1088,13 @@ function Sbsa() {
             </div>
           </div>
           <br />
-          <div className="flex">
+          <div className="flex justify-around">
             <div className="gap-10 objective-sbsa">
               <h5 className="flex gap-2">
-                <div><img src={areachart} alt="" /></div>Tasks
+                <div>
+                  <img src={areachart} alt="" />
+                </div>
+                Tasks
               </h5>
               <br />
               <p className="ml-9">
@@ -1133,7 +1118,7 @@ function Sbsa() {
                 </li>
               </ol>
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 ml-9">
               <img src={ss2} alt="" />
             </div>
           </div>
@@ -1276,63 +1261,115 @@ function Sbsa() {
               </tr>
               <tr>
                 <td>Navigation</td>
-                <td>Confusing and cluttered with no clear hierarchy</td>
-                <td><img src={check} alt=""/>
-                  Clear and intuitive with consolidated balances and account
-                  subgroups prominently displayed
+                <td>
+                  <div className="flex">
+                    <img src={cancel} alt="cancel" />
+                    Confusing and cluttered with no clear hierarchy
+                  </div>
+                </td>
+                <td>
+                  <div className="flex">
+                    <img src={check} alt="" />
+                    Clear and intuitive with consolidated balances and account
+                    subgroups prominently displayed
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td>Search Function</td>
-                <td>Basic search function with limited filters</td>
-                <td><img src={check} alt=""/>
-                  Robust search function with advanced filters and suggestions
+                <td>
+                  <div className="flex">
+                    <img src={cancel} alt="cancel" />
+                    Basic search function with limited filters
+                  </div>
+                </td>
+                <td>
+                  <div className="flex">
+                    <img src={check} alt="" />
+                    Robust search function with advanced filters and suggestions
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td>Information Architecture</td>
-                <td>Poor organization of information</td>
-                <td><img src={check} alt=""/>
-                  Improved information architecture with clear categorization
-                  and labeling
+                <td>
+                  <div className="flex">
+                    <img src={cancel} alt="cancel" />
+                    Poor organization of information
+                  </div>
+                </td>
+                <td>
+                  <div className="flex">
+                    <img src={check} alt="" />
+                    Improved information architecture with clear categorization
+                    and labeling
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td>Cognitive Load</td>
                 <td>
-                  High cognitive load due to overwhelming amount of information
+                  <div className="flex">
+                    <img src={cancel} alt="cancel" />
+                    High cognitive load due to overwhelming amount of
+                    information
+                  </div>
                 </td>
-                <td><img src={check} alt=""/>
-                  {" "}
-                  Reduced cognitive load with streamlined interface and relevant
-                  information displayed prominently
+                <td>
+                  <div className="flex">
+                    <img src={check} alt="" /> Reduced cognitive load with
+                    streamlined interface and relevant information displayed
+                    prominently
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td>Decision Making</td>
                 <td>
-                  Making Difficult to make informed decisions due to lack of
-                  relevant information
+                  <div className="flex">
+                    <img src={cancel} alt="cancel" />
+                    Making Difficult to make informed decisions due to lack of
+                    relevant information
+                  </div>
                 </td>
-                <td><img src={check} alt=""/>
-                  Improved decision making with clear recommendations based on
-                  account balances and spending patterns
+                <td>
+                  <div className="flex">
+                    <img src={check} alt="" />
+                    Improved decision making with clear recommendations based on
+                    account balances and spending patterns
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td>Customisation</td>
-                <td>Limited customization options</td>
-                <td><img src={check} alt=""/>
-                  More customization options, including the ability to set
-                  alerts and personalize the interface
+                <td>
+                  <div className="flex">
+                    <img src={cancel} alt="cancel" />
+                    Limited customization options
+                  </div>
+                </td>
+                <td>
+                  <div className="flex">
+                    <img src={check} alt="" />
+                    More customization options, including the ability to set
+                    alerts and personalize the interface
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td>User Feedback</td>
-                <td>Limited opportunities for user feedback</td>
-                <td><img src={check} alt=""/>
-                  Active solicitation of user feedback with frequent updates and
-                  improvements based on user input
+                <td>
+                  <div className="flex">
+                    <img src={cancel} alt="cancel" />
+                    Limited opportunities for user feedback
+                  </div>
+                </td>
+                <td>
+                  <div className="flex">
+                    <img src={check} alt="" />
+                    Active solicitation of user feedback with frequent updates
+                    and improvements based on user input
+                  </div>
                 </td>
               </tr>
             </table>
@@ -1342,8 +1379,8 @@ function Sbsa() {
       <div className="inner-container-subex">
         <div className="mylearning-sbsa">
           <h1>My Learning</h1>
-          <div className="flex">
-            <div>icon</div>
+          <div className="items-start">
+            <img src={arrow} alt="" />
             To ensure success in a project of this size, it is crucial for the
             entire team to be involved throughout the process, sharing their
             research findings, discussing roadblocks, and working together
@@ -1351,15 +1388,15 @@ function Sbsa() {
             business objectives.
           </div>
           <br />
-          <div className="flex">
-            <div>icon</div>
+          <div className="items-start">
+            <img src={arrow} alt="" />
             Although we are still evaluating the results based on key
             performance indicators, it is clear that our solutions have had a
             positive impact on usability and user experience.
           </div>
           <br />
-          <div className="flex">
-            <div>icon</div>
+          <div className="items-start">
+            <img src={arrow} alt="" />
             Above all, this project provided me with the opportunity to work
             with a diverse user base in an unfamiliar industry, which has
             expanded my skills and knowledge as a designer.
@@ -1367,8 +1404,8 @@ function Sbsa() {
         </div>
         <div className="mylearning-sbsa mt-[48px]">
           <h1>Future Directions</h1>
-          <div className="flex">
-            <div>icon</div>
+          <div className="items-start">
+            <img src={arrow} alt="" />
             If I had more time, I would definitely explore the possibilities of
             the "Trigger mechanism" even further. This mechanism plays an
             important role in automatically generating a case based on certain
@@ -1376,8 +1413,8 @@ function Sbsa() {
             improvement in this area.
           </div>
           <br />
-          <div className="flex">
-            <div>icon</div>
+          <div className="items-start">
+            <img src={arrow} alt="" />
             Additionally, I would like to add more flexibility to the system to
             accommodate cross-functional users whose goals may not be solely
             focused on case closure. By doing so, we can ensure that the system

@@ -9,7 +9,7 @@
   font-size: 14px;
   line-height: 24px;
   color: #b2bbc6;
-  width: 100%;
+  width: 100% !important;
 }
 .solution-tripp {
   background: linear-gradient(227.16deg, #292240 -2.62%, #701c49 74.06%);
@@ -26,16 +26,17 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+  width: fit-content;
   color: #b2bbc6;
 }
 .solution-tripp > div {
   margin-left: 4%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 2%;
 }
 .solution-tripp > div img {
-  width: 500%;
+  width: 24px;
 }
 .research-tripp > p {
   font-weight: 400;
@@ -66,6 +67,9 @@
   font-size: 15px !important;
   line-height: 20px !important;
 }
+.users-tripp img {
+  width: 40px;
+}
 .demographies-tripp div {
   font-weight: 500;
   font-size: 14px;
@@ -94,12 +98,12 @@
   border: 1px solid #3d4c5e;
   border-radius: 4px;
   padding: 26px 20px;
-  width: 31%;
+  width: 268px;
 }
 .personality-tripp > div {
   border: 1px solid #3d4c5e;
   border-radius: 4px;
-  width: 49%;
+  width: 413px;
   padding: 26px 20px;
 }
 .personality-tripp div {
@@ -129,11 +133,16 @@
   background: #1d242d;
   border-radius: 80px;
   padding: 6px 12px;
+  min-width: max-content;
 }
 .user-testimonial-tripp > div {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 23px;
+}
+.user-testimonial-tripp img {
+  width: 64px;
 }
 .user-verbatism-tripp {
   background: #151a20;
@@ -147,12 +156,41 @@
   line-height: 22px;
   color: #d6dff0;
   display: flex;
+  gap: 20px;
   padding: 20px 32px;
   justify-content: center;
   align-items: center;
-  width: 46%;
+  width: 441px;
+}
+.user-verbatism-tripp2 {
+  background: #151a20;
+  border: 1px solid #3d4c5e;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 500px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #d6dff0;
+  display: flex;
+  gap: 20px;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  max-width: 541px;
+  flex-wrap: nowrap !important;
 }
 .user-verbatism-tripp p {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #909dad;
+}
+.user-verbatism-tripp2 p {
   margin-top: 8px;
   font-weight: 400;
   font-size: 16px;
@@ -185,7 +223,7 @@
     0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
     0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  width: 48%;
+  width: 457px;
   padding: 20px 32px;
   margin-bottom: 44px;
 }
@@ -203,6 +241,7 @@
 }
 .pie-graph-tripp {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .pie-graph-tripp > div {
@@ -212,7 +251,25 @@
     0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 20px 22px;
-  width: 30%;
+  width: 290px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #909dad;
+}
+.pie-graph-tripp ul {
+  list-style: disc;
+  font-weight: 400;
+  font-size: 7.6926px;
+  line-height: 9px;
+  color: #b2bbc6;
+  width: 128px;
+  margin: auto;
+  text-align: start;
+}
+.pie-graph-tripp li {
+  margin-bottom: 8px;
 }
 .secondary-research-tripp h3 {
   font-weight: 600;
@@ -251,7 +308,13 @@
   padding: 24px;
   opacity: 0.5;
   border: 1px solid rgba(91, 91, 91, 0.5);
-  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b2bbc6;
+}
+.secondary-research-tripp img {
+  margin: auto;
 }
 .table-details-tripp {
   background: #1d242d;
@@ -282,6 +345,17 @@
     0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 34px 48px;
+  
+}
+.goal-pain-div-tripp>div>div{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b2bbc6;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
 }
 .goal-pain-div-tripp h4 {
   font-weight: 700;
@@ -289,12 +363,6 @@
   line-height: 22px;
   color: #d6dff0;
   margin-bottom: 8%;
-}
-.goal-pain-div-tripp div {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #b2bbc6;
 }
 .goal-pain-p-tripp {
   margin-top: 72px;
@@ -316,7 +384,7 @@
     0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
     0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  width: 23%;
+  width: 216px;
   margin-bottom: 26px;
   padding: 24px;
 }
@@ -386,4 +454,19 @@
   background: linear-gradient(227.16deg, #292240 -2.62%, #701c49 74.06%);
   opacity: 0.7;
   border-radius: 4px;
+}
+.bg-change-tripp {
+  background: #1d242d;
+}
+.budget-based1 {
+  width: 98px;
+  height: 242px;
+  position: relative;
+  top: 0;
+  right: 0;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 242.05px;
+  opacity: 3%;
+  color: #ffffff;
 }
