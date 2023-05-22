@@ -686,11 +686,12 @@ i {
   line-height: 18px;
   color: #ffffff;
 }
-.test-subex-inner div {
+.test-subex-inner>div>div>div {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
+  margin-left: 40px;
 }
 .text-subex-inner2 ol {
   list-style: decimal;
@@ -794,4 +795,9 @@ i {
 .my-learning-subex>div>div{
   display: flex;
   gap: 10px;
+}
+.my-learning-subex>div>div img{
+  height: 16px;
+  width: 16px;
+  max-width: none;
 }

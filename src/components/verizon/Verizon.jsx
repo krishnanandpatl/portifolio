@@ -1,5 +1,17 @@
 import React from "react";
 import "../styles/Verizon.css";
+import verizon from "../../assets/verizon/verizon.png";
+import av1 from "../../assets/verizon/av1.png";
+import av2 from "../../assets/verizon/av2.png";
+import vzlogo from "../../assets/verizon/vzlogo.svg";
+import arrowBack from "../../assets/arrowBack.svg";
+import arrowFor from "../../assets/arrowFor.svg";
+import check from "../../assets/pgos/check_circle.svg";
+import pane from "../../assets/verizon/pane.png";
+import intelligence from "../../assets/verizon/intelligence.png";
+import workspace from "../../assets/verizon/workspace.png";
+import guided from "../../assets/verizon/guided.png";
+import lock from "../../assets/pgos/lock.svg";
 
 function Verizon() {
   return (
@@ -8,7 +20,9 @@ function Verizon() {
         <div className="verizonBox">
           <div className="verizonLeftBox">
             <div className="verizonContentBox">
-              <div className="verizonTitleIconBox1"></div>
+              <div className="verizonTitleIconBox1">
+                <img src={vzlogo} loading="lazy" alt="" />
+              </div>
               <div className="verizonTitleIconBox2">Sales 360</div>
               <div className="verizonContent">
                 <p className="firstLine">
@@ -34,14 +48,18 @@ function Verizon() {
               <p className="teamText">TEAM</p>
               <div className="teamMemberBox">
                 <div className="teamMember1">
-                  <div className="memberIcon"></div>
+                  <div className="memberIcon">
+                    <img src={av1} alt="" />
+                  </div>
                   <div className="memberDetail">
                     <p className="memberName">Pramod Bubbarjung</p>
                     <p className="memberRole">Design Manager</p>
                   </div>
                 </div>
                 <div className="teamMember2">
-                  <div className="memberIcon"></div>
+                  <div className="memberIcon">
+                    <img src={av2} alt="" />
+                  </div>
                   <div className="memberDetail">
                     <p className="memberName">Kshitij Srivastava</p>
                     <p className="memberRole">Sr.UX Designer </p>
@@ -50,7 +68,9 @@ function Verizon() {
               </div>
             </div>
           </div>
-          <div className="verizonRightBox"></div>
+          <div className="verizonRightBox">
+            <img src={verizon} alt="" />
+          </div>
         </div>
         <div className="verizonPODBox">
           <div className="PODbox1">
@@ -95,9 +115,15 @@ function Verizon() {
           <div className="verizonContextTitle">The Ask</div>
           <div className="verizonAskBoxContent">
             <div className="verizonAskBoxContentLeft">
-              <div className="askboxLeftIcon greenIcon1"></div>
-              <div className="askboxLeftIcon greenIcon2"></div>
-              <div className="askboxLeftIcon"></div>
+              <div className="askboxLeftIcon greenIcon1">
+                <img src={check} alt="" />
+              </div>
+              <div className="askboxLeftIcon greenIcon2">
+                <img src={check} alt="" />
+              </div>
+              <div className="askboxLeftIcon">
+                <img src={check} alt="" />
+              </div>
             </div>
             <div className="verizonAskBoxContentRight">
               <p>
@@ -549,7 +575,9 @@ function Verizon() {
           </p>
         </div>
         <div className="ExperienceBusinessTitlecontent">
-          <div className="ExperienceBusinessTitlecontentLeft"></div>
+          <div className="ExperienceBusinessTitlecontentLeft">
+            <img src={pane} loading="lazy" alt="" />
+          </div>
           <div className="ExperienceBusinessTitlecontentRight">
             <div className="ExperienceBusinessTitlecontentRightTitle">
               Single Pane UX
@@ -616,10 +644,14 @@ function Verizon() {
               </ul>
             </div>
           </div>
-          <div className="ExperienceBusinessTitlecontentRight2"></div>
+          <div className="ExperienceBusinessTitlecontentRight2">
+            <img src={workspace} loading="lazy" alt="" />
+          </div>
         </div>
         <div className="ExperienceBusinessTitlecontent">
-          <div className="ExperienceBusinessTitlecontentLeft"></div>
+          <div className="ExperienceBusinessTitlecontentLeft">
+            <img src={intelligence} loading="lazy" alt="" />
+          </div>
           <div className="ExperienceBusinessTitlecontentRight">
             <div className="ExperienceBusinessTitlecontentRightTitle">
               Delightful Intelligence
@@ -687,12 +719,16 @@ function Verizon() {
               </ul>
             </div>
           </div>
-          <div className="ExperienceBusinessTitlecontentRight2"></div>
+          <div className="ExperienceBusinessTitlecontentRight2">
+            <img src={guided} loading="lazy" alt="" />
+          </div>
         </div>
       </div>
       <div className="verizonDesignSolutionMainBox">
         <div className="verizonDesignSolutionContentBox">
-          <div className="verizonDesignSolutionContentIcon"></div>
+          <div className="verizonDesignSolutionContentIcon">
+            <img src={lock} alt="" />
+          </div>
           <div className="verizonDesignSolutionContentTitle">
             Design Solution
           </div>
@@ -990,12 +1026,16 @@ function Verizon() {
       </div>
       <div className="verizonLearningBox4">
         <div className="verizonLearningBox4Content">
-          <div className="verizonPreviousIcon"></div>
+          <div className="verizonPreviousIcon">
+            <img src={arrowBack} alt="" />
+          </div>
           <div className="verizonPreviousText">Previous Case studies</div>
         </div>
         <div className="verizonLearningBox4Content">
           <div className="verizonNextText">Next Case studies</div>
-          <div className="verizonNextIcon"></div>
+          <div className="verizonNextIcon">
+            <img src={arrowFor} alt="" />
+          </div>
         </div>
       </div>
     </div>
