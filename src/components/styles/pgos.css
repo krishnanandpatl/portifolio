@@ -85,9 +85,9 @@
   line-height: 39px;
   color: #b9b9b9;
 }
-.the-challenge-pgos h1 >div{
+.the-challenge-pgos h1 > div {
   width: 41px;
-  background: #151A20;
+  background: #151a20;
   border-radius: 50%;
 }
 .the-challenge-pgos h4 {
@@ -218,7 +218,7 @@
   line-height: 20px;
   color: #d6dff0;
 }
-.circle-bg{
+.circle-bg {
   width: 72px;
   /* height: 72px; */
   background: #161616;
@@ -235,7 +235,7 @@
   backdrop-filter: blur(3.5px);
   border-radius: 4px;
 }
-.bg-image-pgos{
+.bg-image-pgos {
   background-image: url(../../assets/pgos/);
 }
 .product-showcase-pgos {
@@ -384,7 +384,7 @@
   line-height: 18px;
   color: #ffffff;
 }
-.my-impact-pgos div {
+.my-impact-pgos > div {
   border-bottom: 1px solid rgba(91, 91, 91, 0.5);
 }
 .my-impact-pgos h6 {
@@ -404,4 +404,22 @@
 }
 .impact-border-pgos {
   border-right: 1px solid rgba(91, 91, 91, 0.5);
+}
+.buisness-impact-pgos > h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.buisness-impact-pgos strong {
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  color: #d6dff0 !important;
+}
+.buisness-impact-pgos p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/subex.css";
+import check from "../../assets/pgos/check_circle.svg";
 import LineGraph from "../../assets/subex/LineGraph.png";
 import PieGraph1 from "../../assets/subex/PieGraph1.png";
 import PieGraph2 from "../../assets/subex/PieGraph2.png";
@@ -11,10 +12,10 @@ import subex from "../../assets/subex/subex.png";
 import bulb from "../../assets/pgos/bulb.svg";
 import revenue from "../../assets/subex/revenue.svg";
 import fraud from "../../assets/subex/fraud.svg";
-import solution from "../../assets/subex/solution.svg";
+import solution from "../../assets/sbsa/solution.svg";
 import analsoln from "../../assets/subex/analsoln.svg";
 import leak from "../../assets/subex/leak.svg";
-import flag from "../../assets/subex/flag.svg";
+import flag from "../../assets/sbsa/flag.svg";
 import workflowcreation from "../../assets/subex/account_tree.svg";
 import caseInvestigation from "../../assets/subex/policy.svg";
 import caseclosing from "../../assets/subex/rule_folder.svg";
@@ -32,6 +33,8 @@ import subexTable from "../../assets/subex/subexTable.png";
 import Wireframe from "../sliders/Wireframe";
 import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
+import new2 from "../../assets/subex/new.svg";
+import arrow from "../../assets/pgos/Arrow.svg";
 
 function Subex() {
   return (
@@ -170,28 +173,33 @@ function Subex() {
               <div className="type-case-btm-subex">
                 <h3>Few Types of Cases</h3>
                 <br />
-                <div>
-                  <div>
+                <div className="flex gap-3 items-baseline">
+                  <div className="w-1/6">
                     <img src={leak} alt="" />
                   </div>
-                  <strong>Revenue Leakage:</strong> This case type identifies
-                  instances where revenue is lost due to issues such as billing
-                  errors, system inefficiencies, or fraudulent activity.
+                  <div>
+                    <strong>Revenue Leakage:</strong> This case type identifies
+                    instances where revenue is lost due to issues such as
+                    billing errors, system inefficiencies, or fraudulent
+                    activity.
+                  </div>
                 </div>
                 <br />
-                <div>
-                  <div>
+                <div className="flex gap-3 items-baseline">
+                  <div className="w-1/6">
                     <img src={leak} alt="" />
                   </div>
-                  <strong>Fraud Detection:</strong> This case type involves
-                  subscription fraud or SIM box fraud, which can lead to
-                  significant revenue losses for telecom companies.
+                  <div>
+                    <strong>Fraud Detection:</strong> This case type involves
+                    subscription fraud or SIM box fraud, which can lead to
+                    significant revenue losses for telecom companies.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div>
+            <div className="w-1/5">
               <img src={flag} alt="" />
             </div>
             <div className="buisness-challenge-subex-content">
@@ -207,7 +215,7 @@ function Subex() {
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div>
+            <div className="w-1/5">
               <img src={flag} alt="" />
             </div>
             <div className="buisness-challenge-subex-content">
@@ -222,11 +230,12 @@ function Subex() {
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div>
+            <div className="w-1/5">
               <img src={solution} alt="" />
             </div>
             <div className="buisness-challenge-subex-content">
               <h1>The Solution</h1>
+              <br />
               <p>
                 We implemented a case timeline to enhance case visibility and
                 streamline investigation. Additionally, we incorporated features
@@ -240,7 +249,9 @@ function Subex() {
               </i>
             </div>
           </div>
-          <div className="partition-line-subex"></div>
+        </div>
+        <div className="partition-line-subex"></div>
+        <div className="inner-container-subex">
           <div className="understand-subex">
             <div className="understand-title-subex">Understand</div>
             <br />
@@ -263,12 +274,12 @@ function Subex() {
             <div className="research-table-subex">
               <table>
                 <tr className="research-table-header-subex">
-                  <th>
+                  <th className="w-[15%]">
                     Age Range <br /> (years)
                   </th>
-                  <th>Occupation</th>
-                  <th>Years of Experience</th>
-                  <th>Number of Cases/Day</th>
+                  <th className="w-[20%]">Occupation</th>
+                  <th className="w-[10%]">Years of Experience</th>
+                  <th className="w-[12%]">Number of Cases/Day</th>
                   <th>Responsibilities</th>
                 </tr>
                 <tr className="research-table-diff-subex">
@@ -365,7 +376,7 @@ function Subex() {
             </div>
           </div>
           <div className="user-experience-subex">
-            <h1>User Experience Map</h1>
+            <h1 className="mb-[48px]">User Experience Map</h1>
             <div>
               <img src={subexTable} loading="lazy" alt="" />
             </div>
@@ -415,12 +426,30 @@ function Subex() {
                 <div className="cons-subex">
                   <h2>Oppurtunities</h2>
                   <div>
-                    <div>Efficient case creation and management processes</div>
-                    <div>Automation of routine tasks</div>
-                    <div>Access to comprehensive data</div>
-                    <div>Collaborative tools and platforms</div>
-                    <div>Robust reporting and analytics capabilities</div>
-                    <div>Adequate resources and support</div>
+                    <div>
+                      <img src={check} alt="" />
+                      Efficient case creation and management processes
+                    </div>
+                    <div>
+                      <img src={check} alt="" />
+                      Automation of routine tasks
+                    </div>
+                    <div>
+                      <img src={check} alt="" />
+                      Access to comprehensive data
+                    </div>
+                    <div>
+                      <img src={check} alt="" />
+                      Collaborative tools and platforms
+                    </div>
+                    <div>
+                      <img src={check} alt="" />
+                      Robust reporting and analytics capabilities
+                    </div>
+                    <div>
+                      <img src={check} alt="" />
+                      Adequate resources and support
+                    </div>
                   </div>
                 </div>
               </div>
@@ -462,7 +491,9 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div className="partition-line-subex"></div>
+        </div>
+        <div className="partition-line-subex"></div>
+        <div className="inner-container-subex">
           <div className="ideate-subex">
             <h1>Ideate</h1>
             <br />
@@ -477,9 +508,9 @@ function Subex() {
             <br />
             <div>
               <div className="ideate-text">
-                <div className="">
+                <div className="flex items-start gap-4">
+                  <img src={workflowcreation} alt="" />
                   <p>
-                    <img src={workflowcreation} alt="" />
                     <strong>Workflow Creation:</strong> Identified the key
                     priority for users was to streamlined workflow creation
                     process through automation and configurable work steps.
@@ -491,33 +522,35 @@ function Subex() {
                   </p>
                 </div>
                 <br />
-                <div>
-                  <p>
-                    <img src={caseInvestigation} alt="" />
-                    <strong>Case Investigation: </strong>
-                    Users highlighted the need for better case investigation and
-                    reporting tools to track cases more effectively.
-                    <u>
-                      We added a case timeline feature to help users track cases
-                      from start to finish.{" "}
-                    </u>
-                  </p>
+                <div className="flex items-start gap-4">
+                  <img src={caseInvestigation} alt="" />
+                  <div>
+                    <p>
+                      <strong>Case Investigation: </strong>
+                      Users highlighted the need for better case investigation
+                      and reporting tools to track cases more effectively.
+                      <u>
+                        We added a case timeline feature to help users track
+                        cases from start to finish.
+                      </u>
+                    </p>
 
-                  <br />
-                  <p>
-                    <img src={caseclosing} alt="" />
-                    Users expressed a strong desire for better communication and
-                    collaboration tools to improve information sharing and
-                    teamwork.{" "}
-                    <u>
-                      We also introduced inline chat features, shared
-                      workspaces, and a shared repository for quick access to
-                      artefacts to address this need.
-                    </u>
-                  </p>
+                    <br />
+                    <p>
+                      Users expressed a strong desire for better communication
+                      and collaboration tools to improve information sharing and
+                      teamwork.
+                      <u>
+                        We also introduced inline chat features, shared
+                        workspaces, and a shared repository for quick access to
+                        artefacts to address this need.
+                      </u>
+                    </p>
+                  </div>
                 </div>
                 <br />
-                <div>
+                <div className="flex items-start gap-4">
+                  <img src={caseclosing} alt="" />
                   <p>
                     <strong>Case Closing and Reporting: </strong>
                     Included bulk closing and automatic closing features to
@@ -529,11 +562,11 @@ function Subex() {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="w-1/3 m-auto">
                 <div>
                   <img src={ss1} alt="" />
                 </div>
-                <div className="flex">
+                <div className="flex gap-4 mt-4">
                   <div>
                     <img src={ss2} alt="" />
                   </div>
@@ -554,12 +587,13 @@ function Subex() {
               would increase the adoption of case management among both RA and
               FM users.
             </p>
-            <br />
-            <div className="user-workflow-image">
+            <div className="user-workflow-image mt-[40px]">
               <img src={workflow} alt="" />
             </div>
           </div>
-          <div className="partition-line-subex"></div>
+        </div>
+        <div className="partition-line-subex"></div>
+        <div className="inner-container-subex">
           <div className="concept-creation-subex">
             <h2>Concepts Creation</h2>
             <br />
@@ -570,7 +604,6 @@ function Subex() {
                 create a solution that meets the needs of the users and
                 addresses their pain points.
                 <strong>
-                  {" "}
                   And arrived to three possible design tracks, including
                   Task-oriented, Kanban board, and timelines.
                 </strong>
@@ -623,7 +656,9 @@ function Subex() {
               </i>
             </div>
           </div>
-          <div className="partition-line-subex"></div>
+        </div>
+        <div className="partition-line-subex"></div>
+        <div className="inner-container-subex">
           <div className="build-subex">
             <h2>Build</h2>
             <br />
@@ -671,8 +706,14 @@ function Subex() {
               </div>
               <div className="workflow-numbering-1">1</div>
             </div>
-            <div className="workflow-image-part">
+            <div className="workflow-image-part mt-6">
               <img src={workflow1} alt="" />
+            </div>
+            <div className="w-full mt-[32px]">
+              <div className="complete-diagram-subex flex gap-2 justify-end">
+                <p>View complete Flow Diagram here</p>
+                <img src={new2} alt="" />
+              </div>
             </div>
           </div>
           <br />
@@ -736,8 +777,14 @@ function Subex() {
               </div>
               <div className="workflow-numbering-1">2</div>
             </div>
-            <div>
+            <div className="mt-6">
               <img src={casebig} alt="" />
+            </div>
+            <div className="w-full mt-[32px]">
+              <div className="complete-diagram-subex flex gap-2 justify-end">
+                <p>View complete Flow Diagram here</p>
+                <img src={new2} alt="" />
+              </div>
             </div>
           </div>
           <br />
@@ -765,6 +812,7 @@ function Subex() {
                     reports that highlight key metrics and KPIs related to case
                     management.
                   </p>
+                  <br />
                   <div>Impact</div>
                   <ul>
                     <li>
@@ -782,8 +830,14 @@ function Subex() {
               </div>
               <div className="workflow-numbering-1">3</div>
             </div>
-            <div>
+            <div className="mt-6">
               <img src={closing} alt="" />
+            </div>
+            <div className="w-full mt-[32px]">
+              <div className="complete-diagram-subex flex gap-2 justify-end">
+                <p>View complete Flow Diagram here</p>
+                <img src={new2} alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -797,7 +851,9 @@ function Subex() {
               <Wireframe></Wireframe>
             </div>
           </div>
-          <div className="partition-line-subex"></div>
+        </div>
+        <div className="partition-line-subex"></div>
+        <div className="inner-container-subex">
           <div className="deliver-virtual-design-subex">
             <h1>Deliver: VirtualDesign</h1>
             <br />
@@ -823,74 +879,74 @@ function Subex() {
             <br />
             <div className="test-subex-inner flex gap-2">
               <div className="w-2/3">
-                <div className="flex">
-                  <div>
-                    <img src={efficiency} alt="" />
-                  </div>
-                  <div>
-                    <h3>Improved Efficiency</h3>
-                    <br />
+                <div>
+                  <h3 className="icon-test-subex">
                     <div>
-                      The streamlined workflows, automated features, and
-                      collaboration tools have improved the efficiency of the
-                      case management process. The system now allows users to
-                      spend more time on investigative work rather than
-                      administrative tasks.
+                      <img src={efficiency} alt="" />
                     </div>
+                    Improved Efficiency
+                  </h3>
+                  <br />
+                  <div>
+                    The streamlined workflows, automated features, and
+                    collaboration tools have improved the efficiency of the case
+                    management process. The system now allows users to spend
+                    more time on investigative work rather than administrative
+                    tasks.
                   </div>
                 </div>
                 <br />
-                <div className="flex">
-                  <div>
-                    <img src={decision} alt="" />
-                  </div>
-                  <div>
-                    <h3>Better decision-making</h3>
-                    <br />
+                <div>
+                  <h3 className="icon-test-subex">
                     <div>
-                      With access to comprehensive and relevant data, users are
-                      now able to make better decisions and perform more
-                      effective investigations.
+                      <img src={decision} alt="" />
                     </div>
+                    Better decision-making
+                  </h3>
+                  <br />
+                  <div>
+                    With access to comprehensive and relevant data, users are
+                    now able to make better decisions and perform more effective
+                    investigations.
                   </div>
                 </div>
                 <br />
-                <div className="flex">
-                  <div>
-                    <img src={collab} alt="" />
-                  </div>
-                  <div>
-                    <h3>Enhanced collaboration</h3>
-                    <br />
+                <div>
+                  <h3 className="icon-test-subex">
                     <div>
-                      The introduction of inline chat, shared workspaces, and a
-                      shared repository has improved collaboration between team
-                      members and departments, leading to more effective
-                      teamwork.
+                      <img src={collab} alt="" />
                     </div>
+                    Enhanced collaboration
+                  </h3>
+                  <br />
+                  <div>
+                    The introduction of inline chat, shared workspaces, and a
+                    shared repository has improved collaboration between team
+                    members and departments, leading to more effective teamwork.
                   </div>
                 </div>
                 <br />
-                <div className="flex">
-                  <div>
-                    <img src={report} alt="" />
-                  </div>
-                  <div>
-                    <h3>Improved reporting</h3>
-                    <br />
+                <div>
+                  <h3 className="icon-test-subex">
                     <div>
-                      The inclusion of dashboard creation features and automated
-                      report generation has made it easier to track performance
-                      and identify areas for improvement.
+                      <img src={report} alt="" />
                     </div>
+                    Improved reporting
+                  </h3>
+                  <br />
+                  <div>
+                    The inclusion of dashboard creation features and automated
+                    report generation has made it easier to track performance
+                    and identify areas for improvement.
                   </div>
                 </div>
               </div>
               <div className="text-subex-inner2">
-                <div className="kpi-box-subex">
+                <div className="kpi-box-subex mt-[10%]">
                   <div>
                     KPIs that we used to monitor the success of the project
                   </div>
+                  <br />
                   <ol>
                     <li>Reduction in average case resolution time.</li>
                     <li>Increase in user satisfaction ratings</li>
@@ -908,13 +964,14 @@ function Subex() {
               </div>
             </div>
           </div>
-          <br />
-          <div className="my-learning-subex">
+          <div className="my-learning-subex mt-[55px]">
             <h1>My Learning</h1>
             <br />
-            <div className="flex">
-              <div>icon</div>
-              <div>
+            <div>
+              <div className="flex">
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
                 To ensure success in a project of this size, it is crucial for
                 the entire team to be involved throughout the process, sharing
                 their research findings, discussing roadblocks, and working
@@ -923,31 +980,36 @@ function Subex() {
               </div>
             </div>
             <br />
-            <div className="flex">
-              <div>icon</div>
-              <div>
+            <div>
+              <div className="flex">
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
                 Although we are still evaluating the results based on key
                 performance indicators, it is clear that our solutions have had
                 a positive impact on usability and user experience.
               </div>
             </div>
             <br />
-            <div className="flex">
-              <div>icon</div>
-              <div>
+            <div>
+              <div className="flex">
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
                 Above all, this project provided me with the opportunity to work
                 with a diverse user base in an unfamiliar industry, which has
                 expanded my skills and knowledge as a designer.
               </div>
             </div>
           </div>
-          <br />
-          <div className="my-learning-subex">
+          <div className="my-learning-subex mt-[48px]">
             <h1>Future Direction</h1>
             <br />
-            <div className="flex">
-              <div>icon</div>
-              <div>
+            <div>
+              <div className="flex">
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
                 If I had more time, I would definitely explore the possibilities
                 of the "Trigger mechanism" even further. This mechanism plays an
                 important role in automatically generating a case based on
@@ -956,9 +1018,11 @@ function Subex() {
               </div>
             </div>
             <br />
-            <div className="flex">
-              <div>icon</div>
-              <div>
+            <div>
+              <div className="flex">
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
                 Additionally, I would like to add more flexibility to the system
                 to accommodate cross-functional users whose goals may not be
                 solely focused on case closure. By doing so, we can ensure that
@@ -967,8 +1031,7 @@ function Subex() {
               </div>
             </div>
           </div>
-          <br />
-          <div className="process-tools-subex">
+          <div className="process-tools-subex mt-[48px]">
             <h1>Process & tools</h1>
             <br />
             <div>

@@ -9,10 +9,16 @@ import g1 from "../../assets/trippez/g1.png";
 import g2 from "../../assets/trippez/g2.png";
 import g3 from "../../assets/trippez/g3.png";
 import g4 from "../../assets/trippez/g4.png";
-import cc1 from "../../assets/trippez/cc1.svg";
-import cc2 from "../../assets/trippez/cc2.svg";
-import cc3 from "../../assets/trippez/cc3.svg";
-import check_circle from "../../assets/trippez/check_circle.svg";
+import u1 from "../../assets/trippez/u1.png";
+import u2 from "../../assets/trippez/u2.png";
+import u3 from "../../assets/trippez/u3.png";
+import u4 from "../../assets/trippez/u4.png";
+import u5 from "../../assets/trippez/u5.png";
+import cc1 from "../../assets/trippez/cc1.png";
+import cc2 from "../../assets/trippez/cc2.png";
+import cc3 from "../../assets/trippez/cc3.png";
+import garrow from "../../assets/trippez/Garrow.svg";
+import check_circle from "../../assets/pgos/check_circle.svg";
 import cancel from "../../assets/trippez/cancel.svg";
 import auto_stories from "../../assets/trippez/auto_stories.svg";
 import currency from "../../assets/trippez/curren.svg";
@@ -26,6 +32,9 @@ import loyalty from "../../assets/trippez/loyalty.svg";
 import eco from "../../assets/trippez/eco.svg";
 import support_agent from "../../assets/trippez/support_agent.svg";
 import directive_4 from "../../assets/trippez/diversity_4.svg";
+import arrow from "../../assets/pgos/Arrow.svg";
+import arrowBack from "../../assets/arrowBack.svg";
+import arrowFor from "../../assets/arrowFor.svg";
 
 function Trippiez() {
   return (
@@ -66,7 +75,7 @@ function Trippiez() {
             <br />
             <div>
               <div className="headers-top-intro">My Contribution</div>
-              <div className="my-contri-intro">
+              <div className="my-contri-intro whitespace-pre-wrap">
                 Research & Analysis | Experience Design | Interaction Design
               </div>
             </div>
@@ -148,7 +157,7 @@ function Trippiez() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="bg-change-tripp">
         <div className="inner-container-subex py-[64px]">
           <div className="ideate-sbsa research-tripp">
             <h1>Research</h1>
@@ -174,7 +183,7 @@ function Trippiez() {
             <div className="flex w-[90%] gap-8 users-tripp">
               <div>
                 <div className="user-type-tripp mb-2">Primary Users</div>
-                <div className="flex">
+                <div className="flex gap-3">
                   <div>
                     <img src={hiking} alt="" />
                   </div>
@@ -184,7 +193,7 @@ function Trippiez() {
               </div>
               <div>
                 <div className="user-type-tripp mb-2">Secondary Users</div>
-                <div className="flex">
+                <div className="flex gap-3">
                   <div>
                     <img src={family} alt="" />
                   </div>
@@ -195,7 +204,7 @@ function Trippiez() {
             </div>
             <br />
             <h4 className="demography-title mb-[12px]">Demographics</h4>
-            <div className="flex demographies-tripp justify-between">
+            <div className="flex demographies-tripp justify-between flex-wrap">
               <div>
                 <div>Students</div>
                 <ul>
@@ -251,7 +260,7 @@ function Trippiez() {
                 </ul>
               </div>
             </div>
-            <div className="flex personality-tripp justify-between mt-[24px] mb-[40px]">
+            <div className="flex flex-wrap personality-tripp justify-between mt-[24px] mb-[40px]">
               <div>
                 <div>Personality</div>
                 <ul>
@@ -297,14 +306,14 @@ function Trippiez() {
                 </ul>
               </div>
             </div>
-            <div className="flex justify-between down-buttons-tripp">
+            <div className="flex flex-wrap justify-between down-buttons-tripp">
               <div>Adventure seekers</div>
               <div>Cultural enthusiasts</div>
               <div>Beach lovers</div>
               <div>Wildlife and nature enthusiasts</div>
               <div>City explorers and urbanites</div>
             </div>
-            <div className="flex justify-between down-buttons-tripp mt-[12px]">
+            <div className="flex flex-wrap justify-between down-buttons-tripp mt-[12px]">
               <div>Music and festival goers</div>
               <div>Art and design aficionados</div>
               <div>Solo travelers</div>
@@ -315,7 +324,9 @@ function Trippiez() {
           <div className="user-testimonial-tripp mt-[56px]">
             <div>
               <div className="user-verbatism-tripp">
-                <div>image</div>
+                <div>
+                  <img src={u1} alt="" />
+                </div>
                 <div>
                   <div>
                     I find it hard to know where to start with so many different
@@ -325,7 +336,9 @@ function Trippiez() {
                 </div>
               </div>
               <div className="user-verbatism-tripp">
-                <div>image</div>
+                <div>
+                  <img src={u2} alt="" />
+                </div>
                 <div>
                   <div>
                     I find it frustrating when I can't find clear and concise
@@ -336,8 +349,10 @@ function Trippiez() {
                 </div>
               </div>
             </div>
-            <div className="user-verbatism-tripp mx-auto">
-              <div>image</div>
+            <div className="user-verbatism-tripp2 mx-auto">
+              <div>
+                <img src={u3} alt="" />
+              </div>
               <div>
                 <div>
                   Sustainable travel is really important to me, I always try to
@@ -348,7 +363,9 @@ function Trippiez() {
             </div>
             <div>
               <div className="user-verbatism-tripp">
-                <div>image</div>
+                <div>
+                  <img src={u4} alt="" />
+                </div>
                 <div>
                   <div>
                     It's important for me to have flexibility in my travel
@@ -358,7 +375,9 @@ function Trippiez() {
                 </div>
               </div>
               <div className="user-verbatism-tripp">
-                <div>image</div>
+                <div>
+                  <img src={u5} alt="" />
+                </div>
                 <div>
                   <div>
                     I like to be able to personalize my travel experiences based
@@ -407,24 +426,45 @@ function Trippiez() {
           <div className="pie-graph-tripp">
             <div>
               <div>Must-haves when booking an accommodation?</div>
-              <div>
+              <div className="mx-auto w-[129px] my-[20px]">
                 <img src={cc1} alt="" />
               </div>
-              <div></div>
+              <div>
+                <ul>
+                  <li>27% | Affordable price</li>
+                  <li>23% | Proximity to attractions</li>
+                  <li>21% | Free Wi-Fi</li>
+                  <li>19% | Cleanliness</li>
+                </ul>
+              </div>
             </div>
             <div>
               <div>How often do you travel?</div>
-              <div>
+              <div className="mx-auto w-[129px] my-[20px]">
                 <img src={cc2} alt="" />
               </div>
-              <div></div>
+              <div>
+                <ul>
+                  <li>46% | Once a year</li>
+                  <li>39% | 2-3 times a year</li>
+                  <li>9% | 4-6 times a year</li>
+                  <li>6% | More than 6 times a year</li>
+                </ul>
+              </div>
             </div>
             <div>
               <div>How concerned are you about security when traveling?</div>
-              <div>
+              <div className="mx-auto w-[129px] my-[20px]">
                 <img src={cc3} alt="" />
               </div>
-              <div></div>
+              <div>
+                <ul>
+                  <li>37% | Very concerned</li>
+                  <li>44% | Somewhat concerned</li>
+                  <li>15% | Not very concerned</li>
+                  <li>4% | Not at all concerned</li>
+                </ul>
+              </div>
             </div>
           </div>
           <p className="graphs-para-tripp mt-[44px]">
@@ -563,14 +603,25 @@ function Trippiez() {
             <div className="goal-pain-div-tripp">
               <div>
                 <h4>User Goals</h4>
-                <div>Finding the best travel deals for their budget</div>
-                <div>Discovering new and interesting travel destinations</div>
-                <div>Booking flights and accommodations easily and quickly</div>
                 <div>
+                  <img src={arrow} alt="" /> Finding the best travel deals for
+                  their budget
+                </div>
+                <div>
+                  <img src={arrow} alt="" /> Discovering new and interesting
+                  travel destinations
+                </div>
+                <div>
+                  <img src={arrow} alt="" /> Booking flights and accommodations
+                  easily and quickly
+                </div>
+                <div>
+                  <img src={arrow} alt="" />
                   Having a personalized travel experience based on their
                   preferences
                 </div>
                 <div>
+                  <img src={arrow} alt="" />
                   Accessing reliable and up-to-date information about their
                   destination
                 </div>
@@ -578,15 +629,24 @@ function Trippiez() {
               <div>
                 <h4>Pain points</h4>
                 <div>
+                  <img src={garrow} alt="" />
                   Feeling overwhelmed by the amount of information available
                   online
                 </div>
                 <div>
+                  <img src={garrow} alt="" />
                   Difficulty finding trustworthy reviews and recommendations
                 </div>
-                <div>Limited budget for travel</div>
-                <div>Lack of knowledge about the local culture and customs</div>
                 <div>
+                  <img src={garrow} alt="" />
+                  Limited budget for travel
+                </div>
+                <div>
+                  <img src={garrow} alt="" />
+                  Lack of knowledge about the local culture and customs
+                </div>
+                <div>
+                  <img src={garrow} alt="" />
                   Unpredictable weather or travel disruptions that can affect
                   their plans
                 </div>
@@ -762,6 +822,7 @@ function Trippiez() {
                   </li>
                 </ul>
               </div>
+              <div className="budget-based1">1</div>
             </div>
             <div className="interactive-tripp">
               <div>
@@ -818,16 +879,22 @@ function Trippiez() {
                 <div></div>
                 <div></div>
               </div>
-              <div className="partition-line-sbsa my-[72px]"></div>
-              <h1>Deliver: Visual Design</h1>
-              <br />
-              <div className="wireframe-sbsa">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            </div>
+          </div>
+          <div className="partition-line-sbsa my-[72px]"></div>
+          <div>
+            <div className="inner-container-subex">
+              <div className="deliver-wireframes-sbsa">
+                <h1>Deliver: Visual Design</h1>
+                <br />
+                <div className="wireframe-sbsa">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
               </div>
             </div>
           </div>
@@ -836,8 +903,8 @@ function Trippiez() {
       <div className="inner-container-subex">
         <div className="mylearning-sbsa">
           <h1>My Learning</h1>
-          <div className="flex">
-            <div>icon</div>
+          <div className="flex items-baseline gap-[10px]">
+            <img src={arrow} alt="" />
             Working on the Trippiez project, I gained valuable experience in
             designing for the travel and hospitality industry. I learned how to
             incorporate features that address the specific needs of travelers,
@@ -845,16 +912,16 @@ function Trippiez() {
             recommendations, and social sharing capabilities.
           </div>
           <br />
-          <div className="flex">
-            <div>icon</div>I recognized the significance of delivering a smooth
-            and user-friendly experience, as travel planning can be complicated
-            and overwhelming for many users.
+          <div className="flex items-baseline gap-[10px]">
+            <img src={arrow} alt="" />I recognized the significance of
+            delivering a smooth and user-friendly experience, as travel planning
+            can be complicated and overwhelming for many users.
           </div>
         </div>
         <div className="mylearning-sbsa mt-[48px]">
           <h1>Future Directions</h1>
-          <div className="flex">
-            <div>icon</div>
+          <div className="flex items-baseline gap-[10px]">
+            <img src={arrow} alt="" />
             There are several potential future directions for Trippiez that
             could help it continue to grow and succeed. One direction would be
             to focus on expanding the range of travel options available on the
@@ -862,8 +929,8 @@ function Trippiez() {
             unique travel experiences.
           </div>
           <br />
-          <div className="flex">
-            <div>icon</div>
+          <div className="flex items-baseline gap-[10px]">
+            <img src={arrow} alt="" />
             Trippiez could include expanding the platform to offer more unique
             and immersive travel experiences, integrating augmented or virtual
             reality features to enhance trip planning and preview, implementing
@@ -872,12 +939,18 @@ function Trippiez() {
             environmentally conscious users.
           </div>
         </div>
-        <div className="flex justify-between bot-nav-sbsa my-[48px]">
-          <div className="flex">
-            <div>icon</div> Previous Case Study
+        <div className="navigation-subex">
+          <div className="flex items-center cursor-pointer">
+            <div>
+              <img src={arrowBack} alt="" />
+            </div>
+            Previous Case Study
           </div>
-          <div className="flex">
-            Next Case Study<div>icon</div>
+          <div className="flex items-center cursor-pointer">
+            Next Case Study
+            <div>
+              <img src={arrowFor} alt="" />
+            </div>
           </div>
         </div>
       </div>
