@@ -35,7 +35,7 @@ function Home_Page() {
       <div className="homePageIcon"><img src={Me} alt="Avtar" /></div>
       <div className="homePageTitle">Hello I’m Kshitij Srivastava 👋</div>
       <div className="homePageContent">A Product Designer <br /> driven by empathy and creativity</div>
-      <button className='home-btn1'>All Case studies</button>
+      <div className="btnbox"><button className='home-btn1'>All Case studies</button></div>
       <div className="homeCompanyBox">
         <div className="homeCompanyIcon"><img src={VZ} alt="VZ" /></div>
         <div className="homeCompanyIcon"><img src={PGOS} alt="PGOS" /></div>
