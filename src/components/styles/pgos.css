@@ -84,11 +84,7 @@
   font-size: 32px;
   line-height: 39px;
   color: #b9b9b9;
-}
-.the-challenge-pgos h1 > div {
-  width: 41px;
-  background: #151a20;
-  border-radius: 50%;
+  gap: 15px;
 }
 .the-challenge-pgos h4 {
   font-weight: 600;
@@ -218,11 +214,10 @@
   line-height: 20px;
   color: #d6dff0;
 }
-.circle-bg {
+.design2-pgos img {
+  height: 72px;
   width: 72px;
-  /* height: 72px; */
-  background: #161616;
-  border-radius: 50%;
+  max-width: none;
 }
 .design2-pgos > div {
   gap: 25px;
@@ -230,13 +225,14 @@
   width: 75%;
 }
 .bg-lock-pgos {
+  background-image: url(../../assets/verizon/Back.png);
+  background-size: contain;
+}
+.bg-lock-pgos2 {
   background: rgba(27, 25, 23, 0.9);
   mix-blend-mode: normal;
   backdrop-filter: blur(3.5px);
   border-radius: 4px;
-}
-.bg-image-pgos {
-  background-image: url(../../assets/pgos/);
 }
 .product-showcase-pgos {
   margin: auto;
@@ -277,8 +273,13 @@
   line-height: 39px;
   color: #b9b9b9;
 }
+.project-challenges-pgos img {
+  max-width: none;
+  height: 40px;
+  width: 40px;
+}
 .project-challenges-pgos > div {
-  gap: 5%;
+  gap: 32px;
 }
 .project-challenges-pgos h5 {
   font-weight: 700;
@@ -354,6 +355,10 @@
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
+  gap: 10px;
+}
+.my-learning-pgos img {
+  max-width: none;
 }
 .reflecion-pgos > div {
   border: 1px solid #3d4c5e;
@@ -366,11 +371,15 @@
   line-height: 39px;
   color: #b9b9b9;
 }
-.reflecion-pgos p {
+.reflecion-pgos img {
+  max-width: none;
+}
+.reflecion-pgos > div > div {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
+  gap: 10px;
 }
 .my-impact-pgos h1 {
   font-weight: 700;

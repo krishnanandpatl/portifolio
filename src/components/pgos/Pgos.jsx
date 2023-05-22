@@ -24,7 +24,7 @@ import impactteam from "../../assets/pgos/impactteam.svg";
 import buissimpact from "../../assets/pgos/buissnessimpa.svg";
 import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
-import arrow from "../../assets/pgos/Arrow.svg"
+import arrow from "../../assets/pgos/Arrow.svg";
 
 function Pgos() {
   return (
@@ -150,21 +150,27 @@ function Pgos() {
               <div>
                 <h3>Stats</h3>
                 <div>
-                  <div><img src={check} alt="" /></div>
+                  <div>
+                    <img src={check} alt="" />
+                  </div>
                   PGOS has already gained significant interest from potential
                   clients, with several major brands expressing their desire to
                   use the platform.
                 </div>
                 <br />
                 <div>
-                  <div><img src={check} alt="" /></div>
+                  <div>
+                    <img src={check} alt="" />
+                  </div>
                   PGOS's flexible and configurable nature has resulted in
                   significant cost savings by simplifying their marketing and
                   media planning processes.
                 </div>
                 <br />
                 <div>
-                  <div><img src={check} alt="" /></div>
+                  <div>
+                    <img src={check} alt="" />
+                  </div>
                   Early user testing and feedback has been overwhelmingly
                   positive, with users highlighting the intuitive and
                   user-friendly design of the platform.
@@ -175,7 +181,10 @@ function Pgos() {
 
           <div className="the-challenge-pgos">
             <h1 className="flex">
-              <div><img src={redflag} alt="" /></div> The Challenge
+              <div>
+                <img src={redflag} alt="" />
+              </div>
+              The Challenge
             </h1>
             <div className="mx-[58px] mt-[32px]">
               <h4>
@@ -404,7 +413,9 @@ function Pgos() {
             </p>
             <div className="design2-pgos">
               <div className="flex">
-                <div className="circle-bg"><img src={requirements} alt="" /></div>
+                <div className="circle-bg">
+                  <img src={requirements} alt="" />
+                </div>
                 <div>
                   <h5>Gathering Requirements</h5>
                   <p>
@@ -478,32 +489,34 @@ function Pgos() {
         </div>
       </div>
       <div className="bg-lock-pgos">
-        <div className="inner-container-subex bg-image-pgos">
-          <div className="product-showcase-pgos py-[160px]">
-            <div>
-              <img src={lock} alt="" />
-            </div>
-            <br />
-            <h2>Product Showcase</h2>
-            <br />
-            <h6>
-              I appreciate your interest in seeing my work and I hope you can
-              understand that my commitment to maintaining client trust and
-              confidentiality is of the utmost importance to me.
+        <div className="bg-lock-pgos2">
+          <div className="inner-container-subex bg-image-pgos">
+            <div className="product-showcase-pgos py-[160px]">
+              <div>
+                <img src={lock} alt="" />
+              </div>
               <br />
-              If there are any other ways in which I can demonstrate my skills
-              and experience, I would be more than happy to discuss them with
-              you.
-            </h6>
-            <br />
-            <br />
-            <p>
-              Due to the Non-Disclosure Agreement (NDA) I have signed with PGOS,
-              I am not able to showcase any design work publicly. However, I can
-              confidently say that my design solutions have positively impacted
-              the business and have contributed to improving the overall user
-              experience.
-            </p>
+              <h2>Product Showcase</h2>
+              <br />
+              <h6>
+                I appreciate your interest in seeing my work and I hope you can
+                understand that my commitment to maintaining client trust and
+                confidentiality is of the utmost importance to me.
+                <br />
+                If there are any other ways in which I can demonstrate my skills
+                and experience, I would be more than happy to discuss them with
+                you.
+              </h6>
+              <br />
+              <br />
+              <p>
+                Due to the Non-Disclosure Agreement (NDA) I have signed with
+                PGOS, I am not able to showcase any design work publicly.
+                However, I can confidently say that my design solutions have
+                positively impacted the business and have contributed to
+                improving the overall user experience.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -513,7 +526,9 @@ function Pgos() {
             <h1>Project Challenges</h1>
             <br />
             <div className="flex">
-              <div><img src={resistance} alt="" /></div>
+              <div>
+                <img src={resistance} alt="" />
+              </div>
               <div>
                 <h5>Resistance to Change</h5>
                 <p>
@@ -526,7 +541,9 @@ function Pgos() {
             </div>
             <br />
             <div className="flex">
-              <div><img src={differing} alt="" /></div>
+              <div>
+                <img src={differing} alt="" />
+              </div>
               <div>
                 <h5>Differing Design Opinion</h5>
                 <p>
@@ -540,7 +557,9 @@ function Pgos() {
             </div>
             <br />
             <div className="flex">
-              <div><img src={technical} alt="" /></div>
+              <div>
+                <img src={technical} alt="" />
+              </div>
               <div>
                 <h5>Technical Constraints</h5>
                 <p>
@@ -562,7 +581,9 @@ function Pgos() {
             <br />
             <div>
               <div className="p-6 border-right-pgos">
-                <div className="mb-4"><img src={design} alt="" /></div>
+                <div className="mb-4">
+                  <img src={design} alt="" />
+                </div>
                 <h5>Design</h5>
                 <br />
                 <div>
@@ -583,7 +604,9 @@ function Pgos() {
                 </div>
               </div>
               <div className="p-6">
-                <div className="mb-4"><img src={team} alt="" /></div>
+                <div className="mb-4">
+                  <img src={team} alt="" />
+                </div>
                 <h5>Team & Project Management</h5>
                 <br />
                 <div>
@@ -618,7 +641,9 @@ function Pgos() {
             <br />
             <div className="flex my-impact-in-pgos">
               <div className="w-3/5 impact-border-pgos pr-[60px]">
-                <div className=""><img src={impactdes} alt="" /></div>
+                <div className="">
+                  <img src={impactdes} alt="" />
+                </div>
                 <br />
                 <h5>Design</h5>
                 <br />
@@ -646,7 +671,9 @@ function Pgos() {
                 </p>
               </div>
               <div className="w-2/5 pl-[60px] pb-[40px]">
-                <div><img src={impactteam} alt="" /></div>
+                <div>
+                  <img src={impactteam} alt="" />
+                </div>
                 <br />
                 <h5>Team Management</h5>
                 <br />
@@ -675,7 +702,9 @@ function Pgos() {
             </div>
           </div>
           <div className="flex gap-[42px] pb-[56px]">
-            <div className="w-1/5"><img src={buissimpact} alt="" /></div>
+            <div className="w-1/5">
+              <img src={buissimpact} alt="" />
+            </div>
             <div className="buisness-impact-pgos">
               <h5>Business Impact</h5>
               <br />
@@ -709,34 +738,34 @@ function Pgos() {
             <br />
             <div>
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <div>
-                  Through my work with PGOS, I have learned to balance design
-                  quality with technical constraints and business requirements.
-                  I have learned how to manage and prioritise Jira tickets to
-                  ensure that deadlines are met and that the design output meets
-                  both user and business needs.
+                  <img src={arrow} alt="" />
                 </div>
+                Through my work with PGOS, I have learned to balance design
+                quality with technical constraints and business requirements. I
+                have learned how to manage and prioritise Jira tickets to ensure
+                that deadlines are met and that the design output meets both
+                user and business needs.
               </div>
               <br />
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <div>
-                  In managing UX tracks for projects, I have developed skills in
-                  project management, including task prioritization, timeline
-                  management, and effective communication with team members and
-                  stakeholders.
+                  <img src={arrow} alt="" />
                 </div>
+                In managing UX tracks for projects, I have developed skills in
+                project management, including task prioritization, timeline
+                management, and effective communication with team members and
+                stakeholders.
               </div>
               <br />
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
                 <div>
-                  Working with a variety of stakeholders, including program
-                  managers, tech leads, business teams, and design teams, I have
-                  learned how to effectively communicate design recommendations
-                  and receive feedback for iterative design improvements.
+                  <img src={arrow} alt="" />
                 </div>
+                Working with a variety of stakeholders, including program
+                managers, tech leads, business teams, and design teams, I have
+                learned how to effectively communicate design recommendations
+                and receive feedback for iterative design improvements.
               </div>
             </div>
           </div>
@@ -745,67 +774,73 @@ function Pgos() {
               <h2>Reflection</h2>
               <br />
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
-                <p>
-                  Reflecting on my work has helped me identify areas for
-                  improvement and growth as a designer and team member.
-                </p>
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
+                Reflecting on my work has helped me identify areas for
+                improvement and growth as a designer and team member.
               </div>
               <br />
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
-                <p>
-                  By taking the time to reflect on my successes and challenges,
-                  I am able to learn from my experiences and make changes to my
-                  approach in the future.
-                </p>
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
+                By taking the time to reflect on my successes and challenges, I
+                am able to learn from my experiences and make changes to my
+                approach in the future.
               </div>
               <br />
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
-                <p>
-                  Reflection has also helped me appreciate the impact of my work
-                  on the team and the business, and has motivated me to continue
-                  striving for excellence.
-                </p>
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
+                Reflection has also helped me appreciate the impact of my work
+                on the team and the business, and has motivated me to continue
+                striving for excellence.
               </div>
             </div>
             <div>
               <h2>Future Directions</h2>
               <br />
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
-                <p>
-                  Reflecting on my work has helped me identify areas for
-                  improvement and growth as a designer and team member.
-                </p>
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
+                Reflecting on my work has helped me identify areas for
+                improvement and growth as a designer and team member.
               </div>
               <br />
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
-                <p>
-                  By taking the time to reflect on my successes and challenges,
-                  I am able to learn from my experiences and make changes to my
-                  approach in the future.
-                </p>
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
+                By taking the time to reflect on my successes and challenges, I
+                am able to learn from my experiences and make changes to my
+                approach in the future.
               </div>
               <br />
               <div className="flex">
-                <div className="w-1/5"><img src={arrow} alt="" /></div>
-                <p>
-                  Reflection has also helped me appreciate the impact of my work
-                  on the team and the business, and has motivated me to continue
-                  striving for excellence.
-                </p>
+                <div>
+                  <img src={arrow} alt="" />
+                </div>
+                Reflection has also helped me appreciate the impact of my work
+                on the team and the business, and has motivated me to continue
+                striving for excellence.
               </div>
             </div>
           </div>
           <div className="navigation-subex">
             <div className="flex">
-              <div><img src={arrowBack} alt="" /></div>Previous Case Study
+              <div>
+                <img src={arrowBack} alt="" />
+              </div>
+              Previous Case Study
             </div>
             <div className="flex">
-              Next Case Study<div><img src={arrowFor} alt="" /></div>
+              Next Case Study
+              <div>
+                <img src={arrowFor} alt="" />
+              </div>
             </div>
           </div>
         </div>
