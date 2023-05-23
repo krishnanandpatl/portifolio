@@ -21,7 +21,6 @@ import Subex from "./components/subex/Subex";
 import Request from "./components/secure/Request";
 import ScrollButton from "./components/navbar/ScrollButoon";
 
-
 // const Subex = lazy(() => import("./components/subex/Subex"));
 // const Dell = lazy(() => import("./components/dell/Dell"));
 // const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));

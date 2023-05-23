@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/home.css";
 import extlink from "../../assets/externalLink.svg";
 import avatar from "../../assets/avatar.png";
-import report from "../../assets/report.webp";
 import dell from "../../assets/home/Dell.svg";
 import icici from "../../assets/home/ICICI.svg";
 import pgos from "../../assets/home/PGOS.svg";
@@ -61,30 +60,26 @@ function Home() {
           <img src={icici} className="" alt="" />
         </div>
       </div>
-      <div className="md:mt-[120px] mt-[80px] xl:w-[903px] xl:mx-[270px] mx-auto border w-fit">
-        <div className="dark:text-[#D6DFF0] mt-20 w-fit mx-auto text-2xl font-bold border">
+      <div className="md:mt-[120px] mt-[80px] xl:w-[903px] xl:mx-[270px] mx-auto w-fit">
+        <div className="dark:text-[#D6DFF0] mt-20 w-fit mx-auto text-2xl font-bold">
           Featured Projects
         </div>
-        <div className="w-8 rounded-[80px] border-b-4 my-2 mx-auto red-underline mb-24"></div>
-        <div className="border w-fit mx-auto">
-          <div className="relative lg:w-[42rem] mb-20 border">
-            <div className="lg:w-[32rem] w-[70%] md:mx-0 mx-auto border rounded-md bg-black h-60 my-auto">
-              <div className="md:py-12 md:px-10 md:pr-52 py-3">
-                <div className="text-[#EC7A7D] lg:text-[28px] md:text-xl md:mx-0 text-lg w-fit mx-auto font-semibold md:mt-0">
-                  Verizon Sales 360
-                </div>
+        <div className="red-line-featured"></div>
+        <div className="w-fit mx-auto">
+          <div className="relative mb-20">
+            <div className="verizon-container-home py-[78px] pl-[48px]">
+              <div className="">
+                <div className="verizon-title-home">Verizon Sales 360</div>
                 <div className="flex items-baseline">
                   <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                  <span className="text-gray-500 text-sm pl-2">
-                    Greenfield Project
-                  </span>
+                  <span className="second-title-home">Greenfield Project</span>
                 </div>
-                <div className="text-gray-600 text-xs mt-2">
+                <div className="para-home2">
                   A comprehensive digital landscape that supports 22k business
                   across 338k sites.
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                  className="link-open-home my-[16px]"
                   onClick={() => LinkFn("/restricted", "/verizon-360")}
                 >
                   View case study
@@ -92,32 +87,28 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="bg-red-500 absolute rounded-md md:top-[2rem] md:right-0 md:h-[11rem] md:w-[20rem]">
+            <div className="image-container-home">
               <img src={P1_Image} alt="" />
             </div>
           </div>
-          <div className="flex relative items-center lg:w-[42rem] mb-20">
-            <div className="rounded-md z-10 h-[11rem] w-[20rem]">
+          <div className="relative items-center lg:w-[42rem] mb-20">
+            <div className="image-container-home2">
               <img src={P2_Image} className="h-full w-full" alt="" />
             </div>
-            <div className="w-[32rem] absolute rounded-md right-0 bg-black h-60">
-              <div className="ml-[13rem] py-12">
-                <div className="text-red-400 text-xl font-bold">
-                  Publicis Growth OS
-                </div>
+            <div className="flex justify-end verizon-container-home py-[78px] pr-[108px]">
+              <div className="">
+                <div className="verizon-title-home">Publicis Growth OS</div>
                 <div className="flex items-baseline">
                   <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                  <span className="text-gray-500 text-sm pl-2">
-                    Greenfield Project
-                  </span>
+                  <span className="second-title-home">Greenfield Project</span>
                 </div>
-                <div className="text-gray-600 text-xs mt-2">
+                <div className="para-home">
                   A campaign management application to provide a more intuitive
                   and eficient platform for marketing teams to manage their
                   campaigns effectively.
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                  className="link-open-home my-[16px]"
                   onClick={() => LinkFn("/restricted", "/publicis-growth-os")}
                 >
                   View case study
@@ -126,23 +117,23 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="relative lg:w-[42rem] mx-auto mb-20">
-            <div className="w-[32rem] rounded-md bg-black h-60 my-auto">
-              <div className="py-12 px-10 pr-52">
-                <div className="text-red-400 text-xl font-bold">Subex</div>
+          <div className="relative mb-20">
+            <div className="verizon-container-home py-[78px] pl-[48px]">
+              <div className="">
+                <div className="verizon-title-home">Subex</div>
                 <div className="flex items-baseline">
                   <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                  <span className="text-gray-500 text-sm pl-2">
-                    Product Revamp
-                  </span>
+                  <span className="second-title-home">Product Revamp</span>
                 </div>
-                <div className="text-gray-600 text-xs mt-2">
+                <div className="para-home">
                   Subex Limited provides digital trust products to communication
                   service providers.
-                  <p>The company is listed on BSE and NSE in India.</p>
+                  <p className="para-home">
+                    The company is listed on BSE and NSE in India.
+                  </p>
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                  className="link-open-home my-[16px]"
                   onClick={() => LinkFn("/subex", "")}
                 >
                   View case study
@@ -150,32 +141,31 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="dark:bg-white absolute rounded-md top-[2rem] right-0 h-[11rem] w-[20rem]">
+            <div className="image-container-home">
               <img src={P3_Image} alt="" />
             </div>
           </div>
-          <div className="flex relative items-center lg:w-[42rem] mb-20">
-            <div className="bg-white rounded-md z-10 h-[11rem] w-[20rem]">
-              <img src={P4_Image} alt="" />
+          <div className="relative items-center lg:w-[42rem] mb-20">
+            <div className="image-container-home2">
+              <img src={P4_Image} className="h-full w-full" alt="" />
             </div>
-            <div className="w-[32rem] absolute rounded-md right-0 bg-black h-60">
-              <div className="ml-[13rem] py-12">
-                <div className="text-red-400 text-xl font-bold">
-                  Standard Bank
-                </div>
+            <div></div>
+            <div className="flex justify-end verizon-container-home py-[78px] pr-[108px]">
+              <div className="">
+                <div className="verizon-title-home">Standard Bank</div>
                 <div className="flex items-baseline">
                   <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                  <span className="text-gray-500 text-sm pl-2">
+                  <span className="second-title-home">
                     Revisiting user experience and engagement
                   </span>
                 </div>
-                <div className="text-gray-600 text-xs mt-2">
+                <div className="para-home">
                   The Standard Bank of South Africa Limited is a South African
                   financial services group and is Africa's biggest lender by
                   assets.
                 </div>
                 <a
-                  className="text-red-400 text-xs mt-2 flex cursor-pointer"
+                  className="link-open-home my-[16px]"
                   onClick={() => LinkFn("/standard-bank-of-south-africa")}
                 >
                   View case study
@@ -186,121 +176,85 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="featuredprojects-home">
-        <div className="fps-title-home">
-          <h1 className="text-[#D6DFF0]">Featured Projects</h1>
-          <div></div>
-        </div>
-        <div className="verizon-sales-home">
-          <div className="cardinsideconatiner1-home"></div>
-          <div className="secondcard-home"></div>
-        </div>
-        <div className="verizon-sales-home">
-          <div className="rightcard-home"></div>
-          <div></div>
-        </div>
-        <div className="verizon-sales-home">
-          <div className="cardinsideconatiner1-home"></div>
-          <div className="secondcard-home"></div>
-        </div>
-        <div className="verizon-sales-home"></div>
-      </div> */}
-      <div className="dark:text-gray-400 mt-20 w-fit mx-auto text-2xl font-bold">
-        Other Projects
-      </div>
-      <div className="w-8 rounded-sm border-b-4 my-2 mx-auto border-red-400 mb-24"></div>
-      <div className="md:grid md:grid-cols-2 md:gap-x-10 md:gap-y-10 lg:grid-cols-3 justify-around px-14">
-        <div className="relative mb-[10rem] w-fit mx-auto">
-          <div className="border border-gray-700 h-[14rem] w-[18rem] rounded-sm">
-            <div className="p-3">
-              <div className="w-fit mx-auto text-red-400 text-xl font-bold">
-                Moneytap Banker's Portal
+      <div className="feature-title">Other Projects</div>
+      <div className="red-line-featured"></div>
+      <div className="mt-[24px] mb-[226px] other-projects-main">
+        <div className="relative">
+          <div className="mtbp-home">
+            <div className="other-proj-title">Moneytap Banker's Portal</div>
+            <div className="p-2">
+              <div className="flex items-baseline">
+                <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
+                <div className="second-title-op">Hybrid Project</div>
               </div>
-              <div className="p-2">
-                <div className="flex items-baseline">
-                  <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
-                  <div className="dark:text-gray-400 text-xs ml-1">
-                    Revisiting user experience and engagement
-                  </div>
-                </div>
-                <div className="text-gray-600 text-xs mt-2 px-2">
-                  MoneyTap is India's first app-based personal credit
-                  line,offered in partnership with banks and NBFCs.
-                </div>
-                <a
-                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
-                  onClick={() => LinkFn("/moneytap-bankers-portal")}
-                >
-                  View case study
-                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
-                </a>
+              <div className="op-para">
+                MoneyTap is India's first app-based personal credit line,offered
+                in partnership with banks and NBFCs.
               </div>
+              <a
+                className="link-open-home"
+                onClick={() => LinkFn("/moneytap-bankers-portal")}
+              >
+                View case study
+                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+              </a>
             </div>
           </div>
-          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[12rem] rounded-sm bg-white">
+          <div className="op-images">
             <img src={P5_Image} alt="" />
           </div>
         </div>
-        <div className="relative mb-[10rem] w-fit mx-auto">
-          <div className="border border-gray-700 h-[14rem] w-[18rem] rounded-sm">
-            <div className="p-3">
-              <div className="w-fit mx-auto text-red-400 text-xl font-bold">
-                Dell-Find A Partner Portal
-              </div>
-              <div className="p-2">
-                <div className="flex items-baseline">
-                  <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
-                  <div className="dark:text-gray-400 text-xs ml-1">
-                    Revisiting user experience and engagement
-                  </div>
+        <div className="relative">
+          <div className="mtbp-home">
+            <div className="other-proj-title">Dell-Find A Partner Portal</div>
+            <div className="p-2">
+              <div className="flex items-baseline">
+                <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
+                <div className="second-title-op whitespace-nowrap">
+                  Revisiting user experience and engagement
                 </div>
-                <div className="text-gray-600 text-xs mt-2 px-2">
-                  The Dell Find a Partner Program is a program that helps Dell
-                  customers connect with Dell's network of trusted partners.
-                </div>
-                <a
-                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
-                  onClick={() => LinkFn("/dell")}
-                >
-                  View case study
-                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
-                </a>
               </div>
+              <div className="op-para">
+                The Dell Find a Partner Program is a program that helps Dell
+                customers connect with Dell's network of trusted partners.
+              </div>
+              <a
+                className="link-open-home"
+                onClick={() => LinkFn("/moneytap-bankers-portal")}
+              >
+                View case study
+                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+              </a>
             </div>
           </div>
-          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[12rem] rounded-sm bg-white">
+          <div className="op-images">
             <img src={P6_Image} alt="" />
           </div>
         </div>
-        <div className="relative mb-[10rem] w-fit mx-auto">
-          <div className="border border-gray-700 h-[14rem] w-[18rem] rounded-sm">
-            <div className="p-3">
-              <div className="w-fit mx-auto text-red-400 text-xl font-bold">
-                Trippiez
-              </div>
-              <div className="p-2">
-                <div className="flex items-baseline">
-                  <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
-                  <div className="dark:text-gray-400 text-xs ml-1">
-                    Revisiting user experience and engagement
-                  </div>
+        <div className="relative">
+          <div className="mtbp-home">
+            <div className="other-proj-title-home ">Trippiez</div>
+            <div className="p-2">
+              <div className="flex items-baseline">
+                <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
+                <div className="second-title-op line-through whitespace-nowrap">
+                  Revisiting user experience and engagement
                 </div>
-                <div className="text-gray-600 text-xs mt-2 px-2">
-                  The Standard Bank of South Africa Limited is a South African
-                  financial services group and is Africa's biggest lender by
-                  assets.
-                </div>
-                <a
-                  className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
-                  onClick={() => LinkFn("/trippiez")}
-                >
-                  View case study
-                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
-                </a>
               </div>
+              <div className="op-para line-through">
+                The Standard Bank of South Africa Limited is a South African
+                financial services g
+              </div>
+              <a
+                className="link-open-home"
+                onClick={() => LinkFn("/trippiez ")}
+              >
+                View case study
+                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+              </a>
             </div>
           </div>
-          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[12rem] rounded-sm bg-white">
+          <div className="op-images">
             <img src={P7_Image} alt="" />
           </div>
         </div>
