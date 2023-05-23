@@ -1,7 +1,7 @@
 .dell-Maincontainer {
   max-width: 1440px;
   min-height: 500px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: auto;
 }
 .dell-MainBoxTop {
@@ -14,12 +14,12 @@
   width: 598px;
   height: 606px;
   margin-top: 140px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .dell-MainBox-leftBox-intro {
   width: 598px;
   height: 221px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .dell-MainBox-LeftBox-TimeBox {
   width: 360px;
@@ -105,7 +105,7 @@
 .dell-MainBox-LeftBox-ContrebutionBox {
   width: 543px;
   height: 60px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-top: 41px;
   padding: 5px 0px;
 }
@@ -113,7 +113,7 @@
   width: 862px;
   height: 792px;
   position: relative;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   left: -106px;
 }
 .dell-Content-MainBox {
@@ -127,6 +127,12 @@
   border-radius: 4px;
   padding: 48px 56px;
   margin: 39px 247px;
+}
+.dell-Content-MainBox>h1{
+  font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #B9B9B9;
 }
 .dell-Content-MainBox-ContextBox {
   display: flex;
@@ -148,7 +154,7 @@
 .dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon {
   width: 25px;
   height: 25px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-right: 7px;
 }
 .dell-Content-MainBox-ContextBox-insideBox-Content {
@@ -203,7 +209,7 @@
   display: flex;
 }
 .dell-content-Box2-Inside1-Icon {
-  border: 1px solid wheat;
+  /* border: 1px solid wheat; */
   width: 40px;
   height: 40px;
   margin-right: 28px;
@@ -273,33 +279,33 @@
   color: #b2bbc6;
 }
 .Box3-Icon1 {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 24px;
   height: 24px;
   margin-top: 7px;
   margin-bottom: 85px;
 }
 .Box3-Icon2 {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 24px;
   height: 24px;
   margin-top: 7px;
   margin-bottom: 111px;
 }
 .Box3-Icon3 {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 24px;
   height: 24px;
 }
 .Box3-Icon4 {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 24px;
   margin-top: -28px;
   height: 24px;
 }
 .DellPageHr1 {
-  width: 1280px;
-  margin: 80px;
+  width: 90%;
+  margin: auto;
   opacity: 0.5;
   border: 1px solid #7d7d7d;
 }

@@ -12,6 +12,12 @@ import intelligence from "../../assets/verizon/intelligence.png";
 import workspace from "../../assets/verizon/workspace.png";
 import guided from "../../assets/verizon/guided.png";
 import lock from "../../assets/pgos/lock.svg";
+import satisfy from "../../assets/verizon/satisfaction.svg";
+import efficiency from "../../assets/verizon/efficiency.svg";
+import reduced from "../../assets/verizon/reduced.svg";
+import prediction from "../../assets/verizon/prediction.svg";
+import arrow from "../../assets/pgos/Arrow.svg";
+import ogarrow from "../../assets/verizon/ogArrow.svg";
 
 function Verizon() {
   return (
@@ -497,7 +503,7 @@ function Verizon() {
           <table>
             <tr>
               <td className="keytablepadding">
-                <p className="tableTitle">ADATIVE</p>
+                <p className="tableTitle">ADAPTIVE</p>
                 <p className="tableTitle textColor">
                   Product for everyone's need
                 </p>
@@ -724,27 +730,29 @@ function Verizon() {
           </div>
         </div>
       </div>
-      <div className="verizonDesignSolutionMainBox">
-        <div className="verizonDesignSolutionContentBox">
-          <div className="verizonDesignSolutionContentIcon">
-            <img src={lock} alt="" />
-          </div>
-          <div className="verizonDesignSolutionContentTitle">
-            Design Solution
-          </div>
-          <div className="verizonDesignSolutionContentTitleContent">
-            <p>
-              As much as I would love to showcase the actual design work that
-              was done for VZ360, unfortunately, I am bound by a non-disclosure
-              agreement (NDA) with Verizon.
-            </p>{" "}
-            <br />
-            <p>
-              While I cannot share the specifics of the design, I can discuss
-              the comparative analysis that was done to identify areas of
-              improvement in the existing design and the proposed design changes
-              that were made to address those issues.
-            </p>
+      <div className="bg-lock-pgos">
+        <div className="verizonDesignSolutionMainBox">
+          <div className="verizonDesignSolutionContentBox">
+            <div className="verizonDesignSolutionContentIcon">
+              <img src={lock} alt="" />
+            </div>
+            <div className="verizonDesignSolutionContentTitle">
+              Design Solution
+            </div>
+            <div className="verizonDesignSolutionContentTitleContent">
+              <p>
+                As much as I would love to showcase the actual design work that
+                was done for VZ360, unfortunately, I am bound by a
+                non-disclosure agreement (NDA) with Verizon.
+              </p>{" "}
+              <br />
+              <p>
+                While I cannot share the specifics of the design, I can discuss
+                the comparative analysis that was done to identify areas of
+                improvement in the existing design and the proposed design
+                changes that were made to address those issues.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -875,9 +883,15 @@ function Verizon() {
         </div>
         <div className="myImpactContentBox">
           <div className="myImpactContentleft">
-            <div className="myImpactContentleftIcon"></div>
-            <div className="myImpactContentleftIcon"></div>
-            <div className="myImpactContentleftIcon"></div>
+            <div className="myImpactContentleftIcon">
+              <img src={satisfy} alt="" />
+            </div>
+            <div className="myImpactContentleftIcon">
+              <img src={efficiency} alt="" />
+            </div>
+            <div className="myImpactContentleftIcon">
+              <img src={reduced} alt="" />
+            </div>
           </div>
           <div className="myImpactContentRight">
             <p className="myImpactContentTitle">Improved user satisfaction</p>
@@ -916,9 +930,15 @@ function Verizon() {
           <div className="verizonPredictionTitle">Predictions</div>
           <div className="verizonPredictionContentBox">
             <div className="verizonPredictionLeft">
-              <div className="verizonPredictionIcon"></div>
-              <div className="verizonPredictionIcon"></div>
-              <div className="verizonPredictionIcon"></div>
+              <div className="verizonPredictionIcon">
+                <img src={prediction} alt="" />
+              </div>
+              <div className="verizonPredictionIcon">
+                <img src={prediction} alt="" />
+              </div>
+              <div className="verizonPredictionIcon">
+                <img src={prediction} alt="" />
+              </div>
             </div>
             <div className="verizonPredictionRight">
               <p className="myImpactContentTitle">
@@ -965,8 +985,12 @@ function Verizon() {
         </div>
         <div className="verizonLearningBox1ContentBox">
           <div className="verizonLearningBox1Left">
-            <div className="verizonLearningIcon"></div>
-            <div className="verizonLearningIcon"></div>
+            <div className="verizonLearningIcon">
+              <img src={arrow} alt="" />
+            </div>
+            <div className="verizonLearningIcon">
+              <img src={arrow} alt="" />
+            </div>
           </div>
           <div className="verizonLearningBox1Right">
             <p>
@@ -993,8 +1017,12 @@ function Verizon() {
         <div className="verizonLearningBox1Title">If I had more time</div>
         <div className="verizonLearningBox2ContentBox">
           <div className="verizonLearningBox2Left">
-            <div className="verizonLearningBox2Icon"></div>
-            <div className="verizonLearningBox2Icon2"></div>
+            <div className="verizonLearningBox2Icon">
+              <img src={ogarrow} alt="" />
+            </div>
+            <div className="verizonLearningBox2Icon2">
+              <img src={ogarrow} alt="" />
+            </div>
           </div>
           <div className="verizonLearningBox2Right">
             <p className="textColorWhite">
@@ -1022,7 +1050,58 @@ function Verizon() {
       </div>
       <div className="verizonLearningBox3">
         <div className="verizonLearningBox3Title">Process & tools</div>
-        <div className="verizonLearningBox3ContentBox"></div>
+        <div className="verizonLearningBox3ContentBox">
+          <table>
+            <tr>
+              <td>
+                <div>
+                  <h4>Design & Prototyping</h4>
+                  <p>
+                    We used Sketch for designing; InVision for prototyping, and
+                    to collaborate with client team
+                  </p>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <h4>Project Tracking</h4>
+                  <p>We used JIRA to track daily work progress across PODs</p>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <h4>Estimates & planning</h4>
+                  <p>
+                    We used spreadsheets & docs for documenting, writing UT
+                    plan, work plan & estimations
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <h4>Communication (BlueJeans)</h4>
+                  <p>
+                    We set up daily cadence with our client design team in
+                    India, and thrice a week with our stakeholders in Europe and
+                    US.
+                  </p>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <h4>Stakeholder reviews</h4>
+                  <p>
+                    With Biz & Tech partners we created flows to capture
+                    functionality, behavior, interaction details, and decisions
+                  </p>
+                </div>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
       </div>
       <div className="verizonLearningBox4">
         <div className="verizonLearningBox4Content">

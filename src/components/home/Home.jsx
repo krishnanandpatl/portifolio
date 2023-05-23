@@ -8,6 +8,13 @@ import icici from "../../assets/home/ICICI.svg";
 import pgos from "../../assets/home/PGOS.svg";
 import sbsa from "../../assets/home/SBSA.svg";
 import vz from "../../assets/home/VZ.svg";
+import P1_Image from "../../assets/home/gifs/VZ.gif";
+import P2_Image from "../../assets/home/gifs/PGOS.gif";
+import P3_Image from "../../assets/home/gifs/Subex.gif";
+import P4_Image from "../../assets/home/gifs/SBSA.gif";
+import P5_Image from "../../assets/home/gifs/SBSA.gif";
+import P6_Image from "../../assets/home/gifs/Dell.gif";
+import P7_Image from "../../assets/home/gifs/Trippiez.gif";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
@@ -17,7 +24,7 @@ function Home() {
     document.getElementById("topheader").scrollIntoView({
       behavior: "smooth",
       block: "start",
-      // inline: "nearest",
+      inline: "nearest",
     });
     // if (nav) setNav(!nav);
   };
@@ -85,11 +92,13 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="bg-red-500 absolute rounded-md md:top-[2rem] md:right-0 md:h-[11rem] md:w-[20rem]"></div>
+            <div className="bg-red-500 absolute rounded-md md:top-[2rem] md:right-0 md:h-[11rem] md:w-[20rem]">
+              <img src={P1_Image} alt="" />
+            </div>
           </div>
           <div className="flex relative items-center lg:w-[42rem] mb-20">
             <div className="rounded-md z-10 h-[11rem] w-[20rem]">
-              <img src={report} className="h-full w-full" alt="" />
+              <img src={P2_Image} className="h-full w-full" alt="" />
             </div>
             <div className="w-[32rem] absolute rounded-md right-0 bg-black h-60">
               <div className="ml-[13rem] py-12">
@@ -134,17 +143,21 @@ function Home() {
                 </div>
                 <a
                   className="text-red-400 text-xs mt-2 flex cursor-pointer"
-                  onClick={() => LinkFn("/subex","")}
+                  onClick={() => LinkFn("/subex", "")}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
                 </a>
               </div>
             </div>
-            <div className="dark:bg-white absolute rounded-md top-[2rem] right-0 h-[11rem] w-[20rem]"></div>
+            <div className="dark:bg-white absolute rounded-md top-[2rem] right-0 h-[11rem] w-[20rem]">
+              <img src={P3_Image} alt="" />
+            </div>
           </div>
           <div className="flex relative items-center lg:w-[42rem] mb-20">
-            <div className="bg-white rounded-md z-10 h-[11rem] w-[20rem]"></div>
+            <div className="bg-white rounded-md z-10 h-[11rem] w-[20rem]">
+              <img src={P4_Image} alt="" />
+            </div>
             <div className="w-[32rem] absolute rounded-md right-0 bg-black h-60">
               <div className="ml-[13rem] py-12">
                 <div className="text-red-400 text-xl font-bold">
@@ -216,6 +229,7 @@ function Home() {
                 </div>
                 <a
                   className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
+                  onClick={() => LinkFn("/moneytap-bankers-portal")}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
@@ -223,7 +237,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[10rem] rounded-sm bg-white"></div>
+          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[12rem] rounded-sm bg-white">
+            <img src={P5_Image} alt="" />
+          </div>
         </div>
         <div className="relative mb-[10rem] w-fit mx-auto">
           <div className="border border-gray-700 h-[14rem] w-[18rem] rounded-sm">
@@ -238,10 +254,9 @@ function Home() {
                     Revisiting user experience and engagement
                   </div>
                 </div>
-                <div className="text-gray-600 text-xs mt-2 px-2 line-through">
-                  The Standard Bank of South Africa Limited is a South African
-                  financial services group and is Africa's biggest lender by
-                  assets.
+                <div className="text-gray-600 text-xs mt-2 px-2">
+                  The Dell Find a Partner Program is a program that helps Dell
+                  customers connect with Dell's network of trusted partners.
                 </div>
                 <a
                   className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
@@ -253,13 +268,15 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[10rem] rounded-sm bg-white"></div>
+          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[12rem] rounded-sm bg-white">
+            <img src={P6_Image} alt="" />
+          </div>
         </div>
         <div className="relative mb-[10rem] w-fit mx-auto">
           <div className="border border-gray-700 h-[14rem] w-[18rem] rounded-sm">
             <div className="p-3">
               <div className="w-fit mx-auto text-red-400 text-xl font-bold">
-                ICICI Bank Dashboard
+                Trippiez
               </div>
               <div className="p-2">
                 <div className="flex items-baseline">
@@ -268,13 +285,14 @@ function Home() {
                     Revisiting user experience and engagement
                   </div>
                 </div>
-                <div className="text-gray-600 text-xs mt-2 px-2 line-through">
+                <div className="text-gray-600 text-xs mt-2 px-2">
                   The Standard Bank of South Africa Limited is a South African
                   financial services group and is Africa's biggest lender by
                   assets.
                 </div>
                 <a
                   className="text-red-400 text-xs mt-2 flex w-fit mx-auto cursor-pointer"
+                  onClick={() => LinkFn("/trippiez")}
                 >
                   View case study
                   <img className="h-4 w-4 ml-2" src={extlink} alt="" />
@@ -282,7 +300,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[10rem] rounded-sm bg-white"></div>
+          <div className="absolute h-[8rem] w-[13.5rem] left-[2.5rem] top-[12rem] rounded-sm bg-white">
+            <img src={P7_Image} alt="" />
+          </div>
         </div>
       </div>
     </div>

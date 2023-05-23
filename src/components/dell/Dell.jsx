@@ -1,5 +1,15 @@
 import React from "react";
 import "../styles/Dell.css";
+import dell from '../../assets/dell/dell.png'
+import fraud from "../../assets/subex/fraud.svg";
+import revenue from "../../assets/subex/revenue.svg";
+import cancel from "../../assets/trippez/cancel.svg";
+import analsoln from "../../assets/subex/analsoln.svg";
+import buisschall from '../../assets/dell/buisschall.svg'
+import blueactivity from '../../assets/dell/blueactivity.svg'
+import designpers from '../../assets/dell/designpers.svg'
+import greycheck from '../../assets/mtbp/greycheck.svg'
+
 
 function Dell() {
   return (
@@ -61,7 +71,7 @@ function Dell() {
               </p>
             </div>
           </div>
-          <div className="dell-MainBox-RightBox"></div>
+          <div className="dell-MainBox-RightBox"><img src={dell} alt="" /></div>
         </div>
         <div className="dell-Content-MainBox">
           <h1 className="fontSize32">Context and Background</h1>
@@ -96,7 +106,7 @@ function Dell() {
           <div className="dell-Content-MainBox-ContextBox">
             <div className="dell-Content-MainBox-ContextBox-insideBox">
               <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox">
-                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"></div>
+                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"><img src={revenue} alt="" /></div>
                 <div className="fontSize12 marginTop4">End Customers</div>
               </div>
               <div className="dell-Content-MainBox-ContextBox-insideBox-Content">
@@ -106,7 +116,7 @@ function Dell() {
             </div>
             <div className="dell-Content-MainBox-ContextBox-insideBox">
               <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox">
-                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"></div>
+                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"><img src={fraud} alt="" /></div>
                 <div className="fontSize12 marginTop4">Partners</div>
               </div>
               <div className="dell-Content-MainBox-ContextBox-insideBox-Content">
@@ -116,7 +126,7 @@ function Dell() {
             </div>
             <div className="dell-Content-MainBox-ContextBox-insideBox">
               <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox">
-                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"></div>
+                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"><img src={analsoln} alt="" /></div>
                 <div className="fontSize12 marginTop4">Sales Makers</div>
               </div>
               <div className="dell-Content-MainBox-ContextBox-insideBox-Content">
@@ -133,7 +143,7 @@ function Dell() {
             <div className="dell-content-Box2-Text">What was the problem</div>
           </div>
           <div className="dell-content-Box2-Inside1">
-            <div className="dell-content-Box2-Inside1-Icon"></div>
+            <div className="dell-content-Box2-Inside1-Icon"><img src={buisschall} alt="" /></div>
             <div className="dell-content-Box2-Inside1-Text">
               <p>
                 <span className="colorWeight">The business challenge </span>{" "}
@@ -148,7 +158,7 @@ function Dell() {
             </div>
           </div>
           <div className="dell-content-Box2-Inside1">
-            <div className="dell-content-Box2-Inside1-Icon"></div>
+            <div className="dell-content-Box2-Inside1-Icon"><img src={designpers} alt="" /></div>
             <div className="dell-content-Box2-Inside1-Text">
               <p>
                 <span className="colorWeight">From a design perspective, </span>{" "}
@@ -175,9 +185,9 @@ function Dell() {
             </div>
             <div className="dell-content-Box3-Right">
               <div className="dell-content-Box3-Right-Left">
-                <div className="Box3-Icon1"></div>
-                <div className="Box3-Icon2"></div>
-                <div className="Box3-Icon3"></div>
+                <div className="Box3-Icon1"><img src={greycheck} alt="" /></div>
+                <div className="Box3-Icon2"><img src={greycheck} alt="" /></div>
+                <div className="Box3-Icon3"><img src={greycheck} alt="" /></div>
               </div>
               <div className="dell-content-Box3-Right-Right">
                 <p className="Font18">
@@ -207,8 +217,8 @@ function Dell() {
             </div>
             <div className="dell-content-Box3-Right">
               <div className="dell-content-Box3-Right-Left">
-                <div className="Box3-Icon1"></div>
-                <div className="Box3-Icon4"></div>
+                <div className="Box3-Icon1"><img src={greycheck} alt="" /></div>
+                <div className="Box3-Icon4"><img src={greycheck} alt="" /></div>
               </div>
               <div className="dell-content-Box3-Right-Right">
                 <p className="Font18">
@@ -872,13 +882,15 @@ function Dell() {
                 <td></td>
                 <td></td>
                 <td></td>
-              </tr>              
+              </tr>
             </table>
           </div>
         </div>
         <div className="dell-Content-MainBox11">
           <div className="dell-Content-MainBox11-TopBox">
-            <div className="dell-Content-MainBox11-TopBox-Heading">Deliver: Wireframes</div>
+            <div className="dell-Content-MainBox11-TopBox-Heading">
+              Deliver: Wireframes
+            </div>
             <div className="dell-Content-MainBox11-TopBox-Box">
               <div className="dell-Content-MainBox11-TopBox-Box-FlextBox"></div>
               <div className="dell-Content-MainBox11-TopBox-Box-FlextBox"></div>
@@ -888,7 +900,9 @@ function Dell() {
               <div className="dell-Content-MainBox11-TopBox-Box-FlextBox"></div>
             </div>
             <div className="dell-Content-MainBox11-Hr"></div>
-            <div className="dell-Content-MainBox11-TopBox-Heading">Deliver: Visual Design</div>
+            <div className="dell-Content-MainBox11-TopBox-Heading">
+              Deliver: Visual Design
+            </div>
             <div className="dell-Content-MainBox11-TopBox-Box">
               <div className="dell-Content-MainBox11-TopBox-Box-FlextBox"></div>
               <div className="dell-Content-MainBox11-TopBox-Box-FlextBox"></div>
@@ -908,33 +922,54 @@ function Dell() {
               <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon3"></div>
             </div>
             <div className="dell-my-learningBox-FlexBox-Right">
-              <p>I gained a deeper understanding of the importance of user research and data analysis in driving design decisions. It was crucial to understand the pain points and motivations of our users to create a more engaging and efficient platform.</p>
+              <p>
+                I gained a deeper understanding of the importance of user
+                research and data analysis in driving design decisions. It was
+                crucial to understand the pain points and motivations of our
+                users to create a more engaging and efficient platform.
+              </p>
               <br />
-              <p>Additionally, I learned about the importance of collaborating closely with developers to ensure that design decisions are technically feasible and scalable.</p>
+              <p>
+                Additionally, I learned about the importance of collaborating
+                closely with developers to ensure that design decisions are
+                technically feasible and scalable.
+              </p>
               <br />
-              <p>Furthermore, the project highlighted the significance of creating a consistent and intuitive design language that is easy for users to navigate.</p>
+              <p>
+                Furthermore, the project highlighted the significance of
+                creating a consistent and intuitive design language that is easy
+                for users to navigate.
+              </p>
             </div>
           </div>
         </div>
         <div className="dell-DirectionsBox">
-        <div className="dell-my-learningBox-heading">Future Directions </div>
+          <div className="dell-my-learningBox-heading">Future Directions </div>
           <div className="dell-my-learningBox-FlexBox">
             <div className="dell-my-learningBox-FlexBox-Left">
               <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon1"></div>
             </div>
             <div className="dell-my-learningBox-FlexBox-Right">
-              <p>As a design lead, I believe that the future of FAP lies in further optimizing the user experience and making it more personalized for individual users. This could involve leveraging data analytics and AI to provide customized recommendations and solutions based on the unique needs of each user.</p>
+              <p>
+                As a design lead, I believe that the future of FAP lies in
+                further optimizing the user experience and making it more
+                personalized for individual users. This could involve leveraging
+                data analytics and AI to provide customized recommendations and
+                solutions based on the unique needs of each user.
+              </p>
             </div>
           </div>
         </div>
         <div className="dell-BottomBox">
           <div className="dell-BottomBox-Left">
             <div className="dell-BottomBox-Left-Icon"></div>
-            <div className="dell-BottomBox-Left-Text">Previous Case studies</div>
+            <div className="dell-BottomBox-Left-Text">
+              Previous Case studies
+            </div>
           </div>
           <div className="dell-BottomBox-Right">
-          <div className="dell-BottomBox-Left-Text">Next Case studies</div>
-          <div className="dell-BottomBox-Left-Icon"></div>
+            <div className="dell-BottomBox-Left-Text">Next Case studies</div>
+            <div className="dell-BottomBox-Left-Icon"></div>
           </div>
         </div>
       </div>
