@@ -273,8 +273,8 @@
   color: #b2bbc6;
 }
 .verizonHr1 {
-  width: 1280px;
-  margin-left: 75px;
+  width: 90%;
+  margin: auto;
   opacity: 0.5;
   border: 1px solid #3d4c5e;
   margin-top: 83px;
@@ -316,14 +316,14 @@
   background: linear-gradient(255.4deg, #713624 10.42%, #4e0d09 100%);
 }
 .verizonHr2 {
-  width: 1280px;
-  margin-left: 75px;
+  width: 90%;
+  margin: auto;
   opacity: 0.5;
   border: 0.5px solid #5b5b5b;
 }
 .verizonHr3 {
-  width: 1280px;
-  margin-left: 75px;
+  width: 90%;
+  margin: auto;
   margin-bottom: 83px;
   opacity: 0.5;
   border: 0.5px solid #5b5b5b;
@@ -422,6 +422,8 @@
   margin-top: 24px;
 }
 .verizonHr4 {
+  width: 90%;
+  margin: auto;
   opacity: 0.5;
   border: 1px solid #3d4c5e;
   margin-top: 64px;
@@ -550,9 +552,9 @@
   height: 234px;
   margin-top: 24px;
   padding: 40px 48px 40px 40px;
-  background: linear-gradient(255.4deg, #713624 10.42%, #4E0D09 100%);
-border: 1px solid rgba(91, 91, 91, 0.2);
-border-radius: 4px;
+  background: linear-gradient(255.4deg, #713624 10.42%, #4e0d09 100%);
+  border: 1px solid rgba(91, 91, 91, 0.2);
+  border-radius: 4px;
 }
 .keyBoxTitle {
   font-size: 14px;
@@ -571,7 +573,7 @@ border-radius: 4px;
   height: 613px;
   margin-top: 82px;
   padding: 81px 247px 68px 247px;
-  background: linear-gradient(255.4deg, #713624 10.42%, #4E0D09 100%);
+  background: linear-gradient(255.4deg, #713624 10.42%, #4e0d09 100%);
   border: 1px solid rgba(91, 91, 91, 0.2);
   border-radius: 4px;
 }
@@ -818,7 +820,7 @@ border-radius: 4px;
 .myImpactContentleftIcon {
   width: 23.5px;
   height: 23.5px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-bottom: 92.6px;
 }
 .verizonPredictionMainBox {
@@ -856,7 +858,7 @@ border-radius: 4px;
 .verizonPredictionIcon {
   width: 24.92px;
   height: 24.93px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-bottom: 69.07px;
   margin-top: 5px;
 }
@@ -896,7 +898,7 @@ border-radius: 4px;
 .verizonLearningIcon {
   width: 16px;
   height: 16px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-top: 3px;
   margin-bottom: 90px;
 }
@@ -931,13 +933,13 @@ border-radius: 4px;
 .verizonLearningBox2Icon {
   width: 16px;
   height: 16px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-top: 56px;
 }
 .verizonLearningBox2Icon2 {
   width: 16px;
   height: 16px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-top: 85px;
 }
 .verizonLearningBox3 {
@@ -1009,4 +1011,10 @@ border-radius: 4px;
   width: 24px;
   height: 24px;
   border: 1px solid white;
+}
+.textColorWhite {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d6dff0;
 }

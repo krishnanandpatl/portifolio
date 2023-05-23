@@ -3,6 +3,11 @@
   min-height: 1000px;
   margin: auto;
 }
+.Home-Page img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .homePageIcon {
   width: 116px;
   height: 116px;

@@ -2,14 +2,14 @@ import "./App.css";
 import { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-// import Home from "./components/home/Home";
+import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Footer from "./components/navbar/Footer";
 // import MyWork from "./components/mywork/MyWork";
 import Restricted from "./components/secure/Restricted";
 import RequiredAuth from "./hooks/RequiredAuth";
 import Unauthorized from "./components/Unauthorized";
-import Home_Page from "./components/home/Home_Page";
+// import Home_Page from "./components/home/Home_Page";
 import MyWorkPage from "./components/mywork/MyWorkPage";
 import Dell from "./components/dell/Dell";
 import Pgos from "./components/pgos/Pgos";
@@ -35,7 +35,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home_Page />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route
             path="/my-work"
