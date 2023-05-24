@@ -36,7 +36,7 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div className="flex dark:text-gray-400 justify-between items-center h-20  mx-auto dark:dark:bg-[#1E1E1E] border-b border-b-gray-500 w-[90%] max-w-[1440px]">
+    <div className="flex dark:text-gray-400 justify-between items-center h-20  mx-auto dark:dark:bg-[#151A20] border-b border-b-gray-500 w-[90%] max-w-[1440px]">
       <img
         className="ml-12 h-1/2 w-32 cursor-pointer"
         src={kshitij}

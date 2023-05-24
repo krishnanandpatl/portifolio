@@ -7,6 +7,7 @@ import cancel from "../../assets/trippez/cancel.svg";
 import analsoln from "../../assets/subex/analsoln.svg";
 import buisschall from "../../assets/dell/buisschall.svg";
 import blueactivity from "../../assets/dell/blueactivity.svg";
+import check from "../../assets/pgos/check_circle.svg";
 import threecolor from "../../assets/dell/threeclor.svg";
 import flag from "../../assets/sbsa/flag.svg";
 import designpers from "../../assets/dell/designpers.svg";
@@ -955,11 +956,11 @@ function Dell() {
         <div className="dell-Content-MainBox10">
           <div className="dell-Content-MainBox10-Title">What we improved</div>
           <div className="dell-Content-MainBox10-TableBox">
-            <table>
-              <tr>
+            <table className="h-full">
+              <tr className="header-bg-dell">
                 <th>Aspect</th>
-                <th>Before Revamp</th>
-                <th>After Revamp</th>
+                <th className="w-2/5">Before Revamp</th>
+                <th className="w-2/5">After Revamp</th>
               </tr>
               <tr>
                 <td>User engagement</td>

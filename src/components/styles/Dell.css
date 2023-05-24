@@ -128,11 +128,11 @@
   padding: 48px 56px;
   margin: 39px 247px;
 }
-.dell-Content-MainBox>h1{
+.dell-Content-MainBox > h1 {
   font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-color: #B9B9B9;
+  font-size: 32px;
+  line-height: 39px;
+  color: #b9b9b9;
 }
 .dell-Content-MainBox-ContextBox {
   display: flex;
@@ -475,7 +475,7 @@ color: #B9B9B9;
   height: 184px;
   margin-top: 16px;
 }
-.dell-Personal-LeftBox2-Context ul{
+.dell-Personal-LeftBox2-Context ul {
   list-style: disc;
 }
 .dell-Personal-LeftBox2-Context ul li {
@@ -745,7 +745,7 @@ color: #B9B9B9;
   margin-top: 32px;
   border: 1px solid white;
 }
-.dell-Content-MainBox6-B1 img{
+.dell-Content-MainBox6-B1 img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -1203,7 +1203,7 @@ color: #B9B9B9;
   margin-bottom: 22px;
 }
 .dell-Content-MainBox10 {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 1440px;
   height: 931px;
   background: #1d242d;
@@ -1211,7 +1211,7 @@ color: #B9B9B9;
   padding: 64px 247px;
 }
 .dell-Content-MainBox10-Title {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   height: 39px;
   font-family: "Inter";
   font-style: normal;
@@ -1224,7 +1224,7 @@ color: #B9B9B9;
   width: 946px;
   height: 724px;
   margin-top: 40px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .dell-Content-MainBox11 {
   width: 1440px;
@@ -1237,7 +1237,7 @@ color: #B9B9B9;
 .dell-Content-MainBox11-TopBox {
   width: 946px;
   height: 689.01px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .dell-Content-MainBox11-TopBox-Heading {
   width: 808.48px;
@@ -1278,7 +1278,7 @@ color: #B9B9B9;
   margin: 65px 247px 80px 247px;
   padding: 48px 56px;
   border: 1px solid rgba(91, 91, 91, 0.5);
-border-radius: 4px;
+  border-radius: 4px;
 }
 .dell-my-learningBox-heading {
   height: 36px;
@@ -1330,7 +1330,7 @@ border-radius: 4px;
   margin-left: 247px;
   padding: 48px 56px;
   border: 1px solid rgba(91, 91, 91, 0.5);
-border-radius: 4px;
+  border-radius: 4px;
 }
 .dell-BottomBox {
   margin: 80px 247px 65px 247px;
@@ -1377,4 +1377,40 @@ border-radius: 4px;
   align-items: center;
   text-align: center;
   color: #d6dff0;
+}
+.dell-Content-MainBox10-TableBox td > div {
+  display: flex;
+  gap: 6px;
+}
+.dell-Content-MainBox10-TableBox th {
+  text-align: left !important;
+  padding: 10px !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  color: #ffffff !important;
+}
+.header-bg-dell {
+  background: linear-gradient(249.59deg, #005696 -5.13%, #123354 64.74%);
+  border: 1px solid rgba(91, 91, 91, 0.5);
+  border-radius: 4px 4px 0px 0px;
+  height: 45px;
+}
+.dell-Content-MainBox10-TableBox tr {
+  border-bottom: 1px solid rgba(91, 91, 91, 0.5);
+}
+.dell-Content-MainBox10-TableBox td {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.dell-Content-MainBox10-TableBox tr > :first-child {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d6dff0;
+  padding-left: 10px;
 }
