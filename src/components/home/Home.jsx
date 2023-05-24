@@ -1,6 +1,10 @@
 import React from "react";
 import "../styles/home.css";
-import extlink from "../../assets/externalLink.svg";
+import extlink from "../../assets/home/open_in_new.svg";
+import brush from "../../assets/home/brush.svg";
+import compass from "../../assets/home/compass.svg";
+import penCross from "../../assets/home/penCross.svg";
+import percent from "../../assets/home/percent.svg";
 import avatar from "../../assets/avatar.png";
 import dell from "../../assets/home/Dell.svg";
 import icici from "../../assets/home/ICICI.svg";
@@ -43,9 +47,7 @@ function Home() {
           driven by empathy and creativity
         </h1>
         <div className="w-fit mx-auto mt-8 md:mb-[120px] mb-[70px]">
-          <button className="bg-gradient-to-tr from-[#ED787B] to-[#DF5B5D] rounded-md md:py-[16px] md:px-[24px] py-[12px] px-[20px] text-[#FFFFFF] font-semibold">
-            All Case Studies
-          </button>
+          <button className="button-case-study">All Case Studies</button>
         </div>
       </div>
       <div
@@ -60,19 +62,19 @@ function Home() {
           <img src={icici} className="" alt="" />
         </div>
       </div>
-      <div className="md:mt-[120px] mt-[80px] xl:w-[903px] xl:mx-[270px] mx-auto w-fit">
-        <div className="dark:text-[#D6DFF0] mt-20 w-fit mx-auto text-2xl font-bold">
-          Featured Projects
-        </div>
+      <div className="md:mt-[120px] mt-[80px] xl:w-[903px] mx-auto w-fit">
+        <div className="feature-title-home">Featured Projects</div>
         <div className="red-line-featured"></div>
         <div className="w-fit mx-auto">
           <div className="relative mb-20">
             <div className="verizon-container-home py-[78px] pl-[48px]">
               <div className="">
                 <div className="verizon-title-home">Verizon Sales 360</div>
-                <div className="flex items-baseline">
-                  <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                  <span className="second-title-home">Greenfield Project</span>
+                <div className="second-title-home">
+                  <div className="icon-second-tit">
+                    <img src={brush} alt="" />
+                  </div>
+                  Greenfield Project
                 </div>
                 <div className="para-home2">
                   A comprehensive digital landscape that supports 22k business
@@ -83,7 +85,7 @@ function Home() {
                   onClick={() => LinkFn("/restricted", "/verizon-360")}
                 >
                   View case study
-                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                  <img className="" src={extlink} alt="" />
                 </a>
               </div>
             </div>
@@ -95,12 +97,14 @@ function Home() {
             <div className="image-container-home2">
               <img src={P2_Image} className="h-full w-full" alt="" />
             </div>
-            <div className="flex justify-end verizon-container-home py-[78px] pr-[108px]">
+            <div className="flex justify-end verizon-container-home py-[78px] ml-[80px] pr-[108px]">
               <div className="">
                 <div className="verizon-title-home">Publicis Growth OS</div>
-                <div className="flex items-baseline">
-                  <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                  <span className="second-title-home">Greenfield Project</span>
+                <div className="second-title-home">
+                  <div className="icon-second-tit">
+                    <img src={brush} alt="" />
+                  </div>
+                  Greenfield Project
                 </div>
                 <div className="para-home">
                   A campaign management application to provide a more intuitive
@@ -112,7 +116,7 @@ function Home() {
                   onClick={() => LinkFn("/restricted", "/publicis-growth-os")}
                 >
                   View case study
-                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                  <img className="" src={extlink} alt="" />
                 </a>
               </div>
             </div>
@@ -121,14 +125,16 @@ function Home() {
             <div className="verizon-container-home py-[78px] pl-[48px]">
               <div className="">
                 <div className="verizon-title-home">Subex</div>
-                <div className="flex items-baseline">
-                  <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                  <span className="second-title-home">Product Revamp</span>
+                <div className="flex items-baseline second-title-home">
+                  <div className="icon-second-tit">
+                    <img src={percent} alt="" />
+                  </div>
+                  Product Revamp
                 </div>
                 <div className="para-home">
                   Subex Limited provides digital trust products to communication
                   service providers.
-                  <p className="para-home">
+                  <p className="para-home ml-0">
                     The company is listed on BSE and NSE in India.
                   </p>
                 </div>
@@ -137,7 +143,7 @@ function Home() {
                   onClick={() => LinkFn("/subex", "")}
                 >
                   View case study
-                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                  <img className="" src={extlink} alt="" />
                 </a>
               </div>
             </div>
@@ -150,14 +156,14 @@ function Home() {
               <img src={P4_Image} className="h-full w-full" alt="" />
             </div>
             <div></div>
-            <div className="flex justify-end verizon-container-home py-[78px] pr-[108px]">
+            <div className="flex justify-end verizon-container-home py-[78px] ml-[80px] pr-[108px]">
               <div className="">
                 <div className="verizon-title-home">Standard Bank</div>
-                <div className="flex items-baseline">
-                  <div className="w-3 h-3 rounded-full bg-zinc-800"></div>
-                  <span className="second-title-home">
-                    Revisiting user experience and engagement
-                  </span>
+                <div className="second-title-home">
+                  <div className="icon-second-tit">
+                    <img src={compass} alt="" />
+                  </div>
+                  Revisiting user experience and engagement
                 </div>
                 <div className="para-home">
                   The Standard Bank of South Africa Limited is a South African
@@ -169,34 +175,38 @@ function Home() {
                   onClick={() => LinkFn("/standard-bank-of-south-africa")}
                 >
                   View case study
-                  <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                  <img className="" src={extlink} alt="" />
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="feature-title">Other Projects</div>
+      <div className="feature-title-home">Other Projects</div>
       <div className="red-line-featured"></div>
       <div className="mt-[24px] mb-[226px] other-projects-main">
         <div className="relative">
           <div className="mtbp-home">
-            <div className="other-proj-title">Moneytap Banker's Portal</div>
-            <div className="p-2">
-              <div className="flex items-baseline">
-                <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
-                <div className="second-title-op">Hybrid Project</div>
+            <div className="other-proj-title-home">
+              Moneytap Banker's Portal
+            </div>
+            <div className="">
+              <div className="second-title-op">
+                <div className="icon-second-tit">
+                  <img src={penCross} alt="" />
+                </div>
+                Hybrid Project
               </div>
               <div className="op-para">
                 MoneyTap is India's first app-based personal credit line,offered
                 in partnership with banks and NBFCs.
               </div>
               <a
-                className="link-open-home"
+                className="link-open-home "
                 onClick={() => LinkFn("/moneytap-bankers-portal")}
               >
                 View case study
-                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                <img className="" src={extlink} alt="" />
               </a>
             </div>
           </div>
@@ -206,24 +216,23 @@ function Home() {
         </div>
         <div className="relative">
           <div className="mtbp-home">
-            <div className="other-proj-title">Dell-Find A Partner Portal</div>
+            <div className="other-proj-title-home">
+              Dell-Find A Partner Portal
+            </div>
             <div className="p-2">
-              <div className="flex items-baseline">
-                <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
-                <div className="second-title-op whitespace-nowrap">
-                  Revisiting user experience and engagement
+              <div className="second-title-op">
+                <div className="icon-second-tit">
+                  <img src={compass} alt="" />
                 </div>
+                Revisiting user experience and engagement
               </div>
-              <div className="op-para">
+              <div className="op-para mb-[16px]">
                 The Dell Find a Partner Program is a program that helps Dell
                 customers connect with Dell's network of trusted partners.
               </div>
-              <a
-                className="link-open-home"
-                onClick={() => LinkFn("/moneytap-bankers-portal")}
-              >
+              <a className="link-open-home" onClick={() => LinkFn("/dell")}>
                 View case study
-                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                <img className="" src={extlink} alt="" />
               </a>
             </div>
           </div>
@@ -235,11 +244,11 @@ function Home() {
           <div className="mtbp-home">
             <div className="other-proj-title-home ">Trippiez</div>
             <div className="p-2">
-              <div className="flex items-baseline">
-                <div className="h-2 w-2 rounded-full bg-zinc-800"></div>
-                <div className="second-title-op line-through whitespace-nowrap">
-                  Revisiting user experience and engagement
+              <div className="flex second-title-op line-through">
+                <div className="icon-second-tit">
+                  <img src={compass} alt="" />
                 </div>
+                Revisiting user experience and engagement
               </div>
               <div className="op-para line-through">
                 The Standard Bank of South Africa Limited is a South African
@@ -250,7 +259,7 @@ function Home() {
                 onClick={() => LinkFn("/trippiez ")}
               >
                 View case study
-                <img className="h-4 w-4 ml-2" src={extlink} alt="" />
+                <img className="" src={extlink} alt="" />
               </a>
             </div>
           </div>

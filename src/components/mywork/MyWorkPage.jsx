@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/mywork.css";
 import P1_Image from "../../assets/home/gifs/VZ.gif";
 import P2_Image from "../../assets/home/gifs/PGOS.gif";
@@ -10,13 +11,24 @@ import P7_Image from "../../assets/home/gifs/Trippiez.gif";
 import checker from "../../assets/home/gifs/checker.png";
 
 function MyWorkPage() {
+
+  const Nav = useNavigate();
+  const LinkFn = (URL, redirectTo) => {
+    Nav(URL, { state: { to: redirectTo } });
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  }
+
   return (
     <div className="workMainContainer dark:bg-[#1E1E1E]">
       <div className="MainContainer max-w-[1440px] mx-auto">
         <div className="featuredBoxMain">
           <div className="titleBox">Featured Case-Studies</div>
           <div className="featureBox">
-            <div className="featureContent">
+            <div className="featureContent" onClick={()=>LinkFn("/restricted","/verizon-360")}>
               <div className="contentImage">
                 <img src={P1_Image} loading="lazy" alt="" />
               </div>
@@ -26,7 +38,7 @@ function MyWorkPage() {
                 <p className="companyName">Telecom CPQ Product</p>
               </div>
             </div>
-            <div className="featureContent">
+            <div className="featureContent" onClick={()=>LinkFn("/restricted","/publicis-growth-os")}>
               <div className="contentImage">
                 <img src={P2_Image} loading="lazy" alt="" />
               </div>
@@ -36,7 +48,7 @@ function MyWorkPage() {
                 <p className="companyName">Telecom CPQ Product</p>
               </div>
             </div>
-            <div className="featureContent">
+            <div className="featureContent" onClick={()=>LinkFn("/subex")}>
               <div className="contentImage">
                 <img src={P3_Image} loading="lazy" alt="" />
               </div>
@@ -51,7 +63,7 @@ function MyWorkPage() {
         <div className="otherBoxMain">
           <div className="titleBox">Other Case-Studies</div>
           <div className="featureBox">
-            <div className="featureContent">
+            <div className="featureContent" onClick={()=>LinkFn("/standard-bank-of-south-africa")}>
               <div className="contentImage">
                 <img src={P4_Image} loading="lazy" alt="" />
               </div>
@@ -61,7 +73,7 @@ function MyWorkPage() {
                 <p className="companyName">Telecom CPQ Product</p>
               </div>
             </div>
-            <div className="featureContent">
+            <div className="featureContent" onClick={()=>LinkFn("/moneytap-bankers-portal")}>
               <div className="contentImage">
                 <img src={P5_Image} loading="lazy" alt="" />
               </div>
@@ -71,7 +83,7 @@ function MyWorkPage() {
                 <p className="companyName">Telecom CPQ Product</p>
               </div>
             </div>
-            <div className="featureContent">
+            <div className="featureContent" onClick={()=>LinkFn("/dell")}>
               <div className="contentImage">
                 <img src={P6_Image} loading="lazy" alt="" />
               </div>
@@ -81,7 +93,7 @@ function MyWorkPage() {
                 <p className="companyName">Telecom CPQ Product</p>
               </div>
             </div>
-            <div className="featureContent">
+            <div className="featureContent"onClick={()=>LinkFn("/trippiez")}>
               <div className="contentImage">
                 <img src={P7_Image} loading="lazy" alt="" />
               </div>

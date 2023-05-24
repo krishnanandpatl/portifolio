@@ -188,7 +188,7 @@ color: #B9B9B9;
 .dell-content-Box2-Icon {
   width: 41px;
   height: 41px;
-  background: #151a20;
+  /* background: #151a20; */
   margin-right: 17px;
   border-radius: 25px;
 }
@@ -312,8 +312,9 @@ color: #B9B9B9;
 .dell-Content-MainBox4 {
   width: 774px;
   height: 129px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-left: 247px;
+  margin-top: 80px;
 }
 .Font32 {
   font-style: normal;
@@ -473,6 +474,9 @@ color: #B9B9B9;
   width: 417px;
   height: 184px;
   margin-top: 16px;
+}
+.dell-Personal-LeftBox2-Context ul{
+  list-style: disc;
 }
 .dell-Personal-LeftBox2-Context ul li {
   font-family: "Inter";
@@ -637,7 +641,7 @@ color: #B9B9B9;
   width: 64px;
   height: 64px;
   border-radius: 40px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .dell-MainBox5-B1-ProfileText {
   min-width: 200px;
@@ -674,7 +678,7 @@ color: #B9B9B9;
 }
 .dell-MainBox5-B1-ProfileText-Icon {
   padding: 4px 0px;
-  border: 0.5px solid wheat;
+  /* border: 0.5px solid wheat; */
   width: 10.57px;
   height: 19.76px;
 }
@@ -740,6 +744,11 @@ color: #B9B9B9;
   height: 702px;
   margin-top: 32px;
   border: 1px solid white;
+}
+.dell-Content-MainBox6-B1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .dell-Content-MainBox7 {
   width: 946px;
