@@ -18,7 +18,13 @@ import u4 from "../../assets/dell/u4.png";
 import u5 from "../../assets/dell/u5.png";
 import u6 from "../../assets/dell/u6.png";
 import graph from "../../assets/dell/Graphs.png";
-import sticky from '../../assets/dell/sticky.png'
+import sticky from "../../assets/dell/sticky.png";
+import searchfxn from "../../assets/dell/searchfxn.png";
+import partnerprofile from "../../assets/dell/profileimp.png";
+import userexp from "../../assets/dell/usrexp.png";
+import garrow from "../../assets/pgos/Arrow.svg";
+import arrowFor from "../../assets/arrowFor.svg";
+import arrowBack from "../../assets/arrowBack.svg";
 
 function Dell() {
   return (
@@ -450,7 +456,9 @@ function Dell() {
             </div>
             <div className="dell-Content-MainBox5-Box3-Box2">
               <div className="dell-Content-MainBox5-Box3-Box2-B1 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u1} alt="" /></div>
+                <div className="dell-MainBox5-B1-ProfileIcon">
+                  <img src={u1} alt="" />
+                </div>
                 <div className="dell-MainBox5-B1-ProfileText">
                   <div className="dell-MainBox5-B1-Profile-Content">
                     Can you show me a partner that can help me replace my e-mail
@@ -472,7 +480,9 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B2 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u2} alt="" /></div>
+                <div className="dell-MainBox5-B1-ProfileIcon">
+                  <img src={u2} alt="" />
+                </div>
                 <div className="dell-MainBox5-B1-ProfileText">
                   <div className="dell-MainBox5-B1-Profile-Content">
                     System is really slow, not sure if it has refreshed
@@ -493,7 +503,9 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B3 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u3} alt="" /></div>
+                <div className="dell-MainBox5-B1-ProfileIcon">
+                  <img src={u3} alt="" />
+                </div>
                 <div className="dell-MainBox5-B3-ProfileText">
                   <div className="dell-MainBox5-B3-Profile-Content">
                     I get Zero search results even after searching using filters
@@ -514,7 +526,9 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B4 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u4} alt="" /></div>
+                <div className="dell-MainBox5-B1-ProfileIcon">
+                  <img src={u4} alt="" />
+                </div>
                 <div className="dell-MainBox5-B4-ProfileText">
                   <div className="dell-MainBox5-B4-Profile-Content">
                     I am lost, I can't understand you nomenclature and can't use
@@ -536,7 +550,9 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B5 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u5} alt="" /></div>
+                <div className="dell-MainBox5-B1-ProfileIcon">
+                  <img src={u5} alt="" />
+                </div>
                 <div className="dell-MainBox5-B5-ProfileText">
                   <div className="dell-MainBox5-B4-Profile-Content">
                     Why doesn't Dell answer my request when I provided my
@@ -558,7 +574,9 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B6 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u6} alt="" /></div>
+                <div className="dell-MainBox5-B1-ProfileIcon">
+                  <img src={u6} alt="" />
+                </div>
                 <div className="dell-MainBox5-B3-ProfileText">
                   <div className="dell-MainBox5-B3-Profile-Content">
                     Can't search for Partners on my phone.
@@ -589,7 +607,9 @@ function Dell() {
             Prioritization matrix to determine which issues to address first and
             focus our efforts on solving the most critical problems.
           </div>
-          <div className="dell-Content-MainBox6-B1"><img src={graph} alt="" /></div>
+          <div className="dell-Content-MainBox6-B1">
+            <img src={graph} alt="" />
+          </div>
         </div>
         <div className="dell-Content-MainBox7">
           <div className="dell-Content-MainBox6-Title">
@@ -601,7 +621,9 @@ function Dell() {
           </div>
           <div className="dell-Content-MainBox7-B1">
             <div className="dell-Content-MainBox7-B1-TitleBox">
-              <div className="dell-Content-MainBox7-B1-TitleBox-Icon"><img src={buisschall} alt="" /></div>
+              <div className="dell-Content-MainBox7-B1-TitleBox-Icon">
+                <img src={buisschall} alt="" />
+              </div>
               <div className="dell-Content-MainBox7-B1-TitleBox-Text">
                 The problem statement
               </div>
@@ -775,16 +797,24 @@ function Dell() {
             </div>
           </div>
           <div className="DellPageHrColour"></div>
-          <div className="dell-Content-MainBox8-B2"></div>
+          <div className="dell-Content-MainBox8-B2">
+            <img src={sticky} alt="" />
+          </div>
           <div className="dell-Content-MainBox8-B3">
             <div className="dell-Content-MainBox8-B3-Heading">
               Outcome of the activitty
             </div>
             <div className="dell-Content-MainBox8-B3-Content">
               <div className="dell-Content-MainBox8-B3-Content-Left">
-                <div className="dell-Content-MainBox8-B3Icon Content-LeftBox-Icon1"></div>
-                <div className="dell-Content-MainBox8-B3Icon Content-LeftBox-Icon2"></div>
-                <div className="dell-Content-MainBox8-B3Icon Content-LeftBox-Icon3"></div>
+                <div className="dell-Content-MainBox8-B3Icon Content-LeftBox-Icon1">
+                  <img src={blueactivity} alt="" />
+                </div>
+                <div className="dell-Content-MainBox8-B3Icon Content-LeftBox-Icon2">
+                  <img src={blueactivity} alt="" />
+                </div>
+                <div className="dell-Content-MainBox8-B3Icon Content-LeftBox-Icon3">
+                  <img src={blueactivity} alt="" />
+                </div>
               </div>
               <div className="dell-Content-MainBox8-B3-Content-Right">
                 <p>
@@ -823,7 +853,9 @@ function Dell() {
             </p>
           </div>
           <div className="dell-Content-MainBox9-Box2">
-            <div className="dell-Content-MainBox9-Box2-left">Image</div>
+            <div className="dell-Content-MainBox9-Box2-left">
+              <img src={searchfxn} alt="" />
+            </div>
             <div className="dell-Content-MainBox9-Box2-Right">
               <div className="dell-Content-MainBox9-Box2-Right-heading">
                 Enhanced Search Function
@@ -884,10 +916,14 @@ function Dell() {
                 </ul>
               </div>
             </div>
-            <div className="dell-Content-MainBox9-Box3-Right"></div>
+            <div className="dell-Content-MainBox9-Box3-Right">
+              <img src={partnerprofile} alt="" />
+            </div>
           </div>
           <div className="dell-Content-MainBox9-Box4">
-            <div className="dell-Content-MainBox9-Box4-Left"></div>
+            <div className="dell-Content-MainBox9-Box4-Left">
+              <img src={userexp} alt="" />
+            </div>
             <div className="dell-Content-MainBox9-Box4-Right">
               <div className="dell-Content-MainBox9-Box4-Right-Heading">
                 Improved User Experience
@@ -926,9 +962,194 @@ function Dell() {
                 <th>After Revamp</th>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>User engagement</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Low traffic, only 10% of website visitors engaged with FAP
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Increased traffic, 25% of website visitors engaged with FAP
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>User experience</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    High bounce rates (above 50%), low time on site (less than 1
+                    minute on average)
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Reduced bounce rates (below 30%), increased time on site
+                    (2-3 minutes on average)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Conversion rate</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Only 5% of users contacting a partner or submitting a lead
+                    form
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Increased conversion rate of 10%, with more leads generated
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Page speed</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Slow loading times, resulting in frustration and user
+                    drop-off
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Faster loading times, improving overall user experience
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Mobile responsiveness</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Poor mobile experience, with site not optimized for mobile
+                    devices
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Improved mobile experience, with site optimized for mobile
+                    devices
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Partner profiles</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Unclear level of partner, distracting logos, lack of
+                    information hierarchy
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Clear level of partner, prominent CTAs, easy-to-understand
+                    language and information hierarchy
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Search functionality</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Limited search capabilities and filters, not user-friendly
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Enhanced search capabilities and filters, more user-friendly
+                    interface
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>User support</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Limited help and user guides available
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    User support with clear documentation and user guides
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Global reach</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Limited availability in certain regions
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Increased availability in more regions worldwide
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Branding</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Outdated design and branding
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Modern and refreshed design and branding
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>User feedback</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Limited feedback collection and incorporation
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Active collection and incorporation of user feedback
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Partner feedback</td>
+                <td>
+                  <div>
+                    <img src={cancel} alt="" />
+                    Limited partner feedback collection and incorporation
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <img src={check} alt="" />
+                    Active collection and incorporation of partner feedback to
+                    drive improvements
+                  </div>
+                </td>
               </tr>
             </table>
           </div>
@@ -964,9 +1185,15 @@ function Dell() {
           <div className="dell-my-learningBox-heading">My Learning </div>
           <div className="dell-my-learningBox-FlexBox">
             <div className="dell-my-learningBox-FlexBox-Left">
-              <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon1"></div>
-              <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon2"></div>
-              <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon3"></div>
+              <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon1">
+                <img src={garrow} alt="" />
+              </div>
+              <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon2">
+                <img src={garrow} alt="" />
+              </div>
+              <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon3">
+                <img src={garrow} alt="" />
+              </div>
             </div>
             <div className="dell-my-learningBox-FlexBox-Right">
               <p>
@@ -994,7 +1221,9 @@ function Dell() {
           <div className="dell-my-learningBox-heading">Future Directions </div>
           <div className="dell-my-learningBox-FlexBox">
             <div className="dell-my-learningBox-FlexBox-Left">
-              <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon1"></div>
+              <div className="dell-my-learningBox-FlexBox-Left-Icon learningIcon1">
+                <img src={garrow} alt="" />
+              </div>
             </div>
             <div className="dell-my-learningBox-FlexBox-Right">
               <p>
@@ -1009,14 +1238,18 @@ function Dell() {
         </div>
         <div className="dell-BottomBox">
           <div className="dell-BottomBox-Left">
-            <div className="dell-BottomBox-Left-Icon"></div>
+            <div className="dell-BottomBox-Left-Icon">
+              <img src={arrowBack} alt="" />
+            </div>
             <div className="dell-BottomBox-Left-Text">
               Previous Case studies
             </div>
           </div>
           <div className="dell-BottomBox-Right">
             <div className="dell-BottomBox-Left-Text">Next Case studies</div>
-            <div className="dell-BottomBox-Left-Icon"></div>
+            <div className="dell-BottomBox-Left-Icon">
+              <img src={arrowFor} alt="" />
+            </div>
           </div>
         </div>
       </div>

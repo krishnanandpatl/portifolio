@@ -953,7 +953,7 @@ color: #B9B9B9;
 .dell-Content-MainBox8-B2 {
   width: 947px;
   height: 590.5px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .dell-Content-MainBox8-B3 {
   width: 946px;
@@ -999,7 +999,7 @@ color: #B9B9B9;
   color: #b2bbc6;
 }
 .dell-Content-MainBox8-B3Icon {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 16px;
   height: 16px;
 }
@@ -1015,7 +1015,7 @@ color: #B9B9B9;
   height: 1517px;
   margin-top: 80px;
   margin-left: 122px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .dell-Content-MainBox9-Box1 {
   width: 787px;
@@ -1053,7 +1053,7 @@ color: #B9B9B9;
   height: 416px;
   position: relative;
   z-index: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .dell-Content-MainBox9-Box2-Right {
   box-sizing: border-box;
@@ -1115,7 +1115,7 @@ color: #B9B9B9;
 .dell-Content-MainBox9-Box3-Right {
   width: 455.08px;
   height: 348px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   position: relative;
   top: -380px;
   left: 583px;
@@ -1156,7 +1156,7 @@ color: #B9B9B9;
 .dell-Content-MainBox9-Box4-Left {
   width: 544px;
   height: 416px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   position: relative;
   top: -14px;
   left: -1px;
@@ -1275,9 +1275,10 @@ color: #B9B9B9;
 .dell-my-learningBox {
   width: 946px;
   height: 330px;
-  border: 1px solid white;
   margin: 65px 247px 80px 247px;
   padding: 48px 56px;
+  border: 1px solid rgba(91, 91, 91, 0.5);
+border-radius: 4px;
 }
 .dell-my-learningBox-heading {
   height: 36px;
@@ -1300,8 +1301,8 @@ color: #B9B9B9;
   margin-right: 8px;
 }
 .dell-my-learningBox-FlexBox-Right {
-  width: 800px;
-  height: 174px;
+  /* width: 800px;
+  height: 174px; */
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -1312,23 +1313,24 @@ color: #B9B9B9;
 .dell-my-learningBox-FlexBox-Left-Icon {
   width: 16px;
   height: 16px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .learningIcon1 {
   margin-top: 6px;
 }
 .learningIcon2 {
-  margin-top: 57px;
+  margin-top: 48px;
 }
 .learningIcon3 {
-  margin-top: 58px;
+  margin-top: 50px;
 }
 .dell-DirectionsBox {
   width: 946px;
   height: 222px;
-  border: 1px solid white;
   margin-left: 247px;
   padding: 48px 56px;
+  border: 1px solid rgba(91, 91, 91, 0.5);
+border-radius: 4px;
 }
 .dell-BottomBox {
   margin: 80px 247px 65px 247px;
@@ -1361,7 +1363,7 @@ color: #B9B9B9;
   width: 24px;
   height: 24px;
   margin-right: 8px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .dell-BottomBox-Left-Text {
   height: 22px;
