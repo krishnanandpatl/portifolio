@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/navbar.css";
 import call from "../../assets/callfoot.svg";
 import mail from "../../assets/mail.svg";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -20,10 +21,19 @@ function Footer() {
             <div>
               <img src={call} alt="" />
             </div>
-            <div>(+91) 9619 386 916</div>
+            <div>
+              <a href="tel:+919619386916">(+91) 9619 386 916</a>
+            </div>
           </div>
           <div className="flex lg:flex-row flex-col gap-10 lg:order-2 order-3">
-            <div>About Me</div>
+            <div className="cursor-pointer">
+              <NavLink
+                to="/about"
+                className={({ isActive }) => (isActive ? "link-active" : "")}
+              >
+                About Me
+              </NavLink>
+            </div>
             <div>Behance[Old Work]</div>
             <div>LinkedIn</div>
             <div>My Digital Painting</div>
@@ -32,7 +42,11 @@ function Footer() {
             <div>
               <img src={mail} alt="" />
             </div>
-            <div>kshitijsrivastava0389@gmail.com</div>
+            <div>
+              <a href="mailto:kshitijsrivastava0389@gmail.com">
+                kshitijsrivastava0389@gmail.com
+              </a>
+            </div>
           </div>
         </div>
       </div>

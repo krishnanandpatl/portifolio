@@ -27,7 +27,7 @@ const ScrollButton = () => {
   return (
     <>
       <div
-        className="w-[24px] cursor-pointer back-to-top"
+        className="w-[36px] cursor-pointer back-to-top"
         onClick={() => handleTop()}
         style={{display: visible ? 'inline' : 'none'}}
       >

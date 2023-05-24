@@ -3,7 +3,7 @@ import call from "../../assets/callnav.svg";
 import callDark from "../../assets/callDark.svg";
 import kshitij from "../../assets/kshitij.svg";
 import darkmode from "../../assets/DM.svg";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, NavLink } from "react-router-dom";
 import Pdf from "../../assets/resume/Resume.pdf";
 
 function Navbar() {
@@ -44,20 +44,29 @@ function Navbar() {
         onClick={() => LinkFn("/")}
       ></img>
       <ul className="hidden md:flex md:text-sm">
-        <li className="p-4 hover:cursor-pointer" onClick={() => LinkFn("/")}>
-          Home
+        <li className="p-4 hover:cursor-pointer">
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "link-active" : "")}
+          >
+            Home
+          </NavLink>
         </li>
-        <li
-          className="p-4 hover:cursor-pointer"
-          onClick={() => LinkFn("/about")}
-        >
-          About Me
+        <li className="p-4 hover:cursor-pointer">
+          <NavLink
+            to="/about"
+            className={({ isActive }) => (isActive ? "link-active" : "")}
+          >
+            About Me
+          </NavLink>
         </li>
-        <li
-          className="p-4 hover:cursor-pointer"
-          onClick={() => LinkFn("/my-work")}
-        >
-          My Work
+        <li className="p-4 hover:cursor-pointer">
+          <NavLink
+            to="/my-work"
+            className={({ isActive }) => (isActive ? "link-active" : "")}
+          >
+            My Work
+          </NavLink>
         </li>
         <li className="p-4 hover:cursor-pointer">
           <a href={Pdf} target="_blank">

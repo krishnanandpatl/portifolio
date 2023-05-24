@@ -1,15 +1,24 @@
 import React from "react";
 import "../styles/Dell.css";
-import dell from '../../assets/dell/dell.png'
+import dell from "../../assets/dell/dell.png";
 import fraud from "../../assets/subex/fraud.svg";
 import revenue from "../../assets/subex/revenue.svg";
 import cancel from "../../assets/trippez/cancel.svg";
 import analsoln from "../../assets/subex/analsoln.svg";
-import buisschall from '../../assets/dell/buisschall.svg'
-import blueactivity from '../../assets/dell/blueactivity.svg'
-import designpers from '../../assets/dell/designpers.svg'
-import greycheck from '../../assets/mtbp/greycheck.svg'
-
+import buisschall from "../../assets/dell/buisschall.svg";
+import blueactivity from "../../assets/dell/blueactivity.svg";
+import threecolor from "../../assets/dell/threeclor.svg";
+import flag from "../../assets/sbsa/flag.svg";
+import designpers from "../../assets/dell/designpers.svg";
+import greycheck from "../../assets/mtbp/greycheck.svg";
+import u1 from "../../assets/dell/u1.png";
+import u2 from "../../assets/dell/u2.png";
+import u3 from "../../assets/dell/u3.png";
+import u4 from "../../assets/dell/u4.png";
+import u5 from "../../assets/dell/u5.png";
+import u6 from "../../assets/dell/u6.png";
+import graph from "../../assets/dell/Graphs.png";
+import sticky from '../../assets/dell/sticky.png'
 
 function Dell() {
   return (
@@ -71,7 +80,9 @@ function Dell() {
               </p>
             </div>
           </div>
-          <div className="dell-MainBox-RightBox"><img src={dell} alt="" /></div>
+          <div className="dell-MainBox-RightBox">
+            <img src={dell} alt="" />
+          </div>
         </div>
         <div className="dell-Content-MainBox">
           <h1 className="fontSize32">Context and Background</h1>
@@ -106,7 +117,9 @@ function Dell() {
           <div className="dell-Content-MainBox-ContextBox">
             <div className="dell-Content-MainBox-ContextBox-insideBox">
               <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox">
-                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"><img src={revenue} alt="" /></div>
+                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon">
+                  <img src={revenue} alt="" />
+                </div>
                 <div className="fontSize12 marginTop4">End Customers</div>
               </div>
               <div className="dell-Content-MainBox-ContextBox-insideBox-Content">
@@ -116,7 +129,9 @@ function Dell() {
             </div>
             <div className="dell-Content-MainBox-ContextBox-insideBox">
               <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox">
-                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"><img src={fraud} alt="" /></div>
+                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon">
+                  <img src={fraud} alt="" />
+                </div>
                 <div className="fontSize12 marginTop4">Partners</div>
               </div>
               <div className="dell-Content-MainBox-ContextBox-insideBox-Content">
@@ -126,7 +141,9 @@ function Dell() {
             </div>
             <div className="dell-Content-MainBox-ContextBox-insideBox">
               <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox">
-                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon"><img src={analsoln} alt="" /></div>
+                <div className="dell-Content-MainBox-ContextBox-insideBox-TitleBox-Icon">
+                  <img src={analsoln} alt="" />
+                </div>
                 <div className="fontSize12 marginTop4">Sales Makers</div>
               </div>
               <div className="dell-Content-MainBox-ContextBox-insideBox-Content">
@@ -139,11 +156,15 @@ function Dell() {
         </div>
         <div className="dell-Content-MainBox2">
           <div className="dell-content-Box2">
-            <div className="dell-content-Box2-Icon"></div>
+            <div className="dell-content-Box2-Icon">
+              <img className="mx-auto" src={flag} alt="" />
+            </div>
             <div className="dell-content-Box2-Text">What was the problem</div>
           </div>
           <div className="dell-content-Box2-Inside1">
-            <div className="dell-content-Box2-Inside1-Icon"><img src={buisschall} alt="" /></div>
+            <div className="dell-content-Box2-Inside1-Icon">
+              <img src={buisschall} alt="" />
+            </div>
             <div className="dell-content-Box2-Inside1-Text">
               <p>
                 <span className="colorWeight">The business challenge </span>{" "}
@@ -158,7 +179,9 @@ function Dell() {
             </div>
           </div>
           <div className="dell-content-Box2-Inside1">
-            <div className="dell-content-Box2-Inside1-Icon"><img src={designpers} alt="" /></div>
+            <div className="dell-content-Box2-Inside1-Icon">
+              <img src={designpers} alt="" />
+            </div>
             <div className="dell-content-Box2-Inside1-Text">
               <p>
                 <span className="colorWeight">From a design perspective, </span>{" "}
@@ -176,7 +199,9 @@ function Dell() {
         </div>
         <div className="dell-Content-MainBox3">
           <div className="dell-content-Box2">
-            <div className="dell-content-Box2-Icon"></div>
+            <div className="dell-content-Box2-Icon">
+              <img src={flag} alt="" />
+            </div>
             <div className="dell-content-Box2-Text">Problems we solved</div>
           </div>
           <div className="dell-content-Box3">
@@ -185,9 +210,15 @@ function Dell() {
             </div>
             <div className="dell-content-Box3-Right">
               <div className="dell-content-Box3-Right-Left">
-                <div className="Box3-Icon1"><img src={greycheck} alt="" /></div>
-                <div className="Box3-Icon2"><img src={greycheck} alt="" /></div>
-                <div className="Box3-Icon3"><img src={greycheck} alt="" /></div>
+                <div className="Box3-Icon1">
+                  <img src={greycheck} alt="" />
+                </div>
+                <div className="Box3-Icon2">
+                  <img src={greycheck} alt="" />
+                </div>
+                <div className="Box3-Icon3">
+                  <img src={greycheck} alt="" />
+                </div>
               </div>
               <div className="dell-content-Box3-Right-Right">
                 <p className="Font18">
@@ -217,8 +248,12 @@ function Dell() {
             </div>
             <div className="dell-content-Box3-Right">
               <div className="dell-content-Box3-Right-Left">
-                <div className="Box3-Icon1"><img src={greycheck} alt="" /></div>
-                <div className="Box3-Icon4"><img src={greycheck} alt="" /></div>
+                <div className="Box3-Icon1">
+                  <img src={greycheck} alt="" />
+                </div>
+                <div className="Box3-Icon4">
+                  <img src={greycheck} alt="" />
+                </div>
               </div>
               <div className="dell-content-Box3-Right-Right">
                 <p className="Font18">
@@ -253,7 +288,7 @@ function Dell() {
             </p>
             <p className="dell-Content-MainBox5-Box1-headingText1">
               In the first phase, we identified
-              <span className="WhiteFont">end customers</span> as the primary
+              <span className="WhiteFont"> end customers</span> as the primary
               users, followed by partners, as they were the major contributors
               to the FAP program. The user research data was analysed, and a
               persona of the target users was created to identify their needs
@@ -322,7 +357,7 @@ function Dell() {
                     Tools / Touchpoint
                   </div>
                   <div className="dell-Personal-LeftBox3-Context">
-                    <ul>
+                    <ul className="list-disc">
                       <li>Online search engines</li>
                       <li>Dell Tech website</li>
                       <li>Email/phone communication</li>
@@ -338,7 +373,7 @@ function Dell() {
                     🎯 Goals
                   </div>
                   <div className="dell-Personal-RightBox1-Content">
-                    <ul>
+                    <ul className="list-disc">
                       <li>Get help to solve the IT challenge of his company</li>
                       <li>Gain acknowledgement for fast solution </li>
                       <li>
@@ -354,7 +389,7 @@ function Dell() {
                     🚀 Needs
                   </div>
                   <div className="dell-Personal-RightBox1-Content">
-                    <ul>
+                    <ul className="list-disc">
                       <li>A partner with expertise in IT implementation</li>
                       <li>Reliable and responsive partner </li>
                       <li>
@@ -369,7 +404,7 @@ function Dell() {
                     😶 Attitudes / Interest
                   </div>
                   <div className="dell-Personal-RightBox1-Content">
-                    <ul>
+                    <ul className="list-disc">
                       <li>Knowledgeable</li>
                       <li>Demanding </li>
                       <li>Determined</li>
@@ -382,14 +417,14 @@ function Dell() {
                     Behaviours Summary
                   </div>
                   <div className="dell-Personal-RightBox1-Content">
-                    <ul>
+                    <ul className="list-disc">
                       <li>
                         Mark is a busy individual with limited time to research
                         and study public Dell Tech sites for more details.
                       </li>
                       <li>
                         He prefers to have potential partners present their
-                        options and solutions to him.{" "}
+                        options and solutions to him.
                       </li>
                       <li>
                         Mark values efficiency, reliability, and clear
@@ -415,14 +450,16 @@ function Dell() {
             </div>
             <div className="dell-Content-MainBox5-Box3-Box2">
               <div className="dell-Content-MainBox5-Box3-Box2-B1 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"></div>
+                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u1} alt="" /></div>
                 <div className="dell-MainBox5-B1-ProfileText">
                   <div className="dell-MainBox5-B1-Profile-Content">
                     Can you show me a partner that can help me replace my e-mail
                     servers and help my company move to cloud?
                   </div>
                   <div className="dell-MainBox5-B1-ProfileText-box">
-                    <div className="dell-MainBox5-B1-ProfileText-Icon"></div>
+                    <div className="dell-MainBox5-B1-ProfileText-Icon">
+                      <img src={threecolor} alt="" />
+                    </div>
                     <div className="dell-MainBox5-B1-ProfileText-Text">
                       <h2 className="dell-MainBox5-B1-ProfileText-Text-Heading">
                         Darlene Robertson
@@ -435,13 +472,15 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B2 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"></div>
+                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u2} alt="" /></div>
                 <div className="dell-MainBox5-B1-ProfileText">
                   <div className="dell-MainBox5-B1-Profile-Content">
                     System is really slow, not sure if it has refreshed
                   </div>
                   <div className="dell-MainBox5-B1-ProfileText-box">
-                    <div className="dell-MainBox5-B1-ProfileText-Icon"></div>
+                    <div className="dell-MainBox5-B1-ProfileText-Icon">
+                      <img src={threecolor} alt="" />
+                    </div>
                     <div className="dell-MainBox5-B1-ProfileText-Text">
                       <h2 className="dell-MainBox5-B1-ProfileText-Text-Heading">
                         Wade Warren
@@ -454,13 +493,15 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B3 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"></div>
+                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u3} alt="" /></div>
                 <div className="dell-MainBox5-B3-ProfileText">
                   <div className="dell-MainBox5-B3-Profile-Content">
                     I get Zero search results even after searching using filters
                   </div>
                   <div className="dell-MainBox5-B1-ProfileText-box">
-                    <div className="dell-MainBox5-B1-ProfileText-Icon"></div>
+                    <div className="dell-MainBox5-B1-ProfileText-Icon">
+                      <img src={threecolor} alt="" />
+                    </div>
                     <div className="dell-MainBox5-B1-ProfileText-Text">
                       <h2 className="dell-MainBox5-B1-ProfileText-Text-Heading">
                         Kathryn Murphy
@@ -473,14 +514,16 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B4 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"></div>
+                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u4} alt="" /></div>
                 <div className="dell-MainBox5-B4-ProfileText">
                   <div className="dell-MainBox5-B4-Profile-Content">
                     I am lost, I can't understand you nomenclature and can't use
                     your filters, don't know what they mean{" "}
                   </div>
                   <div className="dell-MainBox5-B1-ProfileText-box">
-                    <div className="dell-MainBox5-B1-ProfileText-Icon"></div>
+                    <div className="dell-MainBox5-B1-ProfileText-Icon">
+                      <img src={threecolor} alt="" />
+                    </div>
                     <div className="dell-MainBox5-B1-ProfileText-Text">
                       <h2 className="dell-MainBox5-B1-ProfileText-Text-Heading">
                         Savannah Nguyen, User FAP
@@ -493,14 +536,16 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B5 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"></div>
+                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u5} alt="" /></div>
                 <div className="dell-MainBox5-B5-ProfileText">
                   <div className="dell-MainBox5-B4-Profile-Content">
                     Why doesn't Dell answer my request when I provided my
                     contact details and question?
                   </div>
                   <div className="dell-MainBox5-B1-ProfileText-box">
-                    <div className="dell-MainBox5-B1-ProfileText-Icon"></div>
+                    <div className="dell-MainBox5-B1-ProfileText-Icon">
+                      <img src={threecolor} alt="" />
+                    </div>
                     <div className="dell-MainBox5-B1-ProfileText-Text">
                       <h2 className="dell-MainBox5-B1-ProfileText-Text-Heading">
                         Leslie Alexander
@@ -513,13 +558,15 @@ function Dell() {
                 </div>
               </div>
               <div className="dell-Content-MainBox5-Box3-Box2-B6 Box5-Background">
-                <div className="dell-MainBox5-B1-ProfileIcon"></div>
+                <div className="dell-MainBox5-B1-ProfileIcon"><img src={u6} alt="" /></div>
                 <div className="dell-MainBox5-B3-ProfileText">
                   <div className="dell-MainBox5-B3-Profile-Content">
                     Can't search for Partners on my phone.
                   </div>
                   <div className="dell-MainBox5-B1-ProfileText-box">
-                    <div className="dell-MainBox5-B1-ProfileText-Icon"></div>
+                    <div className="dell-MainBox5-B1-ProfileText-Icon">
+                      <img src={threecolor} alt="" />
+                    </div>
                     <div className="dell-MainBox5-B1-ProfileText-Text">
                       <h2 className="dell-MainBox5-B1-ProfileText-Text-Heading">
                         Brooklyn Simmons
@@ -542,7 +589,7 @@ function Dell() {
             Prioritization matrix to determine which issues to address first and
             focus our efforts on solving the most critical problems.
           </div>
-          <div className="dell-Content-MainBox6-B1">{/* Baki h */}</div>
+          <div className="dell-Content-MainBox6-B1"><img src={graph} alt="" /></div>
         </div>
         <div className="dell-Content-MainBox7">
           <div className="dell-Content-MainBox6-Title">
@@ -554,7 +601,7 @@ function Dell() {
           </div>
           <div className="dell-Content-MainBox7-B1">
             <div className="dell-Content-MainBox7-B1-TitleBox">
-              <div className="dell-Content-MainBox7-B1-TitleBox-Icon"></div>
+              <div className="dell-Content-MainBox7-B1-TitleBox-Icon"><img src={buisschall} alt="" /></div>
               <div className="dell-Content-MainBox7-B1-TitleBox-Text">
                 The problem statement
               </div>
