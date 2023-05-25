@@ -475,7 +475,7 @@
   height: 184px;
   margin-top: 16px;
 }
-.dell-Personal-LeftBox2-Context ul {
+.dell-Personal-LeftBox2-Context ul{
   list-style: disc;
 }
 .dell-Personal-LeftBox2-Context ul li {
@@ -745,7 +745,7 @@
   margin-top: 32px;
   border: 1px solid white;
 }
-.dell-Content-MainBox6-B1 img {
+.dell-Content-MainBox6-B1 img{
   height: 100%;
   width: 100%;
   object-fit: cover;
