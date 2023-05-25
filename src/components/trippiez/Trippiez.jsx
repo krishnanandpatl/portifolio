@@ -884,7 +884,7 @@ function Trippiez() {
           <div className="partition-line-sbsa my-[72px]"></div>
           <div>
             <div className="inner-container-subex">
-              <div className="deliver-wireframes-sbsa">
+              <div className="deliver-wireframes-sbsa pb-[80px]">
                 <h1>Deliver: Visual Design</h1>
                 <br />
                 <div className="wireframe-sbsa">
