@@ -30,7 +30,7 @@ import ScrollButton from "./components/navbar/ScrollButoon";
 
 function App() {
   return (
-    <div className="dark:bg-[#1E1E1E]" id="topheader">
+    <div className="dark:bg-[#151A20]" id="topheader">
       <BrowserRouter>
         <Navbar />
         <Routes>

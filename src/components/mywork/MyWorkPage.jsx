@@ -23,7 +23,7 @@ function MyWorkPage() {
   }
 
   return (
-    <div className="workMainContainer dark:bg-[#1E1E1E]">
+    <div className="workMainContainer dark:bg-[#151A20]">
       <div className="MainContainer max-w-[1440px] mx-auto">
         <div className="featuredBoxMain">
           <div className="titleBox">Featured Case-Studies</div>
