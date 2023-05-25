@@ -66,7 +66,7 @@ function Home() {
         <div className="feature-title-home">Featured Projects</div>
         <div className="red-line-featured"></div>
         <div className="w-fit mx-auto">
-          <div className="relative mb-20">
+          <div className="hidden lg:block relative mb-20 w-fit">
             <div className="verizon-container-home py-[78px] pl-[48px]">
               <div className="">
                 <div className="verizon-title-home">Verizon Sales 360</div>
@@ -93,11 +93,12 @@ function Home() {
               <img src={P1_Image} alt="" />
             </div>
           </div>
-          <div className="relative items-center lg:w-[42rem] mb-20">
+
+          <div className="hidden lg:block relative items-center lg:w-[42rem] mb-20">
             <div className="image-container-home2">
               <img src={P2_Image} className="h-full w-full" alt="" />
             </div>
-            <div className="flex justify-end verizon-container-home py-[78px] ml-[80px] pr-[108px]">
+            <div className="flex justify-end verizon-container-home lg:py-[78px] lg:ml-[80px] lg:pr-[108px]">
               <div className="">
                 <div className="verizon-title-home">Publicis Growth OS</div>
                 <div className="second-title-home">
@@ -121,7 +122,8 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="relative mb-20">
+
+          <div className="hidden lg:block relative mb-20 lg:w-[42rem]">
             <div className="verizon-container-home py-[78px] pl-[48px]">
               <div className="">
                 <div className="verizon-title-home">Subex</div>
@@ -151,11 +153,12 @@ function Home() {
               <img src={P3_Image} alt="" />
             </div>
           </div>
-          <div className="relative items-center lg:w-[42rem] mb-20">
+
+          <div className="hidden lg:block relative items-center lg:w-[42rem] mb-20">
             <div className="image-container-home2">
               <img src={P4_Image} className="h-full w-full" alt="" />
             </div>
-            <div></div>
+            {/* <div></div> */}
             <div className="flex justify-end verizon-container-home py-[78px] ml-[80px] pr-[108px]">
               <div className="">
                 <div className="verizon-title-home">Standard Bank</div>
@@ -177,6 +180,130 @@ function Home() {
                   View case study
                   <img className="" src={extlink} alt="" />
                 </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="other-projects-main">
+            <div className="lg:hidden block relative mb-40">
+              <div className="mtbp-home">
+                <div className="other-proj-title-home verizon-title-home">
+                  Verizon Sales 360
+                </div>
+                <div className="">
+                  <div className="second-title-op">
+                    <div className="icon-second-tit">
+                      <img src={brush} alt="" />
+                    </div>
+                    Greenfield Project
+                  </div>
+                  <div className="op-para para-home2">
+                    A comprehensive digital landscape that supports 22k business
+                    across 338k sites.
+                  </div>
+                  <a
+                    className="link-open-home "
+                    onClick={() => LinkFn("/restricted", "/verizon-360")}
+                  >
+                    View case study
+                    <img className="" src={extlink} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="op-images">
+                <img src={P1_Image} alt="" />
+              </div>
+            </div>
+            <div className="lg:hidden block relative mb-40">
+              <div className="mtbp-home">
+                <div className="other-proj-title-home verizon-title-home">
+                  Publicis Growth OS
+                </div>
+                <div className="">
+                  <div className="second-title-op">
+                    <div className="icon-second-tit">
+                      <img src={brush} alt="" />
+                    </div>
+                    Greenfield Project
+                  </div>
+                  <div className="op-para para-home">
+                    A campaign management application to provide a more
+                    intuitive and eficient platform for marketing teams to
+                    manage their campaigns effectively.
+                  </div>
+                  <a
+                    className="link-open-home "
+                    onClick={() => LinkFn("/restricted", "/publicis-growth-os")}
+                  >
+                    View case study
+                    <img className="" src={extlink} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="op-images">
+                <img src={P2_Image} alt="" />
+              </div>
+            </div>
+            <div className="lg:hidden block relative mb-40">
+              <div className="mtbp-home">
+                <div className="other-proj-title-home verizon-title-home">
+                  Subex
+                </div>
+                <div className="">
+                  <div className="second-title-op">
+                    <div className="icon-second-tit">
+                      <img src={percent} alt="" />
+                    </div>
+                    Hybrid Project
+                  </div>
+                  <div className="para-home mb-[24px]">
+                    Subex Limited provides digital trust products to
+                    communication service providers.
+                    <p className="para-home ml-0">
+                      The company is listed on BSE and NSE in India.
+                    </p>
+                  </div>
+                  <a
+                    className="link-open-home "
+                    onClick={() => LinkFn("/subex", "")}
+                  >
+                    View case study
+                    <img className="" src={extlink} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="op-images">
+                <img src={P3_Image} alt="" />
+              </div>
+            </div>
+            <div className="lg:hidden block relative mb-40">
+              <div className="mtbp-home">
+                <div className="other-proj-title-home verizon-title-home">
+                  Standard Bank
+                </div>
+                <div className="">
+                  <div className="second-title-op">
+                    <div className="icon-second-tit">
+                      <img src={compass} alt="" />
+                    </div>
+                    Revisiting user experience and engagement
+                  </div>
+                  <div className="op-para">
+                    The Standard Bank of South Africa Limited is a South African
+                    financial services group and is Africa's biggest lender by
+                    assets.
+                  </div>
+                  <a
+                    className="link-open-home "
+                    onClick={() => LinkFn("/standard-bank-of-south-africa")}
+                  >
+                    View case study
+                    <img className="" src={extlink} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="op-images">
+                <img src={P4_Image} alt="" />
               </div>
             </div>
           </div>

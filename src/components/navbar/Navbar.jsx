@@ -43,7 +43,7 @@ function Navbar() {
         alt=""
         onClick={() => LinkFn("/")}
       ></img>
-      <ul className="hidden md:flex md:text-sm">
+      <ul className="hidden kk:flex kk:text-sm">
         <li className="p-4 hover:cursor-pointer">
           <NavLink
             to="/"
@@ -74,7 +74,7 @@ function Navbar() {
           </a>
         </li>
       </ul>
-      <div className="text-xs mr-5 hidden justify-between items-center gap-5 md:flex">
+      <div className="text-xs mr-5 hidden justify-between items-center gap-5 kk:flex">
         <div className="image-container-nav dark-mode-ln">
           <img src={darkmode} alt="" />
         </div>
@@ -97,7 +97,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div onClick={handleNav} className="block mr-6 md:hidden">
+      <div onClick={handleNav} className="block mr-6 kk:hidden">
         {nav ? (
           <ion-icon name="close-outline"></ion-icon>
         ) : (

@@ -37,7 +37,7 @@
   font-weight: 600;
   font-size: 28px;
   line-height: 34px;
-  color: #ec7a7d;
+  color: #ec7a7d !important;
 }
 .second-title-home {
   font-weight: 600;
@@ -63,7 +63,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  color: #28313c;
+  color: #28313c !important;
   margin-left: 28px;
 }
 .link-open-home {
@@ -183,4 +183,12 @@
   line-height: 22px;
   text-align: center;
   color: #ffffff;
+}
+@media only screen and (max-width: 1240px) {
+  .other-projects-main > div {
+    margin-bottom: 150px;
+  }
+  .other-projects-main > div:last-child {
+    margin-bottom: 0;
+  }
 }

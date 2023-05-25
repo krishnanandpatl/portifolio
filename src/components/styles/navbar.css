@@ -1,4 +1,4 @@
-.link-active{
+.link-active {
   color: #ffffff;
   font-weight: 400;
 }
@@ -55,8 +55,11 @@
   cursor: pointer;
   color: white;
 }
-.dark-mode-ln{
-  border: 1px solid #EC7A7D;
+.dark-mode-ln {
+  border: 1px solid #ec7a7d;
 }
-@media screen {
+@media only screen and (max-width: 1240px) {
+  .back-to-top {
+    left: 90%;
+  }
 }

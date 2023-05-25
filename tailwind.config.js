@@ -11,6 +11,8 @@ export default {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
+      'kk':"860px",
+
       'md': '768px',
       // => @media (min-width: 768px) { ... }
 
