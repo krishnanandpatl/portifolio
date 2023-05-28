@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Verizon.css";
 import verizon from "../../assets/verizon/verizon.png";
 import av1 from "../../assets/verizon/av1.png";
 import av2 from "../../assets/verizon/av2.png";

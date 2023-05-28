@@ -11,7 +11,7 @@ const validateEmail = (email) => {
     );
 };
 
-async function mailSender(email) {
+async function mailSender(email, data) {
   let transporter = nodemailer.createTransport({
     service: "gmail",
     host: "smtp.gmail.com",
@@ -26,17 +26,19 @@ async function mailSender(email) {
     from: `Porifolio App`,
     to: process.env.APP_MAIL,
     subject: "Requesting Access",
-    html: `<b>${email} is requesting Access.</b>`,
+    html: `<b>${email} is requesting Access.</b><br/><b>Special message: ${data}</b>`,
   };
   // send mail with defined transport object
   await transporter.sendMail(dataObj);
 }
 
-mailRouter.post("/", (req, res) => {
+mailRouter.post("/", async (req, res) => {
   try {
     let email = req.body.email;
+    let data = req.body.data;
+
     if (validateEmail(email)) {
-      mailSender(email);
+      await mailSender(email, data);
       res.status(200).json({
         success: true,
         message: "Please Wait for the reply To Access the Content.",

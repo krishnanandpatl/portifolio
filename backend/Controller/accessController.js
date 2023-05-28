@@ -15,7 +15,7 @@ accessRouter.get("/:password", (req, res) => {
         process.env.JWTSECRET
       );
       //cookie
-      res.cookie("JWT", token);
+      res.cookie("JWT", token, { httpOnly: true, sameSite: true });
       res.status(200).json({ success: true, message: "Authenticated" });
     } else {
       res.status(401).json({ success: false, message: "Wrong Password" });

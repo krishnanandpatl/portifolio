@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "../styles/subex.css";
 import check from "../../assets/pgos/check_circle.svg";
 import LineGraph from "../../assets/subex/LineGraph.png";
 import PieGraph1 from "../../assets/subex/PieGraph1.png";
@@ -37,8 +36,6 @@ import new2 from "../../assets/subex/new.svg";
 import arrow from "../../assets/pgos/Arrow.svg";
 
 function Subex() {
- 
-
   return (
     <div>
       <div className="subex-container">

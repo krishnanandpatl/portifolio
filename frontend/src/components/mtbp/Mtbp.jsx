@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Mtbp.css";
 import Wireframe from "../sliders/Wireframe";
 import check from "../../assets/trippez/check_circle.svg";
 import mtbp from "../../assets/mtbp/mtbp.png";
@@ -102,8 +101,8 @@ function Mtbp() {
           </div>
           <div className="solution-tripp problem-mtbp mt-[48px]">
             <h1 className="flex gap-4">
-              <div className="">
-                <img src={flag} alt="" />
+              <div className="border rounded-full h-[41px] w-[41px]">
+                <img src={flag} alt="" className="mx-auto"/>
               </div>
               What was the problem
             </h1>

@@ -3,35 +3,34 @@ import "../styles/restricted.css";
 import mailP from "../../assets/mailP.svg";
 import close from "../../assets/close.svg";
 import { useNavigate } from "react-router-dom";
+import toast, { Toaster } from "react-hot-toast";
 
 function Request() {
   const Nav = useNavigate();
   const [email, setEmail] = useState("");
   const [body, setBody] = useState("");
 
-  fetch("/api/validator/" + password, {
-    method: "POST",
-    Headers: {
-      Accept: "application.json",
-      "Content-Type": "application/json",
-    },
-    body: {
+  async function handleRequest(e) {
+    e.preventDefault();
+    let data = {
       email: email,
-      body: body,
-    },
-  })
-    .then((data) => {
-      data.json();
-    })
-    .then((finaldata) => {
-      console.log(finaldata);
-      toast.success("Request Sent", { duration: 1000 });
-    })
-    .catch((err) => {
-      toast.error(err.message, {
-        duration: 1000,
-      });
+      data: body,
+    };
+    let res = await fetch("/api/mailReq", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
     });
+    let resData = await res.json();
+    if (resData.success) {
+      toast.success("Request Sent", { duration: 1500 });
+    } else {
+      toast.error(resData.message, { duration: 1500 });
+    }
+  }
 
   const LinkFn = (URL) => {
     Nav(URL);
@@ -44,6 +43,7 @@ function Request() {
 
   return (
     <div className="max-w-[1440px] mx-auto">
+      <Toaster toastOptions={{ position: "top-center" }}></Toaster>
       <div className="main-container-re my-[10%]">
         <div className="access-card centre-card-req">
           <div
@@ -66,9 +66,14 @@ function Request() {
             type="text"
             className="my-[12px] text-white"
             placeholder="Your Comment (optional)"
-            value={(e) => setBody(e.target.value)}
+            onChange={(e) => setBody(e.target.value)}
           />
-          <div className="submit-button py-[12px] w-full">Send Request</div>
+          <div
+            className="submit-button py-[12px] w-full cursor-pointer"
+            onClick={(e) => handleRequest(e)}
+          >
+            Send Request
+          </div>
         </div>
       </div>
     </div>

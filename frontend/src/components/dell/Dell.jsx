@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Dell.css";
 import Wireframe from "../sliders/Wireframe";
 import dell from "../../assets/dell/dell.png";
 import fraud from "../../assets/subex/fraud.svg";

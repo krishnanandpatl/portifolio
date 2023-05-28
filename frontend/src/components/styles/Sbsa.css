@@ -488,17 +488,23 @@
   color: #b9b9b9;
 }
 .wireframe-sbsa > div {
-  width: 30%;
+  width: 305.02px;
   height: 292px;
-  border: 1px solid #353638;
+  /* border: 1px solid #353638; */
   border-radius: 4px;
   margin-top: 30px;
+}
+.wireframe-sbsa img{
+  max-width: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .wireframe-sbsa {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 3%;
+  gap: 5px;
 }
 .testing-report-sbsa {
   background: #1d242d;

@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/pgos.css";
 import pgos from "../../assets/pgos/pgos.svg";
 import lock from "../../assets/pgos/lock.svg";
 import pgosbig from "../../assets/pgos/pgosBig.png";

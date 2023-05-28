@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/trippiez.css";
+import { useNavigate } from "react-router-dom";
 import Wireframe from "../sliders/Wireframe";
 import tripp from "../../assets/trippez/tripp.png";
 import flag from "../../assets/trippez/flag.svg";
@@ -38,6 +38,15 @@ import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
 
 function Trippiez() {
+  const Nav = useNavigate();
+  const LinkFn = (URL) => {
+    Nav(URL);
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <div>
       <div className="subex-container">
@@ -801,7 +810,13 @@ function Trippiez() {
               needs of both users and the business.
             </p>
             <div className="budget-search-tripp mt-[48px]">
-              <div>image</div>
+              <div className="budget-image">
+                <img
+                  src="/images/trippiez/02_Trippiez.png"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
               <div>
                 <h3>Budget-Based Search</h3>
                 <ul>
@@ -825,7 +840,8 @@ function Trippiez() {
               </div>
               <div className="budget-based1">1</div>
             </div>
-            <div className="interactive-tripp">
+            <div className="interactive-tripp relative">
+              <div className="budget-based2">2</div>
               <div>
                 <h3>Interactive Map</h3>
                 <ul>
@@ -841,10 +857,22 @@ function Trippiez() {
                   <li>Improves overall satisfaction with the platform.</li>
                 </ul>
               </div>
-              <div>image</div>
+              <div className="budget-image">
+                <img
+                  src="/images/trippiez/03_Trippiez.png"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
             </div>
-            <div className="stop-booking-tripp">
-              <div>image</div>
+            <div className="stop-booking-tripp relative">
+              <div className="budget-image">
+                <img
+                  src="/images/trippiez/05_Trippiez.png"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
               <div>
                 <h3> 1-Stop Booking</h3>
                 <ul>
@@ -864,6 +892,7 @@ function Trippiez() {
                   </li>
                 </ul>
               </div>
+              <div className="budget-based1">3</div>
             </div>
           </div>
         </div>
@@ -941,7 +970,10 @@ function Trippiez() {
           </div>
         </div>
         <div className="navigation-subex">
-          <div className="flex items-center cursor-pointer">
+          <div
+            className="flex items-center cursor-pointer"
+            onClick={() => LinkFn("/dell")}
+          >
             <div>
               <img src={arrowBack} alt="" />
             </div>

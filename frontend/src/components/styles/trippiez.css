@@ -22,7 +22,7 @@
   line-height: 39px;
   color: #b9b9b9;
 }
-.solution-tripp div {
+.solution-tripp>div div {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -142,7 +142,9 @@
   margin-bottom: 23px;
 }
 .user-testimonial-tripp img {
-  width: 64px;
+  max-width: none;
+  width: 100%;
+  height: 100%;
 }
 .user-verbatism-tripp {
   background: #151a20;
@@ -426,6 +428,7 @@
   padding: 50px 48px;
   margin-bottom: 52px;
   display: flex;
+  gap: 38px;
 }
 .budget-search-tripp h3,
 .interactive-tripp h3,
@@ -444,11 +447,22 @@
   line-height: 22px;
   color: #d6dff0;
   margin-top: 24px;
+  margin-left: 24px;
 }
 .budget-search-tripp li,
 .interactive-tripp li,
 .stop-booking-tripp li {
   margin-bottom: 5px;
+}
+.budget-image{
+  width: 334px;
+height: 274px;
+}
+.budget-image img{
+  max-width: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .wireframe-tripp-bg {
   background: linear-gradient(227.16deg, #292240 -2.62%, #701c49 74.06%);
@@ -461,9 +475,22 @@
 .budget-based1 {
   width: 98px;
   height: 242px;
-  position: relative;
+  position: absolute;
   top: 0;
+  margin-right: 40px;
   right: 0;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 242.05px;
+  opacity: 3%;
+  color: #ffffff;
+}
+.budget-based2 {
+  width: 98px;
+  height: 242px;
+  position: absolute;
+  top: 0;
+  left: 0;
   font-size: 200px;
   font-weight: 700;
   line-height: 242.05px;

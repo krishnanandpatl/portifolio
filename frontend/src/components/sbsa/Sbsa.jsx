@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Sbsa.css";
 import Wireframe from "../sliders/Wireframe";
 import yes from "../../assets/sbsa/yes.svg";
 import no from "../../assets/sbsa/no.svg";
@@ -1038,8 +1037,8 @@ function Sbsa() {
             </div>
           </div>
           <div className="partition-line-sbsa my-[72px]"></div>
-          <div className="inner-container-subex">
-            <div>
+          <div className="inner-container-subex pb-[80px]">
+            <div className="deliver-wireframes-sbsa">
               <h1>Deliver: Visual Design</h1>
               <br />
               <div className="wireframe-sbsa">

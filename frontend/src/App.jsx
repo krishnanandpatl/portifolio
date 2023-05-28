@@ -1,6 +1,13 @@
 import "./App.css";
 import { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./components/styles/subex.css";
+import "./components/styles/Dell.css";
+import "./components/styles/Sbsa.css";
+import "./components/styles/pgos.css";
+import "./components/styles/Mtbp.css";
+import "./components/styles/Verizon.css";
+import "./components/styles/trippiez.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
@@ -9,21 +16,23 @@ import Restricted from "./components/secure/Restricted";
 import RequiredAuth from "./hooks/RequiredAuth";
 import Unauthorized from "./components/Unauthorized";
 import MyWorkPage from "./components/mywork/MyWorkPage";
-import Dell from "./components/dell/Dell";
-import Pgos from "./components/pgos/Pgos";
-import Sbsa from "./components/sbsa/Sbsa";
-import Mtbp from "./components/mtbp/Mtbp";
-import Verizon from "./components/verizon/Verizon";
-import Trippiez from "./components/trippiez/Trippiez";
-import Subex from "./components/subex/Subex";
+// import Dell from "./components/dell/Dell";
+// import Pgos from "./components/pgos/Pgos";
+// import Sbsa from "./components/sbsa/Sbsa";
+// import Mtbp from "./components/mtbp/Mtbp";
+// import Verizon from "./components/verizon/Verizon";
+// import Trippiez from "./components/trippiez/Trippiez";
+// import Subex from "./components/subex/Subex";
 import Request from "./components/secure/Request";
 import ScrollButton from "./components/navbar/ScrollButoon";
 
-// const Subex = lazy(() => import("./components/subex/Subex"));
-// const Dell = lazy(() => import("./components/dell/Dell"));
-// const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));
-// const MyWorkPage = lazy(() => import("./components/mywork/MyWorkPage"));
-// const Pgos = lazy(() => import("./components/pgos/Pgos"));
+const Mtbp = lazy(() => import("./components/mtbp/Mtbp"));
+const Trippiez = lazy(() => import("./components/trippiez/Trippiez"));
+const Subex = lazy(() => import("./components/subex/Subex"));
+const Dell = lazy(() => import("./components/dell/Dell"));
+const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));
+const Pgos = lazy(() => import("./components/pgos/Pgos"));
+const Verizon = lazy(() => import("./components/verizon/Verizon"));
 //add lazy when all css is in one file
 
 function App() {

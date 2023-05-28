@@ -1265,8 +1265,10 @@
   margin-bottom: 26.4px;
 }
 .dell-Content-MainBox11-TopBox-Box img{
-  /* max-width: none; */
-  object-fit: contain;
+  max-width: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .dell-Content-MainBox11-Hr {
   width: 1280px;
