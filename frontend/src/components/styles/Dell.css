@@ -777,6 +777,12 @@
   margin-right: 17px;
   border-radius: 40px;
   background: #151a20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dell-Content-MainBox7-B1-TitleBox-Icon img{
+  height: 20px;
 }
 .dell-Content-MainBox7-B1-TitleBox-Text {
   width: 651px;

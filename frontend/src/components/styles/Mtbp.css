@@ -1,3 +1,16 @@
+.flag-mtbp {
+  height: 41px;
+  width: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151a20;
+  border-radius: 50%;
+}
+.flag-mtbp img {
+  width: 15px;
+  height: 17px;
+}
 .problem-mtbp {
   background: linear-gradient(
     257.49deg,

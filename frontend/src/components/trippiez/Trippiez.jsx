@@ -809,7 +809,7 @@ function Trippiez() {
               Trippiez. This approach ensured that the product catered to the
               needs of both users and the business.
             </p>
-            <div className="budget-search-tripp mt-[48px]">
+            <div className="budget-search-tripp mt-[48px] relative">
               <div className="budget-image">
                 <img
                   src="/images/trippiez/02_Trippiez.png"

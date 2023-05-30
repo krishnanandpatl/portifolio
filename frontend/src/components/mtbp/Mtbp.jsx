@@ -101,7 +101,7 @@ function Mtbp() {
           </div>
           <div className="solution-tripp problem-mtbp mt-[48px]">
             <h1 className="flex gap-4">
-              <div className="border rounded-full h-[41px] w-[41px]">
+              <div className="flag-mtbp">
                 <img src={flag} alt="" className="mx-auto"/>
               </div>
               What was the problem
@@ -145,7 +145,7 @@ function Mtbp() {
           </div>
           <div className="solution-tripp problem-mtbp mt-[48px]">
             <h1 className="flex gap-4">
-              <div className="">
+              <div className="flag-mtbp">
                 <img src={flag} alt="" />
               </div>
               Problems we solved
