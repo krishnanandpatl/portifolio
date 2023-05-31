@@ -196,7 +196,7 @@ function MyWorkPage() {
             </div>
           </div>
         </div>
-        <div className="otherBoxMain">
+        {/* <div className="otherBoxMain">
           <div className="titleBox">Passion Applications</div>
           <div className="featureBox">
             <div className="featureContent">
@@ -230,7 +230,7 @@ function MyWorkPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="otherBoxMain">
           <div className="titleBox">My Digital Paintings</div>
           <div className="featureBox">

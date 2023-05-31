@@ -1,5 +1,5 @@
 .link-active {
-  color: #ffffff;
+  color: #EC7A7D;
   font-weight: 400;
 }
 .footer-navs * {
@@ -47,13 +47,20 @@
 }
 .back-to-top {
   position: fixed;
-  width: 100%;
-  left: 95%;
-  bottom: 40px;
-  height: 20px;
+  left: 90%;
+  bottom: 80px;
   z-index: 99;
   cursor: pointer;
   color: white;
+}
+.back-to-top img{
+  margin: auto;
+  width: 50px;
+}
+.back-to-top p{
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
 }
 .dark-mode-ln {
   border: 1px solid #ec7a7d;

@@ -27,12 +27,12 @@ const ScrollButton = () => {
   return (
     <>
       <div
-        className="w-[36px] cursor-pointer back-to-top"
+        className="cursor-pointer back-to-top"
         onClick={() => handleTop()}
         style={{display: visible ? 'inline' : 'none'}}
       >
         <img src={arrow} alt="" />
-        {/* <p>Back To Top</p> */}
+        <p className="whitespace-nowrap mx-auto">Back To Top</p>
       </div>
     </>
   );

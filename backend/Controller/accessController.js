@@ -15,7 +15,12 @@ accessRouter.get("/:password", (req, res) => {
         process.env.JWTSECRET
       );
       //cookie
-      res.cookie("JWT", token, { httpOnly: true, sameSite: true });
+      res.cookie("JWT", token, {
+        httpOnly: true,
+        sameSite: true,
+        maxAge: Math.floor(Date.now() / 1000) + 60 * 60 * 24,
+        secure: true,
+      });
       res.status(200).json({ success: true, message: "Authenticated" });
     } else {
       res.status(401).json({ success: false, message: "Wrong Password" });

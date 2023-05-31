@@ -211,7 +211,7 @@ function Verizon() {
         </div>
         <hr className="verizonHr1" />
         <div className="verizonChellengesBox">
-          <div className="ChellengesTitle">Key Chellenges</div>
+          <div className="ChellengesTitle">Key Challenges</div>
           <div className="chellengesMainBox">
             <div className="chellengesBox1">
               <p className="chellengesTitle">Domain Knowledge</p>
@@ -274,7 +274,7 @@ function Verizon() {
             </div>
           </div>
         </div>
-        <hr className="verizonHr2" />
+        {/* <hr className="verizonHr2" /> */}
         <hr className="verizonHr3" />
       </div>
       <div className="verizonResearchMainBox">

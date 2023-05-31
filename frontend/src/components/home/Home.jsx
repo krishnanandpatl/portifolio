@@ -76,7 +76,7 @@ function Home() {
                   </div>
                   Greenfield Project
                 </div>
-                <div className="para-home2">
+                <div className="para-home">
                   A comprehensive digital landscape that supports 22k business
                   across 338k sites.
                 </div>

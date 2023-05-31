@@ -58,14 +58,6 @@
   color: #b2bbc6;
   margin-left: 28px;
 }
-.para-home2 {
-  width: 340px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  color: #28313c !important;
-  margin-left: 28px;
-}
 .link-open-home {
   font-weight: 500;
   font-size: 14px;
@@ -183,6 +175,11 @@
   line-height: 22px;
   text-align: center;
   color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.button-case-study:hover{
+  transform: scale(1.05) perspective(1px);
+  /* animation: alternate duration timing-function delay iteration-count direction fill-mode; */
 }
 @media only screen and (max-width: 1240px) {
   .other-projects-main > div {

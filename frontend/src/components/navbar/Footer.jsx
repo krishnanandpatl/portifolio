@@ -34,8 +34,8 @@ function Footer() {
                 About Me
               </NavLink>
             </div>
-            <div>Behance[Old Work]</div>
-            <div>LinkedIn</div>
+            <div><a href="https://www.behance.net/Kshitij_03" target="_blank">Behance[Old Work]</a></div>
+            <div><a href="https://www.linkedin.com/in/kshitij-srivastava-03ab5861/" target="_blank">LinkedIn</a></div>
             <div>My Digital Painting</div>
           </div>
           <div className="flex items-center gap-[14px] lg:mr-2 lg:order-3 order-2">
