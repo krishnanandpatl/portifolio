@@ -25,8 +25,8 @@ app.use("/api/authChecker", authRouter);
 
 app.use("/api/mailReq", mailRouter);
 
-app.use("*", function (request, response) {
-  response.sendFile(path.resolve(__dirname, "dist"));
+app.use("/*", function (request, response) {
+  response.sendFile(path.resolve(__dirname, "dist", "index.html"));
 });
 
 app.listen(port, () => {
