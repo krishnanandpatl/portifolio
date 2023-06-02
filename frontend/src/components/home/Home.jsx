@@ -15,7 +15,7 @@ import P1_Image from "../../assets/home/gifs/VZ.gif";
 import P2_Image from "../../assets/home/gifs/PGOS.gif";
 import P3_Image from "../../assets/home/gifs/Subex.gif";
 import P4_Image from "../../assets/home/gifs/SBSA.gif";
-import P5_Image from "../../assets/home/gifs/SBSA.gif";
+import P5_Image from "../../assets/home/gifs/MTBP.gif";
 import P6_Image from "../../assets/home/gifs/Dell.gif";
 import P7_Image from "../../assets/home/gifs/Trippiez.gif";
 import { useNavigate } from "react-router-dom";

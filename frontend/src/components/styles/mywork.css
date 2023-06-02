@@ -85,6 +85,26 @@
   line-height: 19.36px;
   color: #909dad;
 }
+.coming-soon {
+  position: relative;
+  margin-top: 80px;
+}
+.coming-soon > div:last-child {
+  position: absolute;
+  left: 50%;
+  top: -25px;
+  background: #151a20;
+  border: 1px solid #3d4c5e;
+  border-radius: 8px;
+  width: 294px;
+  height: 48px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #909dad;
+}
 @media only screen and (max-width: 768px) {
   .featureBox {
     justify-content: center;

@@ -10,7 +10,7 @@ import "./components/styles/Verizon.css";
 import "./components/styles/trippiez.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
-import About from "./components/about/About";
+import About from "./components/about/AboutV2";
 import Footer from "./components/navbar/Footer";
 import Restricted from "./components/secure/Restricted";
 import RequiredAuth from "./hooks/RequiredAuth";

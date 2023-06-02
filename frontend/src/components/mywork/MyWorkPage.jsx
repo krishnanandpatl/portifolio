@@ -5,7 +5,7 @@ import P1_Image from "../../assets/home/gifs/VZ.gif";
 import P2_Image from "../../assets/home/gifs/PGOS.gif";
 import P3_Image from "../../assets/home/gifs/Subex.gif";
 import P4_Image from "../../assets/home/gifs/SBSA.gif";
-import P5_Image from "../../assets/home/gifs/SBSA.gif";
+import P5_Image from "../../assets/home/gifs/MTBP.gif";
 import P6_Image from "../../assets/home/gifs/Dell.gif";
 import P7_Image from "../../assets/home/gifs/Trippiez.gif";
 import checker from "../../assets/home/gifs/checker.png";
@@ -116,6 +116,13 @@ function MyWorkPage() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="coming-soon">
+        <div className="partition-line-sbsa"></div>
+        <div>Coming Soon</div>
+      </div>
+      <div className="MainContainer max-w-[1440px] mx-auto">
         <div className="otherBoxMain">
           <div className="titleBox">Mobile Applications</div>
           <div className="featureBox">
