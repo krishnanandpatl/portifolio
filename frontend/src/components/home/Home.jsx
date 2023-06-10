@@ -47,7 +47,10 @@ function Home() {
           driven by empathy and creativity
         </h1>
         <div className="w-fit mx-auto mt-8 md:mb-[120px] mb-[70px]">
-          <button className="button-case-study">All Case Studies</button>
+          <button className="button-case-study"
+          onClick={()=>LinkFn("/my-work")}
+          >
+            All Case Studies</button>
         </div>
       </div>
       <div
@@ -90,7 +93,7 @@ function Home() {
               </div>
             </div>
             <div className="image-container-home">
-              <img src={P1_Image} loading="lazy" alt="" />
+              <img src={P1_Image}  alt="" />
             </div>
           </div>
 
@@ -98,7 +101,7 @@ function Home() {
             <div className="image-container-home2">
               <img
                 src={P2_Image}
-                loading="lazy"
+                
                 className="h-full w-full"
                 alt=""
               />
@@ -155,7 +158,7 @@ function Home() {
               </div>
             </div>
             <div className="image-container-home">
-              <img src={P3_Image} loading="lazy" alt="" />
+              <img src={P3_Image}  alt="" />
             </div>
           </div>
 
@@ -163,7 +166,7 @@ function Home() {
             <div className="image-container-home2">
               <img
                 src={P4_Image}
-                loading="lazy"
+                
                 className="h-full w-full"
                 alt=""
               />
@@ -212,7 +215,7 @@ function Home() {
                   </div>
                   <a
                     className="link-open-home "
-                    onClick={() => LinkFn("/restricted", "/verizon-360")}
+                    onClick={() => LinkFn("/verizon-360")}
                   >
                     View case study
                     <img className="" src={extlink} alt="" />
@@ -220,7 +223,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P1_Image} loading="lazy" alt="" />
+                <img src={P1_Image}  alt="" />
               </div>
             </div>
             <div className="lg:hidden block relative mb-40">
@@ -242,7 +245,7 @@ function Home() {
                   </div>
                   <a
                     className="link-open-home "
-                    onClick={() => LinkFn("/restricted", "/publicis-growth-os")}
+                    onClick={() => LinkFn("/publicis-growth-os")}
                   >
                     View case study
                     <img className="" src={extlink} alt="" />
@@ -250,7 +253,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P2_Image} loading="lazy" alt="" />
+                <img src={P2_Image}  alt="" />
               </div>
             </div>
             <div className="lg:hidden block relative mb-40">
@@ -274,7 +277,7 @@ function Home() {
                   </div>
                   <a
                     className="link-open-home "
-                    onClick={() => LinkFn("/subex", "")}
+                    onClick={() => LinkFn("/subex")}
                   >
                     View case study
                     <img className="" src={extlink} alt="" />
@@ -282,7 +285,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P3_Image} loading="lazy" alt="" />
+                <img src={P3_Image}  alt="" />
               </div>
             </div>
             <div className="lg:hidden block relative mb-40">
@@ -312,7 +315,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P4_Image} loading="lazy" alt="" />
+                <img src={P4_Image}  alt="" />
               </div>
             </div>
           </div>
@@ -347,7 +350,7 @@ function Home() {
             </div>
           </div>
           <div className="op-images">
-            <img src={P5_Image} loading="lazy" alt="" />
+            <img src={P5_Image}  alt="" />
           </div>
         </div>
         <div className="relative">
@@ -373,7 +376,7 @@ function Home() {
             </div>
           </div>
           <div className="op-images">
-            <img src={P6_Image} loading="lazy" alt="" />
+            <img src={P6_Image}  alt="" />
           </div>
         </div>
         <div className="relative">
@@ -400,7 +403,7 @@ function Home() {
             </div>
           </div>
           <div className="op-images">
-            <img src={P7_Image} loading="lazy" alt="" />
+            <img src={P7_Image}  alt="" />
           </div>
         </div>
       </div>

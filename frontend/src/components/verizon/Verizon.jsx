@@ -26,7 +26,7 @@ function Verizon() {
           <div className="verizonLeftBox">
             <div className="verizonContentBox">
               <div className="verizonTitleIconBox1">
-                <img src={vzlogo} loading="lazy" alt="" />
+                <img src={vzlogo}  alt="" />
               </div>
               <div className="verizonTitleIconBox2">Sales 360</div>
               <div className="verizonContent">
@@ -581,7 +581,7 @@ function Verizon() {
         </div>
         <div className="ExperienceBusinessTitlecontent">
           <div className="ExperienceBusinessTitlecontentLeft">
-            <img src={pane} loading="lazy" alt="" />
+            <img src={pane}  alt="" />
           </div>
           <div className="ExperienceBusinessTitlecontentRight">
             <div className="ExperienceBusinessTitlecontentRightTitle">
@@ -650,12 +650,12 @@ function Verizon() {
             </div>
           </div>
           <div className="ExperienceBusinessTitlecontentRight2">
-            <img src={workspace} loading="lazy" alt="" />
+            <img src={workspace}  alt="" />
           </div>
         </div>
         <div className="ExperienceBusinessTitlecontent">
           <div className="ExperienceBusinessTitlecontentLeft">
-            <img src={intelligence} loading="lazy" alt="" />
+            <img src={intelligence}  alt="" />
           </div>
           <div className="ExperienceBusinessTitlecontentRight">
             <div className="ExperienceBusinessTitlecontentRightTitle">
@@ -725,7 +725,7 @@ function Verizon() {
             </div>
           </div>
           <div className="ExperienceBusinessTitlecontentRight2">
-            <img src={guided} loading="lazy" alt="" />
+            <img src={guided}  alt="" />
           </div>
         </div>
       </div>

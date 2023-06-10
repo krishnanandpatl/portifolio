@@ -218,7 +218,7 @@
   padding-top: 30px;
   display: flex;
   gap: 12px;
-  align-items: baseline;
+  align-items: stretch;
 }
 .buisness-challenge-subex-content h1 {
   font-weight: 700;

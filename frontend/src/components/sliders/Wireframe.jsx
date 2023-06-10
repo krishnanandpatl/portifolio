@@ -19,7 +19,7 @@ function Wireframe({ val }) {
       {imgData.map(function (img, idx) {
         return (
           <div key={idx}>
-            <img src={img} loading="lazy" alt="" />
+            <img src={img} alt="" loading="eager" />
           </div>
         );
       })}

@@ -70,7 +70,7 @@ function Mtbp() {
             </div>
           </div>
           <div className="image-part-intro">
-            <img src={mtbp} loading="lazy" alt="" />
+            <img src={mtbp}  alt="" />
           </div>
         </div>
         <div className="inner-container-subex">
@@ -696,7 +696,7 @@ function Mtbp() {
               that outlines the most efficient path to achieving those goals.
             </p>
             <div className="user-flow-image">
-              <img src={IA} loading="lazy" alt="" />
+              <img src={IA}  alt="" />
             </div>
           </div>
         </div>

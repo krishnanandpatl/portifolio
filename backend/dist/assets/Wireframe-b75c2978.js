@@ -1,0 +1,1 @@
+import{r as a,a as t,F as o}from"./index-c0e7d0fb.js";import"./carousel.min-5f8e7d09.js";function g({val:r}){const[n,i]=a.useState([]);return a.useEffect(()=>{fetch(`/api/image/${r}`).then(e=>e.json()).then(e=>{i(e.images)}).catch(e=>{console.log(e)})},[]),t(o,{children:n.map(function(e,s){return t("div",{children:t("img",{src:e,alt:"",loading:"eager"})},s)})})}export{g as W};

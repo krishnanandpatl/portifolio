@@ -91,7 +91,7 @@ function Trippiez() {
             </div>
           </div>
           <div className="image-part-intro">
-            <img src={tripp} loading="lazy" alt="" />
+            <img src={tripp}  alt="" />
           </div>
         </div>
         <div className="inner-container-subex">
@@ -813,7 +813,7 @@ function Trippiez() {
               <div className="budget-image">
                 <img
                   src="/images/trippiez/02_Trippiez.png"
-                  loading="lazy"
+                  
                   alt=""
                 />
               </div>
@@ -860,7 +860,7 @@ function Trippiez() {
               <div className="budget-image">
                 <img
                   src="/images/trippiez/03_Trippiez.png"
-                  loading="lazy"
+                  
                   alt=""
                 />
               </div>
@@ -869,7 +869,7 @@ function Trippiez() {
               <div className="budget-image">
                 <img
                   src="/images/trippiez/05_Trippiez.png"
-                  loading="lazy"
+                  
                   alt=""
                 />
               </div>

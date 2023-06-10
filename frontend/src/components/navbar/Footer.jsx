@@ -5,6 +5,13 @@ import mail from "../../assets/mail.svg";
 import { NavLink } from "react-router-dom";
 
 function Footer() {
+  const LinkFn = () => {
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <div className="bg-[#090B0E]">
       <div className="lg:h-[248px] h-fit w-[100%] max-w-[1440px] mx-auto footer-contents">
@@ -30,12 +37,24 @@ function Footer() {
               <NavLink
                 to="/about"
                 className={({ isActive }) => (isActive ? "link-active" : "")}
+                onClick={()=>LinkFn()}
               >
                 About Me
               </NavLink>
             </div>
-            <div><a href="https://www.behance.net/Kshitij_03" target="_blank">Behance[Old Work]</a></div>
-            <div><a href="https://www.linkedin.com/in/kshitij-srivastava-03ab5861/" target="_blank">LinkedIn</a></div>
+            <div>
+              <a href="https://www.behance.net/Kshitij_03" target="_blank">
+                Behance[Old Work]
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/kshitij-srivastava-03ab5861/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </div>
             <div>My Digital Painting</div>
           </div>
           <div className="flex items-center gap-[14px] lg:mr-2 lg:order-3 order-2">

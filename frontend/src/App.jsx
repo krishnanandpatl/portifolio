@@ -16,15 +16,17 @@ import Restricted from "./components/secure/Restricted";
 import RequiredAuth from "./hooks/RequiredAuth";
 import Unauthorized from "./components/Unauthorized";
 import MyWorkPage from "./components/mywork/MyWorkPage";
+import Loading from "./components/navbar/Loading";
 // import Dell from "./components/dell/Dell";
 // import Pgos from "./components/pgos/Pgos";
 // import Sbsa from "./components/sbsa/Sbsa";
 // import Mtbp from "./components/mtbp/Mtbp";
-// import Verizon from "./components/verizon/Verizon";
+import Verizon from "./components/verizon/Verizon";
 // import Trippiez from "./components/trippiez/Trippiez";
 // import Subex from "./components/subex/Subex";
 import Request from "./components/secure/Request";
 import ScrollButton from "./components/navbar/ScrollButoon";
+import NoPage from "./components/NoPage";
 
 const Mtbp = lazy(() => import("./components/mtbp/Mtbp"));
 const Trippiez = lazy(() => import("./components/trippiez/Trippiez"));
@@ -32,7 +34,7 @@ const Subex = lazy(() => import("./components/subex/Subex"));
 const Dell = lazy(() => import("./components/dell/Dell"));
 const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));
 const Pgos = lazy(() => import("./components/pgos/Pgos"));
-const Verizon = lazy(() => import("./components/verizon/Verizon"));
+// const Verizon = lazy(() => import("./components/verizon/Verizon"));
 //add lazy when all css is in one file
 
 function App() {
@@ -46,7 +48,7 @@ function App() {
           <Route
             path="/my-work"
             element={
-              <Suspense fallback={<h1>....Loading...</h1>}>
+              <Suspense fallback={<Loading />}>
                 <MyWorkPage />
               </Suspense>
             }
@@ -54,7 +56,7 @@ function App() {
           <Route
             path="/dell"
             element={
-              <Suspense fallback={<h1>....Loading...</h1>}>
+              <Suspense fallback={<Loading />}>
                 <Dell />
               </Suspense>
             }
@@ -65,7 +67,7 @@ function App() {
             <Route
               path="/publicis-growth-os"
               element={
-                <Suspense fallback={<h1>....Loading...</h1>}>
+                <Suspense fallback={<Loading />}>
                   <Pgos />
                 </Suspense>
               }
@@ -73,7 +75,7 @@ function App() {
             <Route
               path="/verizon-360"
               element={
-                <Suspense fallback={<h1>....Loading...</h1>}>
+                <Suspense fallback={<Loading />}>
                   <Verizon />
                 </Suspense>
               }
@@ -82,7 +84,7 @@ function App() {
           <Route
             path="/standard-bank-of-south-africa"
             element={
-              <Suspense fallback={<h1>....Loading...</h1>}>
+              <Suspense fallback={<Loading />}>
                 <Sbsa />
               </Suspense>
             }
@@ -90,7 +92,7 @@ function App() {
           <Route
             path="/moneytap-bankers-portal"
             element={
-              <Suspense fallback={<h1>....Loading...</h1>}>
+              <Suspense fallback={<Loading />}>
                 <Mtbp />
               </Suspense>
             }
@@ -99,7 +101,7 @@ function App() {
           <Route
             path="/subex"
             element={
-              <Suspense fallback={<h1>....Loading...</h1>}>
+              <Suspense fallback={<Loading />}>
                 <Subex />
               </Suspense>
             }
@@ -107,13 +109,13 @@ function App() {
           <Route
             path="/trippiez"
             element={
-              <Suspense fallback={<h1>....Loading...</h1>}>
+              <Suspense fallback={<Loading />}>
                 <Trippiez />
               </Suspense>
             }
           ></Route>
           <Route path="/unauthorized" element={<Unauthorized />}></Route>
-          <Route path="*" element={<h1>No Route Defined</h1>}></Route>
+          <Route path="*" element={<NoPage />}></Route>
         </Routes>
         <ScrollButton />
         <Footer />

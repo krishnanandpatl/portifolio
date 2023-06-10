@@ -36,7 +36,7 @@ function MyWorkPage() {
               onClick={() => LinkFn("/verizon-360")}
             >
               <div className="contentImage">
-                <img src={P1_Image} loading="lazy" alt="" />
+                <img src={P1_Image} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -49,7 +49,7 @@ function MyWorkPage() {
               onClick={() => LinkFn("/publicis-growth-os")}
             >
               <div className="contentImage">
-                <img src={P2_Image} loading="lazy" alt="" />
+                <img src={P2_Image} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -59,7 +59,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent" onClick={() => LinkFn("/subex")}>
               <div className="contentImage">
-                <img src={P3_Image} loading="lazy" alt="" />
+                <img src={P3_Image} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -77,7 +77,7 @@ function MyWorkPage() {
               onClick={() => LinkFn("/standard-bank-of-south-africa")}
             >
               <div className="contentImage">
-                <img src={P4_Image} loading="lazy" alt="" />
+                <img src={P4_Image} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2019</h2>
@@ -90,7 +90,7 @@ function MyWorkPage() {
               onClick={() => LinkFn("/moneytap-bankers-portal")}
             >
               <div className="contentImage">
-                <img src={P5_Image} loading="lazy" alt="" />
+                <img src={P5_Image} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2017 - 2018</h2>
@@ -100,7 +100,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent" onClick={() => LinkFn("/dell")}>
               <div className="contentImage">
-                <img src={P6_Image} loading="lazy" alt="" />
+                <img src={P6_Image} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2020 - 2021</h2>
@@ -110,7 +110,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent" onClick={() => LinkFn("/trippiez")}>
               <div className="contentImage">
-                <img src={P7_Image} loading="lazy" alt="" />
+                <img src={P7_Image} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018</h2>
@@ -124,7 +124,9 @@ function MyWorkPage() {
 
       <div className="coming-soon">
         <div className="partition-line-sbsa"></div>
-        <div>Coming Soon</div>
+        <div>
+          <p>Coming Soon</p>
+        </div>
       </div>
       <div className="MainContainer max-w-[1440px] mx-auto">
         <div className="otherBoxMain">
@@ -132,7 +134,7 @@ function MyWorkPage() {
           <div className="featureBox">
             <div className="featureContent">
               <div className="contentImage">
-                <img src={qskip} loading="lazy" alt="" />
+                <img src={qskip} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2019</h2>
@@ -142,7 +144,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={sugrx} loading="lazy" alt="" />
+                <img src={sugrx} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2015</h2>
@@ -152,7 +154,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={bike} loading="lazy" alt="" />
+                <img src={bike} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2019</h2>
@@ -162,7 +164,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={skribe} loading="lazy" alt="" />
+                <img src={skribe} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2020 - 2021</h2>
@@ -177,7 +179,7 @@ function MyWorkPage() {
           <div className="featureBox">
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={checker}  alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -187,7 +189,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={checker}  alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -197,7 +199,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={checker}  alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -212,7 +214,7 @@ function MyWorkPage() {
           <div className="featureBox">
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={checker}  alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -222,7 +224,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={checker}  alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -232,7 +234,7 @@ function MyWorkPage() {
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={checker}  alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2018-2021</h2>
@@ -247,7 +249,7 @@ function MyWorkPage() {
           <div className="featureBox">
             <div className="featureContent">
               <div className="contentImage">
-                <img src={paint} loading="lazy" alt="" />
+                <img src={paint} alt="" />
               </div>
               <div className="contentTextBox">
                 <h2 className="titleYear">2011 - Ongoing </h2>

@@ -15,7 +15,7 @@ import fraud from "../../assets/subex/fraud.svg";
 import solution from "../../assets/sbsa/solution.svg";
 import analsoln from "../../assets/subex/analsoln.svg";
 import leak from "../../assets/subex/leak.svg";
-import flag from "../../assets/sbsa/flag.svg";
+import flag from "../../assets/subex/sflag.svg";
 import workflowcreation from "../../assets/subex/account_tree.svg";
 import caseInvestigation from "../../assets/subex/policy.svg";
 import caseclosing from "../../assets/subex/rule_folder.svg";
@@ -93,7 +93,7 @@ function Subex() {
             </div>
           </div>
           <div className="image-part-intro">
-            <img src={subex} loading="lazy" alt="" />
+            <img src={subex}  alt="" />
           </div>
         </div>
         <div className="inner-container-subex">
@@ -388,7 +388,7 @@ function Subex() {
           <div className="user-experience-subex">
             <h1 className="mb-[40px]">User Experience Map</h1>
             <div>
-              <img src={subexTable} loading="lazy" alt="" />
+              <img src={subexTable}  alt="" />
             </div>
           </div>
           <div className="pros-cons-subex">
