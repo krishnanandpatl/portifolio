@@ -48,7 +48,7 @@ function Request() {
         <div className="access-card centre-card-req">
           <div
             className="w-fit cursor-pointer close-button"
-            onClick={() => LinkFn("/restricted")}
+            onClick={() => LinkFn("/")}
           >
             <img src={close} alt="" />
           </div>

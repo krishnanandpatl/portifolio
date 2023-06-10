@@ -37,6 +37,18 @@
   color: #d6dff0;
   width: 80%;
 }
+.key-cont-bg {
+  background: linear-gradient(
+    255.4deg,
+    #08385a 6.73%,
+    #521a12 55.21%,
+    #65231a 84.38%
+  ) !important;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 4px !important;
+}
 .key-offering-sbsa > div {
   background: #151a20;
   display: flex;
@@ -77,7 +89,7 @@
   );
   border-radius: 4px;
   padding: 36px 56px;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .the-challenge-pgos h1 {
   font-weight: 700;

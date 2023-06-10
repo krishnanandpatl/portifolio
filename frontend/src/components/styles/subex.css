@@ -62,7 +62,7 @@
 .inner-container-subex {
   max-width: 947px;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .key-container {
   display: flex;
@@ -96,7 +96,7 @@
   color: #d6dff0;
 }
 .context-background-subex {
-  margin-top: 71px;
+  margin-top: 40px;
   /* height: 821px; */
   background: #1d242d;
   border: 1px solid #3d4c5e;
@@ -120,8 +120,7 @@
 }
 
 .context-background-subex > p {
-  width: 75%;
-  font-weight: 400;
+    font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
@@ -164,7 +163,7 @@
 .bottom-context-subex {
   display: flex;
   /* padding: 0px 56px; */
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .what-case-subex,
 .type-case-btm-subex {
@@ -209,7 +208,7 @@
 }
 .buisness-challenge-subex,
 .design-challenge-subex {
-  margin-top: 64px;
+  margin-top: 40px;
   background: linear-gradient(255.4deg, #041f3f 0%, #01414f 100%);
   box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
     0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
@@ -253,8 +252,7 @@ i {
   width: 75%;
 }
 .research-title-subex {
-  font-family: "Work Sans";
-  font-style: normal;
+  
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
@@ -326,9 +324,10 @@ i {
 }
 .piechart-subex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .user-experience-subex {
+  margin-top: 40px;
   background: #1d242d;
   border: 1px solid #3d4c5e;
   border-radius: 4px;
@@ -341,11 +340,11 @@ i {
   color: #b9b9b9;
 }
 .pros-cons-subex {
-  margin-top: 64px;
+  margin-top: 40px;
   padding-top: 56px;
 }
 .pros-cons-subex p {
-  width: 68%;
+  /* width: 68%; */
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -372,8 +371,7 @@ i {
   align-items: baseline;
 }
 .pros-cons-comapare h2 {
-  font-family: "Work Sans";
-  font-style: normal;
+  
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
@@ -389,8 +387,7 @@ i {
   width: 80%;
 }
 .secondary-research-subex h2 {
-  font-family: "Work Sans";
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
@@ -468,11 +465,9 @@ i {
   color: #d6dff0;
 }
 .user-workflow-subex {
-  margin-top: 64px;
+  margin-top: 40px;
 }
 .user-workflow-subex h2 {
-  font-family: "Work Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
@@ -484,11 +479,9 @@ i {
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
-  width: 75%;
+  /* width: 75%; */
 }
 .concept-creation-subex h2 {
-  font-family: "Work Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
@@ -501,9 +494,9 @@ i {
   line-height: 18px;
   color: #d6dff0;
 }
-.concept-creation-subex-italics {
+/* .concept-creation-subex-italics {
   width: 75%;
-}
+} */
 .concept-creation-subex-italics strong {
   font-weight: 700;
   font-size: 12px;
@@ -512,7 +505,7 @@ i {
 }
 .concept-cards-subex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .concept-card-subex {
   padding: 40px;
@@ -712,6 +705,9 @@ i {
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
+}
+.kpi-box-subex >div:first-child{
+  margin-left: 0px;
 }
 .kpi-box-subex {
   padding: 40px 32px;

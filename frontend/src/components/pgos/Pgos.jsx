@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import pgos from "../../assets/pgos/pgos.svg";
 import lock from "../../assets/pgos/lock.svg";
 import pgosbig from "../../assets/pgos/pgosBig.png";
@@ -26,6 +27,16 @@ import arrowFor from "../../assets/arrowFor.svg";
 import arrow from "../../assets/pgos/Arrow.svg";
 
 function Pgos() {
+
+  const Nav = useNavigate();
+  const LinkFn = (URL) => {
+    Nav(URL);
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <div>
       <div className="subex-container">
@@ -92,7 +103,7 @@ function Pgos() {
         </div>
 
         <div className="inner-container-subex">
-          <div className="key-container ">
+          <div className="key-container key-cont-bg">
             <div className="bulb-inner-container">
               <img src={bulb} alt="" />
             </div>
@@ -104,7 +115,7 @@ function Pgos() {
               and clients.
             </div>
           </div>
-          <div className="context-pgos mt-[80px]">
+          <div className="context-pgos mt-[40px]">
             <h1>Context and Background</h1>
             <br />
             <p>
@@ -570,7 +581,7 @@ function Pgos() {
               </div>
             </div>
           </div>
-          <div className="skills-contribution-pgos mt-[64px]">
+          <div className="skills-contribution-pgos mt-[40px]">
             <h2>My Skill and Contribution</h2>
             <br />
             <p>
@@ -768,7 +779,7 @@ function Pgos() {
               </div>
             </div>
           </div>
-          <div className="flex mt-[64px] reflecion-pgos gap-6">
+          <div className="flex mt-[40px] reflecion-pgos gap-6">
             <div>
               <h2>Reflection</h2>
               <br />
@@ -829,13 +840,13 @@ function Pgos() {
             </div>
           </div>
           <div className="navigation-subex">
-            <div className="flex">
+            <div className="flex cursor-pointer" onClick={()=>LinkFn("/verizon-360")}>
               <div>
                 <img src={arrowBack} alt="" />
               </div>
               Previous Case Study
             </div>
-            <div className="flex">
+            <div className="flex cursor-pointer" onClick={()=>LinkFn("/subex")}>
               Next Case Study
               <div>
                 <img src={arrowFor} alt="" />

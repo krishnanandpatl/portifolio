@@ -8,7 +8,11 @@ import P4_Image from "../../assets/home/gifs/SBSA.gif";
 import P5_Image from "../../assets/home/gifs/MTBP.gif";
 import P6_Image from "../../assets/home/gifs/Dell.gif";
 import P7_Image from "../../assets/home/gifs/Trippiez.gif";
-import checker from "../../assets/home/gifs/checker.png";
+import bike from "../../assets/about/bike.png";
+import qskip from "../../assets/about/qskip.png";
+import skribe from "../../assets/about/skribe.png";
+import paint from "../../assets/about/paint.png";
+import sugrx from "../../assets/about/sugrx.png";
 
 function MyWorkPage() {
   const Nav = useNavigate();
@@ -76,9 +80,9 @@ function MyWorkPage() {
                 <img src={P4_Image} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
+                <h2 className="titleYear">2019</h2>
                 <p className="titleName">Standard Bank,SA</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <p className="companyName">Corporate Banking</p>
               </div>
             </div>
             <div
@@ -89,9 +93,9 @@ function MyWorkPage() {
                 <img src={P5_Image} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
+                <h2 className="titleYear">2017 - 2018</h2>
                 <p className="titleName">Banker's Portal</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <p className="companyName">Credit Analysis Product</p>
               </div>
             </div>
             <div className="featureContent" onClick={() => LinkFn("/dell")}>
@@ -99,9 +103,9 @@ function MyWorkPage() {
                 <img src={P6_Image} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
+                <h2 className="titleYear">2020 - 2021</h2>
                 <p className="titleName">Dell</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <p className="companyName">Re-sale Platform</p>
               </div>
             </div>
             <div className="featureContent" onClick={() => LinkFn("/trippiez")}>
@@ -109,9 +113,9 @@ function MyWorkPage() {
                 <img src={P7_Image} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
+                <h2 className="titleYear">2018</h2>
                 <p className="titleName">Trippiez</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <p className="companyName">Travel Planning Portal</p>
               </div>
             </div>
           </div>
@@ -128,47 +132,47 @@ function MyWorkPage() {
           <div className="featureBox">
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={qskip} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
+                <h2 className="titleYear">2019</h2>
                 <p className="titleName">Qskip</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <p className="companyName">Scan&Go Product</p>
               </div>
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={sugrx} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">SugeX</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <h2 className="titleYear">2015</h2>
+                <p className="titleName">SugRX</p>
+                <p className="companyName">Diabetes Monitoring App</p>
               </div>
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={bike} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
+                <h2 className="titleYear">2019</h2>
                 <p className="titleName">Bike Guru</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <p className="companyName">Biker Community App</p>
               </div>
             </div>
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={skribe} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
+                <h2 className="titleYear">2020 - 2021</h2>
                 <p className="titleName">Skribe</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <p className="companyName">Admin Dashboard</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="otherBoxMain">
+        {/* <div className="otherBoxMain">
           <div className="titleBox">Other Projects</div>
           <div className="featureBox">
             <div className="featureContent">
@@ -203,7 +207,7 @@ function MyWorkPage() {
             </div>
           </div>
         </div>
-        {/* <div className="otherBoxMain">
+        <div className="otherBoxMain">
           <div className="titleBox">Passion Applications</div>
           <div className="featureBox">
             <div className="featureContent">
@@ -243,12 +247,11 @@ function MyWorkPage() {
           <div className="featureBox">
             <div className="featureContent">
               <div className="contentImage">
-                <img src={checker} loading="lazy" alt="" />
+                <img src={paint} loading="lazy" alt="" />
               </div>
               <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">Tv App</p>
-                <p className="companyName">Telecom CPQ Product</p>
+                <h2 className="titleYear">2011 - Ongoing </h2>
+                <p className="titleName">Digital Arts</p>
               </div>
             </div>
           </div>

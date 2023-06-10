@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import check from "../../assets/pgos/check_circle.svg";
 import LineGraph from "../../assets/subex/LineGraph.png";
 import PieGraph1 from "../../assets/subex/PieGraph1.png";
@@ -36,6 +37,16 @@ import new2 from "../../assets/subex/new.svg";
 import arrow from "../../assets/pgos/Arrow.svg";
 
 function Subex() {
+
+  const Nav = useNavigate();
+  const LinkFn = (URL) => {
+    Nav(URL);
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <div>
       <div className="subex-container">
@@ -375,7 +386,7 @@ function Subex() {
             </div>
           </div>
           <div className="user-experience-subex">
-            <h1 className="mb-[48px]">User Experience Map</h1>
+            <h1 className="mb-[40px]">User Experience Map</h1>
             <div>
               <img src={subexTable} loading="lazy" alt="" />
             </div>
@@ -671,7 +682,7 @@ function Subex() {
           </div>
           <br />
           <div className="workflow-creation-subex">
-            <div className="flex justify-around">
+            <div className="flex justify-between">
               <div className="w-2/3">
                 <h1>Workflow Creation</h1>
                 <br />
@@ -705,10 +716,10 @@ function Subex() {
               </div>
               <div className="workflow-numbering-1">1</div>
             </div>
-            <div className="workflow-image-part mt-6">
+            <div className="workflow-image-part mt-[40px]">
               <img src={workflow1} alt="" />
             </div>
-            <div className="w-full mt-[32px]">
+            <div className="w-full mt-[40px]">
               <div className="complete-diagram-subex flex gap-2 justify-end">
                 <p>View complete Flow Diagram here</p>
                 <img src={new2} alt="" />
@@ -717,7 +728,7 @@ function Subex() {
           </div>
           <br />
           <div className="workflow-creation-subex">
-            <div className="flex justify-around">
+            <div className="flex justify-between">
               <div className="w-2/3">
                 <h1>Case Investigation</h1>
                 <br />
@@ -779,16 +790,15 @@ function Subex() {
             <div className="mt-6">
               <img src={casebig} alt="" />
             </div>
-            <div className="w-full mt-[32px]">
+            <div className="w-full mt-[40px]">
               <div className="complete-diagram-subex flex gap-2 justify-end">
                 <p>View complete Flow Diagram here</p>
                 <img src={new2} alt="" />
               </div>
             </div>
           </div>
-          <br />
-          <div className="workflow-creation-subex">
-            <div className="flex justify-around">
+          <div className="workflow-creation-subex mt-[40px]">
+            <div className="flex justify-between">
               <div className="w-2/3">
                 <h1>Case Closing and Reporting</h1>
                 <br />
@@ -963,7 +973,7 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div className="my-learning-subex mt-[55px]">
+          <div className="my-learning-subex mt-[40px]">
             <h1>My Learning</h1>
             <br />
             <div>
@@ -1001,7 +1011,7 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div className="my-learning-subex mt-[48px]">
+          <div className="my-learning-subex mt-[40px]">
             <h1>Future Direction</h1>
             <br />
             <div>
@@ -1030,7 +1040,7 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div className="process-tools-subex mt-[48px]">
+          <div className="process-tools-subex mt-[40px]">
             <h1>Process & tools</h1>
             <br />
             <div>
@@ -1085,13 +1095,13 @@ function Subex() {
             </div>
           </div>
           <div className="navigation-subex">
-            <div className="flex items-center cursor-pointer">
+            <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/publicis-growth-os")}>
               <div>
                 <img src={arrowBack} alt="" />
               </div>
               Previous Case Study
             </div>
-            <div className="flex items-center cursor-pointer">
+            <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/standard-bank-of-south-africa")}>
               Next Case Study
               <div>
                 <img src={arrowFor} alt="" />

@@ -91,7 +91,7 @@
 }
 .coming-soon > div:last-child {
   position: absolute;
-  left: 50%;
+  left:40%;
   top: -25px;
   background: #151a20;
   border: 1px solid #3d4c5e;
