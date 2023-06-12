@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Wireframe from "../sliders/Wireframe";
 import check from "../../assets/trippez/check_circle.svg";
 import mtbp from "../../assets/mtbp/mtbp.png";
@@ -26,6 +27,15 @@ import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
 
 function Mtbp() {
+  const Nav = useNavigate();
+  const LinkFn = (URL) => {
+    Nav(URL);
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <div>
       <div className="subex-container">
@@ -796,13 +806,13 @@ function Mtbp() {
             </div>
           </div>
           <div className="navigation-subex">
-            <div className="flex items-center cursor-pointer">
+            <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/standard-bank-of-south-africa")}>
               <div>
                 <img src={arrowBack} alt="" />
               </div>
               Previous Case Study
             </div>
-            <div className="flex items-center cursor-pointer">
+            <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/dell")}>
               Next Case Study
               <div>
                 <img src={arrowFor} alt="" />

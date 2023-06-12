@@ -6,8 +6,8 @@ import "./components/styles/Dell.css";
 import "./components/styles/Sbsa.css";
 import "./components/styles/pgos.css";
 import "./components/styles/Mtbp.css";
-import "./components/styles/Verizon.css";
 import "./components/styles/trippiez.css";
+import "./components/styles/verizon2.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/AboutV2";
@@ -21,7 +21,7 @@ import Loading from "./components/navbar/Loading";
 // import Pgos from "./components/pgos/Pgos";
 // import Sbsa from "./components/sbsa/Sbsa";
 // import Mtbp from "./components/mtbp/Mtbp";
-import Verizon from "./components/verizon/Verizon";
+// import Verizon from "./components/verizon/Verizon";
 // import Trippiez from "./components/trippiez/Trippiez";
 // import Subex from "./components/subex/Subex";
 import Request from "./components/secure/Request";
@@ -34,7 +34,7 @@ const Subex = lazy(() => import("./components/subex/Subex"));
 const Dell = lazy(() => import("./components/dell/Dell"));
 const Sbsa = lazy(() => import("./components/sbsa/Sbsa"));
 const Pgos = lazy(() => import("./components/pgos/Pgos"));
-// const Verizon = lazy(() => import("./components/verizon/Verizon"));
+const Verizon = lazy(() => import("./components/verizon/Verizon2"));
 //add lazy when all css is in one file
 
 function App() {

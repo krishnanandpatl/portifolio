@@ -24,7 +24,7 @@ async function mailSender(email, data) {
 
   let dataObj = {
     from: `Porifolio App`,
-    to: process.env.APP_MAIL,
+    to: "kshitijsrivastava0389@gmail.com",
     subject: "Requesting Access",
     html: `<b>${email} is requesting Access.</b><br/><b>Special message: ${data}</b>`,
   };

@@ -979,7 +979,7 @@ function Trippiez() {
             </div>
             Previous Case Study
           </div>
-          <div className="flex items-center cursor-pointer">
+          <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/verizon-360")}>
             Next Case Study
             <div>
               <img src={arrowFor} alt="" />

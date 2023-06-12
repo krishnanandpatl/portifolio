@@ -37,7 +37,6 @@ import new2 from "../../assets/subex/new.svg";
 import arrow from "../../assets/pgos/Arrow.svg";
 
 function Subex() {
-
   const Nav = useNavigate();
   const LinkFn = (URL) => {
     Nav(URL);
@@ -93,7 +92,7 @@ function Subex() {
             </div>
           </div>
           <div className="image-part-intro">
-            <img src={subex}  alt="" />
+            <img src={subex} alt="" />
           </div>
         </div>
         <div className="inner-container-subex">
@@ -388,7 +387,7 @@ function Subex() {
           <div className="user-experience-subex">
             <h1 className="mb-[40px]">User Experience Map</h1>
             <div>
-              <img src={subexTable}  alt="" />
+              <img src={subexTable} alt="" />
             </div>
           </div>
           <div className="pros-cons-subex">
@@ -1040,68 +1039,92 @@ function Subex() {
               </div>
             </div>
           </div>
-          <div className="process-tools-subex mt-[40px]">
+          <div className="process-tool-vz mt-[40px]">
             <h1>Process & tools</h1>
-            <br />
             <div>
-              <div>
-                <h4>Design and Prototyping</h4>
-                <div>
-                  We used Sketch to create and invision to collaborate on the
-                  design.
-                </div>
-              </div>
-              <div>
-                <h4>Project Tracking</h4>
-                <div>
-                  We used Jira to manage project tasks and track progress
-                  ensuring that all project requirements were being met.
-                </div>
-              </div>
-              <div>
-                <h4>Communication(BlueJeans)</h4>
-                <div>
-                  We used Slack for internal communication and collaboration
-                  throughout the project.
-                </div>
-              </div>
-              <div>
-                <h4>Feedback sessions (Zoom)</h4>
-                <div>
-                  We used Zoom for remote meetings and Feedback sessions,
-                  allowing us to connect with stakeholders and users from
-                  anywhere.
-                </div>
-              </div>
-              <div>
-                <h4>Ideation sessions</h4>
-                <div>
-                  We utilised the Google Design Sprint methodology for our
-                  ideation session. We involved cross-functional teams to define
-                  the problem, ideate solutions, and rapidly prototype and test
-                  them.
-                </div>
-              </div>
-
-              <div>
-                <h4>Research</h4>
-                <div>
-                  we conducted a series of interviews and surveys with both RA
-                  and FM.The interviews were conducted in-person and remotely,
-                  and we used a semi-structured approach to allow for
-                  flexibility.
-                </div>
-              </div>
+              <table>
+                <tr>
+                  <td>
+                    <div>
+                      <h4>Design and Prototyping</h4>
+                      <p>
+                        {" "}
+                        We used Sketch to create and invision to collaborate on
+                        the design.
+                      </p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <h4>Project Tracking</h4>
+                      <p>
+                        We used Jira to manage project tasks and track progress
+                        ensuring that all project requirements were being met.
+                      </p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <h4>Communication(BlueJeans)</h4>
+                      <p>
+                        We used Slack for internal communication and
+                        collaboration throughout the project.
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      <h4>Feedback sessions (Zoom)</h4>
+                      <p>
+                        We used Zoom for remote meetings and Feedback sessions,
+                        allowing us to connect with stakeholders and users from
+                        anywhere.
+                      </p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <h4>Ideation sessions</h4>
+                      <p>
+                        We utilised the Google Design Sprint methodology for our
+                        ideation session. We involved cross-functional teams to
+                        define the problem, ideate solutions, and rapidly
+                        prototype and test them.
+                      </p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <h4>Research</h4>
+                      <p>
+                        {" "}
+                        we conducted a series of interviews and surveys with
+                        both RA and FM.The interviews were conducted in-person
+                        and remotely, and we used a semi-structured approach to
+                        allow for flexibility.
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
             </div>
           </div>
           <div className="navigation-subex">
-            <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/publicis-growth-os")}>
+            <div
+              className="flex items-center cursor-pointer"
+              onClick={() => LinkFn("/publicis-growth-os")}
+            >
               <div>
                 <img src={arrowBack} alt="" />
               </div>
               Previous Case Study
             </div>
-            <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/standard-bank-of-south-africa")}>
+            <div
+              className="flex items-center cursor-pointer"
+              onClick={() => LinkFn("/standard-bank-of-south-africa")}
+            >
               Next Case Study
               <div>
                 <img src={arrowFor} alt="" />

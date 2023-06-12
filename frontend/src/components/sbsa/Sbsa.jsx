@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Wireframe from "../sliders/Wireframe";
 import yes from "../../assets/sbsa/yes.svg";
 import no from "../../assets/sbsa/no.svg";
@@ -35,6 +36,15 @@ import greyarrow from "../../assets/sbsa/GreyArrow.svg";
 import areachart from "../../assets/sbsa/area_chart.svg";
 
 function Sbsa() {
+  const Nav = useNavigate();
+  const LinkFn = (URL) => {
+    Nav(URL);
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <div>
       <div className="subex-container">
@@ -1441,13 +1451,13 @@ function Sbsa() {
           </div>
         </div>
         <div className="navigation-subex">
-          <div className="flex items-center cursor-pointer">
+          <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/subex")}>
             <div>
               <img src={arrowBack} alt="" />
             </div>
             Previous Case Study
           </div>
-          <div className="flex items-center cursor-pointer">
+          <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/moneytap-bankers-portal")}>
             Next Case Study
             <div>
               <img src={arrowFor} alt="" />

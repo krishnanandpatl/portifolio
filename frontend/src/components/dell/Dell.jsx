@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Wireframe from "../sliders/Wireframe";
 import dell from "../../assets/dell/dell.png";
 import fraud from "../../assets/subex/fraud.svg";
@@ -28,6 +29,15 @@ import arrowFor from "../../assets/arrowFor.svg";
 import arrowBack from "../../assets/arrowBack.svg";
 
 function Dell() {
+  const Nav = useNavigate();
+  const LinkFn = (URL) => {
+    Nav(URL);
+    document.getElementById("topheader").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <div className="Dell-Page">
       <div className="dell-Maincontainer">
@@ -1228,7 +1238,10 @@ function Dell() {
           </div>
         </div>
         <div className="dell-BottomBox">
-          <div className="dell-BottomBox-Left">
+          <div
+            className="dell-BottomBox-Left cursor-pointer"
+            onClick={() => LinkFn("/moneytap-bankers-portal")}
+          >
             <div className="dell-BottomBox-Left-Icon">
               <img src={arrowBack} alt="" />
             </div>
@@ -1236,7 +1249,10 @@ function Dell() {
               Previous Case studies
             </div>
           </div>
-          <div className="dell-BottomBox-Right">
+          <div
+            className="dell-BottomBox-Right cursor-pointer"
+            onClick={() => LinkFn("/trippiez")}
+          >
             <div className="dell-BottomBox-Left-Text">Next Case studies</div>
             <div className="dell-BottomBox-Left-Icon">
               <img src={arrowFor} alt="" />
