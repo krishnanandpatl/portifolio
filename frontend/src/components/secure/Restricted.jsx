@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/restricted.css";
 import close from "../../assets/close.svg";
 import lock from "../../assets/lock.svg";
+import back from "../../assets/homeBK.svg";
 import { toast, Toaster } from "react-hot-toast";
 
 function Restricted() {
@@ -42,6 +43,9 @@ function Restricted() {
       <Toaster toastOptions={{ position: "top-center" }}></Toaster>
       <div className="max-w-[1440px] mx-auto">
         <div className="main-container-re my-[10%]">
+          <p className="back-to-home mb-3" onClick={() => LinkFn("/")}>
+            <img src={back} alt="" /> Back to Home
+          </p>
           <div className="access-card">
             <div
               className="w-fit close-button cursor-pointer"

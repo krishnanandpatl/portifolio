@@ -103,3 +103,35 @@
   line-height: 19px;
   color: #909dad;
 }
+@media only screen and (max-width: 960px) {
+  .main-about {
+    padding: 0px 44px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .image-mw {
+    width: 280px;
+    height: 375px;
+  }
+  .tile-exp-mw {
+    flex-direction: column;
+  }
+  .para-tile-mw {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .image-mw {
+    display: none;
+  }
+  .heading-mw > h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #b2bbc6;
+  }
+  .main-para-mw > p{
+    font-size: 14px;
+  }
+}

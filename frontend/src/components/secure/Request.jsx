@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/restricted.css";
 import mailP from "../../assets/mailP.svg";
+import back from "../../assets/homeBK.svg";
 import close from "../../assets/close.svg";
 import { useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
@@ -45,6 +46,9 @@ function Request() {
     <div className="max-w-[1440px] mx-auto">
       <Toaster toastOptions={{ position: "top-center" }}></Toaster>
       <div className="main-container-re my-[10%]">
+        <p className="back-to-home mb-3" onClick={() => LinkFn("/")}>
+          <img src={back} alt="" /> Back to Home
+        </p>
         <div className="access-card centre-card-req">
           <div
             className="w-fit cursor-pointer close-button"

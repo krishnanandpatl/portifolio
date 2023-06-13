@@ -47,10 +47,12 @@ function Home() {
           driven by empathy and creativity
         </h1>
         <div className="w-fit mx-auto mt-8 md:mb-[120px] mb-[70px]">
-          <button className="button-case-study"
-          onClick={()=>LinkFn("/my-work")}
+          <button
+            className="button-case-study"
+            onClick={() => LinkFn("/my-work")}
           >
-            All Case Studies</button>
+            All Case Studies
+          </button>
         </div>
       </div>
       <div
@@ -93,18 +95,13 @@ function Home() {
               </div>
             </div>
             <div className="image-container-home">
-              <img src={P1_Image}  alt="" />
+              <img src={P1_Image} alt="" />
             </div>
           </div>
 
           <div className="hidden lg:block relative items-center lg:w-[42rem] mb-20">
             <div className="image-container-home2">
-              <img
-                src={P2_Image}
-                
-                className="h-full w-full"
-                alt=""
-              />
+              <img src={P2_Image} className="h-full w-full" alt="" />
             </div>
             <div className="flex justify-end verizon-container-home lg:py-[78px] lg:ml-[80px] lg:pr-[108px]">
               <div className="">
@@ -158,18 +155,13 @@ function Home() {
               </div>
             </div>
             <div className="image-container-home">
-              <img src={P3_Image}  alt="" />
+              <img src={P3_Image} alt="" />
             </div>
           </div>
 
           <div className="hidden lg:block relative items-center lg:w-[42rem] mb-20">
             <div className="image-container-home2">
-              <img
-                src={P4_Image}
-                
-                className="h-full w-full"
-                alt=""
-              />
+              <img src={P4_Image} className="h-full w-full" alt="" />
             </div>
             <div className="flex justify-end verizon-container-home py-[78px] ml-[80px] pr-[108px]">
               <div className="">
@@ -223,7 +215,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P1_Image}  alt="" />
+                <img src={P1_Image} alt="" />
               </div>
             </div>
             <div className="lg:hidden block relative mb-40">
@@ -253,7 +245,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P2_Image}  alt="" />
+                <img src={P2_Image} alt="" />
               </div>
             </div>
             <div className="lg:hidden block relative mb-40">
@@ -285,7 +277,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P3_Image}  alt="" />
+                <img src={P3_Image} alt="" />
               </div>
             </div>
             <div className="lg:hidden block relative mb-40">
@@ -315,7 +307,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P4_Image}  alt="" />
+                <img src={P4_Image} alt="" />
               </div>
             </div>
           </div>
@@ -350,7 +342,7 @@ function Home() {
             </div>
           </div>
           <div className="op-images">
-            <img src={P5_Image}  alt="" />
+            <img src={P5_Image} alt="" />
           </div>
         </div>
         <div className="relative">
@@ -376,7 +368,7 @@ function Home() {
             </div>
           </div>
           <div className="op-images">
-            <img src={P6_Image}  alt="" />
+            <img src={P6_Image} alt="" />
           </div>
         </div>
         <div className="relative">
@@ -403,7 +395,7 @@ function Home() {
             </div>
           </div>
           <div className="op-images">
-            <img src={P7_Image}  alt="" />
+            <img src={P7_Image} alt="" />
           </div>
         </div>
       </div>

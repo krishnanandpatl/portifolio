@@ -14,17 +14,40 @@ function Footer() {
   };
   return (
     <div className="bg-[#090B0E]">
-      <div className="lg:h-[248px] h-fit w-[100%] max-w-[1440px] mx-auto footer-contents">
-        <div className="centre-card p-12">
+      <div className="footer-contents pt-12">
+        <div className="centre-card mb-7">
           <h2>Hello Again😇</h2>
           <p>
             I’m nature-loving artist turned designer who infuses his passion for
             the environment into his work.
           </p>
         </div>
-        <div className="w-[90%] mx-auto bottom-border"></div>
-        <div className="footer-navs lg:flex-row flex-col w-[90%] mx-auto mt-4">
-          <div className="flex items-center lg:ml-2 lg:gap-3 gap-2 order-1">
+        <div className="secondnav-foot">
+          <div className="partition-line-sbsa"></div>
+          <div>
+            <div className="contact-foot">
+              <div>
+                <img src={call} alt="" />
+              </div>
+              <div>
+                <a href="tel:+919619386916">(+91) 9619 386 916</a>
+              </div>
+            </div>
+            <div className="contact-foot">
+              <div>
+                <img src={mail} alt="" />
+              </div>
+              <div>
+                <a href="mailto:kshitijsrivastava0389@gmail.com">
+                  kshitijsrivastava0389@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="partition-line-sbsa"></div>
+        <div className="all-nav-foot">
+          <div className="contact-foot">
             <div>
               <img src={call} alt="" />
             </div>
@@ -32,12 +55,12 @@ function Footer() {
               <a href="tel:+919619386916">(+91) 9619 386 916</a>
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col gap-10 lg:order-2 order-3">
-            <div className="cursor-pointer">
+          <div className="bottom-navs">
+            <div className="">
               <NavLink
                 to="/about"
                 className={({ isActive }) => (isActive ? "link-active" : "")}
-                onClick={()=>LinkFn()}
+                onClick={() => LinkFn()}
               >
                 About Me
               </NavLink>
@@ -57,7 +80,7 @@ function Footer() {
             </div>
             <div>My Digital Painting</div>
           </div>
-          <div className="flex items-center gap-[14px] lg:mr-2 lg:order-3 order-2">
+          <div className="contact-foot">
             <div>
               <img src={mail} alt="" />
             </div>

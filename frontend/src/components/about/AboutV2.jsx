@@ -6,7 +6,7 @@ import download from "../../assets/download.svg";
 
 function About() {
   return (
-    <div className="max-w-[1440px] mx-auto">
+    <div className="max-w-[1440px] mx-auto main-about">
       <div className="max-w-[844px] mx-auto">
         <div className="upperabout">
           <div className="heading-mw">
