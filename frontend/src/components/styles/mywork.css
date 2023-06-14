@@ -1,142 +1,53 @@
-.workMainContainer {
-  width: 99.8%;
-  min-height: 500px;
-  margin-top: 15px;
-}
-.MainContainer {
-  width: 65%;
-  min-height: 500px;
-  margin-top: 15px;
-  margin: auto;
-}
-.featuredBoxMain {
-  width: 100%;
-  min-height: 417px;
-  margin-top: 40px;
-}
-.otherBoxMain {
-  width: 100%;
-  min-height: 417px;
-  margin-top: 82px;
-}
-.titleBox {
-  width: 90%;
-  height: 28px;
-  font-size: 24px;
-  line-height: 28.15px;
-  font-weight: 600;
-  color: #d6dff0;
-  margin: 10px 0px 16px 16px;
-}
-.featureBox {
-  width: 100%;
-  min-height: 353px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.featureContent {
-  border: 2px solid #3d4c5e;
-  cursor: pointer;
-  border-radius: 8px;
-  width: 294px;
-  min-height: 353px;
-  margin: 20px 12px 20px 16px;
-}
-.contentImage {
-  width: 246px;
-  height: 160px;
-  border-radius: 4px;
-  margin: 24px 24px 32px 24px;
-}
-.contentImage img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.contentTextBox {
-  width: 246px;
-  height: 110px;
-  /* border: 1px solid black; */
-  margin: 24px 24px 24px 24px;
-}
-.titleYear {
-  width: 90%;
-  height: 18px;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #909dad;
-}
-.titleName {
-  width: 102%;
-  height: 28px;
-  margin-top: 20px;
-  font-size: 24px;
-  line-height: 28.15px;
-  font-weight: 600;
-  color: #d6dff0;
-}
-.companyName {
-  width: 90%;
-  height: 19px;
-  margin-top: 20px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.36px;
-  color: #909dad;
-}
-.coming-soon {
-  position: relative;
+.featured-mw {
+  max-width: 980px;
+  margin: 0 auto;
   margin-top: 80px;
 }
-.coming-soon > div:last-child {
-  position: absolute;
-  left:40%;
-  top: -25px;
-  background: #151a20;
-  border: 1px solid #3d4c5e;
-  border-radius: 8px;
-  width: 294px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.coming-soon>div>p{
+.featured-mw > h1 {
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -0.02em;
+  color: #d6dff0;
+}
+.featured-mw > div {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.featured-mw > div > div {
+  width: 294px;
+  background: #1d242d;
+  border: 1px solid #3d4c5e;
+  box-shadow: 0px 312px 125px rgba(0, 0, 0, 0.01),
+    0px 176px 105px rgba(0, 0, 0, 0.05), 0px 78px 78px rgba(0, 0, 0, 0.09),
+    0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.featured-mw > div > div > div {
+  padding: 20px 0 32px 20px;
+}
+.featured-mw > div > div > div > p:first-child {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
   color: #909dad;
 }
-@media only screen and (max-width: 768px) {
-  .featureBox {
-    justify-content: center;
-  }
-  .MainContainer {
-    width: 100%;
-  }
-  .titleBox {
-    text-align: center;
-  }
-  .featuredBoxMain {
-    width: 94%;
-    margin-top: 16px;
-  }
-  .otherBoxMain {
-    margin-top: 20px;
-    width: 94%;
-  }
+.featured-mw > div > div > div > p:last-child {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #909dad;
 }
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-  .MainContainer {
-    width: 100%;
-  }
-  .featuredBoxMain {
-    margin-top: 16px;
-    margin-left: 6px;
-  }
-  .otherBoxMain {
-    margin-top: 40px;
-  }
+.featured-mw > div > div > div > h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #d6dff0;
+  margin: 8px 0;
+}
+.featured-mw > div > div>img{
+  border-radius: 16px;
 }

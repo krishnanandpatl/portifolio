@@ -26,235 +26,122 @@ function MyWorkPage() {
   };
 
   return (
-    <div className="workMainContainer dark:bg-[#151A20]">
-      <div className="MainContainer max-w-[1440px] mx-auto">
-        <div className="featuredBoxMain">
-          <div className="titleBox">Featured Case-Studies</div>
-          <div className="featureBox">
-            <div
-              className="featureContent"
-              onClick={() => LinkFn("/verizon-360")}
-            >
-              <div className="contentImage">
-                <img src={P1_Image} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">Verizon 360</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
-            </div>
-            <div
-              className="featureContent"
-              onClick={() => LinkFn("/publicis-growth-os")}
-            >
-              <div className="contentImage">
-                <img src={P2_Image} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">PGOS</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
-            </div>
-            <div className="featureContent" onClick={() => LinkFn("/subex")}>
-              <div className="contentImage">
-                <img src={P3_Image} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">Subex</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="otherBoxMain">
-          <div className="titleBox">Other Case-Studies</div>
-          <div className="featureBox">
-            <div
-              className="featureContent"
-              onClick={() => LinkFn("/standard-bank-of-south-africa")}
-            >
-              <div className="contentImage">
-                <img src={P4_Image} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2019</h2>
-                <p className="titleName">Standard Bank,SA</p>
-                <p className="companyName">Corporate Banking</p>
-              </div>
-            </div>
-            <div
-              className="featureContent"
-              onClick={() => LinkFn("/moneytap-bankers-portal")}
-            >
-              <div className="contentImage">
-                <img src={P5_Image} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2017 - 2018</h2>
-                <p className="titleName">Banker's Portal</p>
-                <p className="companyName">Credit Analysis Product</p>
-              </div>
-            </div>
-            <div className="featureContent" onClick={() => LinkFn("/dell")}>
-              <div className="contentImage">
-                <img src={P6_Image} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2020 - 2021</h2>
-                <p className="titleName">Dell</p>
-                <p className="companyName">Re-sale Platform</p>
-              </div>
-            </div>
-            <div className="featureContent" onClick={() => LinkFn("/trippiez")}>
-              <div className="contentImage">
-                <img src={P7_Image} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018</h2>
-                <p className="titleName">Trippiez</p>
-                <p className="companyName">Travel Planning Portal</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="coming-soon">
-        <div className="partition-line-sbsa"></div>
+    <div>
+      <div className="featured-mw">
+        <h1>Featured Case-Studies</h1>
         <div>
-          <p>Coming Soon</p>
+          <div>
+            <img src={P1_Image} alt="" />
+            <div>
+              <p>2021 - 2022</p>
+              <h3>Verizon 360</h3>
+              <p>Telecom CPQ Product</p>
+            </div>
+          </div>
+          <div>
+            <img src={P2_Image} alt="" />
+            <div>
+              <p>2022 - 2023</p>
+              <h3>PGOS</h3>
+              <p>Campaign Planning Platform </p>
+            </div>
+          </div>
+          <div>
+            <img src={P3_Image} alt="" />
+            <div>
+              <p>2019 - 2020</p>
+              <h3>Subex</h3>
+              <p>Telecom RA-FM Product</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="MainContainer max-w-[1440px] mx-auto">
-        <div className="otherBoxMain">
-          <div className="titleBox">Mobile Applications</div>
-          <div className="featureBox">
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={qskip} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2019</h2>
-                <p className="titleName">Qskip</p>
-                <p className="companyName">Scan&Go Product</p>
-              </div>
+      <div className="featured-mw">
+        <h1>Other Case-Studies</h1>
+        <div>
+          <div>
+            <img src={P4_Image} alt="" />
+            <div>
+              <p>2019</p>
+              <h3>Standard Bank, SA</h3>
+              <p>Corporate Banking</p>
             </div>
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={sugrx} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2015</h2>
-                <p className="titleName">SugRX</p>
-                <p className="companyName">Diabetes Monitoring App</p>
-              </div>
+          </div>
+          <div>
+            <img src={P5_Image} alt="" />
+            <div>
+              <p>2017 - 2018</p>
+              <h3>Banker’s Portal</h3>
+              <p>Credit Analysis Product</p>
             </div>
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={bike} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2019</h2>
-                <p className="titleName">Bike Guru</p>
-                <p className="companyName">Biker Community App</p>
-              </div>
+          </div>
+          <div>
+            <img src={P6_Image} alt="" />
+            <div>
+              <p>2020 - 2021</p>
+              <h3>Dell</h3>
+              <p>Re-sale Platform</p>
             </div>
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={skribe} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2020 - 2021</h2>
-                <p className="titleName">Skribe</p>
-                <p className="companyName">Admin Dashboard</p>
-              </div>
+          </div>
+          <div>
+            <img src={P7_Image} alt="" />
+            <div>
+              <p>2018</p>
+              <h3>Trippiez</h3>
+              <p>Travel Planning Portal</p>
             </div>
           </div>
         </div>
-        {/* <div className="otherBoxMain">
-          <div className="titleBox">Other Projects</div>
-          <div className="featureBox">
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={checker}  alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">Dreams Redeveloped</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
+      </div>
+      <fieldset>
+        <legend>Coming soon</legend>
+      </fieldset>
+      <div className="featured-mw">
+        <h1>Mobile Application</h1>
+        <div>
+          <div>
+            <img src={qskip} alt="" />
+            <div>
+              <p>2018</p>
+              <h3>Qskip</h3>
+              <p>Scan&Go Product</p>
             </div>
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={checker}  alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">Nurture Farm</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
+          </div>
+          <div>
+            <img src={sugrx} alt="" />
+            <div>
+              <p>2015</p>
+              <h3>SugRx</h3>
+              <p>Diabetes Monitoring App</p>
             </div>
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={checker}  alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">Cosmos Bank</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
+          </div>
+          <div>
+            <img src={bike} alt="" />
+            <div>
+              <p>2019</p>
+              <h3>Bike Guru</h3>
+              <p>Biker Community App</p>
+            </div>
+          </div>
+          <div>
+            <img src={skribe} alt="" />
+            <div>
+              <p>2019 - 2020</p>
+              <h3>Skribe</h3>
+              <p>Admin Dashboard</p>
             </div>
           </div>
         </div>
-        <div className="otherBoxMain">
-          <div className="titleBox">Passion Applications</div>
-          <div className="featureBox">
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={checker}  alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">Tv App</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
-            </div>
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={checker}  alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">Watch App</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
-            </div>
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={checker}  alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2018-2021</h2>
-                <p className="titleName">AR/VR App</p>
-                <p className="companyName">Telecom CPQ Product</p>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        <div className="otherBoxMain">
-          <div className="titleBox">My Digital Paintings</div>
-          <div className="featureBox">
-            <div className="featureContent">
-              <div className="contentImage">
-                <img src={paint} alt="" />
-              </div>
-              <div className="contentTextBox">
-                <h2 className="titleYear">2011 - Ongoing </h2>
-                <p className="titleName">Digital Arts</p>
-              </div>
+      </div>
+      <div className="featured-mw">
+        <h1>My Digital Paintings</h1>
+        <div>
+          <div>
+            <img src={paint} alt="" />
+            <div>
+              <p>2011 - Ongoing </p>
+              <h3>Digital Paintings</h3>
+              <p>Personal work</p>
             </div>
           </div>
         </div>
