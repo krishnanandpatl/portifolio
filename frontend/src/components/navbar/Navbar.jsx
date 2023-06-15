@@ -46,7 +46,7 @@ function Navbar() {
   }, [nav]);
 
   return (
-    <div>
+    <div className=" mx-auto">
       <div>
         <div className="navigation-top">
           <img

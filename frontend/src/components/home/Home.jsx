@@ -32,21 +32,15 @@ function Home() {
     // if (nav) setNav(!nav);
   };
   return (
-    <div className="md:mt-[11rem] mt-[7rem] max-w-[1440px] mx-auto">
-      <div>
-        <div className="mx-auto rounded-full lg:w-20 lg:h-20 w-14 h-14 mb-4">
+    <div className="max-w-[1440px] mx-auto">
+      <div className="home-top-part">
+        <div className="mx-auto">
           <img src={avatar} className="rounded-full" alt="avatar" />
         </div>
-        <div className="mx-auto w-fit dark:text-gray-200 my-8 font-semibold lg:text-lg text-[8px]">
-          Hello I'm Kshitij Srivastava 👋
-        </div>
-        <h1 className="dark:text-[#D6DFF0] w-fit mx-auto lg:text-[45px] sm:text-[30px] text-[20px] font-normal leading-[54px]">
-          A Product Designer
-        </h1>
-        <h1 className="dark:text-[#D6DFF0] w-fit mx-auto lg:text-[45px] sm:text-[30px] text-[20px] lg:leading-[54px]">
-          driven by empathy and creativity
-        </h1>
-        <div className="w-fit mx-auto mt-8 md:mb-[120px] mb-[70px]">
+        <div className="">Hello I'm Kshitij Srivastava 👋</div>
+        <h1 className="first-head-home">A Product Designer</h1>
+        <h1 className="">driven by empathy and creativity</h1>
+        <div className="">
           <button
             className="button-case-study"
             onClick={() => LinkFn("/my-work")}
@@ -55,17 +49,12 @@ function Home() {
           </button>
         </div>
       </div>
-      <div
-        id="home-images"
-        className=" lg:mx-[5%] mx-[30%] lg:px-[73px] lg:py-[76px] px-[10%] py-[8%]"
-      >
-        <div className="lg:flex lg:justify-around lg:flex-row lg:gap-5 flex flex-col gap-20">
+      <div id="home-images" className="">
           <img src={vz} className="" alt="" />
           <img src={pgos} className="" alt="" />
           <img src={dell} className="" alt="" />
           <img src={sbsa} className="" alt="" />
           <img src={icici} className="" alt="" />
-        </div>
       </div>
       <div className="md:mt-[120px] mt-[80px] xl:w-[903px] mx-auto w-fit">
         <div className="feature-title-home">Featured Projects</div>
@@ -375,15 +364,14 @@ function Home() {
           <div className="mtbp-home">
             <div className="other-proj-title-home ">Trippiez</div>
             <div className="p-2">
-              <div className="flex second-title-op line-through">
+              <div className="flex second-title-op">
                 <div className="icon-second-tit">
                   <img src={compass} alt="" />
                 </div>
-                Revisiting user experience and engagement
+                Elevating Experience & Igniting Engagement
               </div>
-              <div className="op-para line-through">
-                The Standard Bank of South Africa Limited is a South African
-                financial services g
+              <div className="op-para">
+              Empowering travelers to explore the world with confidence and convenience.
               </div>
               <a
                 className="link-open-home"

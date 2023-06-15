@@ -26,11 +26,11 @@ function MyWorkPage() {
   };
 
   return (
-    <div>
+    <div className="toppest-mw">
       <div className="featured-mw">
         <h1>Featured Case-Studies</h1>
         <div>
-          <div>
+          <div onClick={() => LinkFn("/verizon-360")}>
             <img src={P1_Image} alt="" />
             <div>
               <p>2021 - 2022</p>
@@ -38,7 +38,7 @@ function MyWorkPage() {
               <p>Telecom CPQ Product</p>
             </div>
           </div>
-          <div>
+          <div onClick={() => LinkFn("/publicis-growth-os")}>
             <img src={P2_Image} alt="" />
             <div>
               <p>2022 - 2023</p>
@@ -46,7 +46,7 @@ function MyWorkPage() {
               <p>Campaign Planning Platform </p>
             </div>
           </div>
-          <div>
+          <div onClick={() => LinkFn("/subex")}>
             <img src={P3_Image} alt="" />
             <div>
               <p>2019 - 2020</p>
@@ -59,7 +59,7 @@ function MyWorkPage() {
       <div className="featured-mw">
         <h1>Other Case-Studies</h1>
         <div>
-          <div>
+          <div onClick={() => LinkFn("/standard-bank-of-south-africa")}>
             <img src={P4_Image} alt="" />
             <div>
               <p>2019</p>
@@ -67,7 +67,7 @@ function MyWorkPage() {
               <p>Corporate Banking</p>
             </div>
           </div>
-          <div>
+          <div onClick={() => LinkFn("/moneytap-bankers-portal")}>
             <img src={P5_Image} alt="" />
             <div>
               <p>2017 - 2018</p>
@@ -75,7 +75,7 @@ function MyWorkPage() {
               <p>Credit Analysis Product</p>
             </div>
           </div>
-          <div>
+          <div onClick={() => LinkFn("/dell")}>
             <img src={P6_Image} alt="" />
             <div>
               <p>2020 - 2021</p>
@@ -83,7 +83,7 @@ function MyWorkPage() {
               <p>Re-sale Platform</p>
             </div>
           </div>
-          <div>
+          <div onClick={() => LinkFn("/trippiez")}>
             <img src={P7_Image} alt="" />
             <div>
               <p>2018</p>
@@ -93,7 +93,7 @@ function MyWorkPage() {
           </div>
         </div>
       </div>
-      <fieldset>
+      <fieldset className="fieldest-about">
         <legend>Coming soon</legend>
       </fieldset>
       <div className="featured-mw">
@@ -133,7 +133,7 @@ function MyWorkPage() {
           </div>
         </div>
       </div>
-      <div className="featured-mw">
+      <div className="featured-mw pb-[80px]">
         <h1>My Digital Paintings</h1>
         <div>
           <div>
