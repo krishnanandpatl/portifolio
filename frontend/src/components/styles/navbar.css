@@ -131,4 +131,20 @@
   .contact-foot {
     margin: 0 auto;
   }
+  .back-to-top {
+    position: fixed;
+    left: 80%;
+    bottom: 40px;
+    z-index: 99;
+    cursor: pointer;
+    color: white;
+  }
+  .back-to-top img {
+    margin: auto;
+    width: 50px;
+    opacity: 0.3;
+  }
+  .back-to-top p {
+    display: none;
+  }
 }

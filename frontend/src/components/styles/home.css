@@ -244,8 +244,27 @@
     height: 23.06px;
   }
   .mtbp-home{
-    /* width: 343px; */
+    width: 343px;
     /* height: 429px; */
+  }
+  .second-title-op {
+    /* width: 325px; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #b2bbc6;
+    margin-bottom: 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .op-para {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b2bbc6;
+    margin-bottom: 24px;
+    margin-left: 28px;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -260,4 +279,5 @@
   .home-images {
     margin-top: 56px;
   }
+  
 }

@@ -296,7 +296,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P4_Image} alt="" />
+                <img src={P4_Image} alt=""/>
               </div>
             </div>
           </div>
