@@ -9,6 +9,7 @@ import "./components/styles/Mtbp.css";
 import "./components/styles/trippiez.css";
 import "./components/styles/verizon2.css";
 import Navbar from "./components/navbar/Navbar";
+import Info from "./components/layout/Info";
 import Home from "./components/home/Home";
 import About from "./components/about/AboutV2";
 import Footer from "./components/navbar/Footer";
@@ -57,6 +58,7 @@ function App() {
             path="/dell"
             element={
               <Suspense fallback={<Loading />}>
+                <Info />
                 <Dell />
               </Suspense>
             }
@@ -68,6 +70,7 @@ function App() {
               path="/publicis-growth-os"
               element={
                 <Suspense fallback={<Loading />}>
+                  <Info />
                   <Pgos />
                 </Suspense>
               }
@@ -76,6 +79,7 @@ function App() {
               path="/verizon-360"
               element={
                 <Suspense fallback={<Loading />}>
+                  <Info />
                   <Verizon />
                 </Suspense>
               }
@@ -85,6 +89,7 @@ function App() {
             path="/standard-bank-of-south-africa"
             element={
               <Suspense fallback={<Loading />}>
+                <Info />
                 <Sbsa />
               </Suspense>
             }
@@ -93,15 +98,16 @@ function App() {
             path="/moneytap-bankers-portal"
             element={
               <Suspense fallback={<Loading />}>
+                <Info />
                 <Mtbp />
               </Suspense>
             }
           ></Route>
-          <Route path="/dell" element={<Dell />}></Route>
           <Route
             path="/subex"
             element={
               <Suspense fallback={<Loading />}>
+                <Info />
                 <Subex />
               </Suspense>
             }
@@ -110,6 +116,7 @@ function App() {
             path="/trippiez"
             element={
               <Suspense fallback={<Loading />}>
+                <Info />
                 <Trippiez />
               </Suspense>
             }

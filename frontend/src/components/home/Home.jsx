@@ -65,7 +65,7 @@ function Home() {
       <div className="md:mt-[120px] mt-[80px] xl:w-[903px] mx-auto w-fit">
         <div className="feature-title-home">Featured Projects</div>
         <div className="red-line-featured"></div>
-        <div className="w-fit mx-auto">
+        <div className="w-fit">
           <div className="hidden lg:block relative mb-20 w-fit">
             <div className="verizon-container-home py-[78px] pl-[48px]">
               <div className="">
@@ -89,12 +89,12 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="image-container-home">
+            <div className="image-container-home" style={{left:"72%"}}>
               <img src={P1_Image} alt="" />
             </div>
           </div>
 
-          <div className="hidden lg:block relative items-center lg:w-[42rem] mb-20">
+          <div className="hidden lg:block relative items-center lg:w-[42rem] mb-20" style={{marginLeft:"18%"}}>
             <div className="image-container-home2">
               <img src={P2_Image} className="h-full w-full" alt="" />
             </div>
@@ -149,12 +149,12 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="image-container-home">
+            <div className="image-container-home" style={{left:"76%"}}>
               <img src={P3_Image} alt="" />
             </div>
           </div>
 
-          <div className="hidden lg:block relative items-center lg:w-[42rem] mb-20">
+          <div className="hidden lg:block relative items-center lg:w-[42rem] mb-20" style={{marginLeft:"18%"}}>
             <div className="image-container-home2">
               <img src={P4_Image} className="h-full w-full" alt="" />
             </div>

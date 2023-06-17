@@ -1,0 +1,20 @@
+.warning-main {
+  background: #fee6ca;
+  border: 1px solid #f2a652;
+  border-radius: 8px;
+  padding: 24px;
+  gap: 12px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: none;
+  font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+text-align: left;
+}
+@media only screen and (max-width: 768px) {
+    .warning-main{
+        display: flex;
+    }
+}
