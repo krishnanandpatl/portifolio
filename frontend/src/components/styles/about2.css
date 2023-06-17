@@ -25,14 +25,14 @@
   object-fit: cover;
   overflow: visible;
 }
-.main-para-mw  p {
+.main-para-mw p {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
   color: #909dad;
   margin-top: 30px;
 }
-.main-para-mw  p > span {
+.main-para-mw p > span {
   color: #ffffff;
 }
 .exp-bar-mw {
@@ -106,17 +106,11 @@
   line-height: 19px;
   color: #909dad;
 }
-.read-more-about{
-  display: none;
-}
-.para-hidden{
-  display: block;
-}
 @media only screen and (max-width: 960px) {
   .main-about {
     padding: 0px 44px;
   }
-  .width-change-about{
+  .width-change-about {
     width: 100% !important;
   }
 }
@@ -146,12 +140,6 @@
   .download-res-mw {
     margin-top: 10px;
   }
-  .read-more-about{
-    display: block;
-  }
-  .para-hidden{
-    display: none;
-  }
 }
 @media only screen and (max-width: 375px) {
   .image-mw {
@@ -163,7 +151,7 @@
     line-height: 35px;
     color: #b2bbc6;
   }
-  .main-para-mw  p {
+  .main-para-mw p {
     font-size: 14px;
   }
 }

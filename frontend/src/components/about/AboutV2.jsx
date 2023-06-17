@@ -52,51 +52,8 @@ function About() {
                 + read more
               </p>
             )}
-            <div className="para-hidden">
-              <p>
-                After college, I landed my first job in
-                <span> Mumbai as a junior designer</span> at a start-up. It was
-                an exciting and challenging experience,as I worked on a variety
-                of projects and had the opportunity to learn from more
-                experienced designers. But, as time went on,I began to feel the
-                itch for something new and exciting.
-              </p>
-              <p>
-                That's when I packed my bags and
-                <span>
-                  {" "}
-                  headed to Bengaluru, the "Silicon Valley" of India.
-                </span>{" "}
-                I was ready to take on new challenges and learn as much as I
-                could. Here, I worked for several years as a senior UX designer
-                at a well-known tech company. I loved the fast-paced, innovative
-                culture of Bengaluru, but I also felt that there was something
-                missing.
-              </p>
-              <p>
-                And then, came the opportunity of a lifetime a chance to{" "}
-                <span>travel to South Africa for work.</span> I was thrilled at
-                the prospect of working as a UX designer in a new environment,
-                and using my skills to create meaningful experiences for people
-                from all over the world. It was a life-changing experience and
-                made me realize that this was where I wanted to settle down and
-                make a home.
-              </p>
-              <br />
-              <p>
-                But outside of work, I also have a passion for{" "}
-                <span>digital paintings</span>
-                and capturing abandonment places taken over by nature, It was my
-                way of exploring my creative side and appreciating the beauty of
-                the world around us
-              </p>
-              <p>
-                Below you can find a comprehensive overview of my professional
-                experience as a designer
-              </p>
-            </div>
             {readmore ? (
-              <div className="para-hidden" style={{ display: "block" }}>
+              <div className="para-hidden">
                 <p>
                   After college, I landed my first job in
                   <span> Mumbai as a junior designer</span> at a start-up. It

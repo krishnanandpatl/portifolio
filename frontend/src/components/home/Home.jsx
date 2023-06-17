@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/home.css";
 import extlink from "../../assets/home/open_in_new.svg";
 import brush from "../../assets/home/brush.svg";
@@ -9,6 +9,8 @@ import avatar from "../../assets/avatar.png";
 import dell from "../../assets/home/Dell.svg";
 import icici from "../../assets/home/ICICI.svg";
 import pgos from "../../assets/home/PGOS.svg";
+import lscroll from "../../assets/home/leftscroll.svg";
+import rscroll from "../../assets/home/rightscroll.svg";
 import sbsa from "../../assets/home/SBSA.svg";
 import vz from "../../assets/home/VZ.svg";
 import P1_Image from "../../assets/home/gifs/VZ.gif";
@@ -22,6 +24,7 @@ import { useNavigate } from "react-router-dom";
 
 function Home() {
   const Nav = useNavigate();
+  const ref = useRef(null);
   const LinkFn = (URL) => {
     Nav(URL);
     document.getElementById("topheader").scrollIntoView({
@@ -31,8 +34,11 @@ function Home() {
     });
     // if (nav) setNav(!nav);
   };
+  function Scroll(x) {
+    ref.current.scrollLeft += x;
+  }
   return (
-    <div className="max-w-[1440px] mx-auto">
+    <div className="max-w-[1440px] mx-auto main-toppest">
       <div className="home-top-part">
         <div className="mx-auto">
           <img src={avatar} className="rounded-full" alt="avatar" />
@@ -50,11 +56,11 @@ function Home() {
         </div>
       </div>
       <div id="home-images" className="">
-          <img src={vz} className="" alt="" />
-          <img src={pgos} className="" alt="" />
-          <img src={dell} className="" alt="" />
-          <img src={sbsa} className="" alt="" />
-          <img src={icici} className="" alt="" />
+        <img src={vz} className="" alt="" />
+        <img src={pgos} className="" alt="" />
+        <img src={dell} className="" alt="" />
+        <img src={sbsa} className="" alt="" />
+        <img src={icici} className="" alt="" />
       </div>
       <div className="md:mt-[120px] mt-[80px] xl:w-[903px] mx-auto w-fit">
         <div className="feature-title-home">Featured Projects</div>
@@ -136,7 +142,7 @@ function Home() {
                 </div>
                 <a
                   className="link-open-home my-[16px]"
-                  onClick={() => LinkFn("/subex", "")}
+                  onClick={() => LinkFn("/subex")}
                 >
                   View case study
                   <img className="" src={extlink} alt="" />
@@ -296,7 +302,7 @@ function Home() {
                 </div>
               </div>
               <div className="op-images">
-                <img src={P4_Image} alt=""/>
+                <img src={P4_Image} alt="" />
               </div>
             </div>
           </div>
@@ -304,7 +310,13 @@ function Home() {
       </div>
       <div className="feature-title-home">Other Projects</div>
       <div className="red-line-featured"></div>
-      <div className="mt-[24px] mb-[226px] other-projects-main">
+      <div
+        className="mt-[24px] relative other-projects-main op-main-2"
+        ref={ref}
+      >
+        <legend className="buttonL-home" onClick={() => Scroll(-200)}>
+          <img src={lscroll} alt="" />
+        </legend>
         <div className="relative">
           <div className="mtbp-home">
             <div className="other-proj-title-home">
@@ -371,7 +383,8 @@ function Home() {
                 Elevating Experience & Igniting Engagement
               </div>
               <div className="op-para">
-              Empowering travelers to explore the world with confidence and convenience.
+                Empowering travelers to explore the world with confidence and
+                convenience.
               </div>
               <a
                 className="link-open-home"
@@ -386,6 +399,9 @@ function Home() {
             <img src={P7_Image} alt="" />
           </div>
         </div>
+        <legend className="buttonR-home" onClick={() => Scroll(+200)}>
+          <img src={rscroll} alt="" />
+        </legend>
       </div>
     </div>
   );

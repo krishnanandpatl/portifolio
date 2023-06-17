@@ -211,7 +211,15 @@
 .button-case-study:hover {
   transform: scale(1.05) perspective(1px);
 }
-
+.buttonL-home {
+  display: none;
+}
+.buttonR-home {
+  display: none;
+}
+.op-main-2 {
+  margin-bottom: 226px;
+}
 @media only screen and (max-width: 1240px) {
   #home-images {
     padding: 56px 52px;
@@ -225,6 +233,43 @@
   }
   .other-projects-main > div:last-child {
     margin-bottom: 0;
+  }
+  .op-main-2::-webkit-scrollbar {
+    display: none;
+  }
+  .op-main-2 {
+    justify-content: normal;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    width: 90%;
+    gap: 20px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .buttonL-home {
+    display: block;
+    position: sticky;
+    height: fit-content;
+    left: 0;
+    z-index: 2;
+    top: 150px;
+  }
+  .buttonL-home img {
+    max-width: none;
+    object-fit: cover;
+  }
+  .buttonR-home img {
+    max-width: none;
+    object-fit: cover;
+  }
+  .buttonR-home {
+    position: sticky;
+    display: block;
+    height: fit-content;
+    right: 0;
+    top: 150px;
   }
 }
 @media only screen and (max-width: 960px) {
@@ -243,12 +288,12 @@
     width: 109.5px;
     height: 23.06px;
   }
-  .mtbp-home{
+  .mtbp-home {
     width: 343px;
-    /* height: 429px; */
+    height: 369px;
   }
   .second-title-op {
-    /* width: 325px; */
+    max-width: 232px;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
@@ -265,9 +310,34 @@
     color: #b2bbc6;
     margin-bottom: 24px;
     margin-left: 28px;
+    width: 275px;
+  }
+  .op-images {
+    position: absolute;
+    width: 300px;
+    border: 1px solid #3d4c5e;
+    box-shadow: 2px 4px 24px 2px rgba(9, 11, 14, 0.5);
+    border-radius: 8px;
+    left: 20px;
+    top: 295px;
+  }
+  .para-home {
+    width: auto;
+  }
+  .feature-title-home {
+    margin-top: 130px;
   }
 }
 @media only screen and (max-width: 375px) {
+  .main-toppest {
+    padding: 0 16px;
+  }
+  .op-main-2 > div {
+    margin-right: 20px;
+  }
+  .op-main-2 > div:last-child {
+    margin-right: 0;
+  }
   .home-top-part > h1 {
     font-weight: 400;
     font-size: 32px;
@@ -279,5 +349,17 @@
   .home-images {
     margin-top: 56px;
   }
-  
+  .op-main-2 {
+    max-width: none;
+    width: 100%;
+    gap: 0;
+  }
+  .buttonR-home img {
+    width: 24px;
+    height: 24px;
+  }
+  .buttonL-home img {
+    height: 24px;
+    width: 24px;
+  }
 }
