@@ -48,7 +48,7 @@ function About() {
             {readmore ? (
               <></>
             ) : (
-              <p className="read-more-about" onClick={() => setRead(!readmore)}>
+              <p className="read-more-about cursor-pointer" onClick={() => setRead(!readmore)}>
                 + read more
               </p>
             )}

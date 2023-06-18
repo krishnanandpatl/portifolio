@@ -30,8 +30,11 @@ function Verizon2() {
     });
   };
   return (
-    <div>
+    <div className="toppest-vz">
       <div className="subex-container">
+        <div className="vz-big-img2">
+          <img src={verizon} alt="" />
+        </div>
         <div className="vz-topbox">
           <div>
             <div>
@@ -57,7 +60,7 @@ function Verizon2() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="vz-big-img">
               <img src={verizon} alt="" />
             </div>
           </div>
@@ -316,7 +319,7 @@ function Verizon2() {
           </div>
         </div>
       </div>
-      <div className="partition-line-sbsa my-[80px]"></div>
+      <div className="partition-line-sbsa my-[80px] block md:hidden"></div>
       <div>
         <div className="inner-container-subex">
           <div className="key-challenge-vz pri-search-vz">
@@ -569,7 +572,7 @@ function Verizon2() {
                 <div>
                   <img src={pane} alt="" />
                 </div>
-                <div>
+                <div className="my-auto">
                   <h2>Single Pane UX</h2>
                   <ul>
                     <li>
@@ -596,7 +599,7 @@ function Verizon2() {
                 <div className="right-num-vz">1</div>
               </div>
               <div>
-                <div>
+                <div className="my-auto">
                   <h2>Shared Workspace</h2>
                   <ul>
                     <li>
@@ -632,7 +635,7 @@ function Verizon2() {
                 <div>
                   <img src={intelligence} alt="" />
                 </div>
-                <div>
+                <div className="my-auto">
                   <h2>Delightful Intelligence</h2>
                   <ul>
                     <li>
@@ -661,7 +664,7 @@ function Verizon2() {
                 <div className="right-num-vz">3</div>
               </div>
               <div>
-                <div>
+                <div className="my-auto">
                   <h2>Guided Experiences</h2>
                   <ul>
                     <li>
@@ -724,7 +727,7 @@ function Verizon2() {
       </div>
       <div>
         <div className="inner-container-subex">
-          <div className="research-vz">
+          <div className="research-vz ComparativeMainBox">
             <h1>Comparative Analysis </h1>
             <div className="ComparativeTableMainBox">
               <table>
