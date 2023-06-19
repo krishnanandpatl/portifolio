@@ -35,7 +35,6 @@
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
-  width: 80%;
 }
 .key-cont-bg {
   background: linear-gradient(
@@ -233,7 +232,6 @@
 .design2-pgos > div {
   gap: 25px;
   margin-bottom: 48px;
-  width: 75%;
 }
 .bg-lock-pgos {
   background-image: url(../../assets/verizon/Back.png);
@@ -253,6 +251,7 @@
   align-items: center;
   width: 60%;
   text-align: center;
+  padding: 160px 0px;
 }
 .product-showcase-pgos h2 {
   font-weight: 700;
@@ -276,7 +275,6 @@
     0px 20px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   padding: 56px;
-  padding-right: 256px;
 }
 .project-challenges-pgos h1 {
   font-weight: 700;
@@ -392,6 +390,14 @@
   color: #d6dff0;
   gap: 10px;
 }
+.my-impact-in-pgos {
+  display: flex;
+}
+.my-impact-in-pgos > div:last-child {
+  width: 40%;
+  padding-left: 60px;
+  padding-bottom: 40px;
+}
 .my-impact-pgos h1 {
   font-weight: 700;
   font-size: 32px;
@@ -424,6 +430,8 @@
 }
 .impact-border-pgos {
   border-right: 1px solid rgba(91, 91, 91, 0.5);
+  width: 60%;
+  padding-right: 60px;
 }
 .buisness-impact-pgos > h5 {
   font-weight: 600;
@@ -442,4 +450,154 @@
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
+}
+.image-part-intro2 {
+  display: none;
+}
+.navigation-subex-mobile {
+  display: none;
+}
+.challenge-text-pgos {
+  margin: 0 58px;
+  margin-top: 32px;
+}
+.buisnness-impact-main {
+  display: flex;
+  gap: 42px;
+  padding-bottom: 56px;
+}
+.buisnness-impact-main > div:first-child {
+  width: 20%;
+}
+@media only screen and (max-width: 768px) {
+  .subex-intro-card {
+    flex-direction: column;
+  }
+  .text-part-intro {
+    width: 100%;
+  }
+  .image-part-intro2 {
+    display: block;
+  }
+  .subex-intro-card {
+    max-width: 680px;
+  }
+  .image-part-intro {
+    display: none;
+  }
+  .my-contri-intro {
+    white-space: normal;
+  }
+  .bulb-text-inner-container {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .context-pgos {
+    padding: 40px 32px;
+  }
+  .key-offering-pgos {
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+  .key-offering-sbsa > div {
+    width: 100%;
+    padding: 28px 22px;
+  }
+  .the-challenge-pgos {
+    padding: 36px;
+  }
+  .diffrerent-bg-pgos {
+    display: none;
+  }
+  .design-process-pgos {
+    padding: 56px 32px;
+  }
+  .product-showcase-pgos {
+    padding: 80px 0px;
+    width: 100% !important;
+  }
+  .project-challenges-pgos {
+    padding: 56px 32px;
+  }
+  .skills-contribution-pgos {
+    padding: 42px 32px;
+  }
+  .skills-contribution-pgos > div {
+    flex-wrap: wrap;
+  }
+  .border-right-pgos {
+    border: 0px;
+    border-bottom: 1px solid #3d4c5e;
+  }
+  .reflecion-pgos {
+    display: none !important;
+  }
+  .my-learning-pgos {
+    padding: 22px 28px;
+  }
+  .my-impact-in-pgos {
+    display: block;
+  }
+  .impact-border-pgos {
+    width: 100%;
+    border: 0;
+    padding: 0;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #3d4c5e;
+  }
+  .my-impact-in-pgos > div:last-child {
+    padding: 0;
+    margin-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .heading-intro-subex {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .timeline-intro-card {
+    width: 100%;
+  }
+  .team-pgos {
+    display: none !important;
+  }
+  .key-container {
+    display: block;
+    height: fit-content;
+    padding: 20px;
+  }
+  .bulb-side-line {
+    display: none;
+  }
+  .the-challenge-pgos {
+    padding: 32px 20px;
+  }
+  .challenge-text-pgos {
+    margin-right: 0;
+  }
+  .design-process-pgos {
+    padding: 32px 20px;
+  }
+  .project-challenges-pgos {
+    display: none;
+  }
+  .skills-contribution-pgos {
+    display: none;
+  }
+  .buisness-impact-pgos > div {
+    display: block !important;
+  }
+  .buisnness-impact-main {
+    flex-direction: row-reverse;
+  }
+  .buisnness-impact-main > div:first-child img {
+    max-width: none;
+    width: 48px;
+    height: 39.18px;
+  }
+  .my-learning-pgos{
+    padding: 20px;
+  }
 }

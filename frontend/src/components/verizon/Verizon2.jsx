@@ -972,7 +972,7 @@ function Verizon2() {
               </div>
             </div>
           </div>
-          <div className="my-learning-pgos mt-[40px]">
+          <div className="my-learning-pgos more-time-vz mt-[40px]">
             <h1>If I had more time</h1>
             <br />
             <p className="ml-[28px]">
@@ -1080,6 +1080,26 @@ function Verizon2() {
               onClick={() => LinkFn("/publicis-growth-os")}
             >
               Next Case Study
+              <div>
+                <img src={arrowFor} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="navigation-subex navigation-subex-mobile">
+            <div
+              className="flex cursor-pointer"
+              onClick={() => LinkFn("/trippiez")}
+            >
+              <div>
+                <img src={arrowBack} alt="" />
+              </div>
+              Previous
+            </div>
+            <div
+              className="flex cursor-pointer"
+              onClick={() => LinkFn("/publicis-growth-os")}
+            >
+              Next
               <div>
                 <img src={arrowFor} alt="" />
               </div>

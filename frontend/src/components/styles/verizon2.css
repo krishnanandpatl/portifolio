@@ -556,7 +556,7 @@
   display: none;
 }
 @media only screen and (max-width: 768px) {
-  .vz-topbox{
+  .vz-topbox {
     padding: 0 30px;
   }
   .inner-container-subex {
@@ -602,21 +602,97 @@
   .pri-search-vz > div > div {
     width: 328.5px !important;
   }
-  .ResearchMainBoxTitleTablebox{
+  .ResearchMainBoxTitleTablebox {
     display: none;
   }
-  .product-showcase-pgos{
+  .product-showcase-pgos {
     width: 70%;
   }
-  .ComparativeMainBox{
+  .ComparativeMainBox {
     display: none;
   }
-  .process-tool-vz{
+  .process-tool-vz {
     display: none;
   }
 }
 @media only screen and (max-width: 375px) {
+  .partition-line-sbsa {
+    width: 100%;
+  }
   .inner-container-subex {
     padding: 0 14px;
+  }
+  .vz-big-img2 {
+    height: fit-content;
+    padding: 0;
+  }
+  .vz-topbox > div:first-child > div:first-child > h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .vz-topbox > div:first-child > div:first-child > h1 {
+    font-size: 30px;
+  }
+  .vz-topbox > div:first-child > div:first-child > p {
+    font-size: 13.5px;
+    line-height: 18px;
+  }
+  .vz-timeline > div > p:last-child {
+    font-size: 13.5px;
+    line-height: 18px;
+  }
+  .vz-timeline {
+    width: 100%;
+  }
+  .context-pgos {
+    padding: 30px 20px;
+  }
+  .ask-vz {
+    padding: 30px 20px;
+  }
+  .target-vz {
+    padding: 30px 20px;
+  }
+  .target-vz > div > div {
+    width: 295px;
+  }
+  .key-challenge-vz > div > div {
+    width: 335px;
+  }
+  .key-insight-table {
+    display: none;
+  }
+  .priciples-vz > div > div {
+    flex-wrap: wrap;
+    padding: 26px 24px;
+  }
+  .priciples-vz > div > div img {
+    width: 193px;
+    height: 182px;
+  }
+  .product-showcase-pgos{
+    padding: 48px 30px !important;
+    width: 100%;
+  }
+  .product-showcase-pgos h2{
+    font-size: 24px;
+  }
+  .my-imapct-vz{
+    padding: 32px 20px;
+  }
+  .prediction-vz{
+    display: none;
+  }
+  .my-learning-pgos{
+    padding: 32px 20px;
+  }
+  .more-time-vz{
+    display: none;
+  }
+  .navigation-subex{
+    display: none;
+  }
+  .navigation-subex-mobile{
+    display: flex !important;
   }
 }

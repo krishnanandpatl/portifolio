@@ -27,7 +27,6 @@ import arrowFor from "../../assets/arrowFor.svg";
 import arrow from "../../assets/pgos/Arrow.svg";
 
 function Pgos() {
-
   const Nav = useNavigate();
   const LinkFn = (URL) => {
     Nav(URL);
@@ -52,6 +51,9 @@ function Pgos() {
               stakeholders led to a user-friendly and business-driven PGOS
               campaign planning application.
             </p>
+            <div className="image-part-intro2">
+              <img src={pgosbig} alt="" />
+            </div>
             <div className="timeline-intro-card">
               <div className="flex-titles-intro">
                 <div className="headers-top-intro">TimeLine</div>
@@ -88,7 +90,6 @@ function Pgos() {
                 <div>1 Program Manager</div>
               </div>
             </div>
-
             <div className=" mt-[40px]">
               <div className="headers-top-intro">My Contribution</div>
               <div className="my-contri-intro">
@@ -101,7 +102,6 @@ function Pgos() {
             <img src={pgosbig} alt="" />
           </div>
         </div>
-
         <div className="inner-container-subex">
           <div className="key-container key-cont-bg">
             <div className="bulb-inner-container">
@@ -128,7 +128,7 @@ function Pgos() {
               customisable solution for each unique use case.
             </p>
             <br />
-            <div className="flex key-offering-sbsa justify-between">
+            <div className="flex key-offering-sbsa justify-between key-offering-pgos">
               <div>
                 <h3>Key Offering</h3>
                 <div>
@@ -196,7 +196,7 @@ function Pgos() {
               </div>
               The Challenge
             </h1>
-            <div className="mx-[58px] mt-[32px]">
+            <div className="challenge-text-pgos">
               <h4>
                 How might we improve the user experience of PGOS to increase
                 adoption rates and ensure its effectiveness for clients and
@@ -394,7 +394,7 @@ function Pgos() {
           <div className="design-process-pgos">
             <h1>Design Process</h1>
             <br />
-            <p className="ml-3 w-2/3">
+            <p className="ml-3">
               My top priority was to understand the needs of users and develop
               solutions that meet those needs. The following example will
               illustrate how I approached a Jira ticket request with empathy and
@@ -490,7 +490,7 @@ function Pgos() {
                 </div>
               </div>
             </div>
-            <p className="w-2/3">
+            <p className="">
               Throughout this process, I ensure that all deadlines are met and
               that the scenarios are thoroughly tested and validated to ensure
               accuracy and reliability.
@@ -501,7 +501,7 @@ function Pgos() {
       <div className="bg-lock-pgos">
         <div className="bg-lock-pgos2">
           <div className="inner-container-subex bg-image-pgos">
-            <div className="product-showcase-pgos py-[160px]">
+            <div className="product-showcase-pgos">
               <div>
                 <img src={lock} alt="" />
               </div>
@@ -649,8 +649,8 @@ function Pgos() {
           <div className="my-impact-pgos py-[56px]">
             <h1>My Impact</h1>
             <br />
-            <div className="flex my-impact-in-pgos">
-              <div className="w-3/5 impact-border-pgos pr-[60px]">
+            <div className="my-impact-in-pgos">
+              <div className="impact-border-pgos">
                 <div className="">
                   <img src={impactdes} alt="" />
                 </div>
@@ -680,7 +680,7 @@ function Pgos() {
                   major roadblocks.
                 </p>
               </div>
-              <div className="w-2/5 pl-[60px] pb-[40px]">
+              <div className="">
                 <div>
                   <img src={impactteam} alt="" />
                 </div>
@@ -711,8 +711,8 @@ function Pgos() {
               </div>
             </div>
           </div>
-          <div className="flex gap-[42px] pb-[56px]">
-            <div className="w-1/5">
+          <div className="buisnness-impact-main">
+            <div className="">
               <img src={buissimpact} alt="" />
             </div>
             <div className="buisness-impact-pgos">
@@ -840,14 +840,40 @@ function Pgos() {
             </div>
           </div>
           <div className="navigation-subex">
-            <div className="flex cursor-pointer" onClick={()=>LinkFn("/verizon-360")}>
+            <div
+              className="flex cursor-pointer"
+              onClick={() => LinkFn("/verizon-360")}
+            >
               <div>
                 <img src={arrowBack} alt="" />
               </div>
               Previous Case Study
             </div>
-            <div className="flex cursor-pointer" onClick={()=>LinkFn("/subex")}>
+            <div
+              className="flex cursor-pointer"
+              onClick={() => LinkFn("/subex")}
+            >
               Next Case Study
+              <div>
+                <img src={arrowFor} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="navigation-subex navigation-subex-mobile">
+            <div
+              className="flex cursor-pointer"
+              onClick={() => LinkFn("/verizon-360")}
+            >
+              <div>
+                <img src={arrowBack} alt="" />
+              </div>
+              Previous
+            </div>
+            <div
+              className="flex cursor-pointer"
+              onClick={() => LinkFn("/subex")}
+            >
+              Next
               <div>
                 <img src={arrowFor} alt="" />
               </div>
