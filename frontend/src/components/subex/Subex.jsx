@@ -62,6 +62,9 @@ function Subex() {
               (FM) users.
             </p>
             <br />
+            <div className="image-part-intro2">
+              <img src={subex} alt="" />
+            </div>
             <div className="timeline-intro-card">
               <div className="flex-titles-intro">
                 <div className="headers-top-intro">TimeLine</div>
@@ -73,7 +76,7 @@ function Subex() {
               </div>
             </div>
             <br />
-            <div>
+            <div className="teams-subex">
               <div className="headers-top-intro">Team</div>
               <div className="list-intro-card">
                 <div>1 CD</div>
@@ -208,7 +211,7 @@ function Subex() {
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div className="w-1/5">
+            <div>
               <img src={flag} alt="" />
             </div>
             <div className="buisness-challenge-subex-content">
@@ -224,7 +227,7 @@ function Subex() {
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div className="w-1/5">
+            <div>
               <img src={flag} alt="" />
             </div>
             <div className="buisness-challenge-subex-content">
@@ -239,7 +242,7 @@ function Subex() {
             </div>
           </div>
           <div className="buisness-challenge-subex">
-            <div className="w-1/5">
+            <div>
               <img src={solution} alt="" />
             </div>
             <div className="buisness-challenge-subex-content">
@@ -363,7 +366,6 @@ function Subex() {
               visualization of data, and easy-to-use interfaces.
             </p>
           </div>
-          <br />
           <div className="current-cms-subex">
             <div className="current-cms-subex-title">
               Reason for not using current case management system
@@ -372,7 +374,6 @@ function Subex() {
               <img src={LineGraph} alt="" />
             </div>
           </div>
-          <br />
           <div className="piechart-subex">
             <div className="piegraph1">
               <br />
@@ -571,7 +572,7 @@ function Subex() {
                   </p>
                 </div>
               </div>
-              <div className="w-1/3 m-auto">
+              <div className="three-ss-subex">
                 <div>
                   <img src={ss1} alt="" />
                 </div>
@@ -666,8 +667,8 @@ function Subex() {
             </div>
           </div>
         </div>
-        <div className="partition-line-subex"></div>
-        <div className="inner-container-subex">
+        <div className="partition-line-subex hidden-mobile-subex"></div>
+        <div className="inner-container-subex hidden-mobile-subex">
           <div className="build-subex">
             <h2>Build</h2>
             <br />
@@ -885,7 +886,7 @@ function Subex() {
               where the solution has had a substantial impact.
             </p>
             <br />
-            <div className="test-subex-inner flex gap-2">
+            <div className="test-subex-inner">
               <div className="w-2/3">
                 <div>
                   <h3 className="icon-test-subex">
@@ -1126,6 +1127,26 @@ function Subex() {
               onClick={() => LinkFn("/standard-bank-of-south-africa")}
             >
               Next Case Study
+              <div>
+                <img src={arrowFor} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="navigation-subex navigation-subex-mobile">
+            <div
+              className="flex items-center cursor-pointer"
+              onClick={() => LinkFn("/publicis-growth-os")}
+            >
+              <div>
+                <img src={arrowBack} alt="" />
+              </div>
+              Previous
+            </div>
+            <div
+              className="flex items-center cursor-pointer"
+              onClick={() => LinkFn("/standard-bank-of-south-africa")}
+            >
+              Next
               <div>
                 <img src={arrowFor} alt="" />
               </div>

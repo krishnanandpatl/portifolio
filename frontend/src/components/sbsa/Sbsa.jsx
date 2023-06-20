@@ -60,6 +60,9 @@ function Sbsa() {
               create a modern and intuitive portal that offers a seamless
               banking experience for business users.
             </p>
+            <div className="image-part-intro2">
+              <img src={sbsa} alt="" />
+            </div>
             <br />
             <div className="timeline-intro-card">
               <div className="flex-titles-intro">
@@ -121,35 +124,32 @@ function Sbsa() {
               groups
             </p>
             <br />
-            <div className="flex buisness-owner-sbsa gap-8">
+            <div className="buisness-owner-sbsa">
               <div>
-                <div className="flex gap-2 items-center">
+                <div className="">
                   <img src={revenue} alt="" />
                   <h4>Small Business Owners</h4>
                 </div>
-                <br />
                 <div className="ml-8">
                   who use the platform to manage their business finances,
                   transactions, and payments
                 </div>
               </div>
               <div>
-                <div className="flex gap-2 items-center">
+                <div className="">
                   <img src={fraud} alt="" />
                   <h4>Corporate Finance Managers</h4>
                 </div>
-                <br />
                 <div className="ml-8">
                   who use the platform to manage multiple accounts, payments,
                   and transactions on behalf of their company
                 </div>
               </div>
               <div>
-                <div className="flex gap-2 items-center">
+                <div className="">
                   <img src={analsoln} alt="" />
                   <h4> Treasury Managers</h4>
                 </div>
-                <br />
                 <div className="ml-8">
                   who use the platform for managing foreign exchange, interest
                   rate risks, and investment portfolios.
@@ -256,7 +256,7 @@ function Sbsa() {
             <h3>Testing the Legacy Interface</h3>
             <br />
             <div className="discover-box1">
-              <div className="w-4/5">
+              <div className="">
                 <p className="flex gap-[16px] items-start">
                   <img src={greenflag} alt="" />
                   <strong>
@@ -581,8 +581,8 @@ function Sbsa() {
             </div>
           </div>
         </div>
-        <div className="partition-line-subex"></div>
-        <div className="inner-container-subex">
+        <div className="partition-line-subex hidden-sbsa-mobile"></div>
+        <div className="inner-container-subex hidden-sbsa-mobile">
           <div className="sbsa-below-understanding">
             To gain a deeper understanding of the current legacy system, we
             conducted both <strong>competitive analysis</strong> and{" "}
@@ -955,9 +955,8 @@ function Sbsa() {
               few iterations, we finalised on two approaches to tackle these
               issues, which are:
             </p>
-            <br />
-            <div className="flex">
-              <div className="w-1/2">
+            <div className="">
+              <div className="text-approach1-sbsa">
                 <h4>Approach #1</h4>
                 <br />
                 <ol>
@@ -993,7 +992,7 @@ function Sbsa() {
                   </li>
                 </ul>
               </div>
-              <div className="ml-20 mt-[30px] w-2/5">
+              <div className="">
                 <img src={approach1} alt="" />
               </div>
             </div>
@@ -1001,8 +1000,8 @@ function Sbsa() {
         </div>
         <div className="partition-line-sbsa my-[18px]"></div>
         <div className="inner-container-subex">
-          <div className="approach1-sbsa flex">
-            <div className="w-1/2">
+          <div className="approach2-sbsa">
+            <div className="">
               <h4>Approach #2</h4>
               <br />
               <ol>
@@ -1031,7 +1030,7 @@ function Sbsa() {
                 </li>
               </ul>
             </div>
-            <div className="w-2/5 ml-20 mt-[30px]">
+            <div className="">
               <img src={approach2} alt="" />
             </div>
           </div>
@@ -1451,14 +1450,40 @@ function Sbsa() {
           </div>
         </div>
         <div className="navigation-subex">
-          <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/subex")}>
+          <div
+            className="flex items-center cursor-pointer"
+            onClick={() => LinkFn("/subex")}
+          >
             <div>
               <img src={arrowBack} alt="" />
             </div>
             Previous Case Study
           </div>
-          <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/moneytap-bankers-portal")}>
+          <div
+            className="flex items-center cursor-pointer"
+            onClick={() => LinkFn("/moneytap-bankers-portal")}
+          >
             Next Case Study
+            <div>
+              <img src={arrowFor} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="navigation-subex navigation-subex-mobile">
+          <div
+            className="flex items-center cursor-pointer"
+            onClick={() => LinkFn("/subex")}
+          >
+            <div>
+              <img src={arrowBack} alt="" />
+            </div>
+            Previous
+          </div>
+          <div
+            className="flex items-center cursor-pointer"
+            onClick={() => LinkFn("/moneytap-bankers-portal")}
+          >
+            Next
             <div>
               <img src={arrowFor} alt="" />
             </div>

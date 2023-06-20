@@ -552,7 +552,7 @@
     width: 100%;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
   .heading-intro-subex {
     font-size: 20px;
     line-height: 28px;

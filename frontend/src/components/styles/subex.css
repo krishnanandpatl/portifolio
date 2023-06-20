@@ -120,7 +120,7 @@
 }
 
 .context-background-subex > p {
-    font-weight: 400;
+  font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
@@ -249,10 +249,8 @@ i {
   font-size: 12px;
   line-height: 18px;
   color: #d6dff0;
-  width: 75%;
 }
 .research-title-subex {
-  
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
@@ -309,6 +307,7 @@ i {
   border: 1px solid #3d4c5e;
   border-radius: 4px;
   padding: 48px 152px;
+  margin: 40px 0;
 }
 
 .current-cms-subex-title {
@@ -352,7 +351,8 @@ i {
 }
 .pros-cons-comapare {
   display: flex;
-  padding: 40px;
+  justify-content: space-between;
+  margin: 40px 0;
 }
 .pros-subex {
   width: 40%;
@@ -360,34 +360,37 @@ i {
 .pros-subex > div > div {
   display: flex;
   gap: 12px;
-  align-items: baseline;
+  align-items: flex-start;
+  margin-top: 12px;
 }
 .cons-subex {
   width: 40%;
 }
 .cons-subex > div > div {
-  gap: 12px;
   display: flex;
-  align-items: baseline;
+  gap: 12px;
+  align-items: flex-start;
+  margin-top: 12px;
 }
 .pros-cons-comapare h2 {
-  
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: -0.02em;
   color: #d6dff0;
 }
-.pros-cons-comapare div {
+.pros-cons-comapare > div {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
+  background: #1d242d;
+  border-radius: 4px;
+  padding: 40px 43px;
   color: #d6dff0;
   margin-top: 10px;
-  width: 80%;
+  width: 405px;
 }
 .secondary-research-subex h2 {
-  
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
@@ -648,7 +651,7 @@ i {
   border-radius: 4px;
   /* border: 1px solid black; */
 }
-.wireframes-subex img{
+.wireframes-subex img {
   max-width: none;
   height: 100%;
   width: 100%;
@@ -678,6 +681,7 @@ i {
 }
 .test-subex-inner {
   display: flex;
+  gap: 8px;
 }
 .test-subex-inner h3 {
   font-weight: 600;
@@ -685,7 +689,7 @@ i {
   line-height: 18px;
   color: #ffffff;
 }
-.test-subex-inner>div>div>div {
+.test-subex-inner > div > div > div {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -706,7 +710,7 @@ i {
   line-height: 18px;
   color: #ffffff;
 }
-.kpi-box-subex >div:first-child{
+.kpi-box-subex > div:first-child {
   margin-left: 0px;
 }
 .kpi-box-subex {
@@ -790,16 +794,121 @@ i {
   line-height: 18px;
   color: #d6dff0;
 }
-.icon-test-subex{
+.icon-test-subex {
   display: flex;
   gap: 16px;
 }
-.my-learning-subex>div>div{
+.my-learning-subex > div > div {
   display: flex;
   gap: 10px;
 }
-.my-learning-subex>div>div img{
+.my-learning-subex > div > div img {
   height: 16px;
   width: 16px;
   max-width: none;
+}
+.buisness-challenge-subex img {
+  max-width: none;
+}
+.three-ss-subex{
+  width: 35%;
+  margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  .cont-subex {
+    padding: 20px 10px;
+    width: 193.52px;
+  }
+  .buisness-challenge-subex,
+  .design-challenge-subex {
+    padding: 40px 32px;
+  }
+  .research-title-subex,
+  .research-table-subex {
+    display: none;
+  }
+  .current-cms-subex {
+    padding: 40px 20px;
+  }
+  .piechart-subex {
+    flex-wrap: wrap;
+  }
+  .piechart-subex > div {
+    margin: 0 auto;
+  }
+  .user-experience-subex {
+    display: none;
+  }
+  .pros-cons-comapare {
+    display: block;
+  }
+  .pros-cons-comapare > div {
+    width: 100%;
+  }
+  .concept-card-subex {
+    padding: 26px 20px;
+  }
+  .test-subex {
+    padding: 32px;
+  }
+  .test-subex-inner {
+    display: block;
+  }
+  .kpi-box-subex {
+    width: 100%;
+    height: auto;
+  }
+  .my-learning-subex {
+    padding: 32px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .timeline-intro-card {
+    display: none;
+  }
+  .teams-subex {
+    display: none;
+  }
+  .context-background-subex {
+    display: none;
+  }
+  .buisness-challenge-subex,
+  .design-challenge-subex {
+    padding: 30px 16px;
+  }
+  .current-cms-subex {
+    display: none;
+  }
+  .piechart-subex {
+    display: none;
+  }
+  .secondary-research-cards {
+    display: block;
+  }
+  .secondary-research-cards > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .ideate-subex {
+    padding: 30px 20px;
+  }
+  .ideate-subex > div {
+    display: block;
+  }
+  .ideate-text {
+    width: 100%;
+  }
+  .three-ss-subex{
+    width: 100%;
+  }
+  .concept-cards-subex {
+    display: block;
+  }
+  .concept-card-subex {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .hidden-mobile-subex{
+    display: none;
+  }
 }

@@ -328,7 +328,7 @@
     margin-top: 130px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
   .main-toppest {
     padding: 0 16px;
   }
