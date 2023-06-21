@@ -46,7 +46,7 @@ function Sbsa() {
     });
   };
   return (
-    <div>
+    <div className="sbsa-toppest">
       <div className="subex-container">
         <div className="subex-intro-card flex">
           <div className="text-part-intro">
@@ -108,7 +108,7 @@ function Sbsa() {
           </div>
         </div>
         <div className="inner-container-subex">
-          <div className="context-background-subex">
+          <div className="context-background-subex context-bg-sbsa">
             <h1 className=".f700-32-39">Context and Background</h1>
             <br />
             <p>
@@ -945,8 +945,8 @@ function Sbsa() {
             </div>
           </div>
         </div>
-        <div className="partition-line-sbsa my-[64px]"></div>
-        <div className="inner-container-subex">
+        <div className="partition-line-sbsa hidden-mobile-sbsa my-[64px]"></div>
+        <div className="inner-container-subex hidden-mobile-sbsa">
           <div className="approach1-sbsa">
             <p>
               After conducting multiple brainstorming sessions, we shifted our
@@ -998,8 +998,8 @@ function Sbsa() {
             </div>
           </div>
         </div>
-        <div className="partition-line-sbsa my-[18px]"></div>
-        <div className="inner-container-subex">
+        <div className="partition-line-sbsa my-[18px] hidden-mobile-sbsa"></div>
+        <div className="inner-container-subex hidden-mobile-sbsa">
           <div className="approach2-sbsa">
             <div className="">
               <h4>Approach #2</h4>
@@ -1401,7 +1401,7 @@ function Sbsa() {
             expanded my skills and knowledge as a designer.
           </div>
         </div>
-        <div className="mylearning-sbsa mt-[48px]">
+        <div className="mylearning-sbsa hidden-mobile-sbsa mt-[48px]">
           <h1>Future Directions</h1>
           <div className="items-start">
             <img src={arrow} alt="" />
@@ -1421,7 +1421,7 @@ function Sbsa() {
             contexts.
           </div>
         </div>
-        <div className="mylearning-sbsa mt-[48px]">
+        <div className="mylearning-sbsa process-tools-sbsa mt-[48px]">
           <h1>Process & tools</h1>
           <div className="flex p-2">
             <div>

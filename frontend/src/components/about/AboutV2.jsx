@@ -45,14 +45,15 @@ function About() {
               experiences that not only looked beautiful, but also worked
               seamlessly for users.
             </p>
-            {readmore ? (
-              <></>
-            ) : (
-              <p className="read-more-about cursor-pointer" onClick={() => setRead(!readmore)}>
+            {!readmore && (
+              <p
+                className="read-more-about link-active cursor-pointer"
+                onClick={() => setRead(!readmore)}
+              >
                 + read more
               </p>
             )}
-            {readmore ? (
+            {readmore && (
               <div className="para-hidden">
                 <p>
                   After college, I landed my first job in
@@ -96,8 +97,14 @@ function About() {
                   experience as a designer
                 </p>
               </div>
-            ) : (
-              <></>
+            )}
+            {readmore && (
+              <p
+                className="read-more-about link-active cursor-pointer"
+                onClick={() => setRead(!readmore)}
+              >
+                + show less
+              </p>
             )}
           </div>
         </div>

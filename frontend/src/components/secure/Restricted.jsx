@@ -21,6 +21,13 @@ function Restricted() {
     });
   };
 
+  function handleEnter(e) {
+    if (e.key == "Enter") {
+      e.preventDefault();
+      handleSubmit();
+    }
+  }
+
   const handleSubmit = async () => {
     const res = await fetch("/api/validator/" + password);
     const resData = await res.json();
@@ -72,6 +79,7 @@ function Restricted() {
                   name=""
                   id=""
                   onChange={(e) => setPassword(e.target.value)}
+                  onKeyDown={(e) => handleEnter(e)}
                 />
                 <div
                   className="submit-button py-[12px] cursor-pointer"

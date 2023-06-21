@@ -33,6 +33,13 @@ function Request() {
     }
   }
 
+  function handleEnter(e) {
+    e.preventDefault();
+    if (e.key == "Enter") {
+      handleRequest(e);
+    }
+  }
+
   const LinkFn = (URL) => {
     Nav(URL);
     document.getElementById("topheader").scrollIntoView({
@@ -65,6 +72,7 @@ function Request() {
             type="email"
             className="text-white"
             onChange={(e) => setEmail(e.target.value)}
+            onKeyDown={(e) => handleEnter(e)}
           />
           <input
             type="text"

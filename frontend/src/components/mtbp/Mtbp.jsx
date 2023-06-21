@@ -40,7 +40,7 @@ function Mtbp() {
     <div>
       <div className="subex-container">
         <div className="subex-intro-card flex">
-          <div className="text-part-intro w-3/5">
+          <div className="text-part-intro mobile-text-intro-mtbp w-3/5">
             <h1 className="heading-intro-subex">
               Revamping MTBP's credit approval platform to enhance user
               experience, increase efficiency and Productivity
@@ -51,6 +51,9 @@ function Mtbp() {
               streamlining the approval process, and incorporating user feedback
               for continuous improvement.
             </p>
+            <div className="image-part-intro2">
+              <img src={mtbp} alt="" />
+            </div>
             <br />
             <div className="timeline-intro-card">
               <div className="flex-titles-intro">
@@ -80,11 +83,11 @@ function Mtbp() {
             </div>
           </div>
           <div className="image-part-intro">
-            <img src={mtbp}  alt="" />
+            <img src={mtbp} alt="" />
           </div>
         </div>
         <div className="inner-container-subex">
-          <div className="context-background-subex context-background-tripp">
+          <div className="context-background-subex context-background-tripp mobile-mtbp-contx">
             <h1 className=".f700-32-39">Context and Background</h1>
             <br />
             <p>
@@ -112,7 +115,7 @@ function Mtbp() {
           <div className="solution-tripp problem-mtbp mt-[48px]">
             <h1 className="flex gap-4">
               <div className="flag-mtbp">
-                <img src={flag} alt="" className="mx-auto"/>
+                <img src={flag} alt="" className="mx-auto" />
               </div>
               What was the problem
             </h1>
@@ -221,8 +224,8 @@ function Mtbp() {
           </div>
           <div className="two-research-mtbp mt-[32px]">
             <div>
-              <div>
-                <div className="flex justify-end">
+              <div className="reasearch-box-mtbp">
+                <div className="">
                   <img src={primeres} alt="" />
                 </div>
                 <div>
@@ -243,8 +246,8 @@ function Mtbp() {
               </div>
             </div>
             <div>
-              <div>
-                <div className="flex justify-end">
+              <div className="reasearch-box-mtbp">
+                <div className="">
                   <img src={secondres} alt="" />
                 </div>
                 <div>
@@ -266,7 +269,7 @@ function Mtbp() {
             </div>
           </div>
         </div>
-        <div className="bg-color-diff-mtbp pb-[80px]">
+        <div className="bg-color-diff-mtbp">
           <div className="inner-container-subex">
             <div className="research-finding-mtbp pt-[88px]">
               <h3>Research Key Findings</h3>
@@ -706,7 +709,7 @@ function Mtbp() {
               that outlines the most efficient path to achieving those goals.
             </p>
             <div className="user-flow-image">
-              <img src={IA}  alt="" />
+              <img src={IA} alt="" />
             </div>
           </div>
         </div>
@@ -806,13 +809,19 @@ function Mtbp() {
             </div>
           </div>
           <div className="navigation-subex">
-            <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/standard-bank-of-south-africa")}>
+            <div
+              className="flex items-center cursor-pointer"
+              onClick={() => LinkFn("/standard-bank-of-south-africa")}
+            >
               <div>
                 <img src={arrowBack} alt="" />
               </div>
               Previous Case Study
             </div>
-            <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/dell")}>
+            <div
+              className="flex items-center cursor-pointer"
+              onClick={() => LinkFn("/dell")}
+            >
               Next Case Study
               <div>
                 <img src={arrowFor} alt="" />

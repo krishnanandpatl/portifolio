@@ -327,3 +327,37 @@
   color: #d6dff0;
   margin-bottom: 16px;
 }
+.reasearch-box-mtbp>div:first-child{
+  display: flex;
+  justify-content: end;
+}
+.bg-color-diff-mtbp{
+  padding-bottom: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .mobile-text-intro-mtbp{
+    width: 100% !important;
+  }
+  .mobile-mtbp-contx{
+    padding: 36px 40px;
+  }
+  .problem-mtbp{
+    padding: 40px 32px !important;
+  }
+  .two-research-mtbp > div {
+    width: 100%;
+    margin-top: 24px;
+    padding: 48px 32px;
+  }
+  .reasearch-box-mtbp{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+  .partition-line-mtbp{
+    width: 100%;
+  }
+  .user-saying-mtbp{
+    display: none;
+  }
+}
