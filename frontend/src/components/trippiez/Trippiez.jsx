@@ -91,7 +91,7 @@ function Trippiez() {
             </div>
           </div>
           <div className="image-part-intro">
-            <img src={tripp}  alt="" />
+            <img src={tripp} alt="" />
           </div>
         </div>
         <div className="inner-container-subex">
@@ -811,11 +811,7 @@ function Trippiez() {
             </p>
             <div className="budget-search-tripp mt-[48px] relative">
               <div className="budget-image">
-                <img
-                  src="/images/trippiez/02_Trippiez.png"
-                  
-                  alt=""
-                />
+                <img src="/images/trippiez/02_Trippiez.png" alt="" />
               </div>
               <div>
                 <h3>Budget-Based Search</h3>
@@ -858,20 +854,12 @@ function Trippiez() {
                 </ul>
               </div>
               <div className="budget-image">
-                <img
-                  src="/images/trippiez/03_Trippiez.png"
-                  
-                  alt=""
-                />
+                <img src="/images/trippiez/03_Trippiez.png" alt="" />
               </div>
             </div>
             <div className="stop-booking-tripp relative">
               <div className="budget-image">
-                <img
-                  src="/images/trippiez/05_Trippiez.png"
-                  
-                  alt=""
-                />
+                <img src="/images/trippiez/05_Trippiez.png" alt="" />
               </div>
               <div>
                 <h3> 1-Stop Booking</h3>
@@ -902,16 +890,11 @@ function Trippiez() {
               <h1>Deliver: Wireframes</h1>
               <br />
               <div className="wireframe-sbsa">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <Wireframe val={"trippiez/wf"}></Wireframe>
               </div>
             </div>
           </div>
-          <div className="partition-line-sbsa my-[72px]"></div>
+          {/* <div className="partition-line-sbsa my-[72px]"></div>
           <div>
             <div className="inner-container-subex">
               <div className="deliver-wireframes-sbsa pb-[80px]">
@@ -927,7 +910,7 @@ function Trippiez() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="inner-container-subex">
@@ -979,7 +962,10 @@ function Trippiez() {
             </div>
             Previous Case Study
           </div>
-          <div className="flex items-center cursor-pointer" onClick={()=>LinkFn("/verizon-360")}>
+          <div
+            className="flex items-center cursor-pointer"
+            onClick={() => LinkFn("/verizon-360")}
+          >
             Next Case Study
             <div>
               <img src={arrowFor} alt="" />

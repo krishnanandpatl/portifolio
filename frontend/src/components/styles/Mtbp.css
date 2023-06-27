@@ -329,7 +329,7 @@
 }
 .reasearch-box-mtbp>div:first-child{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .bg-color-diff-mtbp{
   padding-bottom: 80px;

@@ -11,7 +11,7 @@ function Wireframe({ val }) {
         return data.json();
       })
       .then((data2) => {
-        setimgData(data2.images);
+        setimgData(data2.images); 
       })
       .catch((err) => {
         console.log(err);

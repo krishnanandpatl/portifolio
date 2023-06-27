@@ -521,6 +521,10 @@
   border-radius: 4px;
   margin-top: 30px;
 }
+.wireframe-sbsa > div :hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
 .wireframe-sbsa img {
   max-width: none;
   height: 100%;
