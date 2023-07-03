@@ -638,7 +638,11 @@ i {
 .wireframes-subex {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   gap: 5px;
+}
+.wireframes-subex img {
+  height: 292px;
 }
 .wireframes-subex div {
   width: 305.02px;
@@ -649,13 +653,6 @@ i {
     drop-shadow(0px 20px 43px rgba(0, 0, 0, 0.1))
     drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
   border-radius: 4px;
-  /* border: 1px solid black; */
-}
-.wireframes-subex img {
-  max-width: none;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
 }
 .test-subex {
   background: #1d242d;
@@ -810,7 +807,7 @@ i {
 .buisness-challenge-subex img {
   max-width: none;
 }
-.three-ss-subex{
+.three-ss-subex {
   width: 35%;
   margin: auto;
 }
@@ -898,7 +895,7 @@ i {
   .ideate-text {
     width: 100%;
   }
-  .three-ss-subex{
+  .three-ss-subex {
     width: 100%;
   }
   .concept-cards-subex {
@@ -908,7 +905,7 @@ i {
     width: 100%;
     margin-bottom: 16px;
   }
-  .hidden-mobile-subex{
+  .hidden-mobile-subex {
     display: none;
   }
 }

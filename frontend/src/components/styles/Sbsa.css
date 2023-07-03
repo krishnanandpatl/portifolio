@@ -537,6 +537,9 @@
   width: 100%;
   gap: 5px;
 }
+.wireframe-sbsa img{
+  height: 292px;
+}
 .testing-report-sbsa {
   background: #1d242d;
   border: 1px solid rgba(91, 91, 91, 0.5);
