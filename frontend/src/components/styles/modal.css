@@ -3,8 +3,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  /* width: 100vw !important; */
   /* height: 100vh !important; */
+  /* width: 100vw !important; */
   background: rgba(0, 0, 0, 0.6);
 }
 
@@ -12,16 +12,16 @@
   position: fixed;
   background: white;
   width: 45%;
-  height: auto;
+  max-height: 90%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .modal-main > button {
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .display-block {
   display: block;
