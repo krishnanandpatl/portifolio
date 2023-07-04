@@ -51,7 +51,7 @@ function Trippiez() {
     <div>
       <div className="subex-container">
         <div className="subex-intro-card flex">
-          <div className="text-part-intro w-3/5">
+          <div className="text-part-intro">
             <h1 className="heading-intro-subex">
               Designing Trippiez's booking platform to enhance bookings and
               travel experience.
@@ -62,6 +62,9 @@ function Trippiez() {
               that simplifies the booking process, streamlines payment options,
               and incorporates user feedback for continuous improvement.
             </p>
+            <div className="image-part-intro2">
+              <img src={tripp} alt="" />
+            </div>
             <br />
             <div className="timeline-intro-card">
               <div className="flex-titles-intro">
@@ -190,10 +193,10 @@ function Trippiez() {
           <div className="user-target-tripp">
             <h3>Primary Target Users</h3>
             <br />
-            <div className="flex w-[90%] gap-8 users-tripp">
+            <div className="users-tripp">
               <div>
-                <div className="user-type-tripp mb-2">Primary Users</div>
-                <div className="flex gap-3">
+                <div className="user-type-tripp">Primary Users</div>
+                <div className="small-image-tripp">
                   <div>
                     <img src={hiking} alt="" />
                   </div>
@@ -202,8 +205,8 @@ function Trippiez() {
                 </div>
               </div>
               <div>
-                <div className="user-type-tripp mb-2">Secondary Users</div>
-                <div className="flex gap-3">
+                <div className="user-type-tripp">Secondary Users</div>
+                <div className="small-image-tripp">
                   <div>
                     <img src={family} alt="" />
                   </div>
@@ -213,8 +216,8 @@ function Trippiez() {
               </div>
             </div>
             <br />
-            <h4 className="demography-title mb-[12px]">Demographics</h4>
-            <div className="flex demographies-tripp justify-between flex-wrap">
+            <h4 className="demography-title">Demographics</h4>
+            <div className="demographies-tripp">
               <div>
                 <div>Students</div>
                 <ul>
@@ -270,7 +273,7 @@ function Trippiez() {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-wrap personality-tripp justify-between mt-[24px] mb-[40px]">
+            <div className="personality-tripp">
               <div>
                 <div>Personality</div>
                 <ul>
@@ -316,14 +319,14 @@ function Trippiez() {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-wrap justify-between down-buttons-tripp">
+            <div className="down-buttons-tripp">
               <div>Adventure seekers</div>
               <div>Cultural enthusiasts</div>
               <div>Beach lovers</div>
               <div>Wildlife and nature enthusiasts</div>
               <div>City explorers and urbanites</div>
             </div>
-            <div className="flex flex-wrap justify-between down-buttons-tripp mt-[12px]">
+            <div className="down-buttons-tripp down-buttons-tripp2">
               <div>Music and festival goers</div>
               <div>Art and design aficionados</div>
               <div>Solo travelers</div>
@@ -331,7 +334,7 @@ function Trippiez() {
               <div>Family vacationers</div>
             </div>
           </div>
-          <div className="user-testimonial-tripp mt-[56px]">
+          <div className="user-testimonial-tripp">
             <div>
               <div className="user-verbatism-tripp">
                 <div>
@@ -359,7 +362,7 @@ function Trippiez() {
                 </div>
               </div>
             </div>
-            <div className="user-verbatism-tripp2 mx-auto">
+            <div className="user-verbatism-tripp2">
               <div>
                 <img src={u3} alt="" />
               </div>
@@ -400,7 +403,7 @@ function Trippiez() {
           </div>
         </div>
         <div className="parttion-line-tripp"></div>
-        <div className="inner-container-subex pb-[80px]">
+        <div className="inner-container-subex padding-bottom-tripp">
           <p className="graphs-para-tripp">
             I wanted to make sure that our platform truly meets the needs of our
             users. To gain insights into what potential users wanted and what
@@ -436,7 +439,7 @@ function Trippiez() {
           <div className="pie-graph-tripp">
             <div>
               <div>Must-haves when booking an accommodation?</div>
-              <div className="mx-auto w-[129px] my-[20px]">
+              <div className="pie-graph-tripp-img">
                 <img src={cc1} alt="" />
               </div>
               <div>
@@ -450,7 +453,7 @@ function Trippiez() {
             </div>
             <div>
               <div>How often do you travel?</div>
-              <div className="mx-auto w-[129px] my-[20px]">
+              <div className="pie-graph-tripp-img">
                 <img src={cc2} alt="" />
               </div>
               <div>
@@ -464,7 +467,7 @@ function Trippiez() {
             </div>
             <div>
               <div>How concerned are you about security when traveling?</div>
-              <div className="mx-auto w-[129px] my-[20px]">
+              <div className="pie-graph-tripp-img">
                 <img src={cc3} alt="" />
               </div>
               <div>
@@ -477,7 +480,7 @@ function Trippiez() {
               </div>
             </div>
           </div>
-          <p className="graphs-para-tripp mt-[44px]">
+          <p className="graphs-para-tripp">
             With this information in hand, we can tailor our platform to better
             meet the needs of our users and provide a more seamless and
             enjoyable travel booking experience.
@@ -499,10 +502,10 @@ function Trippiez() {
             </p>
             <table>
               <tr className="table1-tripp">
-                <th className="table-header-tripp w-2/5">Comparison Points</th>
-                <th className="w-1/5">Expedia</th>
-                <th className="w-1/5">Kayak</th>
-                <th className="w-1/5">Lonelyplanet</th>
+                <th className="table-header-tripp">Comparison Points</th>
+                <th className="">Expedia</th>
+                <th className="">Kayak</th>
+                <th className="">Lonelyplanet</th>
               </tr>
               <tr>
                 <td className="table-details-tripp">Search by budget</td>
@@ -608,7 +611,7 @@ function Trippiez() {
               </tr>
             </table>
           </div>
-          <div className="goal-pain-tripp mt-[120px]">
+          <div className="goal-pain-tripp">
             <h1>User Goals & Pain Points</h1>
             <div className="goal-pain-div-tripp">
               <div>
@@ -675,7 +678,7 @@ function Trippiez() {
             By implementing these features, Trippiez can enhance its platform
             and establish itself as a leader in the travel industry.
           </strong>
-          <div className="feature-trppiz flex flex-wrap justify-between mt-[40px]">
+          <div className="feature-trppiz">
             <div>
               <div>
                 <img src={currency} alt="" />
@@ -811,7 +814,7 @@ function Trippiez() {
             </p>
             <div className="budget-search-tripp mt-[48px] relative">
               <div className="budget-image">
-                <img src="/images/trippiez/02_Trippiez.png" alt="" />
+                <img src="/images/trippiez/wf/02_Trippiez.png" alt="" />
               </div>
               <div>
                 <h3>Budget-Based Search</h3>
@@ -854,12 +857,12 @@ function Trippiez() {
                 </ul>
               </div>
               <div className="budget-image">
-                <img src="/images/trippiez/03_Trippiez.png" alt="" />
+                <img src="/images/trippiez/wf/03_Trippiez.png" alt="" />
               </div>
             </div>
             <div className="stop-booking-tripp relative">
               <div className="budget-image">
-                <img src="/images/trippiez/05_Trippiez.png" alt="" />
+                <img src="/images/trippiez/wf/05_Trippiez.png" alt="" />
               </div>
               <div>
                 <h3> 1-Stop Booking</h3>
