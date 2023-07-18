@@ -34,6 +34,7 @@ import arrow from "../../assets/pgos/Arrow.svg";
 import check from "../../assets/pgos/check_circle.svg";
 import greyarrow from "../../assets/sbsa/GreyArrow.svg";
 import areachart from "../../assets/sbsa/area_chart.svg";
+import { sbsa_vd, sbsa_wf } from "../../data";
 
 function Sbsa() {
   const Nav = useNavigate();
@@ -1041,7 +1042,7 @@ function Sbsa() {
               <h1>Deliver: Wireframes</h1>
               <br />
               <div className="wireframe-sbsa">
-                <Wireframe val={"sbsa/wf"}></Wireframe>
+                <Wireframe val={sbsa_wf}></Wireframe>
               </div>
             </div>
           </div>
@@ -1051,7 +1052,7 @@ function Sbsa() {
               <h1>Deliver: Visual Design</h1>
               <br />
               <div className="wireframe-sbsa">
-                <Wireframe val={"sbsa/vd"}></Wireframe>
+                <Wireframe val={sbsa_vd}></Wireframe>
               </div>
             </div>
           </div>

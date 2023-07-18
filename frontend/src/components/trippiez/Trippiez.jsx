@@ -36,6 +36,7 @@ import directive_4 from "../../assets/trippez/diversity_4.svg";
 import arrow from "../../assets/pgos/Arrow.svg";
 import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
+import { trippiez_wf } from "../../data";
 
 function Trippiez() {
   const Nav = useNavigate();
@@ -893,7 +894,7 @@ function Trippiez() {
               <h1>Deliver: Wireframes</h1>
               <br />
               <div className="wireframe-sbsa">
-                <Wireframe val={"trippiez/wf"}></Wireframe>
+                <Wireframe val={trippiez_wf}></Wireframe>
               </div>
             </div>
           </div>

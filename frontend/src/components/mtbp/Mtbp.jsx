@@ -25,6 +25,7 @@ import buisness from "../../assets/mtbp/business.svg";
 import IA from "../../assets/mtbp/IA.png";
 import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
+import { mtbp_vd, mtbp_wf } from "../../data";
 
 function Mtbp() {
   const Nav = useNavigate();
@@ -720,7 +721,7 @@ function Mtbp() {
             <h1>Deliver: Wireframes</h1>
             <br />
             <div className="wireframe-sbsa">
-              <Wireframe val={"mtbp/wf"}></Wireframe>
+              <Wireframe val={mtbp_wf}></Wireframe>
             </div>
           </div>
         </div>
@@ -730,7 +731,7 @@ function Mtbp() {
             <h1>Deliver: Visual Design</h1>
             <br />
             <div className="wireframe-sbsa">
-              <Wireframe val={"mtbp/vd"}></Wireframe>
+              <Wireframe val={mtbp_vd}></Wireframe>
             </div>
           </div>
         </div>

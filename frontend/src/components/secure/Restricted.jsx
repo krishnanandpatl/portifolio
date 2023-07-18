@@ -29,9 +29,9 @@ function Restricted() {
   }
 
   const handleSubmit = async () => {
-    const res = await fetch("/api/validator/" + password);
-    const resData = await res.json();
-    if (resData.success) {
+    const valid = import.meta.env.VITE_PASSWORD;
+    if (valid === password) {
+      localStorage.setItem("validation", "true");
       Nav(from, { replace: true });
       document.getElementById("topheader").scrollIntoView({
         behavior: "smooth",
@@ -39,7 +39,7 @@ function Restricted() {
         inline: "nearest",
       });
     } else {
-      toast.error(resData.message, {
+      toast.error("Password Incorrect", {
         duration: 1000,
       });
     }

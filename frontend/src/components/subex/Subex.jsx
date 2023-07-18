@@ -35,6 +35,7 @@ import arrowBack from "../../assets/arrowBack.svg";
 import arrowFor from "../../assets/arrowFor.svg";
 import new2 from "../../assets/subex/new.svg";
 import arrow from "../../assets/pgos/Arrow.svg";
+import { subex_vd, subex_wf } from "../../data";
 
 function Subex() {
   const Nav = useNavigate();
@@ -46,6 +47,7 @@ function Subex() {
       inline: "nearest",
     });
   };
+
   return (
     <div>
       <div className="subex-container">
@@ -857,7 +859,7 @@ function Subex() {
             <h1>Deliver: Wireframes</h1>
             <br />
             <div className="wireframes-subex">
-              <Wireframe val={"subex/wf"}></Wireframe>
+              <Wireframe val={subex_wf}></Wireframe>
             </div>
           </div>
         </div>
@@ -867,7 +869,7 @@ function Subex() {
             <h1>Deliver: VirtualDesign</h1>
             <br />
             <div className="wireframes-subex">
-              <Wireframe val={"subex/vd"}></Wireframe>
+              <Wireframe val={subex_vd}></Wireframe>
             </div>
           </div>
         </div>

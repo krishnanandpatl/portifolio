@@ -27,6 +27,7 @@ import userexp from "../../assets/dell/usrexp.png";
 import garrow from "../../assets/pgos/Arrow.svg";
 import arrowFor from "../../assets/arrowFor.svg";
 import arrowBack from "../../assets/arrowBack.svg";
+import { dell_vd, dell_wf } from "../../data";
 
 function Dell() {
   const Nav = useNavigate();
@@ -1171,14 +1172,14 @@ function Dell() {
               Deliver: Wireframes
             </div>
             <div className="dell-Content-MainBox11-TopBox-Box">
-              <Wireframe val={"dell/wf"}></Wireframe>
+              <Wireframe val={dell_wf}></Wireframe>
             </div>
             <div className="dell-Content-MainBox11-Hr"></div>
             <div className="dell-Content-MainBox11-TopBox-Heading">
               Deliver: Visual Design
             </div>
             <div className="dell-Content-MainBox11-TopBox-Box">
-              <Wireframe val={"dell/vd"}></Wireframe>
+              <Wireframe val={dell_vd}></Wireframe>
             </div>
           </div>
         </div>

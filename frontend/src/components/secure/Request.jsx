@@ -12,25 +12,9 @@ function Request() {
   const [body, setBody] = useState("");
 
   async function handleRequest(e) {
+    const data=`${email} is requesting access. ${body}`
+    window.location.href=`mailto:kshitijsrivastava0389@gmail.com?subject=RequestAccess&body=${data}`
     e.preventDefault();
-    let data = {
-      email: email,
-      data: body,
-    };
-    let res = await fetch("/api/mailReq", {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-    let resData = await res.json();
-    if (resData.success) {
-      toast.success("Request Sent", { duration: 1500 });
-    } else {
-      toast.error(resData.message, { duration: 1500 });
-    }
   }
 
   function handleEnter(e) {
@@ -72,7 +56,7 @@ function Request() {
             type="email"
             className="text-white"
             onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={(e) => handleEnter(e)}
+            // onKeyDown={(e) => handleEnter(e)}
           />
           <input
             type="text"

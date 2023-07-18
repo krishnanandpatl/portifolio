@@ -17,12 +17,10 @@ app.use(cookieParser());
 
 app.use(express.static("dist"));
 
-app.use("/api/image", imageRouter);
-
 app.use("/api/validator", accessRouter);
 
 app.use("/api/authChecker", authRouter);
-
+  
 app.use("/api/mailReq", mailRouter);
 
 app.use("/*", function (request, response) {
